@@ -1,0 +1,204 @@
+Zone "VST: Pro Audio DSP DSM V3 (Plugin Alliance)" "DSMV3"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 24 "DSM"
+DisplayLowerA1 FXParamValueDisplay 24 
+RotaryA1 FXParam 24 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 26 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 FXParamNameDisplay 25 "Output"
+DisplayLowerA2 FXParamValueDisplay 25 
+RotaryA2 FXParam 25 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 NoAction 
+/  
+DisplayUpperA3 NoAction 
+DisplayLowerA3 NoAction 
+RotaryA3 NoAction 
+RotaryPushA3 NoAction 
+/  
+DisplayUpperA4 NoAction 
+DisplayLowerA4 NoAction 
+RotaryA4 NoAction 
+RotaryPushA4 NoAction 
+/  
+DisplayUpperA5 NoAction 
+DisplayLowerA5 NoAction 
+RotaryA5 NoAction 
+RotaryPushA5 NoAction 
+/  
+DisplayUpperA6 FXParamNameDisplay 5 "Q1"
+DisplayLowerA6 FXParamValueDisplay 5 
+RotaryA6 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA6 NoAction 
+/  
+DisplayUpperA7 FXParamNameDisplay 9 "Q2"
+DisplayLowerA7 FXParamValueDisplay 9 
+RotaryA7 FXParam 9 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 NoAction 
+/  
+DisplayUpperA8 FXParamNameDisplay 13 "Q3"
+DisplayLowerA8 FXParamValueDisplay 13 
+RotaryA8 FXParam 13 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA8 NoAction 
+/  
+DisplayUpperB1 FXParamNameDisplay 33 "Capt"
+DisplayLowerB1 FXParamValueDisplay 33 
+RotaryB1 NoAction
+RotaryPushB1 FXParam 33 [ 0.0 1.0 ] 
+/  
+DisplayUpperB2 FXParamNameDisplay 28 "Freeze"
+DisplayLowerB2 FXParamValueDisplay 28 
+RotaryB2 NoAction
+RotaryPushB2 FXParam 28 [ 0.0 1.0 ] 
+/  
+DisplayUpperB3 FXParamNameDisplay 29 "Link"
+DisplayLowerB3 FXParamValueDisplay 29 
+RotaryB3 NoAction
+RotaryPushB3 FXParam 29 [ 0.0 1.0 ] 
+/  
+DisplayUpperB4 FXParamNameDisplay 31 "Dither"
+DisplayLowerB4 FXParamValueDisplay 31 
+RotaryB4 NoAction
+RotaryPushB4 FXParam 31 [ 0.0 1.0 ] 
+/  
+DisplayUpperB5 FXParamNameDisplay 30 "Limit"
+DisplayLowerB5 FXParamValueDisplay 30 
+RotaryB5 NoAction
+RotaryPushB5 FXParam 30 [ 0.0 1.0 ] 
+/  
+DisplayUpperB6 FXParamNameDisplay 3 "Freq1"
+DisplayLowerB6 FXParamValueDisplay 3 
+RotaryB6 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB6 NoAction 
+/  
+DisplayUpperB7 FXParamNameDisplay 7 "Freq2"
+DisplayLowerB7 FXParamValueDisplay 7 
+RotaryB7 FXParam 7 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB7 NoAction 
+/  
+DisplayUpperB8 FXParamNameDisplay 11 "Freq3"
+DisplayLowerB8 FXParamValueDisplay 11 
+RotaryB8 FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB8 NoAction 
+/  
+DisplayUpperC1 FXParamNameDisplay 32 "Detect"
+DisplayLowerC1 FXParamValueDisplay 32 
+RotaryC1 FXParam 32 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushC1 FXParam 32 [ 0.0 0.50 1.0 ] 
+/  
+DisplayUpperC2 FXParamNameDisplay 17 "ERatio"
+DisplayLowerC2 FXParamValueDisplay 17 
+RotaryC2 FXParam 17 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 NoAction 
+/  
+DisplayUpperC3 FXParamNameDisplay 27 "DynMde"
+DisplayLowerC3 FXParamValueDisplay 27 
+RotaryC3 NoAction
+RotaryPushC3 FXParam 27 [ 0.0 1.0 ]
+/  
+DisplayUpperC4 FXParamNameDisplay 14 "SC_Gain"
+DisplayLowerC4 FXParamValueDisplay 14 
+RotaryC4 FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 NoAction 
+/  
+DisplayUpperC5 NoAction 
+DisplayLowerC5 NoAction 
+RotaryC5 NoAction 
+RotaryPushC5 NoAction 
+/  
+DisplayUpperC6 FXParamNameDisplay 4 "Thrsh1"
+DisplayLowerC6 FXParamValueDisplay 4 
+RotaryC6 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 FXParam 2 [ 0.0 1.0 ]
+/  
+DisplayUpperC7 FXParamNameDisplay 8 "Thrsh2"
+DisplayLowerC7 FXParamValueDisplay 8 
+RotaryC7 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 FXParam 6 [ 0.0 1.0 ]
+/  
+DisplayUpperC8 FXParamNameDisplay 12 "Thrsh3"
+DisplayLowerC8 FXParamValueDisplay 12 
+RotaryC8 FXParam 12 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 FXParam 10 [ 0.0 1.0 ]
+/  
+DisplayUpperD1 FXParamNameDisplay 15 "Thrsh"
+DisplayLowerD1 FXParamValueDisplay 15 
+RotaryD1 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 NoAction 
+/  
+DisplayUpperD2 FXParamNameDisplay 16 "CRatio"
+DisplayLowerD2 FXParamValueDisplay 16 
+RotaryD2 FXParam 16 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 NoAction 
+/  
+DisplayUpperD3 FXParamNameDisplay 18 "MakeUp"
+DisplayLowerD3 FXParamValueDisplay 18 
+RotaryD3 FXParam 18 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 NoAction 
+/  
+DisplayUpperD4 FXParamNameDisplay 19 "Att"
+DisplayLowerD4 FXParamValueDisplay 19 
+RotaryD4 FXParam 19 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 NoAction 
+/  
+DisplayUpperD5 FXParamNameDisplay 20 "Decay"
+DisplayLowerD5 FXParamValueDisplay 20 
+RotaryD5 FXParam 20 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 NoAction 
+/  
+DisplayUpperD6 FXParamNameDisplay 21 "Knee"
+DisplayLowerD6 FXParamValueDisplay 21 
+RotaryD6 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 NoAction 
+/  
+DisplayUpperD7 FXParamNameDisplay 22 "LFAtt"
+DisplayLowerD7 FXParamValueDisplay 22 
+RotaryD7 FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 NoAction 
+/  
+DisplayUpperD8 FXParamNameDisplay 23 "HFRel"
+DisplayLowerD8 FXParamValueDisplay 23 
+RotaryD8 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 NoAction 
+/
+ZoneEnd
+/
+/"VST: Pro Audio DSP DSM V3 (Plugin Alliance)"
+/"Power"
+/"Bank"
+/"In 1"
+/"Freq 1"
+/"Thresh 1"
+/"Q 1"
+/"In 2"
+/"Freq 2"
+/"Thresh 2"
+/"Q 2"
+/"In 3"
+/"Freq 3"
+/"Thresh 3"
+/"Q 3"
+/"SCh Gain"
+/"Threshld"
+/"Comp Rat"
+/"Expd Rat"
+/"Out Gain"
+/"Attack"
+/"Release"
+/"Knee"
+/"LF Timng"
+/"HF Timng"
+/"Wet/Dry"
+/"Out Gain"
+/"Proc"
+/"DynMode"
+/"Frz Gain"
+/"Link"
+/"Limiter"
+/"Dither16"
+/"Detector"
+/"Capture"
+/"Bypass"
+/"Wet

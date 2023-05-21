@@ -1,0 +1,15 @@
+Zone "TrackFXMenu"
+
+  ScribbleLine1_|         TrackNameDisplay
+  ScribbleLine2_|         FXMenuNameDisplay
+  ScribbleLine3_|         FXBypassedDisplay
+  ScribbleLine4_|         NoAction
+  ValueBar|               NoAction
+
+  Prev                    Bank SelectedTrackFXMenu -1
+  Next                    Bank SelectedTrackFXMenu 1
+ 			       
+  Solo|                   NoAction
+  Select|                 GoFXSlot
+  Fader|                  NoAction    
+ZoneEnd

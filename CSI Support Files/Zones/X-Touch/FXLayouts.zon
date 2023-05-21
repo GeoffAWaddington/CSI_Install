@@ -1,0 +1,7 @@
+Zone FXLayouts
+	MCUFXLayout 8
+	MCUFXLayout+Shift 8
+	MCUFXLayout+Option 8
+	MCUFXLayout+Control 8
+	MCUFXLayout+Alt 8
+ZoneEnd

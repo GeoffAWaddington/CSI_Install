@@ -1,0 +1,17 @@
+Zone "TrackReceive"
+     OnZoneActivation            SetXTouchDisplayColors Red
+     OnZoneDeactivation          RestoreXTouchDisplayColors
+     
+     DisplayUpper|               FixedTextDisplay "TrkRcv"
+     DisplayLower|               TrackReceiveNameDisplay
+     Fader|Touch+DisplayLower|   TrackReceiveVolumeDisplay
+     Mute|                       TrackReceiveMute
+     Rotary|                     TrackReceivePan
+     Fader|                      TrackReceiveVolume
+     Up                          Bank TrackReceivex -1
+     Down                        Bank TrackReceive 1
+
+     RecordArm|                  NoAction
+     Solo|                       NoAction
+     Select|                     NoAction
+ZoneEnd

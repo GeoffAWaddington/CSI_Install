@@ -1,0 +1,14 @@
+Zone TrackSend
+    	DisplayC|				TrackSendPanDisplay
+    	DisplayE|	            TrackSendNameDisplay
+    	DisplayF|		        TrackSendVolumeDisplay
+    	DisplayD|				TrackSendPrePostDisplay
+    	ButtonD|				TrackSendPrePost
+    	Pan|					TrackSendPan
+    	ButtonF|                TrackSendMute
+    	Fader|                  TrackSendVolume
+    	ButtonM1                TrackSendBank -1	{ #444444 #C8C8C8 } 
+    	DisplayM1               FixedTextDisplay <TSEND
+    	ButtonM2                TrackSendBank 1		{ #444444 #C8C8C8 } 
+    	DisplayM2               FixedTextDisplay TSEND>
+ZoneEnd

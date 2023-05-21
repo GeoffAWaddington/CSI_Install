@@ -1,0 +1,28 @@
+Zone Home
+     IncludedZones
+          "Buttons"
+          "SelectedTrack"
+          "MasterTrack"
+     IncludedZonesEnd
+     AssociatedZones
+          "SelectedTrackSend"
+          "SelectedTrackReceive"   
+     AssociatedZonesEnd
+ZoneEnd
+
+
+/////////////////////////////////////////////////////////NOTES////////////////////////////////////////////////////////
+// For use with CSI version 2.0                                                                                     //
+// Developed using the 1.10 firmware in "MC User" mode using only the button assignments printed on the surface.    //  
+// IMPORTANT: Setup the device in CSI with 1 Fader.                                                                 //
+//                                                                                                                  //
+// If the fader is not working, enter one of the MCU DAW modes and hit the Channel Select button a few times until  //
+// fader1 (address e0) is active, then return to MCU User mode.                                                     // 
+//                                                                                                                  //
+// If buttons are not working as expected, hold the STOP button and press the RotaryPush, turn the encoder until    //
+// you see 'MC User' mode then stay there. Now press and hold the button that is acting up, you should see the      // 
+// the button assignment in the lower display. If the button name in the lower display doesn't match what is        //
+// printed on the surface, then turn the encoder until the display button matches the label. Repeat as needed.      //
+//                                                                                                                  //
+// Some actions require SWS Extensions be installed to work as expected.                                            //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

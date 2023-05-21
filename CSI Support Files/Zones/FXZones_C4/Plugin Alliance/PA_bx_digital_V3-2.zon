@@ -1,0 +1,587 @@
+Zone "VST: bx_digital V3 (Plugin Alliance)-2"
+/Sub
+/
+Shift GoSubZone "VST: bx_digital V3 (Plugin Alliance)"
+Option GoSubZone "VST: bx_digital V3 (Plugin Alliance)-2"
+Control GoSubZone "VST: bx_digital V3 (Plugin Alliance)-3"
+/
+/Modifier
+/
+DisplayUpperA1 FXParamNameDisplay 20 "Right/S"
+DisplayLowerA1 FXParamValueDisplay 20  
+RotaryA1 FXParam 20 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 20 [ 0.0 1.0 ]
+/   
+DisplayUpperA2 FXParamNameDisplay 2 "Input"
+DisplayLowerA2 FXParamValueDisplay 2  
+RotaryA2 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 22 [ 0.0 1.0 ]
+/   
+DisplayUpperA3 FXParamNameDisplay 3 "Out/EQ"
+DisplayLowerA3 FXParamValueDisplay 3  
+RotaryA3 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 FXParam 13 [ 0.0 1.0 ]
+/   
+DisplayUpperA4 FXParamNameDisplay 4 "Width"
+DisplayLowerA4 FXParamValueDisplay 4  
+RotaryA4 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 FXParam 14 [ 0.0 1.0 ]
+/   
+DisplayUpperA5 FXParamNameDisplay 88 "BShift"
+DisplayLowerA5 FXParamValueDisplay 88  
+RotaryA5 FXParam 88 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 FXParam 89 [ 0.0 1.0 ]
+/   
+DisplayUpperA6 FXParamNameDisplay 87 "BTone"
+DisplayLowerA6 FXParamValueDisplay 87  
+RotaryA6 FXParam 87 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushA6 FXParam 122 [ 0.0 1.0 ]
+/   
+DisplayUpperA7 FXParamNameDisplay 91 "PShift"
+DisplayLowerA7 FXParamValueDisplay 91  
+RotaryA7 FXParam 91 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 FXParam 92 [ 0.0 1.0 ]
+/   
+DisplayUpperA8 FXParamNameDisplay 90 "PTone"
+DisplayLowerA8 FXParamValueDisplay 90  
+RotaryA8 FXParam 90 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushA8 FXParam 123 [ 0.0 1.0 ]
+/   
+DisplayUpperB1 FXParamNameDisplay 58 "Q/Typ"
+DisplayLowerB1 FXParamValueDisplay 58  
+RotaryB1 FXParam 58 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB1 FXParam 56 [ 0.0 1.0 ]
+/   
+DisplayUpperB2 FXParamNameDisplay 63 "Q/Typ"
+DisplayLowerB2 FXParamValueDisplay 63  
+RotaryB2 FXParam 63 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 FXParam 61 [ 0.0 1.0 ]
+/   
+DisplayUpperB3 FXParamNameDisplay 68 "Q/Typ"
+DisplayLowerB3 FXParamValueDisplay 68  
+RotaryB3 FXParam 68 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 FXParam 66 [ 0.0 1.0 ]
+/   
+DisplayUpperB4 FXParamNameDisplay 73 "Q/Typ"
+DisplayLowerB4 FXParamValueDisplay 73  
+RotaryB4 FXParam 73 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 FXParam 71 [ 0.0 1.0 ]
+/   
+DisplayUpperB5 FXParamNameDisplay 78 "Q/Typ"
+DisplayLowerB5 FXParamValueDisplay 78  
+RotaryB5 FXParam 78 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 76 [ 0.0 1.0 ]
+/   
+DisplayUpperB6 FXParamNameDisplay 10 "L<>R"
+DisplayLowerB6 FXParamValueDisplay 10  
+RotaryB6 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB6 FXParam 10 [ 0.0 1.0 ]
+/   
+DisplayUpperB7 FXParamNameDisplay 8 "ASolo"
+DisplayLowerB7 FXParamValueDisplay 8  
+RotaryB7 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB7 FXParam 8 [ 0.0 1.0 ]
+/   
+DisplayUpperB8 FXParamNameDisplay 12 "Auto Listen Mode"
+DisplayLowerB8 FXParamValueDisplay 12  
+RotaryB8 FXParam 12 [ (4,4,3,2,1) 0.0 0.17 0.33 0.50 0.67 0.83 1.0 ]
+RotaryPushB8 FXParam 11 [ 0.0 1.0 ]
+/   
+DisplayUpperC1 FXParamNameDisplay 59 "LF"
+DisplayLowerC1 FXParamValueDisplay 59  
+RotaryC1 FXParam 59 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 117 [ 0.0 1.0 ]
+/   
+DisplayUpperC2 FXParamNameDisplay 64 "LMF"
+DisplayLowerC2 FXParamValueDisplay 64  
+RotaryC2 FXParam 64 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 118 [ 0.0 1.0 ]
+/   
+DisplayUpperC3 FXParamNameDisplay 69 "MF"
+DisplayLowerC3 FXParamValueDisplay 69  
+RotaryC3 FXParam 69 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 FXParam 119 [ 0.0 1.0 ]
+/   
+DisplayUpperC4 FXParamNameDisplay 74 "HMF"
+DisplayLowerC4 FXParamValueDisplay 74  
+RotaryC4 FXParam 74 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 FXParam 120 [ 0.0 1.0 ]
+/   
+DisplayUpperC5 FXParamNameDisplay 79 "HF"
+DisplayLowerC5 FXParamValueDisplay 79  
+RotaryC5 FXParam 79 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 121 [ 0.0 1.0 ]
+/   
+DisplayUpperC6 FXParamNameDisplay 17 "MMake"
+DisplayLowerC6 FXParamValueDisplay 17  
+RotaryC6 FXParam 17 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 FXParam 18 [ 0.0 1.0 ]
+/   
+DisplayUpperC7 FXParamNameDisplay 27 "Slope"
+DisplayLowerC7 FXParamValueDisplay 27  
+RotaryC7 FXParam 27 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushC7 FXParam 27 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperC8 FXParamNameDisplay 29 "Slope"
+DisplayLowerC8 FXParamValueDisplay 29  
+RotaryC8 FXParam 29 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushC8 FXParam 29 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperD1 FXParamNameDisplay 57 "Gain"
+DisplayLowerD1 FXParamValueDisplay 57  
+RotaryD1 FXParam 57 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 60 [ 0.0 1.0 ]
+/   
+DisplayUpperD2 FXParamNameDisplay 62 "Gain"
+DisplayLowerD2 FXParamValueDisplay 62  
+RotaryD2 FXParam 62 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 65 [ 0.0 1.0 ]
+/   
+DisplayUpperD3 FXParamNameDisplay 67 "Gain"
+DisplayLowerD3 FXParamValueDisplay 67  
+RotaryD3 FXParam 67 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 FXParam 70 [ 0.0 1.0 ]
+/   
+DisplayUpperD4 FXParamNameDisplay 72 "Gain"
+DisplayLowerD4 FXParamValueDisplay 72  
+RotaryD4 FXParam 72 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 75 [ 0.0 1.0 ]
+/   
+DisplayUpperD5 FXParamNameDisplay 77 "Gain"
+DisplayLowerD5 FXParamValueDisplay 77  
+RotaryD5 FXParam 77 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 80 [ 0.0 1.0 ]
+/   
+DisplayUpperD6 FXParamNameDisplay 15 "GScale"
+DisplayLowerD6 FXParamValueDisplay 15  
+RotaryD6 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 16 [ 0.0 1.0 ]
+/   
+DisplayUpperD7 FXParamNameDisplay 28 "HPF"
+DisplayLowerD7 FXParamValueDisplay 28  
+RotaryD7 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 FXParam 115 [ 0.0 1.0 ]
+/   
+DisplayUpperD8 FXParamNameDisplay 30 "LPF"
+DisplayLowerD8 FXParamValueDisplay 30  
+RotaryD8 FXParam 30 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 FXParam 116 [ 0.0 1.0 ]
+/
+Shift+DisplayUpperA1 
+FXParamNameDisplay 20 "Solo"
+Shift+DisplayLowerA1 
+FXParamValueDisplay 20  
+Shift+RotaryA1 
+FXParam 20 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA1 
+FXParam 20 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperA2 
+FXParamNameDisplay 22 "PropQ"
+Shift+DisplayLowerA2 
+FXParamValueDisplay 22  
+Shift+RotaryA2 
+FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA2 
+FXParam 22 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperA3 
+FXParamNameDisplay 13 "EQ_In"
+Shift+DisplayLowerA3 
+FXParamValueDisplay 13  
+Shift+RotaryA3 
+FXParam 13 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA3 
+FXParam 13 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperA4 
+FXParamNameDisplay 14 "LinkCh"
+Shift+DisplayLowerA4 
+FXParamValueDisplay 14  
+Shift+RotaryA4 
+FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA4 
+FXParam 14 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperA5 
+FXParamNameDisplay 89 "BS_In"
+Shift+DisplayLowerA5 
+FXParamValueDisplay 89  
+Shift+RotaryA5 
+FXParam 89 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA5 
+FXParam 89 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperA6 
+FXParamNameDisplay 122 "LnkBS"
+Shift+DisplayLowerA6 
+FXParamValueDisplay 122  
+Shift+RotaryA6 
+FXParam 122 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA6 
+FXParam 122 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperA7 
+FXParamNameDisplay 92 "PS_In"
+Shift+DisplayLowerA7 
+FXParamValueDisplay 92  
+Shift+RotaryA7 
+FXParam 92 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA7 
+FXParam 92 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperA8 
+FXParamNameDisplay 123 "LnkPS"
+Shift+DisplayLowerA8 
+FXParamValueDisplay 123  
+Shift+RotaryA8 
+FXParam 123 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA8 
+FXParam 123 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperB1 
+FXParamNameDisplay 56 "Type"
+Shift+DisplayLowerB1 
+FXParamValueDisplay 56  
+Shift+RotaryB1 
+FXParam 56 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB1 
+FXParam 56 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperB2 
+FXParamNameDisplay 61 "Type"
+Shift+DisplayLowerB2 
+FXParamValueDisplay 61  
+Shift+RotaryB2 
+FXParam 61 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB2 
+FXParam 61 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperB3 
+FXParamNameDisplay 66 "Type"
+Shift+DisplayLowerB3 
+FXParamValueDisplay 66  
+Shift+RotaryB3 
+FXParam 66 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB3 
+FXParam 66 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperB4 
+FXParamNameDisplay 71 "Type"
+Shift+DisplayLowerB4 
+FXParamValueDisplay 71  
+Shift+RotaryB4 
+FXParam 71 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB4 
+FXParam 71 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperB5 
+FXParamNameDisplay 76 "Type"
+Shift+DisplayLowerB5 
+FXParamValueDisplay 76  
+Shift+RotaryB5 
+FXParam 76 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB5 
+FXParam 76 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperB6 
+FXParamNameDisplay 10 "Type"
+Shift+DisplayLowerB6 
+FXParamValueDisplay 10  
+Shift+RotaryB6 
+FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB6 
+FXParam 10 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperB7 
+FXParamNameDisplay 8 "Type"
+Shift+DisplayLowerB7 
+FXParamValueDisplay 8  
+Shift+RotaryB7 
+FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB7 
+FXParam 8 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperB8 
+FXParamNameDisplay 11 "AListn"
+Shift+DisplayLowerB8 
+FXParamValueDisplay 11  
+Shift+RotaryB8 
+FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB8 
+FXParam 11 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperC1 
+FXParamNameDisplay 117 "LnkLF"
+Shift+DisplayLowerC1 
+FXParamValueDisplay 117  
+Shift+RotaryC1 
+FXParam 117 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC1 
+FXParam 117 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperC2 
+FXParamNameDisplay 118 "LnkLMF"
+Shift+DisplayLowerC2 
+FXParamValueDisplay 118  
+Shift+RotaryC2 
+FXParam 118 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC2 
+FXParam 118 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperC3 
+FXParamNameDisplay 119 "LnkMF"
+Shift+DisplayLowerC3 
+FXParamValueDisplay 119  
+Shift+RotaryC3 
+FXParam 119 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC3 
+FXParam 119 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperC4 
+FXParamNameDisplay 120 "LnkHMF"
+Shift+DisplayLowerC4 
+FXParamValueDisplay 120  
+Shift+RotaryC4 
+FXParam 120 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC4 
+FXParam 120 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperC5 
+FXParamNameDisplay 121 "LnkHF"
+Shift+DisplayLowerC5 
+FXParamValueDisplay 121  
+Shift+RotaryC5 
+FXParam 121 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC5 
+FXParam 121 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperC6 
+FXParamNameDisplay 18 "MMake"
+Shift+DisplayLowerC6 
+FXParamValueDisplay 18  
+Shift+RotaryC6 
+FXParam 18 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC6 
+FXParam 18 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperC7 
+FXParamNameDisplay 27 "Slope"
+Shift+DisplayLowerC7 
+FXParamValueDisplay 27  
+Shift+RotaryC7 
+FXParam 27 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC7 
+FXParam 27 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperC8 
+FXParamNameDisplay 29 "Slope"
+Shift+DisplayLowerC8 
+FXParamValueDisplay 29  
+Shift+RotaryC8 
+FXParam 29 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC8 
+FXParam 29 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperD1 
+FXParamNameDisplay 60 "LF_In"
+Shift+DisplayLowerD1 
+FXParamValueDisplay 60  
+Shift+RotaryD1 
+FXParam 60 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD1 
+FXParam 60 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperD2 
+FXParamNameDisplay 65 "LMF_In"
+Shift+DisplayLowerD2 
+FXParamValueDisplay 65  
+Shift+RotaryD2 
+FXParam 65 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD2 
+FXParam 65 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperD3 
+FXParamNameDisplay 70 "MF_In"
+Shift+DisplayLowerD3 
+FXParamValueDisplay 70  
+Shift+RotaryD3 
+FXParam 70 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD3 
+FXParam 70 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperD4 
+FXParamNameDisplay 75 "HMF_In"
+Shift+DisplayLowerD4 
+FXParamValueDisplay 75  
+Shift+RotaryD4 
+FXParam 75 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD4 
+FXParam 75 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperD5 
+FXParamNameDisplay 80 "HF_In"
+Shift+DisplayLowerD5 
+FXParamValueDisplay 80  
+Shift+RotaryD5 
+FXParam 80 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD5 
+FXParam 80 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperD6 
+FXParamNameDisplay 16 "GSclIn"
+Shift+DisplayLowerD6 
+FXParamValueDisplay 16  
+Shift+RotaryD6 
+FXParam 16 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD6 
+FXParam 16 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperD7 
+FXParamNameDisplay 115 "LnkHPF"
+Shift+DisplayLowerD7 
+FXParamValueDisplay 115  
+Shift+RotaryD7 
+FXParam 115 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD7 
+FXParam 115 [ 0.0 1.0 ]
+/   
+Shift+DisplayUpperD8 
+FXParamNameDisplay 116 "LnkLPF"
+Shift+DisplayLowerD8 
+FXParamValueDisplay 116  
+Shift+RotaryD8 
+FXParam 116 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD8 
+FXParam 116 [ 0.0 1.0 ]
+/
+ZoneEnd
+/
+/"VST: bx_digital V3 (Plugin Alliance)"
+/"Bypass"
+/"Bank"
+/"InGain"
+/"OutGain"
+/"StWidth"
+/"Balance"
+/"Pan Mid"
+/"Pan Side"
+/"AutoSolo"
+/"Modus"
+/"Swap LR"
+/"ALActive"
+/"ALMode"
+/"EQActive"
+/"LinkCh"
+/"GSAmnt"
+/"GSclActv"
+/"MMFreq"
+/"MMActive"
+/"Solo 1"
+/"Solo 2"
+/"Prop Q 1"
+/"Prop Q 2"
+/"HP1Slope"
+/"HP1Frq"
+/"LP1Slope"
+/"LP1Frq"
+/"HP2Slope"
+/"HP2Frq"
+/"LP2Slope"
+/"LP2Frq"
+/"LF1Type"
+/"LF1Gain"
+/"LF 1 Q"
+/"LF1Freq"
+/"LF1Actv"
+/"LMF1Type"
+/"LMF1Gain"
+/"LMF 1 Q"
+/"LMF1Freq"
+/"LMF1Actv"
+/"MF1Type"
+/"MF1Gain"
+/"MF 1 Q"
+/"MF1Freq"
+/"MF1Actv"
+/"HMF1Type"
+/"HMF1Gain"
+/"HMF 1 Q"
+/"HMF1Freq"
+/"HMF1Actv"
+/"HF1Type"
+/"HF1Gain"
+/"HF 1 Q"
+/"HF1Freq"
+/"HF1Actv"
+/"LF2Type"
+/"LF2Gain"
+/"LF 2 Q"
+/"LF2Freq"
+/"LF2Actv"
+/"LMF2Type"
+/"LMF2Gain"
+/"LMF 2 Q"
+/"LMF2Freq"
+/"LMF2Actv"
+/"MF2Type"
+/"MF2Gain"
+/"MF 2 Q"
+/"MF2Freq"
+/"MF2Actv"
+/"HMF2Type"
+/"HMF2Gain"
+/"HMF 2 Q"
+/"HMF2Freq"
+/"HMF2Actv"
+/"HF2Type"
+/"HF2Gain"
+/"HF 2 Q"
+/"HF2Freq"
+/"HF2Actv"
+/"BS1Tone"
+/"BS1Gn"
+/"BS1Actv"
+/"PS1Tone"
+/"PS1Gn"
+/"PS1Actv"
+/"BS2Tone"
+/"BS2Gn"
+/"BS2Actv"
+/"PS2Tone"
+/"PS2Gn"
+/"PS2Actv"
+/"DyEQ1Pos"
+/"DyEQ1Rng"
+/"DyEQ1Frq"
+/"DyEQ1Spd"
+/"DEQ1Solo"
+/"DEQ1Actv"
+/"DyEQ2Pos"
+/"DyEQ2Rng"
+/"DyEQ2Frq"
+/"DyEQ2Spd"
+/"DEQ2Solo"
+/"DEQ2Actv"
+/"LnHP1"
+/"LnLP1"
+/"LnLF1"
+/"LnLMF1"
+/"LnMF1"
+/"LnHMF1"
+/"LnHF1"
+/"LnBS1"
+/"LnPS1"
+/"LnkDnEQ1"
+/"LnHP2"
+/"LnLP2"
+/"LnLF2"
+/"LnLMF2"
+/"LnMF2"
+/"LnHMF2"
+/"LnHF2"
+/"LnBS2"
+/"LnPS2"
+/"LnkDnEQ2"
+/"Bypass"
+/"Wet"

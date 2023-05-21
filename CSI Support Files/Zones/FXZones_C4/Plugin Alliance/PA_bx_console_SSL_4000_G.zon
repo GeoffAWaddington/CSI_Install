@@ -1,0 +1,225 @@
+Zone "VST: bx_console SSL 4000 G (Plugin Alliance)" "4000G"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 56 "4000G"
+DisplayLowerA1 FXParamValueDisplay 56 
+RotaryA1 FXParam 56 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 55 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 FXParamNameDisplay 3 "In/Phs"
+DisplayLowerA2 FXParamValueDisplay 3 
+RotaryA2 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 6 [ 0.0 1.0 ]
+/  
+DisplayUpperA3 FXParamNameDisplay 4 "VGain"
+DisplayLowerA3 FXParamValueDisplay 4 
+RotaryA3 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 NoAction 
+/  
+DisplayUpperA4 FXParamNameDisplay 5 "THD"
+DisplayLowerA4 FXParamValueDisplay 5 
+RotaryA4 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 FXParam 35 [ 0.0 1.0 ]
+/  
+DisplayUpperA5 FXParamNameDisplay 7 "Output"
+DisplayLowerA5 FXParamValueDisplay 7 
+RotaryA5 FXParam 7 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 NoAction 
+/  
+DisplayUpperA6 FXParamNameDisplay 9 "Ch/Mtr"
+DisplayLowerA6 FXParamValueDisplay 9 
+RotaryA6 FXParam 9 [ (0.01,0.05,0.075,0.09,0.1) ]
+RotaryPushA6 FXParam 54 [ 0.0 1.0 ]
+/  
+DisplayUpperA7 FXParamNameDisplay 10 "Mode"
+DisplayLowerA7 FXParamValueDisplay 10 
+RotaryA7 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ] 
+RotaryPushA7 FXParam 10
+/  
+DisplayUpperA8 FXParamNameDisplay 8 " Mon"
+DisplayLowerA8 FXParamValueDisplay 8 
+RotaryA8 FXParam 8 [ (4,4,3,2,1) 0.0 0.5 1.0 ]
+RotaryPushA8 FXParam 8 [ 0.0 0.5 1.0 ]
+/  
+DisplayUpperB1 FXParamNameDisplay 53 "Pos/Ty"
+DisplayLowerB1 FXParamValueDisplay 53 
+RotaryB1 FXParam 53 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushB1 FXParam 45 [ 0.0 1.0 ]
+/  
+DisplayUpperB2 FXParamNameDisplay 48 "Q"
+DisplayLowerB2 FXParamValueDisplay 48 
+RotaryB2 FXParam 48 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 NoAction 
+/  
+DisplayUpperB3 FXParamNameDisplay 43 "Q"
+DisplayLowerB3 FXParamValueDisplay 43 
+RotaryB3 FXParam 43 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 NoAction 
+/  
+DisplayUpperB4 FXParamNameDisplay 30 "GThr"
+DisplayLowerB4 FXParamValueDisplay 30 
+RotaryB4 FXParam 30 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 FXParam 27 [ 0.0 1.0 ]
+/  
+DisplayUpperB5 FXParamNameDisplay 29 "GRng"
+DisplayLowerB5 FXParamValueDisplay 29 
+RotaryB5 FXParam 29 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 28 [ 0.0 1.0 ]
+/  
+DisplayUpperB6 FXParamNameDisplay 32 "GRel"
+DisplayLowerB6 FXParamValueDisplay 32 
+RotaryB6 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB6 FXParam 33 [ 0.0 1.0 ]
+/  
+DisplayUpperB7 FXParamNameDisplay 34 "GHys"
+DisplayLowerB7 FXParamValueDisplay 34 
+RotaryB7 FXParam 34 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB7 NoAction 
+/  
+DisplayUpperB8 FXParamNameDisplay 36 "Ky/VCA"
+DisplayLowerB8 FXParamValueDisplay 36 
+RotaryB8 FXParam 36 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushB8 FXParam 36
+/  
+DisplayUpperC1 FXParamNameDisplay 51 "LF"
+DisplayLowerC1 FXParamValueDisplay 51 
+RotaryC1 FXParam 51 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 52 [ 0.0 1.0 ]
+/  
+DisplayUpperC2 FXParamNameDisplay 47 "LMF"
+DisplayLowerC2 FXParamValueDisplay 47 
+RotaryC2 FXParam 47 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 49 [ 0.0 1.0 ]
+/  
+DisplayUpperC3 FXParamNameDisplay 42 "HMF"
+DisplayLowerC3 FXParamValueDisplay 42 
+RotaryC3 FXParam 42 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 FXParam 44 [ 0.0 1.0 ]
+/  
+DisplayUpperC4 FXParamNameDisplay 39 "HF"
+DisplayLowerC4 FXParamValueDisplay 39 
+RotaryC4 FXParam 39 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 FXParam 40 [ 0.0 1.0 ]
+/  
+DisplayUpperC5 FXParamNameDisplay 20 "CThr"
+DisplayLowerC5 FXParamValueDisplay 20 
+RotaryC5 FXParam 20 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 18 [ 0.0 1.0 ]
+/  
+DisplayUpperC6 FXParamNameDisplay 21 "CRel"
+DisplayLowerC6 FXParamValueDisplay 21 
+RotaryC6 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 FXParam 22 [ 0.0 1.0 ]
+/  
+DisplayUpperC7 FXParamNameDisplay 19 "CRatio"
+DisplayLowerC7 FXParamValueDisplay 19 
+RotaryC7 FXParam 19 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 FXParam 24 [ 0.0 1.0 ]
+/  
+DisplayUpperC8 FXParamNameDisplay 23 "CMix"
+DisplayLowerC8 FXParamValueDisplay 23 
+RotaryC8 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 NoAction 
+/  
+DisplayUpperD1 FXParamNameDisplay 50 "Gn/In"
+DisplayLowerD1 FXParamValueDisplay 50 
+RotaryD1 FXParam 50 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 37 [ 0.0 1.0 ]
+/  
+DisplayUpperD2 FXParamNameDisplay 46 "Gain"
+DisplayLowerD2 FXParamValueDisplay 46 
+RotaryD2 FXParam 46 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 NoAction 
+/  
+DisplayUpperD3 FXParamNameDisplay 41 "Gain"
+DisplayLowerD3 FXParamValueDisplay 41 
+RotaryD3 FXParam 41 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 NoAction 
+/  
+DisplayUpperD4 FXParamNameDisplay 38 "Gn/DSC"
+DisplayLowerD4 FXParamValueDisplay 38 
+RotaryD4 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 13 [ 0.0 1.0 ]
+/  
+DisplayUpperD5 FXParamNameDisplay 12 "HPF"
+DisplayLowerD5 FXParamValueDisplay 12 
+RotaryD5 FXParam 12 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 11 [ 0.0 1.0 ]
+/  
+DisplayUpperD6 FXParamNameDisplay 15 "LPF"
+DisplayLowerD6 FXParamValueDisplay 15 
+RotaryD6 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 14 [ 0.0 1.0 ]
+/  
+DisplayUpperD7 FXParamNameDisplay 25 "SC_HPF"
+DisplayLowerD7 FXParamValueDisplay 25 
+RotaryD7 FXParam 25 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 FXParam 16 [ 0.0 1.0 ]
+/  
+DisplayUpperD8 FXParamNameDisplay 26 "Thr2"
+DisplayLowerD8 FXParamValueDisplay 26 
+RotaryD8 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 FXParam 17 [ 0.0 1.0 ]
+/
+ZoneEnd
+/
+/"VST: bx_console SSL 4000 G (Plugin Alliance)"
+/"Power"
+/"Mute"
+/"Setting"
+/"In Gain"
+/"VirtGain"
+/"THD"
+/"Phase"
+/"Out Gain"
+/"Monitor"
+/"Channel"
+/"St Mode"
+/"HPF"
+/"HPF Freq"
+/"HPF x3"
+/"LPF"
+/"LPF Freq"
+/"LPF /3"
+/"FLT Pos"
+/"DynOn"
+/"LC Ratio"
+/"LC Thr"
+/"LC Rel"
+/"LC Att"
+/"LC Mix"
+/"LC Link"
+/"LC HP"
+/"LC 2nd T"
+/"GE Mode"
+/"GE Inv"
+/"GE Range"
+/"GE Thr"
+/"GE Thr R"
+/"GE Rel"
+/"GE Att"
+/"GE Hys"
+/"VCASer"
+/"Dyn Key"
+/"EQ On/Of"
+/"EQ Hi G"
+/"EQ Hi F"
+/"EQHBell"
+/"EQ HM G"
+/"EQ HM F"
+/"EQ HM Q"
+/"EQ HM x3"
+/"EQ Type"
+/"EQ LM G"
+/"EQ LM F"
+/"EQ LM Q"
+/"EQ LM /3"
+/"EQ Low G"
+/"EQ Low F"
+/"EQLBell"
+/"EQ Pos"
+/"MeterPos"
+/"Bypass"
+/"Wet

@@ -1,0 +1,10 @@
+Zone SurfaceFXLayout FaderportFXLayout
+
+  ScribbleLine1_          FixedTextDisplay
+  ScribbleLine2_          NoAction
+  ScribbleLine3_          NoAction
+  ScribbleLine4_          FXParamValueDisplay
+
+  Fader                   FXParam
+
+ZoneEnd

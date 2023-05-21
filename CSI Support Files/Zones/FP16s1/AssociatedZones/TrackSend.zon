@@ -1,0 +1,37 @@
+Zone "TrackSend"
+  ScribbleStripMode Mode=0 // default mode -> 3 lines + valuebar
+  
+  ScribbleLine1_|         TrackNameDisplay
+  ScribbleLine2_|         TrackSendVolumeDisplay
+  ScribbleLine3_|         TrackSendNameDisplay
+  ScribbleLine4_|         NoAction
+  ValueBar|               TrackSendVolume  BarStyle=Fill
+  Mute|                   TrackSendMute
+  Fader|                  TrackSendVolume
+
+  Shift+ScribbleLine2_|   TrackSendPanDisplay
+  Shift+Fader|            TrackSendPan
+
+  Control+Select1         Bank TrackSend -1024           // should be enough to go to the first send slot
+  Select1                 Bank TrackSend -1
+  Select2                 Bank TrackSend 1
+  Select3                 Bank TrackSend 2               // for quicker access
+  Select4                 Bank TrackSend 3
+  Select5                 Bank TrackSend 4
+  Select6                 Bank TrackSend 5
+  Select7                 Bank TrackSend 6
+  Select8                 Bank TrackSend 7
+  Select9                 NoAction
+  Select10                NoAction
+  Select11                NoAction
+  Select12                NoAction
+  Select13                NoAction
+  Select14                NoAction
+  Select15                NoAction
+  Select16                NoAction
+  
+  Prev                    Bank TrackSend "-1"
+  Next                    Bank TrackSend "1"
+  Decrease+RotaryBig      Bank TrackSend "-1"
+  Increase+RotaryBig      Bank TrackSend "1"
+ZoneEnd

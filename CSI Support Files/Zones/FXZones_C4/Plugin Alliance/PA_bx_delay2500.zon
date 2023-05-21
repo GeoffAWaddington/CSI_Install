@@ -1,0 +1,223 @@
+Zone "VST: bx_delay2500 (Plugin Alliance)" "2500"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 2 "Input"
+DisplayLowerA1 FXParamValueDisplay 2 
+RotaryA1 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 48 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 FXParamNameDisplay 3 "Output"
+DisplayLowerA2 FXParamValueDisplay 3 
+RotaryA2 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 49 [ 0.0 1.0 ]
+/  
+DisplayUpperA3 FXParamNameDisplay 38 "Width"
+DisplayLowerA3 FXParamValueDisplay 38 
+RotaryA3 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 FXParam 37 [ 0.0 1.0 ]
+/  
+DisplayUpperA4 FXParamNameDisplay 36 "MMaker"
+DisplayLowerA4 FXParamValueDisplay 36 
+RotaryA4 FXParam 36 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 FXParam 47 [ 0.0 1.0 ]
+/  
+DisplayUpperA5 FXParamNameDisplay 32 "WahAmt"
+DisplayLowerA5 FXParamValueDisplay 32 
+RotaryA5 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 NoAction 
+/  
+DisplayUpperA6 FXParamNameDisplay 31 "WahRte"
+DisplayLowerA6 FXParamValueDisplay 31 
+RotaryA6 FXParam 31 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA6 NoAction 
+/  
+DisplayUpperA7 FXParamNameDisplay 45 "Quant"
+DisplayLowerA7 FXParamValueDisplay 45 
+RotaryA7 FXParam 45 [ (4,4,3,2,1) 0.0 0.33 0.67 1.0 ]
+RotaryPushA7 FXParam 44 [ 0.0 1.0 ]
+/  
+DisplayUpperA8 FXParamNameDisplay 28 "Offset"
+DisplayLowerA8 FXParamValueDisplay 28 
+RotaryA8 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA8 FXParam 46 [ 0.0 1.0 ]
+/  
+DisplayUpperB1 FXParamNameDisplay 5 "DuckAm"
+DisplayLowerB1 FXParamValueDisplay 5 
+RotaryB1 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB1 FXParam 4 [ 0.0 1.0 ]
+/  
+DisplayUpperB2 FXParamNameDisplay 6 "DuckRl"
+DisplayLowerB2 FXParamValueDisplay 6 
+RotaryB2 FXParam 6 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 NoAction 
+/  
+DisplayUpperB3 FXParamNameDisplay 8 "ModMx"
+DisplayLowerB3 FXParamValueDisplay 8 
+RotaryB3 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 FXParam 7 [ 0.0 1.0 ]
+/  
+DisplayUpperB4 FXParamNameDisplay 10 "ModSp"
+DisplayLowerB4 FXParamValueDisplay 10 
+RotaryB4 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 FXParam 9 [ 0.0 1.0 ]
+/  
+DisplayUpperB5 FXParamNameDisplay 11 "ModDp"
+DisplayLowerB5 FXParamValueDisplay 11 
+RotaryB5 FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 NoAction 
+/  
+DisplayUpperB6 FXParamNameDisplay 40 "DstMix"
+DisplayLowerB6 FXParamValueDisplay 40 
+RotaryB6 FXParam 40 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB6 FXParam 39 [ 0.0 1.0 ]
+/ 
+DisplayUpperB7 FXParamNameDisplay 42 "DstShp"
+DisplayLowerB7 FXParamValueDisplay 42 
+RotaryB7 FXParam 42 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB7 NoAction
+/ 
+DisplayUpperB8 FXParamNameDisplay 41 "DstGn"
+DisplayLowerB8 FXParamValueDisplay 41 
+RotaryB8 FXParam 41 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB8 FXParam 43 [ 0.0 1.0 ]
+/  
+DisplayUpperC1 FXParamNameDisplay 17 "Note_L"
+DisplayLowerC1 FXParamValueDisplay 17 
+RotaryC1 FXParam 17 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 12 [ 0.0 1.0 ]
+/  
+DisplayUpperC2 FXParamNameDisplay 18 "Note_R"
+DisplayLowerC2 FXParamValueDisplay 18 
+RotaryC2 FXParam 18 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 NoAction 
+/  
+DisplayUpperC3 FXParamNameDisplay 30 "FB_HPF"
+DisplayLowerC3 FXParamValueDisplay 30 
+RotaryC3 FXParam 30 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 NoAction 
+/  
+DisplayUpperC4 FXParamNameDisplay 29 "FB_LPF"
+DisplayLowerC4 FXParamValueDisplay 29 
+RotaryC4 FXParam 29 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 NoAction 
+/  
+DisplayUpperC5 FXParamNameDisplay 50 "TThrsh"
+DisplayLowerC5 FXParamValueDisplay 50 
+RotaryC5 FXParam 50 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 52 [ 0.0 0.50 1.0 ]
+/  
+DisplayUpperC6 FXParamNameDisplay 51 "TMkUp"
+DisplayLowerC6 FXParamValueDisplay 51 
+RotaryC6 FXParam 51 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 NoAction 
+/  
+DisplayUpperC7 FXParamNameDisplay 33 "Lvl_L"
+DisplayLowerC7 FXParamValueDisplay 33 
+RotaryC7 FXParam 33 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 FXParam 35 [ 0.0 1.0 ]
+/  
+DisplayUpperC8 FXParamNameDisplay 34 "Lvl_R"
+DisplayLowerC8 FXParamValueDisplay 34 
+RotaryC8 FXParam 34 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 FXParam 35 [ 0.0 1.0 ]
+/  
+DisplayUpperD1 FXParamNameDisplay 14 "Time_L"
+DisplayLowerD1 FXParamValueDisplay 14 
+RotaryD1 FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 16 [ 0.0 1.0 ]
+/  
+DisplayUpperD2 FXParamNameDisplay 15 "Time_R"
+DisplayLowerD2 FXParamValueDisplay 15 
+RotaryD2 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 16 [ 0.0 1.0 ]
+/  
+DisplayUpperD3 FXParamNameDisplay 19 "FBackL"
+DisplayLowerD3 FXParamValueDisplay 19 
+RotaryD3 FXParam 19 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 FXParam 21 [ 0.0 1.0 ]
+/  
+DisplayUpperD4 FXParamNameDisplay 20 "FBackR"
+DisplayLowerD4 FXParamValueDisplay 20 
+RotaryD4 FXParam 20 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 21 [ 0.0 1.0 ]
+/  
+DisplayUpperD5 FXParamNameDisplay 25 "Pan_L"
+DisplayLowerD5 FXParamValueDisplay 25 
+RotaryD5 FXParam 25 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 27 [ 0.0 1.0 ]
+/  
+DisplayUpperD6 FXParamNameDisplay 26 "Pan_R"
+DisplayLowerD6 FXParamValueDisplay 26 
+RotaryD6 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 27 [ 0.0 1.0 ]
+/  
+DisplayUpperD7 FXParamNameDisplay 22 "Mix_L"
+DisplayLowerD7 FXParamValueDisplay 22 
+RotaryD7 FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 FXParam 24 [ 0.0 1.0 ]
+/  
+DisplayUpperD8 FXParamNameDisplay 23 "Mix_R"
+DisplayLowerD8 FXParamValueDisplay 23 
+RotaryD8 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 FXParam 13 [ 0.0 1.0 ]
+/
+ZoneEnd
+/
+/"VST: bx_delay2500 (Plugin Alliance)"
+/"Power"
+/"Setting"
+/"Gain In"
+/"Gain Out"
+/"DkPw"
+/"DuckAmt"
+/"DuckRel"
+/"ModPw"
+/"ModMx"
+/"ModTy"
+/"ModSp"
+/"ModDp"
+/"HostSync"
+/"Wet Solo"
+/"Time L"
+/"Time R"
+/"TimeLink"
+/"Note L"
+/"Note R"
+/"FbL"
+/"FbR"
+/"FdLn"
+/"Mix L"
+/"Mix R"
+/"Mix Link"
+/"Pan L"
+/"Pan R"
+/"Pan Link"
+/"Offset"
+/"FbLP"
+/"FbHP"
+/"WahSpd"
+/"WhAm"
+/"Level L"
+/"Level R"
+/"LvlLn"
+/"MonoMkr"
+/"MSPw"
+/"StrWdt"
+/"DistPw"
+/"DistMix"
+/"DistGain"
+/"DistShp"
+/"DistType"
+/"QuantPw"
+/"Quantize"
+/"DlLn"
+/"LREx"
+/"InByp"
+/"OutByp"
+/"TSThr"
+/"TSMkUp"
+/"TSMd"
+/"Bypass"
+/"Wet"

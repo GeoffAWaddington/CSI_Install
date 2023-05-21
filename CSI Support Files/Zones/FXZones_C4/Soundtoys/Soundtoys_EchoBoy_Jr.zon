@@ -1,0 +1,184 @@
+Zone "VST: EchoBoy Jr (Soundtoys)" "EBoyJr"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 15 "EBoyJr"
+DisplayLowerA1 FXParamValueDisplay 15 
+RotaryA1 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 14 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 FXParamNameDisplay 1 "Input"
+DisplayLowerA2 FXParamValueDisplay 1 
+RotaryA2 FXParam 1 [ (0.002,0.004,0.06,0.08,0.1) ]
+RotaryPushA2 FXParam 1 [ 0.5 ] 
+/  
+DisplayUpperA3 FXParamNameDisplay 2 "Output"
+DisplayLowerA3 FXParamValueDisplay 2 
+RotaryA3 FXParam 2 [ (0.002,0.004,0.06,0.08,0.1) ]
+RotaryPushA3 FXParam 2 [ 0.5 ]
+/  
+DisplayUpperA4 NoAction 
+DisplayLowerA4 NoAction 
+RotaryA4 NoAction 
+RotaryPushA4 NoAction 
+/  
+DisplayUpperA5 NoAction 
+DisplayLowerA5 NoAction 
+RotaryA5 NoAction 
+RotaryPushA5 NoAction 
+/  
+DisplayUpperA6 NoAction 
+DisplayLowerA6 NoAction 
+RotaryA6 NoAction 
+RotaryPushA6 NoAction 
+/  
+DisplayUpperA7 NoAction 
+DisplayLowerA7 NoAction 
+RotaryA7 NoAction 
+RotaryPushA7 NoAction 
+/  
+DisplayUpperA8 NoAction 
+DisplayLowerA8 NoAction 
+RotaryA8 NoAction 
+RotaryPushA8 NoAction 
+/  
+DisplayUpperB1 NoAction 
+DisplayLowerB1 NoAction 
+RotaryB1 NoAction 
+RotaryPushB1 NoAction 
+/  
+DisplayUpperB2 NoAction 
+DisplayLowerB2 NoAction 
+RotaryB2 NoAction 
+RotaryPushB2 NoAction 
+/  
+DisplayUpperB3 NoAction 
+DisplayLowerB3 NoAction 
+RotaryB3 NoAction 
+RotaryPushB3 NoAction 
+/  
+DisplayUpperB4 NoAction 
+DisplayLowerB4 NoAction 
+RotaryB4 NoAction 
+RotaryPushB4 NoAction 
+/  
+DisplayUpperB5 NoAction 
+DisplayLowerB5 NoAction 
+RotaryB5 NoAction 
+RotaryPushB5 NoAction 
+/  
+DisplayUpperB6 NoAction 
+DisplayLowerB6 NoAction 
+RotaryB6 NoAction 
+RotaryPushB6 NoAction 
+/  
+DisplayUpperB7 NoAction 
+DisplayLowerB7 NoAction 
+RotaryB7 NoAction 
+RotaryPushB7 NoAction 
+/  
+DisplayUpperB8 NoAction 
+DisplayLowerB8 NoAction 
+RotaryB8 NoAction 
+RotaryPushB8 NoAction 
+/  
+DisplayUpperC1 FXParamNameDisplay 8 "Note"
+DisplayLowerC1 FXParamValueDisplay 8 
+RotaryC1 FXParam 8 [ (0.05) ]
+RotaryPushC1 NoAction
+/  
+DisplayUpperC2 FXParamNameDisplay 5 "Style"
+DisplayLowerC2 FXParamValueDisplay 5 
+RotaryC2 FXParam 5 [ (4,4,3,2,1) 0.0 0.17 0.33 0.50 0.67 0.83 1.0 ]
+RotaryPushC2 FXParam 5 [ 0.0 0.17 0.33 0.50 0.67 0.83 1.0 ] 
+/  
+DisplayUpperC3 FXParamNameDisplay 4 "Mode"
+DisplayLowerC3 FXParamValueDisplay 4 
+RotaryC3 FXParam 4 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushC3 FXParam 4 [ 0.0 0.50 1.0 ]
+/  
+DisplayUpperC4 NoAction 
+DisplayLowerC4 NoAction 
+RotaryC4 NoAction 
+RotaryPushC4 NoAction 
+/  
+DisplayUpperC5 NoAction 
+DisplayLowerC5 NoAction 
+RotaryC5 NoAction 
+RotaryPushC5 NoAction 
+/  
+DisplayUpperC6 NoAction 
+DisplayLowerC6 NoAction 
+RotaryC6 NoAction 
+RotaryPushC6 NoAction 
+/  
+DisplayUpperC7 NoAction 
+DisplayLowerC7 NoAction 
+RotaryC7 NoAction 
+RotaryPushC7 NoAction 
+/  
+DisplayUpperC8 NoAction 
+DisplayLowerC8 NoAction 
+RotaryC8 NoAction 
+RotaryPushC8 NoAction 
+/  
+DisplayUpperD1 FXParamNameDisplay 9 "Time"
+DisplayLowerD1 FXParamValueDisplay 9 
+RotaryD1 FXParam 9 [ (0.00014,0.001,0.005,0.05,0.1) ]
+RotaryPushD1 NoAction 
+/  
+DisplayUpperD2 FXParamNameDisplay 10 "FBack"
+DisplayLowerD2 FXParamValueDisplay 10 
+RotaryD2 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 NoAction 
+/  
+DisplayUpperD3 FXParamNameDisplay 7 "E_Mode"
+DisplayLowerD3 FXParamValueDisplay 7 
+RotaryD3 FXParam 7 [ (4,4,3,2,1) 0.0 0.13 ]
+RotaryPushD3 FXParam 7 [ 0.0 0.13 ]
+/  
+DisplayUpperD4 FXParamNameDisplay 6 "Glide"
+DisplayLowerD4 FXParamValueDisplay 6 
+RotaryD4 FXParam 6 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 6 [ 0.0 1.0 ]
+/  
+DisplayUpperD5 FXParamNameDisplay 12 "HPF"
+DisplayLowerD5 FXParamValueDisplay 12 
+RotaryD5 FXParam 12 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 12 [ 0.0 ] 
+/  
+DisplayUpperD6 FXParamNameDisplay 13 "LPF"
+DisplayLowerD6 FXParamValueDisplay 13 
+RotaryD6 FXParam 13 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 13 [ 1.0 ] 
+/  
+DisplayUpperD7 FXParamNameDisplay 11 "Sat"
+DisplayLowerD7 FXParamValueDisplay 11 
+RotaryD7 FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 NoAction 
+/  
+DisplayUpperD8 FXParamNameDisplay 3 "Mix"
+DisplayLowerD8 FXParamValueDisplay 3 
+RotaryD8 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 NoAction 
+/
+ZoneEnd
+/
+/"VST: EchoBoy Jr (Soundtoys)"
+/"Bypass"
+/"InputGain"
+/"OutputGain"
+/"Mix"
+/"Mode"
+/"Style"
+/"Glide"
+/"EchoMode"
+/"EchoNote"
+/"EchoTime"
+/"Feedback"
+/"Saturation"
+/"LowCut"
+/"HighCut"
+/"Bypass"
+/"Wet"

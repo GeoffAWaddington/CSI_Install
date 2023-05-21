@@ -1,0 +1,6 @@
+Zone TrackFXMenu
+    DisplayUpper|               TrackNameDisplay
+    DisplayLower|               FXMenuNameDisplay
+    Select|                     TrackUniqueSelect
+    Select|                     GoFXSlot
+ZoneEnd

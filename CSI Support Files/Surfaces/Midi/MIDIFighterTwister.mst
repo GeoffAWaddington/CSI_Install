@@ -1,0 +1,1031 @@
+///////////////////////////////////  NOTES  ///////////////////////////////////
+// FOR BEST RESULTS!!!!                                                      //
+// Use the MF_Utility to make the following changes on the MF Twister:       //
+//                                                                           //
+// 1. Encoder MIDI Type: ENC 3FH/41H (all encoders)                          //
+// 2. Sensitivity: Velocity Sensitive (all encoders)                         //
+// 3. Switch Action Type: Shift Encoder Hold (all encoders)                  //
+// 4. Left Button 1 Function: CC Hold                                        //
+// 5. Left Button 2 Function: Previous Bank (default)                        //
+// 6. Left Button 3 Function: CC Hold                                        //
+// 7. Right Button 1 Function: CC Hold                                       //
+// 8. Right Button 2 Function: Next Bank (default)                           //
+// 9. Right Button 3 Function: CC Hold                                       //
+//                                                                           //
+///////////////////////////////////////////////////////////////////////////////
+
+
+StepSize
+    RotaryWidgetClass 0.001
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass Dec 3f     3e    3d    3c    3b    3a    39     38    36    33    2f      
+    RotaryWidgetClass Inc 41     42    43    44    45    46    47     48    4a    4d    51
+    RotaryWidgetClass Val 0.001  0.002 0.003 0.004 0.005 0.006 0.0075 0.01  0.02  0.03  0.04
+AccelerationValuesEnd
+
+//////////////////////////////////////Side Buttons//////////////////////////////////////////////////
+
+Widget LeftSideButton1
+    Press b3 08 7f b3 08 00
+WidgetEnd
+
+Widget LeftSideButton2
+    Press B3 01 7f
+WidgetEnd
+
+Widget LeftSideButton3
+    Press b3 0a 7f b3 0a 00 
+WidgetEnd
+
+Widget RightSideButton1
+    Press b3 0b 7f b3 0b 00 
+WidgetEnd
+
+Widget RightSideButton2
+    Press B3 09 7f
+WidgetEnd
+
+Widget RightSideButton3
+    Press b3 0d 7f b3 0d 00
+WidgetEnd
+
+
+//////////////////////////////////////Bank 1//////////////////////////////////////////////////
+
+
+Widget RotaryPushA1
+    Press b1 00 7f b1 00 00
+    FB_MFT_RGB b1 00 7f
+WidgetEnd
+
+Widget RotaryPushA2
+    Press b1 01 7f b1 01 00
+    FB_MFT_RGB b1 01 7f
+WidgetEnd
+
+Widget RotaryPushA3
+    Press b1 02 7f b1 02 00
+    FB_MFT_RGB b1 02 7f
+WidgetEnd 
+
+Widget RotaryPushA4
+    Press b1 03 7f b1 03 00
+    FB_MFT_RGB b1 03 7f
+WidgetEnd
+
+Widget RotaryPushA5
+    Press b1 04 7f b1 04 00
+    FB_MFT_RGB b1 04 7f
+WidgetEnd
+
+Widget RotaryPushA6
+    Press b1 05 7f b1 05 00
+    FB_MFT_RGB b1 05 7f
+WidgetEnd
+
+Widget RotaryPushA7
+    Press b1 06 7f b1 06 00
+    FB_MFT_RGB b1 06 7f
+WidgetEnd
+
+Widget RotaryPushA8
+    Press b1 07 7f b1 07 00
+    FB_MFT_RGB b1 07 7f
+WidgetEnd
+
+Widget RotaryPushB1
+    Press b1 08 7f b1 08 00
+    FB_MFT_RGB b1 08 7f
+WidgetEnd
+
+Widget RotaryPushB2
+    Press b1 09 7f b1 09 00
+    FB_MFT_RGB b1 09 7f
+WidgetEnd
+
+Widget RotaryPushB3
+    Press b1 0a 7f b1 0a 00
+    FB_MFT_RGB b1 0a 7f
+WidgetEnd
+
+Widget RotaryPushB4
+    Press b1 0b 7f b1 0b 00
+    FB_MFT_RGB b1 0b 7f
+WidgetEnd
+
+Widget RotaryPushB5
+    Press b1 0c 7f b1 0c 00
+    FB_MFT_RGB b1 0c 7f
+WidgetEnd
+
+Widget RotaryPushB6
+    Press b1 0d 7f b1 0d 00
+    FB_MFT_RGB b1 0d 7f
+WidgetEnd
+
+Widget RotaryPushB7
+    Press b1 0e 7f b1 0e 00
+    FB_MFT_RGB b1 0e 7f
+WidgetEnd
+
+Widget RotaryPushB8
+    Press b1 0f 7f b1 0f 00
+    FB_MFT_RGB b1 0f 7f
+WidgetEnd
+
+Widget RotaryA1 RotaryWidgetClass
+    Encoder b0 00 7f
+    FB_Fader7Bit b0 00 00
+WidgetEnd
+
+Widget RotaryA2 RotaryWidgetClass
+    Encoder b0 01 7f
+    FB_Fader7Bit b0 01 00
+WidgetEnd
+
+Widget RotaryA3 RotaryWidgetClass
+    Encoder b0 02 7f
+    FB_Fader7Bit b0 02 00
+WidgetEnd
+
+Widget RotaryA4 RotaryWidgetClass
+    Encoder b0 03 7f
+    FB_Fader7Bit b0 03 00
+WidgetEnd
+
+Widget RotaryA5 RotaryWidgetClass
+    Encoder b0 04 7f
+    FB_Fader7Bit b0 04 00
+WidgetEnd
+
+Widget RotaryA6 RotaryWidgetClass
+    Encoder b0 05 7f
+    FB_Fader7Bit b0 05 00
+WidgetEnd
+
+Widget RotaryA7 RotaryWidgetClass
+    Encoder b0 06 7f
+    FB_Fader7Bit b0 06 00
+WidgetEnd
+
+Widget RotaryA8 RotaryWidgetClass
+    Encoder b0 07 7f
+    FB_Fader7Bit b0 07 00
+WidgetEnd
+
+Widget RotaryB1 RotaryWidgetClass
+    Encoder b0 08 7f
+    FB_Fader7Bit b0 08 00
+WidgetEnd
+
+Widget RotaryB2 RotaryWidgetClass
+    Encoder b0 09 7f
+    FB_Fader7Bit b0 09 00
+WidgetEnd
+
+Widget RotaryB3 RotaryWidgetClass
+    Encoder b0 0a 7f
+    FB_Fader7Bit b0 0a 00
+WidgetEnd
+
+Widget RotaryB4 RotaryWidgetClass
+    Encoder b0 0b 7f
+    FB_Fader7Bit b0 0b 00
+WidgetEnd
+
+Widget RotaryB5 RotaryWidgetClass
+    Encoder b0 0c 7f
+    FB_Fader7Bit b0 0c 00
+WidgetEnd
+
+Widget RotaryB6 RotaryWidgetClass
+    Encoder b0 0d 7f
+    FB_Fader7Bit b0 0d 00
+WidgetEnd
+
+Widget RotaryB7 RotaryWidgetClass
+    Encoder b0 0e 7f
+    FB_Fader7Bit b0 0e 00
+WidgetEnd
+
+Widget RotaryB8 RotaryWidgetClass
+    Encoder b0 0f 7f
+    FB_Fader7Bit b0 0f 00
+WidgetEnd
+
+Widget ShiftRotaryA1 RotaryWidgetClass
+    Encoder b4 00 7f
+    FB_Fader7Bit b4 00 00
+WidgetEnd
+
+Widget ShiftRotaryA2 RotaryWidgetClass
+    Encoder b4 01 7f
+    FB_Fader7Bit b4 01 00
+WidgetEnd
+
+Widget ShiftRotaryA3 RotaryWidgetClass
+    Encoder b4 02 7f
+    FB_Fader7Bit b4 02 00
+WidgetEnd
+
+Widget ShiftRotaryA4 RotaryWidgetClass
+    Encoder b4 03 7f
+    FB_Fader7Bit b4 03 00
+WidgetEnd
+
+Widget ShiftRotaryA5 RotaryWidgetClass
+    Encoder b4 04 7f
+    FB_Fader7Bit b4 04 00
+WidgetEnd
+
+Widget ShiftRotaryA6 RotaryWidgetClass
+    Encoder b4 05 7f
+    FB_Fader7Bit b4 05 00
+WidgetEnd
+
+Widget ShiftRotaryA7 RotaryWidgetClass
+    Encoder b4 06 7f
+    FB_Fader7Bit b4 06 00
+WidgetEnd
+
+Widget ShiftRotaryA8 RotaryWidgetClass
+    Encoder b4 07 7f
+    FB_Fader7Bit b4 07 00
+WidgetEnd
+
+Widget ShiftRotaryB1 RotaryWidgetClass
+    Encoder b4 08 7f
+    FB_Fader7Bit b4 08 00
+WidgetEnd
+
+Widget ShiftRotaryB2 RotaryWidgetClass
+    Encoder b4 09 7f
+    FB_Fader7Bit b4 09 00
+WidgetEnd
+
+Widget ShiftRotaryB3 RotaryWidgetClass
+    Encoder b4 0a 7f
+    FB_Fader7Bit b4 0a 00
+WidgetEnd
+
+Widget ShiftRotaryB4 RotaryWidgetClass
+    Encoder b4 0b 7f
+    FB_Fader7Bit b4 0b 00
+WidgetEnd
+
+Widget ShiftRotaryB5 RotaryWidgetClass
+    Encoder b4 0c 7f
+    FB_Fader7Bit b4 0c 00
+WidgetEnd
+
+Widget ShiftRotaryB6 RotaryWidgetClass
+    Encoder b4 0d 7f
+    FB_Fader7Bit b4 0d 00
+WidgetEnd
+
+Widget ShiftRotaryB7 RotaryWidgetClass
+    Encoder b4 0e 7f
+    FB_Fader7Bit b4 0e 00
+WidgetEnd
+
+Widget ShiftRotaryB8 RotaryWidgetClass
+    Encoder b4 0f 7f
+    FB_Fader7Bit b4 0f 00
+WidgetEnd
+
+
+
+
+//////////////////////////////////////Bank 2//////////////////////////////////////////////////
+
+
+
+
+Widget RotaryPushC1
+    Press b1 10 7f b1 10 00
+    FB_MFT_RGB b1 10 7f
+WidgetEnd
+
+Widget RotaryPushC2
+    Press b1 11 7f b1 11 00
+    FB_MFT_RGB b1 11 7f
+WidgetEnd
+
+Widget RotaryPushC3
+    Press b1 12 7f b1 12 00
+    FB_MFT_RGB b1 12 7f
+WidgetEnd
+
+Widget RotaryPushC4
+    Press b1 13 7f b1 13 00
+    FB_MFT_RGB b1 13 7f
+WidgetEnd
+
+Widget RotaryPushC5
+    Press b1 14 7f b1 14 00
+    FB_MFT_RGB b1 14 7f
+WidgetEnd
+
+Widget RotaryPushC6
+    Press b1 15 7f b1 15 00
+    FB_MFT_RGB b1 15 7f
+WidgetEnd
+
+Widget RotaryPushC7
+    Press b1 16 7f b1 16 00
+    FB_MFT_RGB b1 16 7f
+WidgetEnd
+
+Widget RotaryPushC8
+    Press b1 17 7f b1 17 00
+    FB_MFT_RGB b1 17 7f
+WidgetEnd
+
+Widget RotaryPushD1
+    Press b1 18 7f b1 18 00
+    FB_MFT_RGB b1 18 7f
+WidgetEnd
+
+Widget RotaryPushD2
+    Press b1 19 7f b1 19 00
+    FB_MFT_RGB b1 19 7f
+WidgetEnd
+
+Widget RotaryPushD3
+    Press b1 1a 7f b1 1a 00
+    FB_MFT_RGB b1 1a 7f
+WidgetEnd
+
+Widget RotaryPushD4
+    Press b1 1b 7f b1 1b 00
+    FB_MFT_RGB b1 1b 7f
+WidgetEnd
+
+Widget RotaryPushD5
+    Press b1 1c 7f b1 1c 00
+    FB_MFT_RGB b1 1c 7f
+WidgetEnd
+
+Widget RotaryPushD6
+    Press b1 1d 7f b1 1d 00
+    FB_MFT_RGB b1 1d 7f
+WidgetEnd
+
+Widget RotaryPushD7
+    Press b1 1e 7f b1 1e 00
+    FB_MFT_RGB b1 1e 7f
+WidgetEnd
+
+Widget RotaryPushD8
+    Press b1 1f 7f b1 1f 00
+    FB_MFT_RGB b1 1f 7f
+WidgetEnd
+
+Widget RotaryC1 RotaryWidgetClass
+    Encoder b0 10 7f
+    FB_Fader7Bit b0 10 00
+WidgetEnd
+
+Widget RotaryC2 RotaryWidgetClass
+    Encoder b0 11 7f
+    FB_Fader7Bit b0 11 00
+WidgetEnd
+
+Widget RotaryC3 RotaryWidgetClass
+    Encoder b0 12 7f
+    FB_Fader7Bit b0 12 00
+WidgetEnd
+
+Widget RotaryC4 RotaryWidgetClass
+    Encoder b0 13 7f
+    FB_Fader7Bit b0 13 00
+WidgetEnd
+
+Widget RotaryC5 RotaryWidgetClass
+    Encoder b0 14 7f
+    FB_Fader7Bit b0 14 00
+WidgetEnd
+
+Widget RotaryC6 RotaryWidgetClass
+    Encoder b0 15 7f
+    FB_Fader7Bit b0 15 00
+WidgetEnd
+
+Widget RotaryC7 RotaryWidgetClass
+    Encoder b0 16 7f
+    FB_Fader7Bit b0 16 00
+WidgetEnd
+
+Widget RotaryC8 RotaryWidgetClass
+    Encoder b0 17 7f
+    FB_Fader7Bit b0 17 00
+WidgetEnd
+
+Widget RotaryD1 RotaryWidgetClass
+    Encoder b0 18 7f
+    FB_Fader7Bit b0 18 00
+WidgetEnd
+
+Widget RotaryD2 RotaryWidgetClass
+    Encoder b0 19 7f
+    FB_Fader7Bit b0 19 00
+WidgetEnd
+
+Widget RotaryD3 RotaryWidgetClass
+    Encoder b0 1a 7f
+    FB_Fader7Bit b0 1a 00
+WidgetEnd
+
+Widget RotaryD4 RotaryWidgetClass
+    Encoder b0 1b 7f
+    FB_Fader7Bit b0 1b 00
+WidgetEnd
+
+Widget RotaryD5 RotaryWidgetClass
+    Encoder b0 1c 7f
+    FB_Fader7Bit b0 1c 00
+WidgetEnd
+
+Widget RotaryD6 RotaryWidgetClass
+    Encoder b0 1d 7f
+    FB_Fader7Bit b0 1d 00
+WidgetEnd
+
+Widget RotaryD7 RotaryWidgetClass
+    Encoder b0 1e 7f
+    FB_Fader7Bit b0 1e 00
+WidgetEnd
+
+Widget RotaryD8 RotaryWidgetClass
+    Encoder b0 1f 7f
+    FB_Fader7Bit b0 1f 00
+WidgetEnd
+
+Widget ShiftRotaryC1 RotaryWidgetClass
+    Encoder b4 10 7f
+    FB_Fader7Bit b4 10 00
+WidgetEnd
+
+Widget ShiftRotaryC2 RotaryWidgetClass
+    Encoder b4 11 7f
+    FB_Fader7Bit b4 11 00
+WidgetEnd
+
+Widget ShiftRotaryC3 RotaryWidgetClass
+    Encoder b4 12 7f
+    FB_Fader7Bit b4 12 00
+WidgetEnd
+
+Widget ShiftRotaryC4 RotaryWidgetClass
+    Encoder b4 13 7f
+    FB_Fader7Bit b4 13 00
+WidgetEnd
+
+Widget ShiftRotaryC5 RotaryWidgetClass
+    Encoder b4 14 7f
+    FB_Fader7Bit b4 14 00
+WidgetEnd
+
+Widget ShiftRotaryC6 RotaryWidgetClass
+    Encoder b4 15 7f
+    FB_Fader7Bit b4 15 00
+WidgetEnd
+
+Widget ShiftRotaryC7 RotaryWidgetClass
+    Encoder b4 16 7f
+    FB_Fader7Bit b4 16 00
+WidgetEnd
+
+Widget ShiftRotaryC8 RotaryWidgetClass
+    Encoder b4 17 7f
+    FB_Fader7Bit b4 17 00
+WidgetEnd
+
+Widget ShiftRotaryD1 RotaryWidgetClass
+    Encoder b4 18 7f
+    FB_Fader7Bit b4 18 00
+WidgetEnd
+
+Widget ShiftRotaryD2 RotaryWidgetClass
+    Encoder b4 19 7f
+    FB_Fader7Bit b4 19 00
+WidgetEnd
+
+Widget ShiftRotaryD3 RotaryWidgetClass
+    Encoder b4 1a 7f
+    FB_Fader7Bit b4 1a 00
+WidgetEnd
+
+Widget ShiftRotaryD4 RotaryWidgetClass
+    Encoder b4 1b 7f
+    FB_Fader7Bit b4 1b 00
+WidgetEnd
+
+Widget ShiftRotaryD5 RotaryWidgetClass
+    Encoder b4 1c 7f
+    FB_Fader7Bit b4 1c 00
+WidgetEnd
+
+Widget ShiftRotaryD6 RotaryWidgetClass
+    Encoder b4 1d 7f
+    FB_Fader7Bit b4 1d 00
+WidgetEnd
+
+Widget ShiftRotaryD7 RotaryWidgetClass
+    Encoder b4 1e 7f
+    FB_Fader7Bit b4 1e 00
+WidgetEnd
+
+Widget ShiftRotaryD8 RotaryWidgetClass
+    Encoder b4 1f 7f
+    FB_Fader7Bit b4 1f 00
+WidgetEnd
+
+
+//////////////////////////////////////Bank 3//////////////////////////////////////////////////
+
+
+Widget RotaryPushE1
+    Press b1 20 7f b1 20 00
+    FB_MFT_RGB b1 20 7f
+WidgetEnd
+
+Widget RotaryPushE2
+    Press b1 21 7f b1 21 00
+    FB_MFT_RGB b1 21 7f
+WidgetEnd
+
+Widget RotaryPushE3
+    Press b1 22 7f b1 22 00
+    FB_MFT_RGB b1 22 7f
+WidgetEnd
+
+Widget RotaryPushE4
+    Press b1 23 7f b1 23 00
+    FB_MFT_RGB b1 22 7f
+WidgetEnd
+
+Widget RotaryPushE5
+    Press b1 24 7f b1 24 00
+    FB_MFT_RGB b1 24 7f
+WidgetEnd
+
+Widget RotaryPushE6
+    Press b1 25 7f b1 25 00
+    FB_MFT_RGB b1 25 7f
+WidgetEnd
+
+Widget RotaryPushE7
+    Press b1 26 7f b1 26 00
+    FB_MFT_RGB b1 26 7f
+WidgetEnd
+
+Widget RotaryPushE8
+    Press b1 27 7f b1 27 00
+    FB_MFT_RGB b1 27 7f
+
+Widget RotaryPushF1
+    Press b1 28 7f b1 28 00
+    FB_MFT_RGB b1 28 7f
+WidgetEnd
+
+Widget RotaryPushF2
+    Press b1 29 7f b1 29 00
+    FB_MFT_RGB b1 29 7f
+WidgetEnd
+
+Widget RotaryPushF3
+    Press b1 2a 7f b1 2a 00
+    FB_MFT_RGB b1 2a 7f
+WidgetEnd
+
+Widget RotaryPushF4
+    Press b1 2b 7f b1 2b 00
+    FB_MFT_RGB b1 2b 7f
+WidgetEnd
+
+Widget RotaryPushF5
+    Press b1 2c 7f b1 2c 00
+    FB_MFT_RGB b1 2c 7f
+WidgetEnd
+
+Widget RotaryPushF6
+    Press b1 2d 7f b1 2d 00
+    FB_MFT_RGB b1 2d 7f
+WidgetEnd
+
+Widget RotaryPushF7
+    Press b1 2e 7f b1 2e 00
+    FB_MFT_RGB b1 2e 7f
+WidgetEnd
+
+Widget RotaryPushF8
+    Press b1 2f 7f b1 2f 00
+    FB_MFT_RGB b1 2f 7f
+WidgetEnd
+
+Widget RotaryE1 RotaryWidgetClass
+    Encoder b0 20 7f
+    FB_Fader7Bit b0 20 00
+WidgetEnd
+
+Widget RotaryE2 RotaryWidgetClass
+    Encoder b0 21 7f
+    FB_Fader7Bit b0 21 00
+WidgetEnd
+
+Widget RotaryE3 RotaryWidgetClass
+    Encoder b0 22 7f
+    FB_Fader7Bit b0 22 00
+WidgetEnd
+
+Widget RotaryE4 RotaryWidgetClass
+    Encoder b0 23 7f
+    FB_Fader7Bit b0 23 00
+WidgetEnd
+
+Widget RotaryE5 RotaryWidgetClass
+    Encoder b0 24 7f
+    FB_Fader7Bit b0 24 00
+WidgetEnd
+
+Widget RotaryE6 RotaryWidgetClass
+    Encoder b0 25 7f
+    FB_Fader7Bit b0 25 00
+WidgetEnd
+
+Widget RotaryE7 RotaryWidgetClass
+    Encoder b0 26 7f
+    FB_Fader7Bit b0 26 00
+WidgetEnd
+
+Widget RotaryE8 RotaryWidgetClass
+    Encoder b0 27 7f
+    FB_Fader7Bit b0 27 00
+WidgetEnd
+
+Widget RotaryF1 RotaryWidgetClass
+    Encoder b0 28 7f 
+    FB_Fader7Bit b0 28 00
+WidgetEnd
+
+Widget RotaryF2 RotaryWidgetClass
+    Encoder b0 29 7f
+    FB_Fader7Bit b0 29 00
+WidgetEnd
+
+Widget RotaryF3 RotaryWidgetClass
+    Encoder b0 2a 7f
+    FB_Fader7Bit b0 2a 00
+WidgetEnd
+
+Widget RotaryF4 RotaryWidgetClass
+    Encoder b0 2b 7f
+    FB_Fader7Bit b0 2b 00
+WidgetEnd
+
+Widget RotaryF5 RotaryWidgetClass
+    Encoder b0 2c 7f
+    FB_Fader7Bit b0 2c 00
+WidgetEnd
+
+Widget RotaryF6 RotaryWidgetClass
+    Encoder b0 2d 7f
+    FB_Fader7Bit b0 2d 00
+WidgetEnd
+
+Widget RotaryF7 RotaryWidgetClass
+    Encoder b0 2e 7f
+    FB_Fader7Bit b0 2e 00
+WidgetEnd
+
+Widget RotaryF8 RotaryWidgetClass
+    Encoder b0 2f 7f
+    FB_Fader7Bit b0 2f 00
+WidgetEnd
+
+Widget ShiftRotaryE1 RotaryWidgetClass
+    Encoder b4 20 7f
+    FB_Fader7Bit b4 20 00
+WidgetEnd
+
+Widget ShiftRotaryE2 RotaryWidgetClass
+    Encoder b4 21 7f
+    FB_Fader7Bit b4 21 00
+WidgetEnd
+
+Widget ShiftRotaryE3 RotaryWidgetClass
+    Encoder b4 22 7f
+    FB_Fader7Bit b4 22 00
+WidgetEnd
+
+Widget ShiftRotaryE4 RotaryWidgetClass
+    Encoder b4 23 7f
+    FB_Fader7Bit b4 23 00
+WidgetEnd
+
+Widget ShiftRotaryE5 RotaryWidgetClass
+    Encoder b4 24 7f
+    FB_Fader7Bit b4 24 00
+WidgetEnd
+
+Widget ShiftRotaryE6 RotaryWidgetClass
+    Encoder b4 25 7f
+    FB_Fader7Bit b4 25 00
+WidgetEnd
+
+Widget ShiftRotaryE7 RotaryWidgetClass
+    Encoder b4 26 7f
+    FB_Fader7Bit b4 26 00
+WidgetEnd
+
+Widget ShiftRotaryE8 RotaryWidgetClass
+    Encoder b4 27 7f
+    FB_Fader7Bit b4 27 00
+WidgetEnd
+
+Widget ShiftRotaryF1 RotaryWidgetClass
+    Encoder b4 28 7f
+    FB_Fader7Bit b4 28 00
+WidgetEnd
+
+Widget ShiftRotaryF2 RotaryWidgetClass
+    Encoder b4 29 7f
+    FB_Fader7Bit b4 29 00
+WidgetEnd
+
+Widget ShiftRotaryF3 RotaryWidgetClass
+    Encoder b4 2a 7f
+    FB_Fader7Bit b4 2a 00
+WidgetEnd
+
+Widget ShiftRotaryF4 RotaryWidgetClass
+    Encoder b4 2b 7f
+    FB_Fader7Bit b4 2b 00
+WidgetEnd
+
+Widget ShiftRotaryF5 RotaryWidgetClass
+	Fader7Bit b4 2c 7f
+    FB_Fader7Bit b4 2c 00
+WidgetEnd
+
+Widget ShiftRotaryF6 RotaryWidgetClass
+    Encoder b4 2d 7f
+    FB_Fader7Bit b4 2d 00
+WidgetEnd
+
+Widget ShiftRotaryF7 RotaryWidgetClass
+    Encoder b4 2e 7f
+    FB_Fader7Bit b4 2e 00
+WidgetEnd
+
+Widget ShiftRotaryF8 RotaryWidgetClass
+    Encoder b4 2f 7f
+    FB_Fader7Bit b4 2f 00
+WidgetEnd
+
+
+//////////////////////////////////////Bank 4//////////////////////////////////////////////////
+
+
+Widget RotaryPushG1
+    Press b1 30 7f b1 30 00
+    FB_MFT_RGB b1 30 7f
+WidgetEnd
+
+Widget RotaryPushG2
+    Press b1 31 7f b1 31 00
+    FB_MFT_RGB b1 31 7f
+WidgetEnd
+
+Widget RotaryPushG3
+    Press b1 32 7f b1 32 00
+    FB_MFT_RGB b1 32 7f
+WidgetEnd
+
+Widget RotaryPushG4
+    Press b1 33 7f b1 33 00
+    FB_MFT_RGB b1 33 7f
+WidgetEnd
+
+Widget RotaryPushG5
+    Press b1 34 7f b1 34 00
+    FB_MFT_RGB b1 34 7f
+WidgetEnd
+
+Widget RotaryPushG6
+    Press b1 35 7f b1 35 00
+    FB_MFT_RGB b1 35 7f
+WidgetEnd
+
+Widget RotaryPushG7
+    Press b1 36 7f b1 36 00
+    FB_MFT_RGB b1 36 7f
+WidgetEnd
+
+Widget RotaryPushG8
+    Press b1 37 7f b1 37 00
+    FB_MFT_RGB b1 37 7f
+WidgetEnd
+
+Widget RotaryPushH1
+    Press b1 38 7f b1 38 00
+    FB_MFT_RGB b1 38 7f
+WidgetEnd
+
+Widget RotaryPushH2
+    Press b1 39 7f b1 39 00
+    FB_MFT_RGB b1 39 7f
+WidgetEnd
+
+Widget RotaryPushH3
+    Press b1 3a 7f b1 3a 00
+    FB_MFT_RGB b1 3a 7f
+WidgetEnd
+
+Widget RotaryPushH4
+    Press b1 3b 7f b1 3b 00
+    FB_MFT_RGB b1 3b 7f
+WidgetEnd
+
+Widget RotaryPushH5
+    Press b1 3c 7f b1 3c 00
+    FB_MFT_RGB b1 3c 7f
+WidgetEnd
+
+Widget RotaryPushH6
+    Press b1 3d 7f b1 3d 00
+    FB_MFT_RGB b1 3d 7f
+WidgetEnd
+
+Widget RotaryPushH7
+    Press b1 3e 7f b1 3e 00
+    FB_MFT_RGB b1 3e 7f
+WidgetEnd
+
+Widget RotaryPushH8
+    Press b1 3f 7f b1 3f 00
+    FB_MFT_RGB b1 3f 7f
+WidgetEnd
+
+Widget RotaryG1 RotaryWidgetClass
+    Encoder b0 30 7f
+    FB_Fader7Bit b0 30 00
+WidgetEnd
+
+Widget RotaryG2 RotaryWidgetClass
+    Encoder b0 31 7f
+    FB_Fader7Bit b0 31 00
+WidgetEnd
+
+Widget RotaryG3 RotaryWidgetClass
+    Encoder b0 32 7f
+    FB_Fader7Bit b0 32 00
+WidgetEnd
+
+Widget RotaryG4 RotaryWidgetClass
+    Encoder b0 33 7f
+    FB_Fader7Bit b0 33 00
+WidgetEnd
+
+Widget RotaryG5 RotaryWidgetClass
+    Encoder b0 34 7f
+    FB_Fader7Bit b0 34 00
+WidgetEnd
+
+Widget RotaryG6 RotaryWidgetClass
+    Encoder b0 35 7f
+    FB_Fader7Bit b0 35 00
+WidgetEnd
+
+Widget RotaryG7 RotaryWidgetClass
+    Encoder b0 36 7f
+    FB_Fader7Bit b0 36 00
+WidgetEnd
+
+Widget RotaryG8 RotaryWidgetClass
+    Encoder b0 37 7f
+    FB_Fader7Bit b0 37 00
+WidgetEnd
+
+Widget RotaryH1 RotaryWidgetClass
+    Encoder b0 38 7f
+    FB_Fader7Bit b0 38 00
+WidgetEnd
+
+Widget RotaryH2 RotaryWidgetClass
+    Encoder b0 39 7f
+    FB_Fader7Bit b0 39 00
+WidgetEnd
+
+Widget RotaryH3 RotaryWidgetClass
+    Encoder b0 3a 7f
+    FB_Fader7Bit b0 3a 00
+WidgetEnd
+
+Widget RotaryH4 RotaryWidgetClass
+    Encoder b0 3b 7f
+    FB_Fader7Bit b0 3b 00
+WidgetEnd
+
+Widget RotaryH5 RotaryWidgetClass
+    Encoder b0 3c 7f
+    FB_Fader7Bit b0 3c 00
+WidgetEnd
+
+Widget RotaryH6 RotaryWidgetClass
+    Encoder b0 3d 7f
+    FB_Fader7Bit b0 3d 00
+WidgetEnd
+
+Widget RotaryH7 RotaryWidgetClass
+    Encoder b0 3e 7f
+    FB_Fader7Bit b0 3e 00
+WidgetEnd
+
+Widget RotaryH8 RotaryWidgetClass
+    Encoder b0 3f 7f
+    FB_Fader7Bit b0 3f 00
+WidgetEnd
+
+Widget ShiftRotaryG1 RotaryWidgetClass
+    Encoder b4 30 7f
+    FB_Fader7Bit b4 30 00
+WidgetEnd
+
+Widget ShiftRotaryG2 RotaryWidgetClass
+    Encoder b4 31 7f
+    FB_Fader7Bit b4 31 00
+WidgetEnd
+
+Widget ShiftRotaryG3 RotaryWidgetClass
+    Encoder b4 32 7f
+    FB_Fader7Bit b4 32 00
+WidgetEnd
+
+Widget ShiftRotaryG4 RotaryWidgetClass
+    Encoder b4 33 7f
+    FB_Fader7Bit b4 33 00
+WidgetEnd
+
+Widget ShiftRotaryG5 RotaryWidgetClass
+    Encoder b4 34 7f
+    FB_Fader7Bit b4 34 00
+WidgetEnd
+
+Widget ShiftRotaryG6 RotaryWidgetClass
+    Encoder b4 35 7f
+    FB_Fader7Bit b4 35 00
+WidgetEnd
+
+Widget ShiftRotaryG7 RotaryWidgetClass
+    Encoder b4 36 7f
+    FB_Fader7Bit b4 36 00
+WidgetEnd
+
+Widget ShiftRotaryG8 RotaryWidgetClass
+    Encoder b4 37 7f
+    FB_Fader7Bit b4 37 00
+WidgetEnd
+
+Widget ShiftRotaryH1 RotaryWidgetClass
+    Encoder b4 38 7f
+    FB_Fader7Bit b4 38 00
+WidgetEnd
+
+Widget ShiftRotaryH2 RotaryWidgetClass
+    Encoder b4 39 7f
+    FB_Fader7Bit b4 39 00
+WidgetEnd
+
+Widget ShiftRotaryH3 RotaryWidgetClass
+    Encoder b4 3a 7f
+    FB_Fader7Bit b4 3a 00
+WidgetEnd
+
+Widget ShiftRotaryH4 RotaryWidgetClass
+    Encoder b4 3b 7f
+    FB_Fader7Bit b4 3b 00
+WidgetEnd
+
+Widget ShiftRotaryH5 RotaryWidgetClass
+    Encoder b4 3c 7f
+    FB_Fader7Bit b4 3c 00
+WidgetEnd
+
+Widget ShiftRotaryH6 RotaryWidgetClass
+    Encoder b4 3d 7f
+    FB_Fader7Bit b4 3d 00
+WidgetEnd
+
+Widget ShiftRotaryH7 RotaryWidgetClass
+    Encoder b4 3e 7f
+    FB_Fader7Bit b4 3e 00
+WidgetEnd
+
+Widget ShiftRotaryH8 RotaryWidgetClass
+    Encoder b4 3f 7f
+    FB_Fader7Bit b4 3f 00
+WidgetEnd

@@ -1,0 +1,24 @@
+Zone Track
+        DisplayUpper|                       TrackNameDisplay
+        DisplayLower|                       TrackPanAutoLeftDisplay
+        Toggle+DisplayLower|                TrackPanAutoRightDisplay
+        Touch+DisplayLower|                 TrackVolumeDisplay
+        Alt+DisplayLower|                   TrackAutoModeDisplay
+        RotaryPush|                         ToggleChannel
+        Shift+RotaryPush|                   TrackPan [ 0.5 ]
+        Option+RotaryPush|                  TrackPanWidth [ 1.0 ]
+        Rotary|                             TrackPanAutoLeft RingStyle=Dot
+        Toggle+Rotary|                      TrackPanAutoRight RingStyle=Dot
+        Flip+Rotary|                        TrackVolume
+        Flip+Fader|                         TrackPan
+        RecordArm|                          TrackRecordArm
+        Shift+RecordArm|                    CycleTrackInputMonitor
+        Shift+DisplayLower|                 TrackInputMonitorDisplay
+        Solo|                               TrackSolo
+        Mute|                               TrackMute
+        Select|                             TrackUniqueSelect
+        Shift+Select|                       TrackRangeSelect    
+        Control+Select|                     TrackSelect
+        Fader|                              TrackVolume
+        VUMeter|                            TrackOutputMeter   
+ZoneEnd

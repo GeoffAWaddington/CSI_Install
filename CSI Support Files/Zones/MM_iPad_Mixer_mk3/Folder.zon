@@ -1,0 +1,32 @@
+Zone Folder
+        DisplayC|               TrackFolderParentDisplay
+        DisplayD|               FixedTextDisplay REC
+        DisplayH|               TrackAutoModeDisplay
+        Shift+DisplayD| 		TrackInputMonitorDisplay
+        DisplayJ|               TrackVolumeDisplay
+        DisplayG|               TrackNameDisplay
+        Pan|                 	TrackPan
+        ButtonD|                TrackRecordArm	
+        Shift+ButtonD|  		CycleTrackInputMonitor 
+        ButtonE|                TrackSolo { #7D610CFF #FCC419FF } 
+        DisplayE|				FixedTextDisplay SOLO 
+        ButtonF|                TrackMute { #571F1FFF #FF5A5AFF } 
+        DisplayF|				FixedTextDisplay MUTE
+        ButtonG|                TrackUniqueSelect { #4D1E58FF #DD57FFFF } 
+        Hold+ButtonG|			TrackToggleFolderSpill
+        Shift+ButtonG|          TrackRangeSelect
+        Control+ButtonG|        TrackSelect
+        Meter|					TrackOutputMeterMaxPeakLR
+        Fader|                  TrackVolume              
+        ButtonK|				TrackUniqueSelect { #4D1E58FF #DD57FFFF } 
+        
+        ButtonM1                Bank Folder -8  												
+    	DisplayM1               FixedTextDisplay <BANK													
+    	Shift+ButtonM1          Bank Folder -1  												
+    	Shift+DisplayM1         FixedTextDisplay <CHAN    												
+                            	                          												          
+    	ButtonM2                Bank Folder 8   												
+    	DisplayM2               FixedTextDisplay BANK>													
+    	Shift+ButtonM2          Bank Folder 1   												
+    	Shift+DisplayM2         FixedTextDisplay CHAN>		
+ZoneEnd

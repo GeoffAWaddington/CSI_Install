@@ -1,0 +1,5 @@
+Zone SurfaceFXLayout MCUFXLayout
+	Rotary FXParam
+	DisplayUpper FixedTextDisplay
+	DisplayLower FXParamValueDisplay
+ZoneEnd

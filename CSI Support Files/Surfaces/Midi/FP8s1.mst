@@ -1,0 +1,470 @@
+/ MST file for the Control Surface Integrator
+/ for the Presonus FADERPORT 8 in Studio One mode
+/
+/
+/ ## Button column right of faders, top to bottom
+
+StepSize
+    RotaryWidgetClass   0.003
+    JogWheelWidgetClass 0.003
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass   Dec 41     42    43    44    45    46    47  
+    RotaryWidgetClass   Inc 01     02    03    04    05    06    07  
+    RotaryWidgetClass   Val 0.0006 0.001 0.002 0.003 0.008 0.04  0.08 
+
+    JogWheelWidgetClass Dec 41     42    43    44    45    46    47  
+    JogWheelWidgetClass Inc 01     02    03    04    05    06    07  
+    JogWheelWidgetClass Val 0.0006 0.001 0.002 0.003 0.008 0.04  0.08 
+AccelerationValuesEnd
+
+Widget Track
+        Press 90 28 7f
+  FB_TwoState 90 28 7f 90 28 00
+WidgetEnd
+Widget Plugin
+        Press 90 2b 7f
+  FB_TwoState 90 2b 7f 90 2b 00
+WidgetEnd
+Widget Send
+        Press 90 29 7f
+  FB_TwoState 90 29 7f 90 29 00
+WidgetEnd
+Widget Pan
+        Press 90 2a 7f
+  FB_TwoState 90 2a 7f 90 2a 00
+WidgetEnd
+
+/ buttons can be any colour down here
+Widget AudioBtn
+                Press 90 3e 7f
+  FB_FaderportRGB7Bit 90 3e 7f
+WidgetEnd
+Widget Instrument
+                Press 90 3f 7f
+  FB_FaderportRGB7Bit 90 3f 7f
+WidgetEnd
+Widget BusBtn
+                Press 90 40 7f
+  FB_FaderportRGB7Bit 90 40 7f
+WidgetEnd
+Widget VCABtn
+                Press 90 41 7f
+  FB_FaderportRGB7Bit 90 41 7f
+WidgetEnd
+Widget AllBtn
+                Press 90 42 7f
+  FB_FaderportRGB7Bit 90 42 7f
+WidgetEnd
+
+
+Widget ShiftRight 
+  Press 90 06 7f 90 06 00
+WidgetEnd
+
+
+
+/ ## Button column left of faders
+Widget Arm
+        Press 90 00 7f
+  FB_TwoState 90 00 7f 90 00 00
+WidgetEnd
+Widget SoloClear
+  Press 90 01 7f
+WidgetEnd
+Widget MuteClear
+  Press 90 02 7f
+WidgetEnd
+
+
+Widget Bypass
+                Press 90 03 7f 90 03 00
+  FB_FaderportRGB7Bit 90 03 7f
+WidgetEnd
+Widget Macro
+                Press 90 04 7f 90 04 00
+  FB_FaderportRGB7Bit 90 04 7f
+WidgetEnd
+Widget Link
+                Press 90 05 7f 90 05 00
+  FB_FaderportRGB7Bit 90 05 7f
+WidgetEnd
+
+Widget ShiftLeft
+  Press 90 46 7f 90 46 00
+WidgetEnd
+
+
+
+/ ## Automation buttons above large rotary ##
+Widget Read
+                Press 90 4a 7f
+  FB_FaderportRGB7Bit 90 4a 7f
+WidgetEnd
+Widget Write
+                Press 90 4b 7f
+  FB_FaderportRGB7Bit 90 4b 7f
+WidgetEnd
+Widget Trim
+                Press 90 4c 7f
+  FB_FaderportRGB7Bit 90 4c 7f
+WidgetEnd
+Widget Touch
+                Press 90 4d 7f
+  FB_FaderportRGB7Bit 90 4d 7f
+WidgetEnd
+Widget Latch
+                Press 90 4e 7f
+  FB_FaderportRGB7Bit 90 4e 7f
+WidgetEnd
+Widget Off
+                Press 90 4f 7f
+  FB_FaderportRGB7Bit 90 4f 7f
+WidgetEnd
+
+/ ## Rotaries ##
+Widget RotarySmall
+	   Encoder b0 10 7f [ > 01-3f < 41-7f ]
+/	FB_Encoder b0 10 7f // no feedback display of any kind
+/	    Toggle b0 20 7f
+WidgetEnd
+Widget RotarySmallPush
+  Press 90 20 7f
+WidgetEnd
+Widget RotaryBig
+	   Encoder b0 3c 7f [ > 01-3f < 41-7f ]
+/	FB_Encoder b0 3c 7f // no feedback display of any kind
+/	    Toggle 90 53 7f
+WidgetEnd
+Widget RotaryBigPush
+  Press 90 53 7f
+WidgetEnd
+
+/ ## Buttons around large rotary ##
+Widget Prev
+  Press 90 2E 7f
+WidgetEnd
+Widget Next
+  Press 90 2F 7f
+WidgetEnd
+
+
+
+/ ## 2.Row of buttons above transport ##
+Widget Channel
+        Press 90 36 7f 90 36 00
+  FB_TwoState 90 36 7f 90 36 00
+WidgetEnd
+Widget Zoom
+        Press 90 37 7f 90 37 00
+  FB_TwoState 90 37 7f 90 37 00
+WidgetEnd
+Widget Scroll
+        Press 90 38 7f 90 38 00
+  FB_TwoState 90 38 7f 90 38 00
+WidgetEnd
+Widget Bank
+        Press 90 39 7f 90 39 00
+  FB_TwoState 90 39 7f 90 39 00
+WidgetEnd
+
+
+
+/ ## 1.Row of buttons above transport ##
+Widget Master
+        Press 90 3a 7f
+  FB_TwoState 90 3a 7f 90 3a 00
+WidgetEnd
+Widget Click
+        Press 90 3b 7f
+  FB_TwoState 90 3b 7f 90 3b 00
+WidgetEnd
+Widget Section
+        Press 90 3c 7f
+  FB_TwoState 90 3c 7f 90 3c 00
+WidgetEnd
+Widget Marker
+        Press 90 3d 7f
+  FB_TwoState 90 3d 7f 90 3d 00
+WidgetEnd
+
+
+/ ## Transport ##
+Widget Cycle
+        Press 90 56 7f
+  FB_TwoState 90 56 7f 90 56 00
+WidgetEnd
+Widget Rewind
+        Press 90 5b 7f
+  FB_TwoState 90 5b 7f 90 5b 00
+WidgetEnd
+Widget FastForward
+        Press 90 5c 7f
+  FB_TwoState 90 5c 7f 90 5c 00
+WidgetEnd
+Widget Stop
+        Press 90 5d 7f
+  FB_TwoState 90 5d 7f 90 5d 00
+WidgetEnd
+Widget Play
+        Press 90 5e 7f
+  FB_TwoState 90 5e 7f 90 5e 00
+WidgetEnd
+Widget Record
+        Press 90 5f 7f
+  FB_TwoState 90 5f 7f 90 5f 00
+WidgetEnd
+
+
+
+/ ## FADERS ##
+Widget Fader1
+     Fader14Bit e0 7f 7f
+  FB_Fader14Bit e0 7f 7f
+          Touch 90 68 7f 90 68 00
+WidgetEnd
+Widget Fader2
+     Fader14Bit e1 7f 7f
+  FB_Fader14Bit e1 7f 7f
+          Touch 90 69 7f 90 69 00
+WidgetEnd
+Widget Fader3
+     Fader14Bit e2 7f 7f
+  FB_Fader14Bit e2 7f 7f
+          Touch 90 6a 7f 90 6a 00
+WidgetEnd
+Widget Fader4
+     Fader14Bit e3 7f 7f
+  FB_Fader14Bit e3 7f 7f
+          Touch 90 6b 7f 90 6b 00
+WidgetEnd
+Widget Fader5
+     Fader14Bit e4 7f 7f
+  FB_Fader14Bit e4 7f 7f
+          Touch 90 6c 7f 90 6c 00
+WidgetEnd
+Widget Fader6
+     Fader14Bit e5 7f 7f
+  FB_Fader14Bit e5 7f 7f
+          Touch 90 6d 7f 90 6d 00
+WidgetEnd
+Widget Fader7
+     Fader14Bit e6 7f 7f
+  FB_Fader14Bit e6 7f 7f
+          Touch 90 6e 7f 90 6e 00
+WidgetEnd
+Widget Fader8
+     Fader14Bit e7 7f 7f
+  FB_Fader14Bit e7 7f 7f
+          Touch 90 6f 7f 90 6f 00
+WidgetEnd
+
+
+
+Widget Solo1
+        Press 90 08 7f
+  FB_TwoState 90 08 7f 90 08 00
+WidgetEnd
+Widget Solo2
+        Press 90 09 7f
+  FB_TwoState 90 09 7f 90 09 00
+WidgetEnd
+Widget Solo3
+        Press 90 0a 7f
+  FB_TwoState 90 0a 7f 90 0a 00
+WidgetEnd
+Widget Solo4
+        Press 90 0b 7f
+  FB_TwoState 90 0b 7f 90 0b 00
+WidgetEnd
+Widget Solo5
+        Press 90 0c 7f
+  FB_TwoState 90 0c 7f 90 0c 00
+WidgetEnd
+Widget Solo6
+        Press 90 0d 7f
+  FB_TwoState 90 0d 7f 90 0d 00
+WidgetEnd
+Widget Solo7
+        Press 90 0e 7f
+  FB_TwoState 90 0e 7f 90 0e 00
+WidgetEnd
+Widget Solo8
+        Press 90 0f 7f
+  FB_TwoState 90 0f 7f 90 0f 00
+WidgetEnd
+
+
+
+Widget Mute1
+        Press 90 10 7f
+  FB_TwoState 90 10 7f 90 10 00
+WidgetEnd
+Widget Mute2
+        Press 90 11 7f
+  FB_TwoState 90 11 7f 90 11 00
+WidgetEnd
+Widget Mute3
+        Press 90 12 7f
+  FB_TwoState 90 12 7f 90 12 00
+WidgetEnd
+Widget Mute4
+        Press 90 13 7f
+  FB_TwoState 90 13 7f 90 13 00
+WidgetEnd
+Widget Mute5
+        Press 90 14 7f
+  FB_TwoState 90 14 7f 90 14 00
+WidgetEnd
+Widget Mute6
+        Press 90 15 7f
+  FB_TwoState 90 15 7f 90 15 00
+WidgetEnd
+Widget Mute7
+        Press 90 16 7f
+  FB_TwoState 90 16 7f 90 16 00
+WidgetEnd
+Widget Mute8
+        Press 90 17 7f
+  FB_TwoState 90 17 7f 90 17 00
+WidgetEnd
+
+
+Widget Select1
+                Press 90 18 7f
+  FB_FaderportRGB7Bit 90 18 7f
+WidgetEnd
+Widget Select2
+                Press 90 19 7f
+  FB_FaderportRGB7Bit 90 19 7f
+WidgetEnd
+Widget Select3
+                Press 90 1a 7f
+  FB_FaderportRGB7Bit 90 1a 7f
+WidgetEnd
+Widget Select4
+                Press 90 1b 7f
+  FB_FaderportRGB7Bit 90 1b 7f
+WidgetEnd
+Widget Select5
+                Press 90 1c 7f
+  FB_FaderportRGB7Bit 90 1c 7f
+WidgetEnd
+Widget Select6
+                Press 90 1d 7f
+  FB_FaderportRGB7Bit 90 1d 7f
+WidgetEnd
+Widget Select7
+                Press 90 1e 7f
+  FB_FaderportRGB7Bit 90 1e 7f
+WidgetEnd
+Widget Select8
+                Press 90 1f 7f
+  FB_FaderportRGB7Bit 90 1f 7f
+WidgetEnd
+
+
+
+Widget FPDisplayA1
+  FB_FP8DisplayUpper "0"
+WidgetEnd
+Widget FPDisplayA2
+  FB_FP8DisplayUpper "1"
+WidgetEnd
+Widget FPDisplayA3
+  FB_FP8DisplayUpper "2"
+WidgetEnd
+Widget FPDisplayA4
+  FB_FP8DisplayUpper "3"
+WidgetEnd
+Widget FPDisplayA5
+  FB_FP8DisplayUpper "4"
+WidgetEnd
+Widget FPDisplayA6
+  FB_FP8DisplayUpper "5"
+WidgetEnd
+Widget FPDisplayA7
+  FB_FP8DisplayUpper "6"
+WidgetEnd
+Widget FPDisplayA8
+  FB_FP8DisplayUpper "7"
+WidgetEnd
+
+
+Widget FPDisplayB1
+  FB_FP8DisplayUpperMiddle "0"
+WidgetEnd
+Widget FPDisplayB2
+  FB_FP8DisplayUpperMiddle "1"
+WidgetEnd
+Widget FPDisplayB3
+  FB_FP8DisplayUpperMiddle "2"
+WidgetEnd
+Widget FPDisplayB4
+  FB_FP8DisplayUpperMiddle "3"
+WidgetEnd
+Widget FPDisplayB5
+  FB_FP8DisplayUpperMiddle "4"
+WidgetEnd
+Widget FPDisplayB6
+  FB_FP8DisplayUpperMiddle "5"
+WidgetEnd
+Widget FPDisplayB7
+  FB_FP8DisplayUpperMiddle "6"
+WidgetEnd
+Widget FPDisplayB8
+  FB_FP8DisplayUpperMiddle "7"
+WidgetEnd
+
+
+Widget FPDisplayC1
+  FB_FP8DisplayLowerMiddle "0"
+WidgetEnd
+Widget FPDisplayC2
+  FB_FP8DisplayLowerMiddle "1"
+WidgetEnd
+Widget FPDisplayC3
+  FB_FP8DisplayLowerMiddle "2"
+WidgetEnd
+Widget FPDisplayC4
+  FB_FP8DisplayLowerMiddle "3"
+WidgetEnd
+Widget FPDisplayC5
+  FB_FP8DisplayLowerMiddle "4"
+WidgetEnd
+Widget FPDisplayC6
+  FB_FP8DisplayLowerMiddle "5"
+WidgetEnd
+Widget FPDisplayC7
+  FB_FP8DisplayLowerMiddle "6"
+WidgetEnd
+Widget FPDisplayC8
+  FB_FP8DisplayLowerMiddle "7"
+WidgetEnd
+
+
+Widget FPDisplayD1
+  FB_FP8DisplayLower "0"
+WidgetEnd
+Widget FPDisplayD2
+  FB_FP8DisplayLower "1"
+WidgetEnd
+Widget FPDisplayD3
+  FB_FP8DisplayLower "2"
+WidgetEnd
+Widget FPDisplayD4
+  FB_FP8DisplayLower "3"
+WidgetEnd
+Widget FPDisplayD5
+  FB_FP8DisplayLower "4"
+WidgetEnd
+Widget FPDisplayD6
+  FB_FP8DisplayLower "5"
+WidgetEnd
+Widget FPDisplayD7
+  FB_FP8DisplayLower "6"
+WidgetEnd
+Widget FPDisplayD8
+  FB_FP8DisplayLower "7"
+WidgetEnd

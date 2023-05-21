@@ -1,0 +1,11 @@
+Zone SelectedTrackFXMenu
+        DisplayUpperC|              FXMenuNameDisplay
+        DisplayLowerC|              FXBypassDisplay
+        DisplayUpperD|              FXMenuNameDisplay
+        RotaryPushC|                ToggleFXBypass
+        DisplayLowerD|              FXOfflineDisplay
+        Shift+RotaryPushD|          ToggleFXOffline
+        RotaryD|                    NoAction        
+        RotaryPushD|                Reaper _S&M_FLOATFX|
+        RotaryPushD|                GoFXSlot
+ZoneEnd

@@ -1,0 +1,19 @@
+Zone "TrackReceive"
+  ScribbleStripMode Mode=0 // default mode -> 3 lines + valuebar
+  
+  ScribbleLine1_|         TrackNameDisplay
+  ScribbleLine2_|         TrackReceiveVolumeDisplay
+  ScribbleLine3_|         TrackReceiveNameDisplay
+  ScribbleLine4_|         NoAction
+  ValueBar|               TrackReceiveVolume  BarStyle=Fill
+  Mute|                   TrackReceiveMute
+  Fader|                  TrackReceiveVolume
+
+  Shift+ScribbleLine2_|   TrackReceivePanDisplay
+  Shift+Fader|            TrackReceivePan
+  
+  Prev                    Bank TrackReceive -1
+  Next                    Bank TrackReceive 1
+  Decrease+RotaryBig      Bank TrackReceive -1
+  Increase+RotaryBig      Bank TrackReceive 1
+ZoneEnd

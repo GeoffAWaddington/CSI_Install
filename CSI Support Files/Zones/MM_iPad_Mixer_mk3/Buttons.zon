@@ -1,0 +1,209 @@
+Zone Buttons
+
+	TimeDisplay          		    OSCTimeDisplay
+	
+	TimeMode						CycleTimeDisplayModes
+
+    ButtonM1                		Bank Track 8  { #643701 } 											
+    DisplayM1               		FixedTextDisplay BANK>												
+    Shift+ButtonM1          		Bank Track 1   { #205F94 }												
+    Shift+DisplayM1         		FixedTextDisplay CHAN>  												
+                            		                              												          
+    ButtonM2                		Bank Track -8  { #643701 }					
+    DisplayM2               		FixedTextDisplay <BANK						
+    Shift+ButtonM2          		Bank Track -1  { #205F94 }					
+    Shift+DisplayM2         		FixedTextDisplay <CHAN						
+    											
+    ButtonM3               			Shift  { #4C1111 #E03131 }	        							
+    DisplayM3						FixedTextDisplay SHIFT            
+               													
+    ButtonM4               			Option  { #4C1111 #E03131 }	        							
+    DisplayM4						FixedTextDisplay OPTION           
+               												
+    ButtonM5               			Control { #4C1111 #E03131 }	 									
+    DisplayM5              			FixedTextDisplay CNTRL										  											
+									
+    ButtonM6               			Alt  { #4C1111 #E03131 }	        							
+    DisplayM6              			FixedTextDisplay ALT             								  											    											
+											
+    ButtonM7                		TrackAutoMode  1   { #1D521E #01CA1E }       																						
+    DisplayM7               		FixedTextDisplay READ 																				
+    Shift+ButtonM7          		Reaper 40086                 																
+    Shift+DisplayM7         		FixedTextDisplay RD_ALL 																
+    																
+    ButtonM8                		TrackAutoMode  3  { #4C1111 #E03131 }	      													
+    DisplayM8               		FixedTextDisplay WRITE 		
+    Shift+ButtonM8          		Reaper 40090                 													
+    Shift+DisplayM8         		FixedTextDisplay WR_ALL 		
+    															
+    ButtonM9                		TrackAutoMode  4   { #4D1E58 #DD57FF }     									
+    DisplayM9               		FixedTextDisplay LATCH 		
+    Shift+ButtonM9          		Reaper 40266                 									
+    Shift+DisplayM9         		FixedTextDisplay LT_ALL 		
+    																
+    ButtonM10               		TrackAutoMode  2  { #7D610C #FCC419 }          								      
+    DisplayM10              		FixedTextDisplay TOUCH 		
+    Shift+ButtonM10         		Reaper 40087                 									
+    Shift+DisplayM10        		FixedTextDisplay TCH_ALL		
+    									
+    ButtonM11               		TrackAutoMode  0  { #444444 #C8C8C8 }           												
+    DisplayM11              		FixedTextDisplay TRIM 		
+    Shift+ButtonM11         		Reaper 40088                 													
+    Shift+DisplayM11        		FixedTextDisplay TR_ALL		
+    								     							
+    ButtonM12               		TrackAutoMode  5  { #593B60 #E599F7 }          													
+    DisplayM12              		FixedTextDisplay LT_PRE 		
+    Shift+ButtonM12         		Reaper 42024                 														
+    Shift+DisplayM12        		FixedTextDisplay PRE_ALL
+ 									     							
+    ButtonM13               		NoAction										
+    DisplayM13              		NoAction 
+    Shift+ButtonM13 				NoAction 						
+	Shift+DisplayM13				NoAction
+									
+    ButtonM14               		NoAction																			
+    DisplayM14              		NoAction 																				
+    Shift+ButtonM14         		NoAction 																				
+    Shift+DisplayM14        		NoAction									
+    											
+    ButtonM15              			NoAction
+    DisplayM15             			NoAction
+    Shift+ButtonM15        			NoAction
+    Shift+DisplayM15       			NoAction
+    										
+    ButtonM16              			NoAction
+    DisplayM16             			NoAction
+    Shift+ButtonM16        			NoAction
+    Shift+DisplayM16       			NoAction
+    										
+    ButtonM17              			NoAction
+    DisplayM17             			NoAction
+    Shift+ButtonM17        			NoAction
+    Shift+DisplayM17       			NoAction
+        									
+    ButtonM18              			NoAction
+    DisplayM18             			NoAction
+    Shift+ButtonM18        			NoAction
+    Shift+DisplayM18       			NoAction
+    										
+    ButtonM19              			NoAction
+    DisplayM19             			NoAction
+    Shift+ButtonM19        			NoAction
+    Shift+DisplayM19	   			NoAction
+
+    ButtonM20              			GoAssociatedZone MasterTrackFXMenu	{ #643701 #FA9501 }
+    DisplayM20             			FixedTextDisplay MSTFX	
+    Shift+ButtonM20        			NoAction	
+    Shift+DisplayM20	   			NoAction	
+    					
+    ButtonM21              			GoAssociatedZone Folder	{ #643701 #FA9501 }
+    DisplayM21             			FixedTextDisplay FOLDER
+    Shift+ButtonM21        			NoAction
+    Shift+DisplayM21  	   			NoAction
+    			
+    ButtonM22              			GoAssociatedZone TrackSend { #643701 #FA9501 }	
+    DisplayM22             			FixedTextDisplay TSEND 			
+    Shift+ButtonM22        			NoAction                 			
+    Shift+DisplayM22	   			NoAction 							
+    
+    ButtonM23               		NoAction								
+    DisplayM23              		NoAction			
+    Shift+ButtonM23         		NoAction 									
+    Shift+DisplayM23   				NoAction 
+    
+    ButtonM24               		NoAction							
+    DisplayM24              		NoAction				
+    Shift+ButtonM24         		NoAction 									
+    Shift+DisplayM24  				NoAction 
+    
+    ButtonM25               		ToggleAutoFXMapping { #51110F #F20700 }									
+    DisplayM25              		FixedTextDisplay FXMAP									
+    Shift+ButtonM25         		NoAction 									
+    Shift+DisplayM25        		NoAction 									      											     											        											      											        											       											
+		
+	ButtonM26 						GoAssociatedZone SelectedTrackTCPFX	{ #643701 #FA9501 }												
+    ButtonM26               		SendOSCMessage /Pager 1				
+    DisplayM26              		FixedTextDisplay TCPFX 							
+    Shift+ButtonM26         		NoAction 			
+    Shift+DisplayM26        		NoAction 			
+    																				
+    ButtonM27               		GoAssociatedZone VCA	{ #643701 #FA9501 }										
+    DisplayM27              		FixedTextDisplay VCA												
+    Shift+ButtonM27         		NoAction															
+    Shift+DisplayM27        		NoAction									
+											
+    ButtonM28               		GoAssociatedZone TrackReceive  { #643701 #FA9501 }									
+    DisplayM28              		FixedTextDisplay TRECV														
+    Shift+ButtonM28         		NoAction																		
+    Shift+DisplayM28 				NoAction
+    
+    ButtonM29               		GoAssociatedZone SelectedTrackReceive { #643701 #FA9501 }				
+    DisplayM29              		FixedTextDisplay RECV                         				
+    Shift+ButtonM29         		NoAction                										
+    Shift+DisplayM29				NoAction   					
+    
+    ButtonM30              			GoAssociatedZone SelectedTrackSend  { #643701 #FA9501 }     											
+    DisplayM30             			FixedTextDisplay SEND 																
+    Shift+ButtonM30        			NoAction                                												
+    Shift+DisplayM30  				NoAction                                    
+    
+    ButtonM31               		GoHome  { #643701 #FA9501 }
+	ButtonM31						SendOSCMessage "/Pager 0"				
+    DisplayM31              		FixedTextDisplay HOME 					
+    Shift+ButtonM31         		NoAction 						
+    Shift+DisplayM31  				NoAction 						
+    
+    ButtonM32               		ToggleScrollLink  { #4D1E58 #DD57FF }  									
+    DisplayM32              		FixedTextDisplay LINK 									
+    Shift+ButtonM32         		NoAction            									
+    Shift+DisplayM32  				NoAction            															      											        											       											
+																			      											        											       											
+    ButtonM33               		Reaper 1068 	{ #00576F #01C8FF }										
+    DisplayM33              		FixedTextDisplay CYCLE											
+    Shift+ButtonM33         		NoAction											
+    Shift+DisplayM33  				NoAction																	      											        											       											
+																					      											        											       											   											
+    ButtonM34               		Rewind { #444444 #C8C8C8 } 											
+    DisplayM34              		FixedTextDisplay REW											
+    Shift+ButtonM34         		NoAction											
+    Shift+DisplayM34        		NoAction
+    Hold+ButtonM34 					Reaper 40042  
+	Hold+DisplayM34					FixedTextDisplay RTZ
+													   
+    ButtonM35               		FastForward { #444444 #C8C8C8 }											
+    DisplayM35              		FixedTextDisplay FWD											
+    Shift+ButtonM35         		NoAction											
+    Shift+DisplayM35 				NoAction
+    
+    ButtonM36               		Record  { #4C1111 #E03131 }							
+    DisplayM36              		FixedTextDisplay REC				
+    Shift+ButtonM36         		Reaper _BR_CYCLE_RECORD_MODES 
+    Shift+DisplayM36 				FixedTextDisplay MODE
+    
+    ButtonM37               		Play { #1D521E #01CA1E }						
+    DisplayM37              		FixedTextDisplay PLAY							
+    Shift+ButtonM37         		NoAction	
+    Shift+DisplayM37  				NoAction			      											        											       											
+
+    ButtonM38               		Stop  { #444444 #C8C8C8 } 						
+    DisplayM38              		FixedTextDisplay STOP	
+    Hold+ButtonM38         			Reaper 40042					// Go to start
+    
+    ButtonM39  						Shift  { #4C1111 #E03131 }	           											
+    DisplayM39						FixedTextDisplay SHIFT              																										      											        											       											
+						
+    ButtonM40    					Option  { #4C1111 #E03131 }	         											
+    DisplayM40   					FixedTextDisplay OPTION            																											      											        											       											
+
+    ButtonM41             			Control { #4C1111 #E03131 }	 											
+    DisplayM41              		FixedTextDisplay CNTRL										
+    
+    ButtonM42 						Alt  { #4C1111 #E03131 }	            											
+    DisplayM42 						FixedTextDisplay ALT 
+    
+    ButtonM43               		NoAction  												
+    DisplayM43              		NoAction	
+    Shift+ButtonM43 				NoAction  						
+	Shift+DisplayM43				NoAction            											
+
+ZoneEnd

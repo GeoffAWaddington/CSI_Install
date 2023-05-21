@@ -1,0 +1,15 @@
+Zone SelectedTrackSend
+    	DisplayC|			TrackSendPanDisplay
+    	DisplayH|	        TrackSendNameDisplay
+    	DisplayJ|		    TrackSendVolumeDisplay
+    	DisplayD|			TrackSendPrePostDisplay
+    	ButtonD|			TrackSendPrePost 
+    	Pan|				TrackSendPan
+    	DisplayF|			FixedTextDisplay SNDMTE
+    	ButtonF|            TrackSendMute { #571F1FFF #FF5A5AFF }
+    	Fader|              TrackSendVolume
+    	ButtonM1            Bank SelectedTrackSend 8	{ #444444 #C8C8C8 } 
+    	DisplayM1           FixedTextDisplay SEND>
+    	ButtonM2            Bank SelectedTrackSend -8	{ #444444 #C8C8C8 } 
+    	DisplayM2           FixedTextDisplay <SEND
+ZoneEnd

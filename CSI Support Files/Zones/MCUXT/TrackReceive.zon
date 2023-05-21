@@ -1,0 +1,10 @@
+Zone TrackReceive
+    DisplayUpper|               TrackNameDisplay
+    DisplayLower|               TrackReceiveNameDisplay
+    FaderTouch+DisplayLower|    TrackReceiveVolumeDisplay
+    Control+DisplayLower|       TrackReceivePanDisplay
+    Rotary|                     TrackReceivePan
+    Control+Rotary|             TrackReceivePan
+    Mute|                       TrackReceiveMute
+    Fader|                      TrackReceiveVolume
+ZoneEnd

@@ -1,0 +1,1491 @@
+$rev R1 ; Firmware 1.10; BC Manager 4.1.2
+$global
+  .midimode U-3
+  .startup last
+  .footsw auto
+  .rxch off
+  .txinterval 2
+  .deadtime 0
+$preset
+  .name 'CSI_BCR_C4              '
+;~author=MixMonkey
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$encoder 1 ;RotaryA1
+  .easypar CC 1 0 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 2 ;RotaryA2
+  .easypar CC 1 1 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 3 ;RotaryA3
+  .easypar CC 1 2 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 4 ;RotaryA4
+  .easypar CC 1 3 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 5 ;RotaryA5
+  .easypar CC 1 4 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 6 ;RotaryA6
+  .easypar CC 1 5 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 7 ;RotaryA7
+  .easypar CC 1 6 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 8 ;RotaryA8
+  .easypar CC 1 7 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 9 ;RotaryE1
+  .easypar CC 1 33 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 10 ;RotaryE2
+  .easypar CC 1 34 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 11 ;RotaryE3
+  .easypar CC 1 35 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 12 ;RotaryE4
+  .easypar CC 1 36 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 13 ;RotaryE5
+  .easypar CC 1 37 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 14 ;RotaryE6
+  .easypar CC 1 38 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 15 ;RotaryE7
+  .easypar CC 1 39 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 16 ;RotaryE8
+  .easypar CC 1 40 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 17 ;RotaryF1
+  .easypar CC 1 41 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 18 ;RotaryF2
+  .easypar CC 1 42 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 19 ;RotaryF3
+  .easypar CC 1 43 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 20 ;RotaryF4
+  .easypar CC 1 44 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 21 ;RotaryF5
+  .easypar CC 1 45 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 22 ;RotaryF6
+  .easypar CC 1 46 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 23 ;RotaryF7
+  .easypar CC 1 47 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 24 ;RotaryF8
+  .easypar CC 1 48 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 25 ;RotaryG1
+  .easypar CC 1 49 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 26 ;RotaryG2
+  .easypar CC 1 50 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 27 ;RotaryG3
+  .easypar CC 1 51 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 28 ;RotaryG4
+  .easypar CC 1 52 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 29 ;RotaryG5
+  .easypar CC 1 53 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 30 ;RotaryG6
+  .easypar CC 1 54 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 31 ;RotaryG7
+  .easypar CC 1 55 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 32 ;RotaryG8
+  .easypar CC 1 56 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 33 ;RotaryB1
+  .easypar CC 1 8 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 34 ;RotaryB2
+  .easypar CC 1 9 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 35 ;RotaryB3
+  .easypar CC 1 10 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 36 ;RotaryB4
+  .easypar CC 1 11 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 37 ;RotaryB5
+  .easypar CC 1 12 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 38 ;RotaryB6
+  .easypar CC 1 13 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 39 ;RotaryB7
+  .easypar CC 1 14 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 40 ;RotaryB8
+  .easypar CC 1 15 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 41 ;RotaryC1
+  .easypar CC 1 16 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 42 ;RotaryC2
+  .easypar CC 1 17 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 43 ;RotaryC3
+  .easypar CC 1 18 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 44 ;RotaryC4
+  .easypar CC 1 19 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 45 ;RotaryC5
+  .easypar CC 1 20 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 46 ;RotaryC6
+  .easypar CC 1 21 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 47 ;RotaryC7
+  .easypar CC 1 22 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 48 ;RotaryC8
+  .easypar CC 1 23 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 49 ;RotaryD1
+  .easypar CC 1 24 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 1
+$encoder 50 ;RotaryD2
+  .easypar CC 1 25 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 51 ;RotaryD3
+  .easypar CC 1 26 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 52 ;RotaryD4
+  .easypar CC 1 27 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 53 ;RotaryD5
+  .easypar CC 1 28 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 54 ;RotaryD6
+  .easypar CC 1 29 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 55 ;RotaryD7
+  .easypar CC 1 30 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 56 ;RotaryD8
+  .easypar CC 1 31 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$button 1 ;RotaryPushA1
+  .easypar NOTE 1 32 127 toggleoff
+  .showvalue off
+  .default 0
+$button 2 ;RotaryPushA2
+  .easypar NOTE 1 33 127 toggleoff
+  .showvalue off
+  .default 0
+$button 3 ;RotaryPushA3
+  .easypar NOTE 1 34 127 toggleoff
+  .showvalue off
+  .default 0
+$button 4 ;RotaryPushA4
+  .easypar NOTE 1 35 127 toggleoff
+  .showvalue off
+  .default 0
+$button 5 ;RotaryPushA5
+  .easypar NOTE 1 36 127 toggleoff
+  .showvalue off
+  .default 0
+$button 6 ;RotaryPushA6
+  .easypar NOTE 1 37 127 toggleoff
+  .showvalue off
+  .default 0
+$button 7 ;RotaryPushA7
+  .easypar NOTE 1 38 127 toggleoff
+  .showvalue off
+  .default 0
+$button 8 ;RotaryPushA8
+  .easypar NOTE 1 39 127 toggleoff
+  .showvalue off
+  .default 0
+$button 9 ;RotaryPushE1
+  .easypar NOTE 1 64 127 toggleoff
+  .showvalue off
+  .default 0
+$button 10 ;RotaryPushE2
+  .easypar NOTE 1 65 127 toggleoff
+  .showvalue off
+  .default 0
+$button 11 ;RotaryPushE3
+  .easypar NOTE 1 66 127 toggleoff
+  .showvalue off
+  .default 0
+$button 12 ;RotaryPushE4
+  .easypar NOTE 1 67 127 toggleoff
+  .showvalue off
+  .default 0
+$button 13 ;RotaryPushE5
+  .easypar NOTE 1 68 127 toggleoff
+  .showvalue off
+  .default 0
+$button 14 ;RotaryPushE6
+  .easypar NOTE 1 69 127 toggleoff
+  .showvalue off
+  .default 0
+$button 15 ;RotaryPushE7
+  .easypar NOTE 1 70 127 toggleoff
+  .showvalue off
+  .default 0
+$button 16 ;RotaryPushE8
+  .easypar NOTE 1 71 127 toggleoff
+  .showvalue off
+  .default 0
+$button 17 ;RotaryPushF1
+  .easypar NOTE 1 72 127 toggleoff
+  .showvalue off
+  .default 0
+$button 18 ;RotaryPushF2
+  .easypar NOTE 1 73 127 toggleoff
+  .showvalue off
+  .default 0
+$button 19 ;RotaryPushF3
+  .easypar NOTE 1 74 127 toggleoff
+  .showvalue off
+  .default 0
+$button 20 ;RotaryPushF4
+  .easypar NOTE 1 75 127 toggleoff
+  .showvalue off
+  .default 0
+$button 21 ;RotaryPushF5
+  .easypar NOTE 1 76 127 toggleoff
+  .showvalue off
+  .default 0
+$button 22 ;RotaryPushF6
+  .easypar NOTE 1 77 127 toggleoff
+  .showvalue off
+  .default 0
+$button 23 ;RotaryPushF7
+  .easypar NOTE 1 78 127 toggleoff
+  .showvalue off
+  .default 0
+$button 24 ;RotaryPushF8
+  .easypar NOTE 1 79 127 toggleoff
+  .showvalue off
+  .default 0
+$button 25 ;RotaryPushG1
+  .easypar NOTE 1 80 127 toggleoff
+  .showvalue off
+  .default 0
+$button 26 ;RotaryPushG2
+  .easypar NOTE 1 81 127 toggleoff
+  .showvalue off
+  .default 0
+$button 27 ;RotaryPushG3
+  .easypar NOTE 1 82 127 toggleoff
+  .showvalue off
+  .default 0
+$button 28 ;RotaryPushG4
+  .easypar NOTE 1 83 127 toggleoff
+  .showvalue off
+  .default 0
+$button 29 ;RotaryPushG5
+  .easypar NOTE 1 84 127 toggleoff
+  .showvalue off
+  .default 0
+$button 30 ;RotaryPushG6
+  .easypar NOTE 1 85 127 toggleoff
+  .showvalue off
+  .default 0
+$button 31 ;RotaryPushG7
+  .easypar NOTE 1 86 127 toggleoff
+  .showvalue off
+  .default 0
+$button 32 ;RotaryPushG8
+  .easypar NOTE 1 87 127 toggleoff
+  .showvalue off
+  .default 0
+$button 33 ;RotaryPushC1
+  .easypar NOTE 1 48 127 toggleoff
+  .showvalue off
+  .default 0
+$button 34 ;RotaryPushC2
+  .easypar NOTE 1 49 127 toggleoff
+  .showvalue off
+  .default 0
+$button 35 ;RotaryPushC3
+  .easypar NOTE 1 50 127 toggleoff
+  .showvalue off
+  .default 0
+$button 36 ;RotaryPushC4
+  .easypar NOTE 1 51 127 toggleoff
+  .showvalue off
+  .default 0
+$button 37 ;RotaryPushC5
+  .easypar NOTE 1 52 127 toggleoff
+  .showvalue off
+  .default 0
+$button 38 ;RotaryPushC6
+  .easypar NOTE 1 53 127 toggleoff
+  .showvalue off
+  .default 0
+$button 39 ;RotaryPushC7
+  .easypar NOTE 1 54 127 toggleoff
+  .showvalue off
+  .default 0
+$button 40 ;RotaryPushC8
+  .easypar NOTE 1 55 127 toggleoff
+  .showvalue off
+  .default 0
+$button 41 ;RotaryPushD1
+  .easypar NOTE 1 56 127 toggleoff
+  .showvalue off
+  .default 0
+$button 42 ;RotaryPushD2
+  .easypar NOTE 1 57 127 toggleoff
+  .showvalue off
+  .default 0
+$button 43 ;RotaryPushD3
+  .easypar NOTE 1 58 127 toggleoff
+  .showvalue off
+  .default 0
+$button 44 ;RotaryPushD4
+  .easypar NOTE 1 59 127 toggleoff
+  .showvalue off
+  .default 0
+$button 45 ;RotaryPushD5
+  .easypar NOTE 1 60 127 toggleoff
+  .showvalue off
+  .default 0
+$button 46 ;RotaryPushD6
+  .easypar NOTE 1 61 127 toggleoff
+  .showvalue off
+  .default 0
+$button 47 ;RotaryPushD7
+  .easypar NOTE 1 62 127 toggleoff
+  .showvalue off
+  .default 0
+$button 48 ;RotaryPushD8
+  .easypar NOTE 1 63 127 toggleoff
+  .showvalue off
+  .default 0
+$button 49 ;UserButton 1
+  .easypar NOTE 1 9 127 toggleoff
+  .showvalue off
+  .default 0
+$button 50 ;UserButton 2
+  .easypar NOTE 1 10 127 toggleoff
+  .showvalue off
+  .default 0
+$button 51 ;UserButton 3
+  .easypar NOTE 1 11 127 toggleoff
+  .showvalue off
+  .default 0
+$button 52 ;UserButton 4
+  .easypar NOTE 1 12 127 toggleoff
+  .showvalue off
+  .default 0
+$button 53
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 54
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 55
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 56
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 57
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 58
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 59
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 60
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 61
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 62
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 63
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 64
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$store 1
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 2
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 3
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 4
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 5
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 6
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 7
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 8
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 9
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 10
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 11
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 12
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 13
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 14
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 15
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 16
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 17
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 18
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 19
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 20
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 21
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 22
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 23
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 24
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 25
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 26
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 27
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 28
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 29
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 30
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 31
+$preset
+  .name '                        '
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$store 32
+$preset
+  .name 'CSI_BCR_C4              '
+;~author=MixMonkey
+  .snapshot off
+  .request off
+  .egroups 4
+  .fkeys on
+  .lock off
+  .init
+$encoder 1 ;RotaryA1
+  .easypar CC 1 0 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 2 ;RotaryA2
+  .easypar CC 1 1 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 3 ;RotaryA3
+  .easypar CC 1 2 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 4 ;RotaryA4
+  .easypar CC 1 3 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 5 ;RotaryA5
+  .easypar CC 1 4 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 6 ;RotaryA6
+  .easypar CC 1 5 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 7 ;RotaryA7
+  .easypar CC 1 6 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 8 ;RotaryA8
+  .easypar CC 1 7 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 9 ;RotaryE1
+  .easypar CC 1 33 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 10 ;RotaryE2
+  .easypar CC 1 34 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 11 ;RotaryE3
+  .easypar CC 1 35 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 12 ;RotaryE4
+  .easypar CC 1 36 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 13 ;RotaryE5
+  .easypar CC 1 37 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 14 ;RotaryE6
+  .easypar CC 1 38 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 15 ;RotaryE7
+  .easypar CC 1 39 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 16 ;RotaryE8
+  .easypar CC 1 40 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 17 ;RotaryF1
+  .easypar CC 1 41 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 18 ;RotaryF2
+  .easypar CC 1 42 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 19 ;RotaryF3
+  .easypar CC 1 43 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 20 ;RotaryF4
+  .easypar CC 1 44 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 21 ;RotaryF5
+  .easypar CC 1 45 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 22 ;RotaryF6
+  .easypar CC 1 46 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 23 ;RotaryF7
+  .easypar CC 1 47 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 24 ;RotaryF8
+  .easypar CC 1 48 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 25 ;RotaryG1
+  .easypar CC 1 49 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 26 ;RotaryG2
+  .easypar CC 1 50 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 27 ;RotaryG3
+  .easypar CC 1 51 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 28 ;RotaryG4
+  .easypar CC 1 52 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 29 ;RotaryG5
+  .easypar CC 1 53 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 30 ;RotaryG6
+  .easypar CC 1 54 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 31 ;RotaryG7
+  .easypar CC 1 55 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 32 ;RotaryG8
+  .easypar CC 1 56 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 33 ;RotaryB1
+  .easypar CC 1 8 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 34 ;RotaryB2
+  .easypar CC 1 9 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 35 ;RotaryB3
+  .easypar CC 1 10 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 36 ;RotaryB4
+  .easypar CC 1 11 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 37 ;RotaryB5
+  .easypar CC 1 12 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 38 ;RotaryB6
+  .easypar CC 1 13 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 39 ;RotaryB7
+  .easypar CC 1 14 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 40 ;RotaryB8
+  .easypar CC 1 15 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 41 ;RotaryC1
+  .easypar CC 1 16 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 42 ;RotaryC2
+  .easypar CC 1 17 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 43 ;RotaryC3
+  .easypar CC 1 18 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 44 ;RotaryC4
+  .easypar CC 1 19 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 45 ;RotaryC5
+  .easypar CC 1 20 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 46 ;RotaryC6
+  .easypar CC 1 21 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 47 ;RotaryC7
+  .easypar CC 1 22 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 48 ;RotaryC8
+  .easypar CC 1 23 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 49 ;RotaryD1
+  .easypar CC 1 24 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 1
+$encoder 50 ;RotaryD2
+  .easypar CC 1 25 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 51 ;RotaryD3
+  .easypar CC 1 26 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 52 ;RotaryD4
+  .easypar CC 1 27 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 53 ;RotaryD5
+  .easypar CC 1 28 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 54 ;RotaryD6
+  .easypar CC 1 29 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 55 ;RotaryD7
+  .easypar CC 1 30 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$encoder 56 ;RotaryD8
+  .easypar CC 1 31 0 127 relative-3
+  .showvalue on
+  .mode 1dot
+  .resolution 96 96 96 96
+  .default 0
+$button 1 ;RotaryPushA1
+  .easypar NOTE 1 32 127 toggleoff
+  .showvalue off
+  .default 0
+$button 2 ;RotaryPushA2
+  .easypar NOTE 1 33 127 toggleoff
+  .showvalue off
+  .default 0
+$button 3 ;RotaryPushA3
+  .easypar NOTE 1 34 127 toggleoff
+  .showvalue off
+  .default 0
+$button 4 ;RotaryPushA4
+  .easypar NOTE 1 35 127 toggleoff
+  .showvalue off
+  .default 0
+$button 5 ;RotaryPushA5
+  .easypar NOTE 1 36 127 toggleoff
+  .showvalue off
+  .default 0
+$button 6 ;RotaryPushA6
+  .easypar NOTE 1 37 127 toggleoff
+  .showvalue off
+  .default 0
+$button 7 ;RotaryPushA7
+  .easypar NOTE 1 38 127 toggleoff
+  .showvalue off
+  .default 0
+$button 8 ;RotaryPushA8
+  .easypar NOTE 1 39 127 toggleoff
+  .showvalue off
+  .default 0
+$button 9 ;RotaryPushE1
+  .easypar NOTE 1 64 127 toggleoff
+  .showvalue off
+  .default 0
+$button 10 ;RotaryPushE2
+  .easypar NOTE 1 65 127 toggleoff
+  .showvalue off
+  .default 0
+$button 11 ;RotaryPushE3
+  .easypar NOTE 1 66 127 toggleoff
+  .showvalue off
+  .default 0
+$button 12 ;RotaryPushE4
+  .easypar NOTE 1 67 127 toggleoff
+  .showvalue off
+  .default 0
+$button 13 ;RotaryPushE5
+  .easypar NOTE 1 68 127 toggleoff
+  .showvalue off
+  .default 0
+$button 14 ;RotaryPushE6
+  .easypar NOTE 1 69 127 toggleoff
+  .showvalue off
+  .default 0
+$button 15 ;RotaryPushE7
+  .easypar NOTE 1 70 127 toggleoff
+  .showvalue off
+  .default 0
+$button 16 ;RotaryPushE8
+  .easypar NOTE 1 71 127 toggleoff
+  .showvalue off
+  .default 0
+$button 17 ;RotaryPushF1
+  .easypar NOTE 1 72 127 toggleoff
+  .showvalue off
+  .default 0
+$button 18 ;RotaryPushF2
+  .easypar NOTE 1 73 127 toggleoff
+  .showvalue off
+  .default 0
+$button 19 ;RotaryPushF3
+  .easypar NOTE 1 74 127 toggleoff
+  .showvalue off
+  .default 0
+$button 20 ;RotaryPushF4
+  .easypar NOTE 1 75 127 toggleoff
+  .showvalue off
+  .default 0
+$button 21 ;RotaryPushF5
+  .easypar NOTE 1 76 127 toggleoff
+  .showvalue off
+  .default 0
+$button 22 ;RotaryPushF6
+  .easypar NOTE 1 77 127 toggleoff
+  .showvalue off
+  .default 0
+$button 23 ;RotaryPushF7
+  .easypar NOTE 1 78 127 toggleoff
+  .showvalue off
+  .default 0
+$button 24 ;RotaryPushF8
+  .easypar NOTE 1 79 127 toggleoff
+  .showvalue off
+  .default 0
+$button 25 ;RotaryPushG1
+  .easypar NOTE 1 80 127 toggleoff
+  .showvalue off
+  .default 0
+$button 26 ;RotaryPushG2
+  .easypar NOTE 1 81 127 toggleoff
+  .showvalue off
+  .default 0
+$button 27 ;RotaryPushG3
+  .easypar NOTE 1 82 127 toggleoff
+  .showvalue off
+  .default 0
+$button 28 ;RotaryPushG4
+  .easypar NOTE 1 83 127 toggleoff
+  .showvalue off
+  .default 0
+$button 29 ;RotaryPushG5
+  .easypar NOTE 1 84 127 toggleoff
+  .showvalue off
+  .default 0
+$button 30 ;RotaryPushG6
+  .easypar NOTE 1 85 127 toggleoff
+  .showvalue off
+  .default 0
+$button 31 ;RotaryPushG7
+  .easypar NOTE 1 86 127 toggleoff
+  .showvalue off
+  .default 0
+$button 32 ;RotaryPushG8
+  .easypar NOTE 1 87 127 toggleoff
+  .showvalue off
+  .default 0
+$button 33 ;RotaryPushC1
+  .easypar NOTE 1 48 127 toggleoff
+  .showvalue off
+  .default 0
+$button 34 ;RotaryPushC2
+  .easypar NOTE 1 49 127 toggleoff
+  .showvalue off
+  .default 0
+$button 35 ;RotaryPushC3
+  .easypar NOTE 1 50 127 toggleoff
+  .showvalue off
+  .default 0
+$button 36 ;RotaryPushC4
+  .easypar NOTE 1 51 127 toggleoff
+  .showvalue off
+  .default 0
+$button 37 ;RotaryPushC5
+  .easypar NOTE 1 52 127 toggleoff
+  .showvalue off
+  .default 0
+$button 38 ;RotaryPushC6
+  .easypar NOTE 1 53 127 toggleoff
+  .showvalue off
+  .default 0
+$button 39 ;RotaryPushC7
+  .easypar NOTE 1 54 127 toggleoff
+  .showvalue off
+  .default 0
+$button 40 ;RotaryPushC8
+  .easypar NOTE 1 55 127 toggleoff
+  .showvalue off
+  .default 0
+$button 41 ;RotaryPushD1
+  .easypar NOTE 1 56 127 toggleoff
+  .showvalue off
+  .default 0
+$button 42 ;RotaryPushD2
+  .easypar NOTE 1 57 127 toggleoff
+  .showvalue off
+  .default 0
+$button 43 ;RotaryPushD3
+  .easypar NOTE 1 58 127 toggleoff
+  .showvalue off
+  .default 0
+$button 44 ;RotaryPushD4
+  .easypar NOTE 1 59 127 toggleoff
+  .showvalue off
+  .default 0
+$button 45 ;RotaryPushD5
+  .easypar NOTE 1 60 127 toggleoff
+  .showvalue off
+  .default 0
+$button 46 ;RotaryPushD6
+  .easypar NOTE 1 61 127 toggleoff
+  .showvalue off
+  .default 0
+$button 47 ;RotaryPushD7
+  .easypar NOTE 1 62 127 toggleoff
+  .showvalue off
+  .default 0
+$button 48 ;RotaryPushD8
+  .easypar NOTE 1 63 127 toggleoff
+  .showvalue off
+  .default 0
+$button 49 ;UserButton 1
+  .easypar NOTE 1 9 127 toggleoff
+  .showvalue off
+  .default 0
+$button 50 ;UserButton 2
+  .easypar NOTE 1 10 127 toggleoff
+  .showvalue off
+  .default 0
+$button 51 ;UserButton 3
+  .easypar NOTE 1 11 127 toggleoff
+  .showvalue off
+  .default 0
+$button 52 ;UserButton 4
+  .easypar NOTE 1 12 127 toggleoff
+  .showvalue off
+  .default 0
+$button 53
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 54
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 55
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 56
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 57
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 58
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 59
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 60
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 61
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 62
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 63
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$button 64
+  .easypar NOTE 1 0 1 toggleoff
+  .showvalue off
+  .default 0
+$end

@@ -1,0 +1,228 @@
+Zone "VST: bx_digital V3 mix (Plugin Alliance)" "DigiMx"
+/Primary
+/
+SubZones
+"VST: bx_digital V3 mix (Plugin Alliance)-2"
+SubZonesEnd
+/
+Shift GoSubZone "VST: bx_digital V3 mix (Plugin Alliance)"
+Option GoSubZone "VST: bx_digital V3 mix (Plugin Alliance)-2"
+/
+/
+DisplayUpperA1 FXParamNameDisplay 53 "DigiMx"
+DisplayLowerA1 FXParamValueDisplay 53  
+RotaryA1 FXParam 53 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 52 [ 0.0 1.0 ]
+/   
+DisplayUpperA2 FXParamNameDisplay 2 "Input"
+DisplayLowerA2 FXParamValueDisplay 2  
+RotaryA2 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 10 [ 0.0 1.0 ]
+/   
+DisplayUpperA3 FXParamNameDisplay 3 "Out/EQ"
+DisplayLowerA3 FXParamValueDisplay 3  
+RotaryA3 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 FXParam 7 [ 0.0 1.0 ]
+/   
+DisplayUpperA4 FXParamNameDisplay 4 "Phase"
+DisplayLowerA4 FXParamValueDisplay 4  
+RotaryA4 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 FXParam 4 [ 0.0 1.0 ]
+/   
+DisplayUpperA5 FXParamNameDisplay 41 "BShift"
+DisplayLowerA5 FXParamValueDisplay 41  
+RotaryA5 FXParam 41 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 FXParam 42 [ 0.0 1.0 ]
+/   
+DisplayUpperA6 FXParamNameDisplay 40 "BTone"
+DisplayLowerA6 FXParamValueDisplay 40  
+RotaryA6 FXParam 40 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushA6 FXParam 40 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperA7 FXParamNameDisplay 44 "PShift"
+DisplayLowerA7 FXParamValueDisplay 44  
+RotaryA7 FXParam 44 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 FXParam 45 [ 0.0 1.0 ]
+/   
+DisplayUpperA8 FXParamNameDisplay 43 "PTone"
+DisplayLowerA8 FXParamValueDisplay 43  
+RotaryA8 FXParam 43 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushA8 FXParam 43 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperB1 FXParamNameDisplay 17 "Q/Typ"
+DisplayLowerB1 FXParamValueDisplay 17  
+RotaryB1 FXParam 17 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB1 FXParam 15 [ 0.0 1.0 ]
+/   
+DisplayUpperB2 FXParamNameDisplay 22 "Q/Typ"
+DisplayLowerB2 FXParamValueDisplay 22  
+RotaryB2 FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 FXParam 20 [ 0.0 1.0 ]
+/   
+DisplayUpperB3 FXParamNameDisplay 27 "Q/Typ"
+DisplayLowerB3 FXParamValueDisplay 27  
+RotaryB3 FXParam 27 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 FXParam 25 [ 0.0 1.0 ]
+/   
+DisplayUpperB4 FXParamNameDisplay 32 "Q/Typ"
+DisplayLowerB4 FXParamValueDisplay 32  
+RotaryB4 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 FXParam 30 [ 0.0 1.0 ]
+/   
+DisplayUpperB5 FXParamNameDisplay 37 "Q/Typ"
+DisplayLowerB5 FXParamValueDisplay 37  
+RotaryB5 FXParam 37 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 35 [ 0.0 1.0 ]
+/   
+DisplayUpperB6 NoAction  
+DisplayLowerB6 NoAction  
+RotaryB6 NoAction  
+RotaryPushB6 NoAction  
+/   
+DisplayUpperB7 NoAction  
+DisplayLowerB7 NoAction  
+RotaryB7 NoAction  
+RotaryPushB7 NoAction  
+/   
+DisplayUpperB8 FXParamNameDisplay 6 "Auto Listen Mode"
+DisplayLowerB8 FXParamValueDisplay 6  
+RotaryB8 FXParam 6 [ (4,4,3,2,1) 0.0 0.17 0.33 0.50 0.67 0.83 1.0 ]
+RotaryPushB8 FXParam 5 [ 0.0 1.0 ]
+/   
+DisplayUpperC1 FXParamNameDisplay 18 "LF"
+DisplayLowerC1 FXParamValueDisplay 18  
+RotaryC1 FXParam 18 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 NoAction  
+/   
+DisplayUpperC2 FXParamNameDisplay 23 "LMF"
+DisplayLowerC2 FXParamValueDisplay 23  
+RotaryC2 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 NoAction  
+/   
+DisplayUpperC3 FXParamNameDisplay 28 "MF"
+DisplayLowerC3 FXParamValueDisplay 28  
+RotaryC3 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 NoAction  
+/   
+DisplayUpperC4 FXParamNameDisplay 33 "HMF"
+DisplayLowerC4 FXParamValueDisplay 33  
+RotaryC4 FXParam 33 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 NoAction  
+/   
+DisplayUpperC5 FXParamNameDisplay 38 "HF"
+DisplayLowerC5 FXParamValueDisplay 38  
+RotaryC5 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 NoAction  
+/   
+DisplayUpperC6 NoAction  
+DisplayLowerC6 NoAction  
+RotaryC6 NoAction  
+RotaryPushC6 NoAction  
+/   
+DisplayUpperC7 FXParamNameDisplay 11 "Slope"
+DisplayLowerC7 FXParamValueDisplay 11  
+RotaryC7 FXParam 11 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushC7 FXParam 11 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperC8 FXParamNameDisplay 13 "Slope"
+DisplayLowerC8 FXParamValueDisplay 13  
+RotaryC8 FXParam 13 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushC8 FXParam 13 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperD1 FXParamNameDisplay 16 "Gain"
+DisplayLowerD1 FXParamValueDisplay 16  
+RotaryD1 FXParam 16 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 19 [ 0.0 1.0 ]
+/   
+DisplayUpperD2 FXParamNameDisplay 21 "Gain"
+DisplayLowerD2 FXParamValueDisplay 21  
+RotaryD2 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 24 [ 0.0 1.0 ]
+/   
+DisplayUpperD3 FXParamNameDisplay 26 "Gain"
+DisplayLowerD3 FXParamValueDisplay 26  
+RotaryD3 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 FXParam 29 [ 0.0 1.0 ]
+/   
+DisplayUpperD4 FXParamNameDisplay 31 "Gain"
+DisplayLowerD4 FXParamValueDisplay 31  
+RotaryD4 FXParam 31 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 34 [ 0.0 1.0 ]
+/   
+DisplayUpperD5 FXParamNameDisplay 36 "Gain"
+DisplayLowerD5 FXParamValueDisplay 36  
+RotaryD5 FXParam 36 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 39 [ 0.0 1.0 ]
+/   
+DisplayUpperD6 FXParamNameDisplay 8 "GScale"
+DisplayLowerD6 FXParamValueDisplay 8  
+RotaryD6 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 9 [ 0.0 1.0 ]
+/   
+DisplayUpperD7 FXParamNameDisplay 12 "HPF"
+DisplayLowerD7 FXParamValueDisplay 12  
+RotaryD7 FXParam 12 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 NoAction  
+/   
+DisplayUpperD8 FXParamNameDisplay 14 "LPF"
+DisplayLowerD8 FXParamValueDisplay 14  
+RotaryD8 FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 NoAction  
+/
+ZoneEnd
+/
+/"VST: bx_digital V3 mix (Plugin Alliance)"
+/"Bypass"
+/"Bank"
+/"InGain"
+/"OutGain"
+/"PhaseRev"
+/"ALActive"
+/"ALMode"
+/"EQActive"
+/"GSAmnt"
+/"GSclActv"
+/"Prop Q"
+/"HPSlope"
+/"HPassFrq"
+/"LPSlope"
+/"LPassFrq"
+/"LF Type"
+/"LF Gain"
+/"EQ LF Q"
+/"LF Freq"
+/"LFActv"
+/"LMF Type"
+/"LMF Gain"
+/"EQ LMF Q"
+/"LMF Freq"
+/"LMFActv"
+/"MF Type"
+/"MF Gain"
+/"EQ MF Q"
+/"MF Freq"
+/"MFActv"
+/"HMF Type"
+/"HMF Gain"
+/"EQ HMF Q"
+/"HMF Freq"
+/"HMFActv"
+/"HF Type"
+/"HF Gain"
+/"EQ HF Q"
+/"HF Freq"
+/"HFActv"
+/"BSTone"
+/"BSGn"
+/"BSActv"
+/"PSTone"
+/"PSGn"
+/"PSActv"
+/"DyEQPos"
+/"DyEQRng"
+/"DynEQFrq"
+/"DyEQSpd"
+/"DyEQSolo"
+/"DyEQActv"
+/"Bypass"
+/"Wet"

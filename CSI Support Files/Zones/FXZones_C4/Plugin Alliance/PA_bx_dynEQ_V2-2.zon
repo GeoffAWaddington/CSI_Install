@@ -1,0 +1,237 @@
+Zone "VST: bx_dynEQ V2 (Plugin Alliance)-2"
+/Sub
+/
+Shift GoSubZone "VST: bx_dynEQ V2 (Plugin Alliance)"
+Option GoSubZone "VST: bx_dynEQ V2 (Plugin Alliance)-2"
+Control GoSubZone "VST: bx_dynEQ V2 (Plugin Alliance)-3"
+/
+/
+DisplayUpperA1 FXParamNameDisplay 25 "Link"
+DisplayLowerA1 FXParamValueDisplay 25  
+RotaryA1 FXParam 25 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 25 [ 0.0 1.0 ]
+/   
+DisplayUpperA2 FXParamNameDisplay 23 "Link"
+DisplayLowerA2 FXParamValueDisplay 23  
+RotaryA2 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 23 [ 0.0 1.0 ]
+/   
+DisplayUpperA3 FXParamNameDisplay 24 "Link"
+DisplayLowerA3 FXParamValueDisplay 24  
+RotaryA3 FXParam 24 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 FXParam 24 [ 0.0 1.0 ]
+/   
+DisplayUpperA4 NoAction  
+DisplayLowerA4 NoAction  
+RotaryA4 NoAction  
+RotaryPushA4 NoAction  
+/   
+DisplayUpperA5 FXParamNameDisplay 26 "Link"
+DisplayLowerA5 FXParamValueDisplay 26  
+RotaryA5 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 FXParam 26 [ 0.0 1.0 ]
+/   
+DisplayUpperA6 FXParamNameDisplay 29 "Link"
+DisplayLowerA6 FXParamValueDisplay 29  
+RotaryA6 FXParam 29 [ (4,4,3,2,1) 0.0 0.03 0.07 0.11 0.16 0.2 0.24 0.29 0.33 0.37 0.42 0.48 0.5 0.55 0.59 0.64 0.68 0.72 0.77 0.81 0.85 0.9 0.94 0.98 ]
+RotaryPushA6 FXParam 29 [ 0.0 1.0 ]
+/   
+DisplayUpperA7 NoAction  
+DisplayLowerA7 NoAction  
+RotaryA7 NoAction  
+RotaryPushA7 NoAction  
+/   
+DisplayUpperA8 FXParamNameDisplay 32 "Link"
+DisplayLowerA8 FXParamValueDisplay 32  
+RotaryA8 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA8 FXParam 32 [ 0.0 1.0 ]
+/   
+DisplayUpperB1 NoAction  
+DisplayLowerB1 NoAction  
+RotaryB1 NoAction  
+RotaryPushB1 NoAction  
+/   
+DisplayUpperB2 NoAction  
+DisplayLowerB2 NoAction  
+RotaryB2 NoAction  
+RotaryPushB2 NoAction  
+/   
+DisplayUpperB3 NoAction  
+DisplayLowerB3 NoAction  
+RotaryB3 NoAction  
+RotaryPushB3 NoAction  
+/   
+DisplayUpperB4 NoAction  
+DisplayLowerB4 NoAction  
+RotaryB4 NoAction  
+RotaryPushB4 NoAction  
+/   
+DisplayUpperB5 FXParamNameDisplay 27 "Link"
+DisplayLowerB5 FXParamValueDisplay 27  
+RotaryB5 FXParam 27 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 27 [ 0.0 1.0 ]
+/   
+DisplayUpperB6 FXParamNameDisplay 30 "Link"
+DisplayLowerB6 FXParamValueDisplay 30  
+RotaryB6 FXParam 30 [ (4,4,3,2,1) 0.0 0.03 0.07 0.11 0.16 0.2 0.24 0.29 0.33 0.37 0.42 0.48 0.5 0.55 0.59 0.64 0.68 0.72 0.77 0.81 0.85 0.9 0.94 0.98 ]
+RotaryPushB6 FXParam 30 [ 0.0 1.0 ]
+/   
+DisplayUpperB7 NoAction  
+DisplayLowerB7 NoAction  
+RotaryB7 NoAction  
+RotaryPushB7 NoAction  
+/   
+DisplayUpperB8 NoAction  
+DisplayLowerB8 NoAction  
+RotaryB8 NoAction  
+RotaryPushB8 NoAction  
+/   
+DisplayUpperC1 FXParamNameDisplay 53 "Link"
+DisplayLowerC1 FXParamValueDisplay 53  
+RotaryC1 FXParam 53 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 53 [ 0.0 1.0 ]
+/   
+DisplayUpperC2 FXParamNameDisplay 51 "Link"
+DisplayLowerC2 FXParamValueDisplay 51  
+RotaryC2 FXParam 51 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 51 [ 0.0 1.0 ]
+/   
+DisplayUpperC3 FXParamNameDisplay 52 "Link"
+DisplayLowerC3 FXParamValueDisplay 52  
+RotaryC3 FXParam 52 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 FXParam 52 [ 0.0 1.0 ]
+/   
+DisplayUpperC4 NoAction  
+DisplayLowerC4 NoAction  
+RotaryC4 NoAction  
+RotaryPushC4 NoAction  
+/   
+DisplayUpperC5 FXParamNameDisplay 54 "Link"
+DisplayLowerC5 FXParamValueDisplay 54  
+RotaryC5 FXParam 54 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 54 [ 0.0 1.0 ]
+/   
+DisplayUpperC6 FXParamNameDisplay 57 "Link"
+DisplayLowerC6 FXParamValueDisplay 57  
+RotaryC6 FXParam 57 [ (4,4,3,2,1) 0.0 0.03 0.07 0.11 0.16 0.2 0.24 0.29 0.33 0.37 0.42 0.48 0.5 0.55 0.59 0.64 0.68 0.72 0.77 0.81 0.85 0.9 0.94 0.98 ]
+RotaryPushC6 FXParam 57 [ 0.0 1.0 ]
+/   
+DisplayUpperC7 NoAction  
+DisplayLowerC7 NoAction  
+RotaryC7 NoAction  
+RotaryPushC7 NoAction  
+/   
+DisplayUpperC8 FXParamNameDisplay 60 "Link"
+DisplayLowerC8 FXParamValueDisplay 60  
+RotaryC8 FXParam 60 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 FXParam 60 [ 0.0 1.0 ]
+/   
+DisplayUpperD1 FXParamNameDisplay 3 "LnkAll"
+DisplayLowerD1 FXParamValueDisplay 3  
+RotaryD1 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 NoAction  
+/   
+DisplayUpperD2 NoAction  
+DisplayLowerD2 NoAction  
+RotaryD2 NoAction  
+RotaryPushD2 NoAction  
+/   
+DisplayUpperD3 NoAction  
+DisplayLowerD3 NoAction  
+RotaryD3 NoAction  
+RotaryPushD3 NoAction  
+/   
+DisplayUpperD4 NoAction  
+DisplayLowerD4 NoAction  
+RotaryD4 NoAction  
+RotaryPushD4 NoAction  
+/   
+DisplayUpperD5 FXParamNameDisplay 55 "Link"
+DisplayLowerD5 FXParamValueDisplay 55  
+RotaryD5 FXParam 55 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 55 [ 0.0 1.0 ]
+/   
+DisplayUpperD6 FXParamNameDisplay 59 "Link"
+DisplayLowerD6 FXParamValueDisplay 59  
+RotaryD6 FXParam 59 [ (4,4,3,2,1) 0.0 0.03 0.07 0.11 0.16 0.2 0.24 0.29 0.33 0.37 0.42 0.48 0.5 0.55 0.59 0.64 0.68 0.72 0.77 0.81 0.85 0.9 0.94 0.98 ]
+RotaryPushD6 FXParam 59 [ 0.0 1.0 ]
+/   
+DisplayUpperD7 NoAction  
+DisplayLowerD7 NoAction  
+RotaryD7 NoAction  
+RotaryPushD7 NoAction  
+/   
+DisplayUpperD8 NoAction  
+DisplayLowerD8 NoAction  
+RotaryD8 NoAction  
+RotaryPushD8 NoAction  
+/
+ZoneEnd
+/
+/"VST: bx_dynEQ V2 (Plugin Alliance)"
+/"Bypass"
+/"Preset"
+/"Mode"
+/"Link All"
+/"In Gain"
+/"Balance"
+/"Out Gain"
+/"StWidth"
+/"1Solo"
+/"1Bypss"
+/"1Attck"
+/"1Rels"
+/"1Thrsh"
+/"1Frqcy"
+/"1KeyFq"
+/"1Type"
+/"1KeyTp"
+/"1Factr"
+/"1BstCt"
+/"1MGain"
+/"1KeyS"
+/"1KSolo"
+/"1NSolo"
+/"1LkAtt"
+/"1LkRel"
+/"1LkThr"
+/"1LkFrq"
+/"1LkKFq"
+/"1LkFqs"
+/"1LkTpe"
+/"1LkKTp"
+/"1LkTps"
+/"1LkFtr"
+/"1Schn"
+/"1InvMode"
+/"1MGnX2"
+/"2Solo"
+/"2Bypss"
+/"2Attck"
+/"2Rels"
+/"2Thrsh"
+/"2Frqcy"
+/"2KeyFq"
+/"2Type"
+/"2KeyTp"
+/"2Factr"
+/"2BstCt"
+/"2MGain"
+/"2KeyM"
+/"2KSolo"
+/"2NSolo"
+/"2LkAtt"
+/"2LkRel"
+/"2LkThr"
+/"2LkFrq"
+/"2LkKFq"
+/"2LkFqs"
+/"2LkTpe"
+/"2LkTps"
+/"2LkKTp"
+/"2LkFtr"
+/"2Schn"
+/"2InvMode"
+/"2MGnX2"
+/"Bypass"
+/"Wet"

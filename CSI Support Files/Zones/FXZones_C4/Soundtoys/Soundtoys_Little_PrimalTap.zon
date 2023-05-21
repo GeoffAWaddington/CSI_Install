@@ -1,0 +1,178 @@
+Zone "VST: Little PrimalTap (Soundtoys)" "LPrim"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 8 "LPrim"
+DisplayLowerA1 FXParamValueDisplay 8 
+RotaryA1 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 0 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 NoAction 
+DisplayLowerA2 NoAction 
+RotaryA2 NoAction 
+RotaryPushA2 NoAction 
+/  
+DisplayUpperA3 NoAction 
+DisplayLowerA3 NoAction 
+RotaryA3 NoAction 
+RotaryPushA3 NoAction 
+/  
+DisplayUpperA4 NoAction 
+DisplayLowerA4 NoAction 
+RotaryA4 NoAction 
+RotaryPushA4 NoAction 
+/  
+DisplayUpperA5 NoAction 
+DisplayLowerA5 NoAction 
+RotaryA5 NoAction 
+RotaryPushA5 NoAction 
+/  
+DisplayUpperA6 NoAction 
+DisplayLowerA6 NoAction 
+RotaryA6 NoAction 
+RotaryPushA6 NoAction 
+/  
+DisplayUpperA7 NoAction 
+DisplayLowerA7 NoAction 
+RotaryA7 NoAction 
+RotaryPushA7 NoAction 
+/  
+DisplayUpperA8 NoAction 
+DisplayLowerA8 NoAction 
+RotaryA8 NoAction 
+RotaryPushA8 NoAction 
+/  
+DisplayUpperB1 NoAction 
+DisplayLowerB1 NoAction 
+RotaryB1 NoAction 
+RotaryPushB1 NoAction 
+/  
+DisplayUpperB2 NoAction 
+DisplayLowerB2 NoAction 
+RotaryB2 NoAction 
+RotaryPushB2 NoAction 
+/  
+DisplayUpperB3 NoAction 
+DisplayLowerB3 NoAction 
+RotaryB3 NoAction 
+RotaryPushB3 NoAction 
+/  
+DisplayUpperB4 NoAction 
+DisplayLowerB4 NoAction 
+RotaryB4 NoAction 
+RotaryPushB4 NoAction 
+/  
+DisplayUpperB5 NoAction 
+DisplayLowerB5 NoAction 
+RotaryB5 NoAction 
+RotaryPushB5 NoAction 
+/  
+DisplayUpperB6 NoAction 
+DisplayLowerB6 NoAction 
+RotaryB6 NoAction 
+RotaryPushB6 NoAction 
+/  
+DisplayUpperB7 NoAction 
+DisplayLowerB7 NoAction 
+RotaryB7 NoAction 
+RotaryPushB7 NoAction 
+/  
+DisplayUpperB8 NoAction 
+DisplayLowerB8 NoAction 
+RotaryB8 NoAction 
+RotaryPushB8 NoAction 
+/  
+DisplayUpperC1 NoAction 
+DisplayLowerC1 NoAction 
+RotaryC1 NoAction 
+RotaryPushC1 NoAction 
+/  
+DisplayUpperC2 NoAction 
+DisplayLowerC2 NoAction 
+RotaryC2 NoAction 
+RotaryPushC2 NoAction 
+/  
+DisplayUpperC3 NoAction 
+DisplayLowerC3 NoAction 
+RotaryC3 NoAction 
+RotaryPushC3 NoAction 
+/  
+DisplayUpperC4 NoAction 
+DisplayLowerC4 NoAction 
+RotaryC4 NoAction 
+RotaryPushC4 NoAction 
+/  
+DisplayUpperC5 NoAction 
+DisplayLowerC5 NoAction 
+RotaryC5 NoAction 
+RotaryPushC5 NoAction 
+/  
+DisplayUpperC6 NoAction 
+DisplayLowerC6 NoAction 
+RotaryC6 NoAction 
+RotaryPushC6 NoAction 
+/  
+DisplayUpperC7 NoAction 
+DisplayLowerC7 NoAction 
+RotaryC7 NoAction 
+RotaryPushC7 NoAction 
+/  
+DisplayUpperC8 NoAction 
+DisplayLowerC8 NoAction 
+RotaryC8 NoAction 
+RotaryPushC8 NoAction 
+/  
+DisplayUpperD1 FXParamNameDisplay 1 "Time"
+DisplayLowerD1 FXParamValueDisplay 1 
+RotaryD1 FXParam 1 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 NoAction 
+/  
+DisplayUpperD2 FXParamNameDisplay 2 "Adjust"
+DisplayLowerD2 FXParamValueDisplay 2 
+RotaryD2 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 NoAction 
+/  
+DisplayUpperD3 FXParamNameDisplay 3 "Mult"
+DisplayLowerD3 FXParamValueDisplay 3 
+RotaryD3 FXParam 3 [ (4,4,3,2,1) 0.0 0.33 0.67 1.0 ]
+RotaryPushD3 FXParam 3 [ 0.0 0.33 0.67 1.0 ]
+/  
+DisplayUpperD4 FXParamNameDisplay 4 "Input"
+DisplayLowerD4 FXParamValueDisplay 4 
+RotaryD4 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 NoAction 
+/  
+DisplayUpperD5 FXParamNameDisplay 5 "FBack"
+DisplayLowerD5 FXParamValueDisplay 5 
+RotaryD5 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 NoAction 
+/  
+DisplayUpperD6 FXParamNameDisplay 6 "Mix"
+DisplayLowerD6 FXParamValueDisplay 6 
+RotaryD6 FXParam 6 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 6 [ 0.5 ] 
+/  
+DisplayUpperD7 NoAction 
+DisplayLowerD7 NoAction 
+RotaryD7 NoAction 
+RotaryPushD7 NoAction 
+/  
+DisplayUpperD8 NoAction 
+DisplayLowerD8 NoAction 
+RotaryD8 NoAction 
+RotaryPushD8 NoAction 
+/
+ZoneEnd
+/
+/"VST: Little PrimalTap (Soundtoys)"
+/"Bypass"
+/"Time"
+/"Adjust"
+/"Multiply"
+/"InputGain"
+/"Feedback"
+/"Mix"
+/"Bypass"
+/"Wet
+

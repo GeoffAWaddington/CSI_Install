@@ -1,0 +1,34 @@
+Zone "SelectedTrack"
+     RotaryA1       TrackVolume
+     RotaryPushA1   NoAction
+     ShiftRotaryA1  NoAction
+     
+     RotaryA2       TrackPan
+     RotaryPushA2   NoAction
+     ShiftRotaryA2  TrackPanWidth
+     
+     RotaryA3       NoAction
+     RotaryPushA3   TrackMute { 0 0 0 0 215 255 }
+     ShiftRotaryA3  NoAction
+     
+     RotaryA4       NoAction
+     RotaryPushA4   TrackSolo  { 0 0 0 242 255 0 }
+     ShiftRotaryA4  NoAction
+     
+     RotaryA5       NoAction
+     RotaryPushA5   TrackRecordArm { 0 0 0 255 50 0 }
+     ShiftRotaryA5  NoAction  
+     
+     RotaryA6       NoAction
+     RotaryPushA6   CycleTrackInputMonitor
+     ShiftRotaryA6  NoAction  
+
+     RotaryA7       NoAction
+     RotaryPushA7   CycleTrackAutoMode
+     ShiftRotaryA7  NoAction  
+
+     RotaryA8       NoAction
+     RotaryPushA8   TrackInvertPolarity { 0 0 0 0 145 255 }
+     ShiftRotaryA8  NoAction
+
+ZoneEnd

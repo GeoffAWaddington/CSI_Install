@@ -1,0 +1,4 @@
+Zone FXPrologue
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+ZoneEnd

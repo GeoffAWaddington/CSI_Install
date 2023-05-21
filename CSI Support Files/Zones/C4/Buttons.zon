@@ -1,0 +1,33 @@
+Zone Buttons
+        Marker              NoAction
+        Track               NoAction
+        ChanStrip           NoAction
+        Function            NoAction
+        
+        Lock                Reaper _S&M_FXBYPALL                //Toggle all FX bypass for selected tracks
+        Shift+Lock          Reaper _S&M_FXOFFALL                //Toggle all FX Offline for selected tracks        
+        SpotErase           ToggleAutoFXMapping
+        Split               GoHome     
+        Hold+Split          Reaper _S&M_WNCLS3
+        Hold+Split          Reaper _S&M_WNCLS4          
+        Shift               Shift          
+        Option              Option 
+        Control             Control
+        Alt                 Alt    
+        BankLeft            Bank SelectedTrackSend -8
+        Shift+BankLeft      Bank SelectedTrackReceive -8
+        BankRight           Bank SelectedTrackSend 8
+        Shift+BankRight     Bank SelectedTrackReceive 8
+        ChannelLeft         Bank SelectedTrackFXMenu -8
+        ChannelRight        Bank SelectedTrackFXMenu 8
+        SlotUp              NoAction
+        SlotUp              NoAction
+        SlotUp              NoAction
+        SlotDown            NoAction
+        SlotDown            NoAction
+        SlotDown            NoAction
+        TrackL              NoAction
+        TrackL              NoAction
+        TrackR              NoAction
+        TrackR              NoAction
+ZoneEnd 

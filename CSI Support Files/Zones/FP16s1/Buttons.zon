@@ -1,0 +1,115 @@
+Zone "Buttons"
+
+//Left Column Buttons
+
+/ Arm                         Reaper 9                                         // Arm selected track is engaged via SelectedTrack zone
+  Shift+Arm                   Reaper 40490                                     // Arm ALL tracks
+  Control+Arm                 Reaper 40491                                     // Disarms ALL tracks
+                                                                               
+  SoloClear                   ClearAllSolo                                     
+  MuteClear                   Reaper 40339                                     // Unmute ALL tracks
+                                                                               
+  Bypass                      NoAction                                         
+  Macro                       NoAction                                         
+  Link                        GoAssociatedZone FocusedFXParam                                         
+                                                                               
+  ShiftRight                  Shift
+  ShiftLeft                   Control
+
+//Right Column Buttons
+                              
+  Track                       GoHome
+  Track                       Reaper _S&M_WNCLS4                               // Closes all(!) FX chain windows
+  Track                       Reaper _S&M_WNCLS3                               // Closes all(!) floating FX windows    
+  Plugin                      GoAssociatedZone SelectedTrackFXMenu
+  Control+Plugin              GoAssociatedZone TrackFXMenu
+  Send                        GoAssociatedZone SelectedTrackSend
+  Control+Send                GoAssociatedZone TrackSend
+  Pan                         GoAssociatedZone SelectedTrackReceive
+  Control+Pan                 GoAssociatedZone TrackReceive
+                              
+  AudioBtn                    ToggleAutoFXMapping        { 0 0 0 32 96 96 }
+  Instrument                  ToggleAutoFocusedFXMapping { 0 0 0 32 96 96 }
+  BusBtn                      GoAssociatedZone Folder    { 0 0 0  0 96 96 }
+  VCABtn                      GoAssociatedZone VCA       { 0 0 0 127 127 0 }
+  AllBtn                      Reaper _SWSTL_SHOWALL      { 0 0 0 20 100 20 }
+  AllBtn                      GoHome                     { 0 0 0 20 100 20 }
+													     
+//Automation Buttons                                     
+													     
+  Read                        TrackAutoMode 1            { 0 4 0  0 96 0 }
+  Write                       TrackAutoMode 3            { 4 0 0  127 0 0 }
+  Trim                        TrackAutoMode 0            { 1 3 3  127 127 127 }
+  Touch                       TrackAutoMode 2            { 2 3 0  112 112 00 }
+  Latch                       TrackAutoMode 4            { 4 0 4  96 0 96 }
+  Off                         TrackAutoMode 5            { 0 0 10 0 32 127 }
+													     
+													     
+  Shift+Read                  GlobalAutoMode 1           { 0 4 0  0 96 0 }
+  Shift+Write                 GlobalAutoMode 3           { 4 0 0  127 0 0 }
+  Shift+Trim                  GlobalAutoMode 0           { 1 3 3  127 127 127 }
+  Shift+Touch                 GlobalAutoMode 2           { 2 3 0  112 112 00 }
+  Shift+Latch                 GlobalAutoMode 4           { 4 0 4  96 0 96 }
+  Shift+Off                   GlobalAutoMode 5           { 0 0 10 0 32 127 }
+  Shift+Alt+Off               Reaper 40876                                       // GlobalAuto off
+													     
+  Alt+Read                    Reaper 40086               { 0 4 0  0 96 0 }
+  Alt+Write                   Reaper 40090               { 4 0 0  127 0 0 }
+  Alt+Trim                    Reaper 40088               { 1 3 3  127 127 127 }
+  Alt+Touch                   Reaper 40087               { 2 3 0  112 112 00 }
+  Alt+Latch                   Reaper 40266               { 4 0 4  96 0 96 }
+  Alt+Off                     Reaper 42024               { 0 0 10 0 32 127 }
+                              
+//Center Buttons
+                                                            
+  Prev                        Bank SelectedTrack -16                           // For Faderport 8 change to -8
+  Prev                        Bank Track -16                                   // For Faderport 8 change to -8
+  Prev                        Reaper 40913                                     // can scroll the view
+
+  Shift+Prev                  Bank SelectedTrack -1024                         // Bank to start
+  Shift+Prev                  Bank Track -1024                                 // Unlikely we'll need to do this more than once
+  Shift+Prev                  Reaper 40913                                     // Scroll view to track
+
+  Next                        Bank SelectedTrack 16                            // For Faderport 8 change to 8
+  Next                        Bank Track 16                                    // For Faderport 8 change to 8
+  Next                        Reaper 40913                                     // Scroll view to track
+
+
+  Channel                     NoAction
+  Zoom                        Zoom
+  Scroll                      Reaper 42026 
+  Bank                        NoAction
+                              
+  Master                      Alt
+  Click                       Reaper 40364                                     // Toggle metronome
+  Shift+Click                 Reaper _SWS_AWCOUNTRECTOG                        // Toggle count-in before recording  Section                     NoAction
+  Hold+Click                  Reaper 40363                                     // Show metronome settings  
+  Marker                      Marker
+
+//Joghweel Actions
+  Decrease+RotaryBig          Bank Track -1
+  Decrease+RotaryBig          Bank SelectedTrack -1
+  Decrease+RotaryBig          Reaper 40913                                     // Scroll view to track					     
+  Increase+RotaryBig          Bank Track 1
+  Increase+RotaryBig          Bank SelectedTrack 1
+  Increase+RotaryBig          Reaper 40913                                     // Scroll view to track
+					     
+  Zoom++Decrease+RotaryBig    Reaper 40112                                     // Zoom out vertical 
+  Zoom++Decrease+RotaryBig    Reaper 1011                                      // Zoom out horizontal  
+  Zoom++Increase+RotaryBig    Reaper 40111                                     // Zoom in vertical          
+  Zoom++Increase+RotaryBig    Reaper 1012                                      // Zoom in horizontal   
+
+  Marker+Decrease+RotaryBig   Reaper 40172                                     // Go to previous marker or project start
+  Marker+Increase+RotaryBig   Reaper 40173                                     // Go to next marker or project end  
+
+//Transport Buttons                  
+                              
+  Cycle                       CycleTimeline
+  Rewind                      Rewind
+  FastForward                 FastForward
+  Stop                        Stop
+  Hold+Stop                   Reaper 40042                                     // Go to start of project
+  Play                        Play
+  Record                      Record
+                              
+ZoneEnd

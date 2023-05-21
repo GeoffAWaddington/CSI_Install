@@ -1,0 +1,24 @@
+Zone "Folder"
+  ScribbleLine1_|          TrackNameDisplay
+  ScribbleLine2_|          TrackVolumeDisplay
+  ScribbleLine3_|          NoAction
+  ScribbleLine4_|          TrackFolderParentDisplay
+  ValueBar|                TrackPanAutoLeft   BarStyle=BiPolar
+  Alt+ValueBar|            TrackPanAutoRight  BarStyle=Fill
+    
+
+  Solo|                    TrackSolo
+  Mute|                    TrackMute
+  
+  Fader|                   TrackVolume
+  Shift+Fader|             TrackPanAutoLeft
+  Alt+Fader|               TrackPanAutoRight
+   
+  Select|                  TrackToggleFolderSpill  { Track }
+  Shift+Select|            TrackRangeSelect        { 12 48 48  30 127 30 }
+  Alt+Select|              TrackSelect             { 12 10 2  30 127 30 }
+  Control+Select|          TrackUniqueSelect
+   
+  Prev                     Bank Folder -1
+  Next                     Bank Folder 1
+ZoneEnd

@@ -1,0 +1,113 @@
+Zone Buttons 
+             
+    Send                        GoAssociatedZone SelectedTrackSend
+    Global+Send                 GoAssociatedZone TrackSend
+    Plugin                      GoAssociatedZone SelectedTrackFXMenu  
+    Global+Plugin               GoAssociatedZone TrackFXMenu
+    Instrument                  GoAssociatedZone SelectedTrackReceive
+    Global+Instrument           GoAssociatedZone TrackReceive
+    Track                       GoHome
+    Track                       Reaper _S&M_WNCLS4          // Close FX chain windows
+    Track                       Reaper _S&M_WNCLS3          // Close floating FX windows                         
+    Pan                         GoAssociatedZone VCA
+    EQ                          GoAssociatedZone Folder
+
+    BankLeft                    Bank Track -8
+    BankRight                   Bank Track 8
+    ChannelLeft                 Bank Track -1                                        
+    ChannelRight                Bank Track 1 
+    
+    Read                        TrackAutoMode 1
+    Write                       TrackAutoMode 3
+    Trim                        TrackAutoMode 0
+    Touch                       TrackAutoMode 2
+    Latch                       TrackAutoMode 4
+    Group                       TrackAutoMode 5                 //Set track automation mode to latch preview
+    Global+Read                 GlobalAutoMode 1
+    Global+Write                GlobalAutoMode 3
+    Global+Trim                 GlobalAutoMode 0
+    Global+Touch                GlobalAutoMode 2
+    Global+Latch                GlobalAutoMode 4  
+    Global+Group                GlobalAutoMode 5                //Set all tracks automation mode to latch preview                                       
+
+    Flip                        Flip
+    GlobalView                  Global             
+    nameValue                   NoAction
+    AssignmentDisplay           GlobalModeDisplay          
+    smpteBeats                  CycleTimeDisplayModes    
+    TimeDisplay                 MCUTimeDisplay
+    
+    F1                          ToggleEnableFocusedFXParamMapping
+    F2                          ToggleEnableFocusedFXMapping
+    F3                          ToggleScrollLink
+    F4                          NoAction
+    F5                          NoAction
+    F6                          NoAction
+    F7                          NoAction
+    F8                          NoAction
+    
+    MidiTracks                  GoAssociatedZone SelectedTrackTCPFX
+    Inputs                      GoAssociatedZone MasterTrackFXMenu
+    AudioTracks                 NoAction
+    AudioInstrument             NoAction
+    Aux                         NoAction
+    Busses                      NoAction
+    Outputs                     NoAction
+    User                        NoAction
+
+    Shift                       Shift   
+    Option                      Option  
+    Control                     Control 
+    Alt                         Alt     
+    
+    Save                        SaveProject 
+    Undo                        Undo
+    Hold+Undo                   Reaper 40072                // View: Show undo history window
+    Shift+Undo                  Redo
+    Cancel                      NoAction
+    Enter                       NoAction
+    Enter                       NoAction
+    Marker                      Marker
+    Nudge                       Nudge                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ]
+    Cycle                       CycleTimeline
+    Drop                        Reaper 1157                 // Toggle snapping
+    Replace                     CycleTimeline
+    Click                       Reaper 40364                // Toggle metronome
+    Shift+Click                 Reaper _SWS_AWCOUNTRECTOG   // Toggle count-in before recording
+    Hold+Click                  Reaper 40363                // Show metronome settings
+    Solo                        ClearAllSolo
+    Option+Solo                 Reaper 40745                // Solo in front (dim solo)
+        
+    Rewind                      Rewind                                          
+    FastForward                 FastForward                                     
+    Shift+Rewind                Reaper 40630                //Go to start of time selection
+    Shift+FastForward           Reaper 40631                //Go to end of time selection           
+    Stop                        Stop
+    Hold+Stop                   Reaper 40042       
+    Play                        Play        
+    Record                      Record 
+         
+    Decrease+JogWheel           Reaper 40840                // Move edit cursor back one measure (no seek)  
+    Increase+JogWheel           Reaper 40839                // Move edit cursor forward one measure (no seek)                                          
+    Shift+Decrease+JogWheel     Reaper 40286                // Track: Go to previous track       
+    Shift+Increase+JogWheel     Reaper 40285                // Track: Go to next track                     
+    Option+Decrease+JogWheel    Reaper 40172                // Go to previous marker or project start
+    Option+Increase+JogWheel    Reaper 40173                // Go to next marker or project end 
+          
+    Left                        Reaper _SWS_SCROLL_L10      // SWS: Scroll left 10%
+    Right                       Reaper _SWS_SCROLL_R10      // SWS: Scroll right 10%   
+    Up                          Reaper _XENAKIOS_TVPAGEUP   // Xenakios/SWS: Scroll track view up (page)
+    Down                        Reaper _XENAKIOS_TVPAGEDOWN // Xenakios-SWS: Scroll track view down
+     
+    Zoom                        Zoom
+    Zoom+Up                     Reaper 40111                // Zoom in vertical                                            
+    Zoom+Down                   Reaper 40112                // Zoom out vertical                                                       
+    Zoom+Right                  Reaper 1012                 // Zoom in horizontal                                      
+    Zoom+Left                   Reaper 1011                 // Zoom out horizontal
+     
+    Marker+Up                   Reaper 40613                // Delete marker near cursor                                    
+    Marker+Down                 Reaper 40157                // Insert marker at current or edit position                                      
+    Marker+Right                Reaper 40173                // Go to next marker or project end                                      
+    Marker+Left                 Reaper 40172                // Go to previous marker or project start           
+                                    
+ZoneEnd

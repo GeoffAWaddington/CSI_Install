@@ -1,0 +1,4 @@
+Zone MasterTrack
+    MasterFader                 TrackVolume
+    Control+MasterFader         FocusedFXParam
+ZoneEnd

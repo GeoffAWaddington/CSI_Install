@@ -1,0 +1,14 @@
+Zone SelectedTrackReceive
+    	DisplayC|				TrackReceivePanDisplay
+    	DisplayE|	            TrackReceiveNameDisplay
+    	DisplayF|		        TrackReceiveVolumeDisplay
+    	DisplayD|				TrackReceivePrePostDisplay
+    	ButtonD|				TrackReceivePrePost
+    	Pan|					TrackReceivePan
+    	ButtonF|                TrackReceiveMute
+    	Fader|                  TrackReceiveVolume
+    	ButtonM1     			Bank SelectedTrackReceive -8
+    	DisplayM1      			FixedTextDisplay <RECV
+    	ButtonM2       			Bank SelectedTrackReceive 8
+    	DisplayM2      			FixedTextDisplay RECV>
+ZoneEnd

@@ -1,0 +1,636 @@
+StepSize
+    RotaryWidgetClass   0.003
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass    Dec  41        44        48        4C        4f               
+    RotaryWidgetClass    Inc  01        04        08        0C        0f   
+    RotaryWidgetClass    Val  0.001     0.005     0.025     0.05      0.1  
+AccelerationValuesEnd
+
+Widget DisplayUpperA1
+     FB_C4DisplayUpper 0 0
+WidgetEnd
+
+Widget DisplayUpperA2
+     FB_C4DisplayUpper 0 1
+WidgetEnd
+
+Widget DisplayUpperA3
+     FB_C4DisplayUpper 0 2
+WidgetEnd
+
+Widget DisplayUpperA4
+     FB_C4DisplayUpper 0 3
+WidgetEnd
+
+Widget DisplayUpperA5
+     FB_C4DisplayUpper 0 4
+WidgetEnd
+
+Widget DisplayUpperA6
+     FB_C4DisplayUpper 0 5
+WidgetEnd
+
+Widget DisplayUpperA7
+     FB_C4DisplayUpper 0 6
+WidgetEnd
+
+Widget DisplayUpperA8
+     FB_C4DisplayUpper 0 7
+WidgetEnd
+
+Widget DisplayLowerA1
+     FB_C4DisplayLower 0 0
+WidgetEnd
+
+Widget DisplayLowerA2
+     FB_C4DisplayLower 0 1
+WidgetEnd
+
+Widget DisplayLowerA3
+     FB_C4DisplayLower 0 2
+WidgetEnd
+
+Widget DisplayLowerA4
+     FB_C4DisplayLower 0 3
+WidgetEnd
+
+Widget DisplayLowerA5
+     FB_C4DisplayLower 0 4
+WidgetEnd
+
+Widget DisplayLowerA6
+     FB_C4DisplayLower 0 5
+WidgetEnd
+
+Widget DisplayLowerA7
+     FB_C4DisplayLower 0 6
+WidgetEnd
+
+Widget DisplayLowerA8
+     FB_C4DisplayLower 0 7
+WidgetEnd
+
+Widget DisplayUpperB1
+     FB_C4DisplayUpper 1 0
+WidgetEnd
+
+Widget DisplayUpperB2
+     FB_C4DisplayUpper 1 1
+WidgetEnd
+
+Widget DisplayUpperB3
+     FB_C4DisplayUpper 1 2
+WidgetEnd
+
+Widget DisplayUpperB4
+     FB_C4DisplayUpper 1 3
+WidgetEnd
+
+Widget DisplayUpperB5
+     FB_C4DisplayUpper 1 4
+WidgetEnd
+
+Widget DisplayUpperB6
+     FB_C4DisplayUpper 1 5
+WidgetEnd
+
+Widget DisplayUpperB7
+     FB_C4DisplayUpper 1 6
+WidgetEnd
+
+Widget DisplayUpperB8
+     FB_C4DisplayUpper 1 7
+WidgetEnd
+
+Widget DisplayLowerB1
+     FB_C4DisplayLower 1 0
+WidgetEnd
+
+Widget DisplayLowerB2
+     FB_C4DisplayLower 1 1
+WidgetEnd
+
+Widget DisplayLowerB3
+     FB_C4DisplayLower 1 2
+WidgetEnd
+
+Widget DisplayLowerB4
+     FB_C4DisplayLower 1 3
+WidgetEnd
+
+Widget DisplayLowerB5
+     FB_C4DisplayLower 1 4
+WidgetEnd
+
+Widget DisplayLowerB6
+     FB_C4DisplayLower 1 5
+WidgetEnd
+
+Widget DisplayLowerB7
+     FB_C4DisplayLower 1 6
+WidgetEnd
+
+Widget DisplayLowerB8
+     FB_C4DisplayLower 1 7
+WidgetEnd
+
+Widget DisplayUpperC1
+     FB_C4DisplayUpper 2 0
+WidgetEnd
+
+Widget DisplayUpperC2
+     FB_C4DisplayUpper 2 1
+WidgetEnd
+
+Widget DisplayUpperC3
+     FB_C4DisplayUpper 2 2
+WidgetEnd
+
+Widget DisplayUpperC4
+     FB_C4DisplayUpper 2 3
+WidgetEnd
+
+Widget DisplayUpperC5
+     FB_C4DisplayUpper 2 4
+WidgetEnd
+
+Widget DisplayUpperC6
+     FB_C4DisplayUpper 2 5
+WidgetEnd
+
+Widget DisplayUpperC7
+     FB_C4DisplayUpper 2 6
+WidgetEnd
+
+Widget DisplayUpperC8
+     FB_C4DisplayUpper 2 7
+WidgetEnd
+
+Widget DisplayLowerC1
+     FB_C4DisplayLower 2 0
+WidgetEnd
+
+Widget DisplayLowerC2
+     FB_C4DisplayLower 2 1
+WidgetEnd
+
+Widget DisplayLowerC3
+     FB_C4DisplayLower 2 2
+WidgetEnd
+
+Widget DisplayLowerC4
+     FB_C4DisplayLower 2 3
+WidgetEnd
+
+Widget DisplayLowerC5
+     FB_C4DisplayLower 2 4
+WidgetEnd
+
+Widget DisplayLowerC6
+     FB_C4DisplayLower 2 5
+WidgetEnd
+
+Widget DisplayLowerC7
+     FB_C4DisplayLower 2 6
+WidgetEnd
+
+Widget DisplayLowerC8
+     FB_C4DisplayLower 2 7
+WidgetEnd
+
+Widget DisplayUpperD1
+     FB_C4DisplayUpper 3 0
+WidgetEnd
+
+Widget DisplayUpperD2
+     FB_C4DisplayUpper 3 1
+WidgetEnd
+
+Widget DisplayUpperD3
+     FB_C4DisplayUpper 3 2
+WidgetEnd
+
+Widget DisplayUpperD4
+     FB_C4DisplayUpper 3 3
+WidgetEnd
+
+Widget DisplayUpperD5
+     FB_C4DisplayUpper 3 4
+WidgetEnd
+
+Widget DisplayUpperD6
+     FB_C4DisplayUpper 3 5
+WidgetEnd
+
+Widget DisplayUpperD7
+     FB_C4DisplayUpper 3 6
+WidgetEnd
+
+Widget DisplayUpperD8
+     FB_C4DisplayUpper 3 7
+WidgetEnd
+
+Widget DisplayLowerD1
+     FB_C4DisplayLower 3 0
+WidgetEnd
+
+Widget DisplayLowerD2
+     FB_C4DisplayLower 3 1
+WidgetEnd
+
+Widget DisplayLowerD3
+     FB_C4DisplayLower 3 2
+WidgetEnd
+
+Widget DisplayLowerD4
+     FB_C4DisplayLower 3 3
+WidgetEnd
+
+Widget DisplayLowerD5
+     FB_C4DisplayLower 3 4
+WidgetEnd
+
+Widget DisplayLowerD6
+     FB_C4DisplayLower 3 5
+WidgetEnd
+
+Widget DisplayLowerD7
+     FB_C4DisplayLower 3 6
+WidgetEnd
+
+Widget DisplayLowerD8
+     FB_C4DisplayLower 3 7
+WidgetEnd
+
+Widget RotaryPushA1
+     Press 90 20 7f 90 20 00
+WidgetEnd
+
+Widget RotaryPushA2
+     Press 90 21 7f 90 21 00
+WidgetEnd
+
+Widget RotaryPushA3
+     Press 90 22 7f 90 22 00
+WidgetEnd
+
+Widget RotaryPushA4
+     Press 90 23 7f 90 23 00
+WidgetEnd
+
+Widget RotaryPushA5
+     Press 90 24 7f 90 24 00
+WidgetEnd
+
+Widget RotaryPushA6
+     Press 90 25 7f 90 25 00
+WidgetEnd
+
+Widget RotaryPushA7
+     Press 90 26 7f 90 26 00
+WidgetEnd
+
+Widget RotaryPushA8
+     Press 90 27 7f 90 27 00
+WidgetEnd
+
+Widget RotaryPushB1
+     Press 90 28 7f 90 28 00
+WidgetEnd
+
+Widget RotaryPushB2
+     Press 90 29 7f 90 29 00
+WidgetEnd
+
+Widget RotaryPushB3
+     Press 90 2a 7f 90 2a 00
+WidgetEnd
+
+Widget RotaryPushB4
+     Press 90 2b 7f 90 2b 00
+WidgetEnd
+
+Widget RotaryPushB5
+     Press 90 2c 7f 90 2c 00
+WidgetEnd
+
+Widget RotaryPushB6
+     Press 90 2d 7f 90 2d 00
+WidgetEnd
+
+Widget RotaryPushB7
+     Press 90 2e 7f 90 2e 00
+WidgetEnd
+
+Widget RotaryPushB8
+     Press 90 2f 7f 90 2f 00
+WidgetEnd
+
+Widget RotaryPushC1
+     Press 90 30 7f 90 30 00
+WidgetEnd
+
+Widget RotaryPushC2
+     Press 90 31 7f 90 31 00
+WidgetEnd
+
+Widget RotaryPushC3
+     Press 90 32 7f 90 32 00
+WidgetEnd
+
+Widget RotaryPushC4
+     Press 90 33 7f 90 33 00
+WidgetEnd
+
+Widget RotaryPushC5
+     Press 90 34 7f 90 34 00
+WidgetEnd
+
+Widget RotaryPushC6
+     Press 90 35 7f 90 35 00
+WidgetEnd
+
+Widget RotaryPushC7
+     Press 90 36 7f 90 36 00
+WidgetEnd
+
+Widget RotaryPushC8
+     Press 90 37 7f 90 37 00
+WidgetEnd
+
+Widget RotaryPushD1
+     Press 90 38 7f 90 38 00
+WidgetEnd
+
+Widget RotaryPushD2
+     Press 90 39 7f 90 39 00
+WidgetEnd
+
+Widget RotaryPushD3
+     Press 90 3a 7f 90 3a 00
+WidgetEnd
+
+Widget RotaryPushD4
+     Press 90 3b 7f 90 3b 00
+WidgetEnd
+
+Widget RotaryPushD5
+     Press 90 3c 7f 90 3c 00
+WidgetEnd
+
+Widget RotaryPushD6
+     Press 90 3d 7f 90 3d 00
+WidgetEnd
+
+Widget RotaryPushD7
+     Press 90 3e 7f 90 3e 00
+WidgetEnd
+
+Widget RotaryPushD8
+     Press 90 3f 7f 90 3f 00
+WidgetEnd
+
+Widget RotaryA1 RotaryWidgetClass
+     Encoder b0 00 7f 
+     FB_Encoder b0 00 7f
+WidgetEnd
+
+Widget RotaryA2 RotaryWidgetClass
+     Encoder b0 01 7f 
+     FB_Encoder b0 01 7f
+WidgetEnd
+
+Widget RotaryA3 RotaryWidgetClass
+     Encoder b0 02 7f 
+     FB_Encoder b0 02 7f
+WidgetEnd
+
+Widget RotaryA4 RotaryWidgetClass
+     Encoder b0 03 7f 
+     FB_Encoder b0 03 7f
+WidgetEnd
+
+Widget RotaryA5 RotaryWidgetClass
+     Encoder b0 04 7f 
+     FB_Encoder b0 04 7f
+WidgetEnd
+
+Widget RotaryA6 RotaryWidgetClass
+     Encoder b0 05 7f 
+     FB_Encoder b0 05 7f
+WidgetEnd
+
+Widget RotaryA7 RotaryWidgetClass
+     Encoder b0 06 7f 
+     FB_Encoder b0 06 7f
+WidgetEnd
+
+Widget RotaryA8 RotaryWidgetClass
+     Encoder b0 07 7f 
+     FB_Encoder b0 07 7f
+WidgetEnd
+
+Widget RotaryB1 RotaryWidgetClass
+     Encoder b0 08 7f 
+     FB_Encoder b0 08 7f
+WidgetEnd
+
+Widget RotaryB2 RotaryWidgetClass
+     Encoder b0 09 7f 
+     FB_Encoder b0 09 7f
+WidgetEnd
+
+Widget RotaryB3 RotaryWidgetClass
+     Encoder b0 0a 7f 
+     FB_Encoder b0 0a 7f
+WidgetEnd
+
+Widget RotaryB4 RotaryWidgetClass
+     Encoder b0 0b 7f 
+     FB_Encoder b0 0b 7f
+WidgetEnd
+
+Widget RotaryB5 RotaryWidgetClass
+     Encoder b0 0c 7f 
+     FB_Encoder b0 0c 7f
+WidgetEnd
+
+Widget RotaryB6 RotaryWidgetClass
+     Encoder b0 0d 7f 
+     FB_Encoder b0 0d 7f
+WidgetEnd
+
+Widget RotaryB7 RotaryWidgetClass
+     Encoder b0 0e 7f 
+     FB_Encoder b0 0e 7f
+WidgetEnd
+
+Widget RotaryB8 RotaryWidgetClass
+     Encoder b0 0f 7f 
+     FB_Encoder b0 0f 7f
+WidgetEnd
+
+Widget RotaryC1 RotaryWidgetClass
+     Encoder b0 10 7f 
+     FB_Encoder b0 10 7f
+WidgetEnd
+
+Widget RotaryC2 RotaryWidgetClass
+     Encoder b0 11 7f 
+     FB_Encoder b0 11 7f
+WidgetEnd
+
+Widget RotaryC3 RotaryWidgetClass
+     Encoder b0 12 7f 
+     FB_Encoder b0 12 7f
+WidgetEnd
+
+Widget RotaryC4 RotaryWidgetClass
+     Encoder b0 13 7f 
+     FB_Encoder b0 13 7f
+WidgetEnd
+
+Widget RotaryC5 RotaryWidgetClass
+     Encoder b0 14 7f 
+     FB_Encoder b0 14 7f
+WidgetEnd
+
+Widget RotaryC6 RotaryWidgetClass
+     Encoder b0 15 7f 
+     FB_Encoder b0 15 7f
+WidgetEnd
+
+Widget RotaryC7 RotaryWidgetClass
+     Encoder b0 16 7f 
+     FB_Encoder b0 16 7f
+WidgetEnd
+
+Widget RotaryC8 RotaryWidgetClass
+     Encoder b0 17 7f 
+     FB_Encoder b0 17 7f
+WidgetEnd
+
+Widget RotaryD1 RotaryWidgetClass
+     Encoder b0 18 7f 
+     FB_Encoder b0 18 7f
+WidgetEnd
+
+Widget RotaryD2 RotaryWidgetClass
+     Encoder b0 19 7f 
+     FB_Encoder b0 19 7f
+WidgetEnd
+
+Widget RotaryD3 RotaryWidgetClass
+     Encoder b0 1a 7f 
+     FB_Encoder b0 1a 7f
+WidgetEnd
+
+Widget RotaryD4 RotaryWidgetClass
+     Encoder b0 1b 7f 
+     FB_Encoder b0 1b 7f
+WidgetEnd
+
+Widget RotaryD5 RotaryWidgetClass
+     Encoder b0 1c 7f 
+     FB_Encoder b0 1c 7f
+WidgetEnd
+
+Widget RotaryD6 RotaryWidgetClass
+     Encoder b0 1d 7f 
+     FB_Encoder b0 1d 7f
+WidgetEnd
+
+Widget RotaryD7 RotaryWidgetClass
+     Encoder b0 1e 7f 
+     FB_Encoder b0 1e 7f
+WidgetEnd
+
+Widget RotaryD8 RotaryWidgetClass
+     Encoder b0 1f 7f 
+     FB_Encoder b0 1f 7f
+WidgetEnd
+
+Widget Split
+     Press 90 00 7F 90 00 00
+     FB_TwoState 90 00 7F 90 00 00
+WidgetEnd
+
+Widget Lock
+     Press 90 03 7F 90 03 00
+     FB_TwoState 90 03 7F 90 03 00
+WidgetEnd
+
+Widget SpotErase
+     Press 90 04 7F 90 04 00
+     FB_TwoState 90 04 7F 90 04 00
+WidgetEnd
+
+Widget Marker
+     Press 90 05 7F 90 05 00
+     FB_TwoState 90 05 7F 90 05 00
+WidgetEnd
+
+Widget Track
+     Press 90 06 7F 90 06 00
+     FB_TwoState 90 06 7F 90 06 00
+WidgetEnd
+
+Widget ChanStrip
+     Press 90 07 7F 90 07 00
+     FB_TwoState 90 07 7F 90 07 00
+WidgetEnd
+
+Widget Function
+     Press 90 08 7F 90 08 00
+     FB_TwoState 90 08 7F 90 08 00
+WidgetEnd
+
+Widget Shift
+     Press 90 0d 7f 90 0d 00
+WidgetEnd
+
+Widget Option
+     Press 90 0e 7f 90 0e 00
+WidgetEnd
+
+Widget Control
+     Press 90 0f 7f 90 0f 00
+WidgetEnd
+
+Widget Alt
+     Press 90 10 7f 90 10 00
+WidgetEnd
+
+Widget BankLeft
+     Press 90 09 7f 90 09 00
+WidgetEnd
+
+Widget BankRight
+     Press 90 0a 7f 90 0a 00
+WidgetEnd
+
+Widget ChannelLeft
+     Press 90 0b 7f 90 0b 00
+WidgetEnd
+
+Widget ChannelRight
+     Press 90 0c 7f 90 0c 00
+WidgetEnd
+
+Widget SlotUp
+     Press 90 11 7f 90 11 00
+WidgetEnd
+
+Widget SlotDown
+     Press 90 12 7f 90 12 00
+WidgetEnd
+
+Widget TrackL
+     Press 90 13 7f 90 13 00
+WidgetEnd
+
+Widget TrackR
+     Press 90 14 7f 90 14 00
+WidgetEnd

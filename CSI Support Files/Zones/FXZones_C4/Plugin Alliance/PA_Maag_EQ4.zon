@@ -1,0 +1,179 @@
+Zone "VST: Maag EQ4 (Plugin Alliance)" "Maag"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 10 "Maag"
+DisplayLowerA1 FXParamValueDisplay 10 
+RotaryA1 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 9 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 NoAction 
+DisplayLowerA2 NoAction 
+RotaryA2 NoAction 
+RotaryPushA2 NoAction 
+/  
+DisplayUpperA3 NoAction 
+DisplayLowerA3 NoAction 
+RotaryA3 NoAction 
+RotaryPushA3 NoAction 
+/  
+DisplayUpperA4 NoAction 
+DisplayLowerA4 NoAction 
+RotaryA4 NoAction 
+RotaryPushA4 NoAction 
+/  
+DisplayUpperA5 NoAction 
+DisplayLowerA5 NoAction 
+RotaryA5 NoAction 
+RotaryPushA5 NoAction 
+/  
+DisplayUpperA6 NoAction 
+DisplayLowerA6 NoAction 
+RotaryA6 NoAction 
+RotaryPushA6 NoAction 
+/  
+DisplayUpperA7 NoAction 
+DisplayLowerA7 NoAction 
+RotaryA7 NoAction 
+RotaryPushA7 NoAction 
+/  
+DisplayUpperA8 NoAction 
+DisplayLowerA8 NoAction 
+RotaryA8 NoAction 
+RotaryPushA8 NoAction 
+/  
+DisplayUpperB1 NoAction 
+DisplayLowerB1 NoAction 
+RotaryB1 NoAction 
+RotaryPushB1 NoAction 
+/  
+DisplayUpperB2 NoAction 
+DisplayLowerB2 NoAction 
+RotaryB2 NoAction 
+RotaryPushB2 NoAction 
+/  
+DisplayUpperB3 NoAction 
+DisplayLowerB3 NoAction 
+RotaryB3 NoAction 
+RotaryPushB3 NoAction 
+/  
+DisplayUpperB4 NoAction 
+DisplayLowerB4 NoAction 
+RotaryB4 NoAction 
+RotaryPushB4 NoAction 
+/  
+DisplayUpperB5 NoAction 
+DisplayLowerB5 NoAction 
+RotaryB5 NoAction 
+RotaryPushB5 NoAction 
+/  
+DisplayUpperB6 NoAction 
+DisplayLowerB6 NoAction 
+RotaryB6 NoAction 
+RotaryPushB6 NoAction 
+/  
+DisplayUpperB7 NoAction 
+DisplayLowerB7 NoAction 
+RotaryB7 NoAction 
+RotaryPushB7 NoAction 
+/  
+DisplayUpperB8 NoAction 
+DisplayLowerB8 NoAction 
+RotaryB8 NoAction 
+RotaryPushB8 NoAction 
+/  
+DisplayUpperC1 NoAction 
+DisplayLowerC1 NoAction 
+RotaryC1 NoAction 
+RotaryPushC1 NoAction 
+/  
+DisplayUpperC2 NoAction 
+DisplayLowerC2 NoAction 
+RotaryC2 NoAction 
+RotaryPushC2 NoAction 
+/  
+DisplayUpperC3 NoAction 
+DisplayLowerC3 NoAction 
+RotaryC3 NoAction 
+RotaryPushC3 NoAction 
+/  
+DisplayUpperC4 NoAction 
+DisplayLowerC4 NoAction 
+RotaryC4 NoAction 
+RotaryPushC4 NoAction 
+/  
+DisplayUpperC5 NoAction 
+DisplayLowerC5 NoAction 
+RotaryC5 NoAction 
+RotaryPushC5 NoAction 
+/  
+DisplayUpperC6 FXParamNameDisplay 7 "AirFrq"
+DisplayLowerC6 FXParamValueDisplay 7 
+RotaryC6 FXParam 7 [ (4,4,3,2,1) 0.0 0.20 0.40 0.60 0.80 1.0 ]
+RotaryPushC6 FXParam 7 [ 0.0 0.20 0.40 0.60 0.80 1.0 ]
+/  
+DisplayUpperC7 NoAction 
+DisplayLowerC7 NoAction 
+RotaryC7 NoAction 
+RotaryPushC7 NoAction 
+/  
+DisplayUpperC8 NoAction 
+DisplayLowerC8 NoAction 
+RotaryC8 NoAction 
+RotaryPushC8 NoAction 
+/  
+DisplayUpperD1 FXParamNameDisplay 1 "Sub"
+DisplayLowerD1 FXParamValueDisplay 1 
+RotaryD1 FXParam 1 [ (0.05) ]
+RotaryPushD1 FXParam 1 [ 0.5 ] 
+/  
+DisplayUpperD2 FXParamNameDisplay 2 "40Hz"
+DisplayLowerD2 FXParamValueDisplay 2 
+RotaryD2 FXParam 2 [ (0.05) ]
+RotaryPushD2 FXParam 2 [ 0.5 ] 
+/  
+DisplayUpperD3 FXParamNameDisplay 3 "160Hz"
+DisplayLowerD3 FXParamValueDisplay 3 
+RotaryD3 FXParam 3 [ (0.05) ]
+RotaryPushD3 FXParam 3 [ 0.5 ] 
+/  
+DisplayUpperD4 FXParamNameDisplay 4 "650Hz"
+DisplayLowerD4 FXParamValueDisplay 4 
+RotaryD4 FXParam 4 [ (0.05) ]
+RotaryPushD4 FXParam 4 [ 0.5 ] 
+/  
+DisplayUpperD5 FXParamNameDisplay 5 "2.5kHz"
+DisplayLowerD5 FXParamValueDisplay 5 
+RotaryD5 FXParam 5 [ (0.05) ]
+RotaryPushD5 FXParam 5 [ 0.5 ] 
+/  
+DisplayUpperD6 FXParamNameDisplay 6 "AirGn"
+DisplayLowerD6 FXParamValueDisplay 6 
+RotaryD6 FXParam 6 [ (0.05) ]
+RotaryPushD6 FXParam 6 [ 0.0 ] 
+/  
+DisplayUpperD7 FXParamNameDisplay 8 "Trim"
+DisplayLowerD7 FXParamValueDisplay 8 
+RotaryD7 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 NoAction 
+/  
+DisplayUpperD8 FXParamNameDisplay 0 "In"
+DisplayLowerD8 FXParamValueDisplay 0 
+RotaryD8 NoAction
+RotaryPushD8 FXParam 0  
+/
+ZoneEnd
+/
+/"VST: Maag EQ4 (Plugin Alliance)"
+/"In/Out"
+/"Sub"
+/"40 Hz"
+/"160 Hz"
+/"650 Hz"
+/"2.5 kHz"
+/"Air Gain"
+/"Air Band"
+/"Level"
+/"Bypass"
+/"Wet"

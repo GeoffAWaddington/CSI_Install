@@ -1,0 +1,12 @@
+Zone SelectedTrackTCPFX
+
+RotaryF1 		TCPFXParam 0
+RotaryF2		TCPFXParam 1
+RotaryF3		TCPFXParam 2
+RotaryF4		TCPFXParam 3
+RotaryF5		TCPFXParam 4
+RotaryF6		TCPFXParam 5
+RotaryF7		TCPFXParam 6
+RotaryF8		TCPFXParam 7
+
+ZoneEnd	

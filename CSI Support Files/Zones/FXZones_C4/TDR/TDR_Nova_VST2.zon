@@ -1,0 +1,338 @@
+Zone "VST: TDR Nova (Tokyo Dawn Labs)" "Nova"
+SelectedTrackNavigator
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 74 "Wet"
+DisplayLowerA1 FXParamValueDisplay 74 
+RotaryA1 FXParam 74 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 62 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 FXParamNameDisplay 68 "Chan"
+DisplayLowerA2 FXParamValueDisplay 68 
+RotaryA2 FXParam 68 [ (4,4,3,2,1) 0.0 0.09 0.25 0.42 0.59 0.75 0.92 ]
+RotaryPushA2 FXParam 69 [ 0.0 1.0 ]
+/  
+DisplayUpperA3 FXParamNameDisplay 67 "Qual"
+DisplayLowerA3 FXParamValueDisplay 67 
+RotaryA3 FXParam 67 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushA3 FXParam 70 [ 0.0 1.0 ]
+/  
+DisplayUpperA4 FXParamNameDisplay 72 "SC_Mde"
+DisplayLowerA4 FXParamValueDisplay 72 
+RotaryA4 FXParam 72 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushA4 FXParam 71 [ 0.0 1.0 ]
+/  
+DisplayUpperA5 FXParamNameDisplay 50 "HPF"
+DisplayLowerA5 FXParamValueDisplay 50 
+RotaryA5 FXParam 50 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 FXParam 49 [ 0.0 1.0 ]
+/  
+DisplayUpperA6 FXParamNameDisplay 51 "Slope"
+DisplayLowerA6 FXParamValueDisplay 51 
+RotaryA6 FXParam 51 [ (4,4,3,2,1) 0.0 0.33 0.67 1.0 ]
+RotaryPushA6 FXParam 48 [ 0.0 1.0 ]
+/  
+DisplayUpperA7 FXParamNameDisplay 54 "LPF"
+DisplayLowerA7 FXParamValueDisplay 54 
+RotaryA7 FXParam 54 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 FXParam 53 [ 0.0 1.0 ]
+/  
+DisplayUpperA8 FXParamNameDisplay 55 "Slope"
+DisplayLowerA8 FXParamValueDisplay 55 
+RotaryA8 FXParam 55 [ (4,4,3,2,1) 0.0 0.33 0.67 1.0 ]
+RotaryPushA8 FXParam 52 [ 0.0 1.0 ]
+/  
+DisplayUpperB1 FXParamNameDisplay 56 "W_Gain"
+DisplayLowerB1 FXParamValueDisplay 56 
+RotaryB1 FXParam 56 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB1 NoAction 
+/  
+DisplayUpperB2 FXParamNameDisplay 58 "Thrsh"
+DisplayLowerB2 FXParamValueDisplay 58 
+RotaryB2 FXParam 58 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 FXParam 57 [ 0.0 1.0 ]
+/  
+DisplayUpperB3 FXParamNameDisplay 59 "Ratio"
+DisplayLowerB3 FXParamValueDisplay 59 
+RotaryB3 FXParam 59 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 NoAction 
+/  
+DisplayUpperB4 FXParamNameDisplay 60 "Att"
+DisplayLowerB4 FXParamValueDisplay 60 
+RotaryB4 FXParam 60 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 NoAction 
+/  
+DisplayUpperB5 FXParamNameDisplay 61 "Rel"
+DisplayLowerB5 FXParamValueDisplay 61 
+RotaryB5 FXParam 61 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 NoAction 
+/  
+DisplayUpperB6 NoAction 
+DisplayLowerB6 NoAction 
+RotaryB6 NoAction 
+RotaryPushB6 NoAction 
+/  
+DisplayUpperB7 FXParamNameDisplay 64 "Dry"
+DisplayLowerB7 FXParamValueDisplay 64 
+RotaryB7 FXParam 64 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB7 FXParam 63 [ 0.0 1.0 ]
+/  
+DisplayUpperB8 FXParamNameDisplay 65 "Output"
+DisplayLowerB8 FXParamValueDisplay 65 
+RotaryB8 FXParam 65 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB8 FXParam 66 [ 0.0 1.0 ]
+/  
+DisplayUpperC1 FXParamNameDisplay 3 "Q1"
+DisplayLowerC1 FXParamValueDisplay 3 
+RotaryC1 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 0  [ 1.0 1.0 ]
+RotaryPushC1 FXParam 12 [ 0.0 0.0 ]
+RotaryPushC1 FXParam 24 [ 0.0 0.0 ]
+RotaryPushC1 FXParam 36 [ 0.0 0.0 ]
+/  
+DisplayUpperC2 FXParamNameDisplay 4 "Freq1"
+DisplayLowerC2 FXParamValueDisplay 4 
+RotaryC2 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 1 [ 0.0 1.0 ]
+/  
+DisplayUpperC3 FXParamNameDisplay 5 "Type1"
+DisplayLowerC3 FXParamValueDisplay 5 
+RotaryC3 FXParam 5 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushC3 FXParam 5 [ 0.0 0.50 1.0 ] 
+/  
+DisplayUpperC4 FXParamNameDisplay 2 "Gain1"
+DisplayLowerC4 FXParamValueDisplay 2 
+RotaryC4 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 NoAction 
+/  
+DisplayUpperC5 FXParamNameDisplay 7 "Thrsh1"
+DisplayLowerC5 FXParamValueDisplay 7 
+RotaryC5 FXParam 7 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 6 [ 0.0 1.0 ]
+/  
+DisplayUpperC6 FXParamNameDisplay 8 "Ratio1"
+DisplayLowerC6 FXParamValueDisplay 8 
+RotaryC6 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 FXParam 9 [ 0.0 1.0 ]
+/  
+DisplayUpperC7 FXParamNameDisplay 10 "Att1"
+DisplayLowerC7 FXParamValueDisplay 10 
+RotaryC7 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 NoAction 
+/  
+DisplayUpperC8 FXParamNameDisplay 11 "Rel1"
+DisplayLowerC8 FXParamValueDisplay 11 
+RotaryC8 FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 NoAction 
+/  
+DisplayUpperD1 FXParamNameDisplay 15 "Q2"
+DisplayLowerD1 FXParamValueDisplay 15 
+RotaryD1 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 12 [ 1.0 1.0 ]
+RotaryPushD1 FXParam 0  [ 0.0 0.0 ]
+RotaryPushD1 FXParam 24 [ 0.0 0.0 ]
+RotaryPushD1 FXParam 36 [ 0.0 0.0 ]
+/  
+DisplayUpperD2 FXParamNameDisplay 16 "Freq2"
+DisplayLowerD2 FXParamValueDisplay 16 
+RotaryD2 FXParam 16 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 13 [ 0.0 1.0 ]
+/  
+DisplayUpperD3 FXParamNameDisplay 17 "Type2"
+DisplayLowerD3 FXParamValueDisplay 17 
+RotaryD3 FXParam 17 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushD3 FXParam 17 [ 0.0 0.50 1.0 ] 
+/  
+DisplayUpperD4 FXParamNameDisplay 14 "Gain2"
+DisplayLowerD4 FXParamValueDisplay 14 
+RotaryD4 FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 NoAction 
+/  
+DisplayUpperD5 FXParamNameDisplay 19 "Thrsh2"
+DisplayLowerD5 FXParamValueDisplay 19 
+RotaryD5 FXParam 19 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 18 [ 0.0 1.0 ]
+/  
+DisplayUpperD6 FXParamNameDisplay 20 "Ratio2"
+DisplayLowerD6 FXParamValueDisplay 20 
+RotaryD6 FXParam 20 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 21 [ 0.0 1.0 ]
+/  
+DisplayUpperD7 FXParamNameDisplay 22 "Att2"
+DisplayLowerD7 FXParamValueDisplay 22 
+RotaryD7 FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 NoAction 
+/  
+DisplayUpperD8 FXParamNameDisplay 23 "Rel2"
+DisplayLowerD8 FXParamValueDisplay 23 
+RotaryD8 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 NoAction 
+/
+Shift+DisplayUpperA1 FXParamNameDisplay 74 "Wet"
+Shift+DisplayLowerA1 FXParamValueDisplay 74 
+Shift+RotaryA1 FXParam 74 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA1 FXParam 62 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperA2 FXParamNameDisplay 68 "Chan"
+Shift+DisplayLowerA2 FXParamValueDisplay 68 
+Shift+RotaryA2 FXParam 68 [ (4,4,3,2,1) 0.0 0.09 0.25 0.42 0.59 0.75 0.92 ]
+Shift+RotaryPushA2 FXParam 69 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperA3 FXParamNameDisplay 67 "Qual"
+Shift+DisplayLowerA3 FXParamValueDisplay 67 
+Shift+RotaryA3 FXParam 67 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+Shift+RotaryPushA3 FXParam 70 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperA4 FXParamNameDisplay 72 "SC_Mde"
+Shift+DisplayLowerA4 FXParamValueDisplay 72 
+Shift+RotaryA4 FXParam 72 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+Shift+RotaryPushA4 FXParam 71 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperA5 FXParamNameDisplay 50 "HPF"
+Shift+DisplayLowerA5 FXParamValueDisplay 50 
+Shift+RotaryA5 FXParam 50 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA5 FXParam 49 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperA6 FXParamNameDisplay 51 "Slope"
+Shift+DisplayLowerA6 FXParamValueDisplay 51 
+Shift+RotaryA6 FXParam 51 [ (4,4,3,2,1) 0.0 0.33 0.67 1.0 ]
+Shift+RotaryPushA6 FXParam 48 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperA7 FXParamNameDisplay 54 "LPF"
+Shift+DisplayLowerA7 FXParamValueDisplay 54 
+Shift+RotaryA7 FXParam 54 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushA7 FXParam 53 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperA8 FXParamNameDisplay 55 "Slope"
+Shift+DisplayLowerA8 FXParamValueDisplay 55 
+Shift+RotaryA8 FXParam 55 [ (4,4,3,2,1) 0.0 0.33 0.67 1.0 ]
+Shift+RotaryPushA8 FXParam 52 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperB1 FXParamNameDisplay 56 "W_Gain"
+Shift+DisplayLowerB1 FXParamValueDisplay 56 
+Shift+RotaryB1 FXParam 56 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB1 NoAction 
+/  
+Shift+DisplayUpperB2 FXParamNameDisplay 58 "Thrsh"
+Shift+DisplayLowerB2 FXParamValueDisplay 58 
+Shift+RotaryB2 FXParam 58 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB2 FXParam 57 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperB3 FXParamNameDisplay 59 "Ratio"
+Shift+DisplayLowerB3 FXParamValueDisplay 59 
+Shift+RotaryB3 FXParam 59 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB3 NoAction 
+/  
+Shift+DisplayUpperB4 FXParamNameDisplay 60 "Att"
+Shift+DisplayLowerB4 FXParamValueDisplay 60 
+Shift+RotaryB4 FXParam 60 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB4 NoAction 
+/  
+Shift+DisplayUpperB5 FXParamNameDisplay 61 "Rel"
+Shift+DisplayLowerB5 FXParamValueDisplay 61 
+Shift+RotaryB5 FXParam 61 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB5 NoAction 
+/  
+Shift+DisplayUpperB6 NoAction 
+Shift+DisplayLowerB6 NoAction 
+Shift+RotaryB6 NoAction 
+Shift+RotaryPushB6 NoAction 
+/  
+Shift+DisplayUpperB7 FXParamNameDisplay 64 "Dry"
+Shift+DisplayLowerB7 FXParamValueDisplay 64 
+Shift+RotaryB7 FXParam 64 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB7 FXParam 63 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperB8 FXParamNameDisplay 65 "Output"
+Shift+DisplayLowerB8 FXParamValueDisplay 65 
+Shift+RotaryB8 FXParam 65 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushB8 FXParam 66 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperC1 FXParamNameDisplay 27 "Q3"
+Shift+DisplayLowerC1 FXParamValueDisplay 27 
+Shift+RotaryC1 FXParam 27 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC1 FXParam 24 [ 1.0 1.0 ]
+Shift+RotaryPushC1 FXParam 12 [ 0.0 0.0 ]
+Shift+RotaryPushC1 FXParam 0  [ 0.0 0.0 ]
+Shift+RotaryPushC1 FXParam 36 [ 0.0 0.0 ]
+/  
+Shift+DisplayUpperC2 FXParamNameDisplay 28 "Freq3"
+Shift+DisplayLowerC2 FXParamValueDisplay 28 
+Shift+RotaryC2 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC2 FXParam 25 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperC3 FXParamNameDisplay 29 "Type3"
+Shift+DisplayLowerC3 FXParamValueDisplay 29 
+Shift+RotaryC3 FXParam 29 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+Shift+RotaryPushC3 FXParam 29 [ 0.0 0.50 1.0 ] 
+/  
+Shift+DisplayUpperC4 FXParamNameDisplay 26 "Gain3"
+Shift+DisplayLowerC4 FXParamValueDisplay 26 
+Shift+RotaryC4 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC4 NoAction 
+/  
+Shift+DisplayUpperC5 FXParamNameDisplay 31 "Thrsh3"
+Shift+DisplayLowerC5 FXParamValueDisplay 31 
+Shift+RotaryC5 FXParam 31 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC5 FXParam 30 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperC6 FXParamNameDisplay 32 "Ratio3"
+Shift+DisplayLowerC6 FXParamValueDisplay 32 
+Shift+RotaryC6 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC6 FXParam 33 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperC7 FXParamNameDisplay 34 "Att3"
+Shift+DisplayLowerC7 FXParamValueDisplay 34 
+Shift+RotaryC7 FXParam 34 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC7 NoAction 
+/  
+Shift+DisplayUpperC8 FXParamNameDisplay 35 "Rel3"
+Shift+DisplayLowerC8 FXParamValueDisplay 35 
+Shift+RotaryC8 FXParam 35 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushC8 NoAction 
+/  
+Shift+DisplayUpperD1 FXParamNameDisplay 39 "Q4"
+Shift+DisplayLowerD1 FXParamValueDisplay 39 
+Shift+RotaryD1 FXParam 39 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD1 FXParam 36 [ 1.0 1.0 ]
+Shift+RotaryPushD1 FXParam 12 [ 0.0 0.0 ]
+Shift+RotaryPushD1 FXParam 24 [ 0.0 0.0 ]
+Shift+RotaryPushD1 FXParam 0  [ 0.0 0.0 ]
+/  
+Shift+DisplayUpperD2 FXParamNameDisplay 40 "Freq4"
+Shift+DisplayLowerD2 FXParamValueDisplay 40 
+Shift+RotaryD2 FXParam 40 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD2 FXParam 37 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperD3 FXParamNameDisplay 41 "Type4"
+Shift+DisplayLowerD3 FXParamValueDisplay 41 
+Shift+RotaryD3 FXParam 41 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+Shift+RotaryPushD3 FXParam 41 [ 0.0 0.50 1.0 ] 
+/  
+Shift+DisplayUpperD4 FXParamNameDisplay 38 "Gain4"
+Shift+DisplayLowerD4 FXParamValueDisplay 38 
+Shift+RotaryD4 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD4 NoAction 
+/  
+Shift+DisplayUpperD5 FXParamNameDisplay 43 "Thrsh4"
+Shift+DisplayLowerD5 FXParamValueDisplay 43 
+Shift+RotaryD5 FXParam 43 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD5 FXParam 42 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperD6 FXParamNameDisplay 44 "Split4"
+Shift+DisplayLowerD6 FXParamValueDisplay 44 
+Shift+RotaryD6 FXParam 44 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD6 FXParam 45 [ 0.0 1.0 ]
+/  
+Shift+DisplayUpperD7 FXParamNameDisplay 46 "Att4"
+Shift+DisplayLowerD7 FXParamValueDisplay 46 
+Shift+RotaryD7 FXParam 46 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD7 NoAction 
+/  
+Shift+DisplayUpperD8 FXParamNameDisplay 47 "Rel4"
+Shift+DisplayLowerD8 FXParamValueDisplay 47 
+Shift+RotaryD8 FXParam 47 [ (0.001,0.005,0.025,0.05,0.1) ]
+Shift+RotaryPushD8 NoAction 
+/
+ZoneEnd

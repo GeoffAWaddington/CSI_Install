@@ -1,0 +1,298 @@
+Zone "VST: bx_digital V3 (Plugin Alliance)-3"
+/Sub
+/
+Shift GoSubZone "VST: bx_digital V3 (Plugin Alliance)"
+Option GoSubZone "VST: bx_digital V3 (Plugin Alliance)-2"
+Control GoSubZone "VST: bx_digital V3 (Plugin Alliance)-3"
+/
+/
+DisplayUpperA1 FXParamNameDisplay 125 "Digi-3"
+DisplayLowerA1 FXParamValueDisplay 125  
+RotaryA1 FXParam 125 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 126 [ 0.0 1.0 ]
+/   
+DisplayUpperA2 FXParamNameDisplay 2 "Input"
+DisplayLowerA2 FXParamValueDisplay 2  
+RotaryA2 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 NoAction  
+/   
+DisplayUpperA3 FXParamNameDisplay 3 "Out/EQ"
+DisplayLowerA3 FXParamValueDisplay 3  
+RotaryA3 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 NoAction  
+/   
+DisplayUpperA4 FXParamNameDisplay 4 "Width"
+DisplayLowerA4 FXParamValueDisplay 4  
+RotaryA4 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 NoAction  
+/   
+DisplayUpperA5 FXParamNameDisplay 5 "Bal"
+DisplayLowerA5 FXParamValueDisplay 5  
+RotaryA5 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 NoAction  
+/   
+DisplayUpperA6 FXParamNameDisplay 6 "PanM"
+DisplayLowerA6 FXParamValueDisplay 6  
+RotaryA6 FXParam 6 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushA6 NoAction  
+/   
+DisplayUpperA7 FXParamNameDisplay 7 "PanS"
+DisplayLowerA7 FXParamValueDisplay 7  
+RotaryA7 FXParam 7 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 NoAction  
+/   
+DisplayUpperA8 FXParamNameDisplay 9 "Mode"
+DisplayLowerA8 FXParamValueDisplay 9  
+RotaryA8 FXParam 9 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushA8 FXParam 9 [ 0.0 1.0 ]
+/   
+DisplayUpperB1 NoAction  
+DisplayLowerB1 NoAction  
+RotaryB1 NoAction  
+RotaryPushB1 NoAction  
+/   
+DisplayUpperB2 NoAction  
+DisplayLowerB2 NoAction  
+RotaryB2 NoAction  
+RotaryPushB2 NoAction  
+/   
+DisplayUpperB3 NoAction  
+DisplayLowerB3 NoAction  
+RotaryB3 NoAction  
+RotaryPushB3 NoAction  
+/   
+DisplayUpperB4 NoAction  
+DisplayLowerB4 NoAction  
+RotaryB4 NoAction  
+RotaryPushB4 NoAction  
+/   
+DisplayUpperB5 NoAction  
+DisplayLowerB5 NoAction  
+RotaryB5 NoAction  
+RotaryPushB5 NoAction  
+/   
+DisplayUpperB6 NoAction  
+DisplayLowerB6 NoAction  
+RotaryB6 NoAction  
+RotaryPushB6 NoAction  
+/   
+DisplayUpperB7 NoAction  
+DisplayLowerB7 NoAction  
+RotaryB7 NoAction  
+RotaryPushB7 NoAction  
+/   
+DisplayUpperB8 NoAction  
+DisplayLowerB8 NoAction  
+RotaryB8 NoAction  
+RotaryPushB8 NoAction  
+/   
+DisplayUpperC1 FXParamNameDisplay 94 "Range1"
+DisplayLowerC1 FXParamValueDisplay 94  
+RotaryC1 FXParam 94 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 98 [ 0.0 1.0 ]
+/   
+DisplayUpperC2 FXParamNameDisplay 95 "Freq1"
+DisplayLowerC2 FXParamValueDisplay 95  
+RotaryC2 FXParam 95 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 NoAction  
+/   
+DisplayUpperC3 FXParamNameDisplay "Pos"
+DisplayLowerC3 NoAction  
+RotaryC3 NoAction  
+RotaryPushC3 FXParam 93 [ 0.0 1.0 ]
+/   
+DisplayUpperC4 FXParamNameDisplay "Speed"
+DisplayLowerC4 NoAction  
+RotaryC4 NoAction  
+RotaryPushC4 FXParam 96 [ 0.0 1.0 ]
+/   
+DisplayUpperC5 FXParamNameDisplay "Solo"
+DisplayLowerC5 NoAction  
+RotaryC5 NoAction  
+RotaryPushC5 FXParam 97 [ 0.0 1.0 ]
+/   
+DisplayUpperC6 FXParamNameDisplay "Link"
+DisplayLowerC6 NoAction  
+RotaryC6 NoAction  
+RotaryPushC6 FXParam 114 [ 0.0 1.0 ]
+/   
+DisplayUpperC7 NoAction  
+DisplayLowerC7 NoAction  
+RotaryC7 NoAction  
+RotaryPushC7 NoAction  
+/   
+DisplayUpperC8 NoAction  
+DisplayLowerC8 NoAction  
+RotaryC8 NoAction  
+RotaryPushC8 NoAction  
+/   
+DisplayUpperD1 FXParamNameDisplay 100 "Range2"
+DisplayLowerD1 FXParamValueDisplay 100  
+RotaryD1 FXParam 100 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 104 [ 0.0 1.0 ]
+/   
+DisplayUpperD2 FXParamNameDisplay 101 "Freq2"
+DisplayLowerD2 FXParamValueDisplay 101  
+RotaryD2 FXParam 101 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 NoAction  
+/   
+DisplayUpperD3 FXParamNameDisplay "Pos"
+DisplayLowerD3 NoAction  
+RotaryD3 NoAction  
+RotaryPushD3 FXParam 99 [ 0.0 1.0 ]
+/   
+DisplayUpperD4 FXParamNameDisplay "Speed"
+DisplayLowerD4 NoAction  
+RotaryD4 NoAction  
+RotaryPushD4 FXParam 102 [ 0.0 1.0 ]
+/   
+DisplayUpperD5 FXParamNameDisplay "Solo"
+DisplayLowerD5 NoAction  
+RotaryD5 NoAction  
+RotaryPushD5 FXParam 103 [ 0.0 1.0 ]
+/   
+DisplayUpperD6 FXParamNameDisplay "Link"
+DisplayLowerD6 NoAction  
+RotaryD6 NoAction  
+RotaryPushD6 FXParam 124 [ 0.0 1.0 ]
+/   
+DisplayUpperD7 NoAction  
+DisplayLowerD7 NoAction  
+RotaryD7 NoAction  
+RotaryPushD7 NoAction  
+/   
+DisplayUpperD8 NoAction  
+DisplayLowerD8 NoAction  
+RotaryD8 NoAction  
+RotaryPushD8 NoAction  
+/
+ZoneEnd
+/
+/"VST: bx_digital V3 (Plugin Alliance)"
+/"Bypass"
+/"Bank"
+/"InGain"
+/"OutGain"
+/"StWidth"
+/"Balance"
+/"Pan Mid"
+/"Pan Side"
+/"AutoSolo"
+/"Modus"
+/"Swap LR"
+/"ALActive"
+/"ALMode"
+/"EQActive"
+/"LinkCh"
+/"GSAmnt"
+/"GSclActv"
+/"MMFreq"
+/"MMActive"
+/"Solo 1"
+/"Solo 2"
+/"Prop Q 1"
+/"Prop Q 2"
+/"HP1Slope"
+/"HP1Frq"
+/"LP1Slope"
+/"LP1Frq"
+/"HP2Slope"
+/"HP2Frq"
+/"LP2Slope"
+/"LP2Frq"
+/"LF1Type"
+/"LF1Gain"
+/"LF 1 Q"
+/"LF1Freq"
+/"LF1Actv"
+/"LMF1Type"
+/"LMF1Gain"
+/"LMF 1 Q"
+/"LMF1Freq"
+/"LMF1Actv"
+/"MF1Type"
+/"MF1Gain"
+/"MF 1 Q"
+/"MF1Freq"
+/"MF1Actv"
+/"HMF1Type"
+/"HMF1Gain"
+/"HMF 1 Q"
+/"HMF1Freq"
+/"HMF1Actv"
+/"HF1Type"
+/"HF1Gain"
+/"HF 1 Q"
+/"HF1Freq"
+/"HF1Actv"
+/"LF2Type"
+/"LF2Gain"
+/"LF 2 Q"
+/"LF2Freq"
+/"LF2Actv"
+/"LMF2Type"
+/"LMF2Gain"
+/"LMF 2 Q"
+/"LMF2Freq"
+/"LMF2Actv"
+/"MF2Type"
+/"MF2Gain"
+/"MF 2 Q"
+/"MF2Freq"
+/"MF2Actv"
+/"HMF2Type"
+/"HMF2Gain"
+/"HMF 2 Q"
+/"HMF2Freq"
+/"HMF2Actv"
+/"HF2Type"
+/"HF2Gain"
+/"HF 2 Q"
+/"HF2Freq"
+/"HF2Actv"
+/"BS1Tone"
+/"BS1Gn"
+/"BS1Actv"
+/"PS1Tone"
+/"PS1Gn"
+/"PS1Actv"
+/"BS2Tone"
+/"BS2Gn"
+/"BS2Actv"
+/"PS2Tone"
+/"PS2Gn"
+/"PS2Actv"
+/"DyEQ1Pos"
+/"DyEQ1Rng"
+/"DyEQ1Frq"
+/"DyEQ1Spd"
+/"DEQ1Solo"
+/"DEQ1Actv"
+/"DyEQ2Pos"
+/"DyEQ2Rng"
+/"DyEQ2Frq"
+/"DyEQ2Spd"
+/"DEQ2Solo"
+/"DEQ2Actv"
+/"LnHP1"
+/"LnLP1"
+/"LnLF1"
+/"LnLMF1"
+/"LnMF1"
+/"LnHMF1"
+/"LnHF1"
+/"LnBS1"
+/"LnPS1"
+/"LnkDnEQ1"
+/"LnHP2"
+/"LnLP2"
+/"LnLF2"
+/"LnLMF2"
+/"LnMF2"
+/"LnHMF2"
+/"LnHF2"
+/"LnBS2"
+/"LnPS2"
+/"LnkDnEQ2"
+/"Bypass"
+/"Wet"

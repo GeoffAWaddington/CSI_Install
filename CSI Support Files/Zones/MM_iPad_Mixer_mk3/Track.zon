@@ -1,0 +1,24 @@
+Zone Track
+        DisplayC|               TrackPanDisplay
+        DisplayD|               FixedTextDisplay REC
+        DisplayH|               TrackAutoModeDisplay
+        Shift+DisplayD| 		TrackInputMonitorDisplay
+        DisplayJ|               TrackVolumeDisplay
+        DisplayG|               TrackNameDisplay
+        Pan|                 	TrackPan
+        ButtonD|                TrackRecordArm	{ #4C1111FF #E03131FF }	
+        Option+ButtonD|			TrackInvertPolarity { #00576F #01C8FF }
+        Option+DisplayD|		FixedTextDisplay POL
+        Shift+ButtonD|  		CycleTrackInputMonitor 
+        ButtonE|                TrackSolo { #7D610CFF #FCC419FF }
+        DisplayE|				FixedTextDisplay SOLO 
+        ButtonF|                TrackMute { #571F1FFF #FF5A5AFF }
+        DisplayF|				FixedTextDisplay MUTE
+        ButtonG|                TrackUniqueSelect { #4D1E58FF #DD57FFFF }
+        Hold+ButtonG|           Reaper _MM_FolderChildren
+        Shift+ButtonG|          TrackRangeSelect
+        Control+ButtonG|        TrackSelect
+        Meter|					TrackOutputMeterMaxPeakLR
+        Fader|                  TrackVolume      
+        ButtonK|				TrackUniqueSelect { Track }
+ZoneEnd

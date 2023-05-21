@@ -1,0 +1,65 @@
+Zone "SelectedTrackTCPFX"
+    RotaryC1              TCPFXParam 0
+    RotaryPushC1          NoAction
+    ShiftRotaryC1         NoAction
+       
+    RotaryC2              TCPFXParam 1
+    RotaryPushC2          NoAction
+    ShiftRotaryC2         NoAction    
+
+    RotaryC3              TCPFXParam 2
+    RotaryPushC3          NoAction
+    ShiftRotaryC3         NoAction    
+    
+    RotaryC4              TCPFXParam 3
+    RotaryPushC4          NoAction
+    ShiftRotaryC4         NoAction   
+
+    RotaryC5              TCPFXParam 4
+    RotaryPushC5          NoAction
+    ShiftRotaryC5         NoAction 
+
+    RotaryC6              TCPFXParam 5
+    RotaryPushC6          NoAction
+    ShiftRotaryC6         NoAction 
+
+    RotaryC7              TCPFXParam 6
+    RotaryPushC7          NoAction
+    ShiftRotaryC7         NoAction 
+    
+    RotaryC8              TCPFXParam 7
+    RotaryPushC8          NoAction
+    ShiftRotaryC8         NoAction 
+    
+    RotaryD1              TCPFXParam 8
+    RotaryPushD1          NoAction
+    ShiftRotaryD1         NoAction 
+
+    RotaryD2              TCPFXParam 9
+    RotaryPushD2          NoAction
+    ShiftRotaryD2         NoAction 
+
+    RotaryD3              TCPFXParam 10
+    RotaryPushD3          NoAction
+    ShiftRotaryD3         NoAction 
+
+    RotaryD4              TCPFXParam 11
+    RotaryPushD4          NoAction
+    ShiftRotaryD4         NoAction 
+
+    RotaryD5              TCPFXParam 12
+    RotaryPushD5          NoAction
+    ShiftRotaryD5         NoAction 
+
+    RotaryD6              TCPFXParam 13
+    RotaryPushD6          NoAction
+    ShiftRotaryD6         NoAction 
+
+    RotaryD7              TCPFXParam 14
+    RotaryPushD7          NoAction
+    ShiftRotaryD7         NoAction 
+
+    RotaryD8              TCPFXParam 15
+    RotaryPushD8          NoAction
+    ShiftRotaryD8         NoAction 
+ZoneEnd

@@ -1,0 +1,197 @@
+Zone "VST: bx_control V2 (Plugin Alliance)" "Contrl"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 28 "Cntrl"
+DisplayLowerA1 FXParamValueDisplay 28 
+RotaryA1 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 27 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 NoAction 
+DisplayLowerA2 NoAction 
+RotaryA2 NoAction 
+RotaryPushA2 NoAction 
+/  
+DisplayUpperA3 NoAction 
+DisplayLowerA3 NoAction 
+RotaryA3 NoAction 
+RotaryPushA3 NoAction 
+/  
+DisplayUpperA4 NoAction 
+DisplayLowerA4 NoAction 
+RotaryA4 NoAction 
+RotaryPushA4 NoAction 
+/  
+DisplayUpperA5 NoAction 
+DisplayLowerA5 NoAction 
+RotaryA5 NoAction 
+RotaryPushA5 NoAction 
+/  
+DisplayUpperA6 NoAction 
+DisplayLowerA6 NoAction 
+RotaryA6 NoAction 
+RotaryPushA6 NoAction 
+/  
+DisplayUpperA7 NoAction 
+DisplayLowerA7 NoAction 
+RotaryA7 NoAction 
+RotaryPushA7 NoAction 
+/  
+DisplayUpperA8 NoAction 
+DisplayLowerA8 NoAction 
+RotaryA8 NoAction 
+RotaryPushA8 NoAction 
+/  
+DisplayUpperB1 FXParamNameDisplay 8 "Msolo"
+DisplayLowerB1 FXParamValueDisplay 8 
+RotaryB1 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB1 FXParam 8 [ 0.0 1.0 ]
+/  
+DisplayUpperB2 FXParamNameDisplay 9 "Ssolo"
+DisplayLowerB2 FXParamValueDisplay 9 
+RotaryB2 FXParam 9 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 FXParam 9 [ 0.0 1.0 ]
+/  
+DisplayUpperB3 FXParamNameDisplay 10 "Lsolo"
+DisplayLowerB3 FXParamValueDisplay 10 
+RotaryB3 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 FXParam 10 [ 0.0 1.0 ]
+/  
+DisplayUpperB4 FXParamNameDisplay 11 "Rsolo"
+DisplayLowerB4 FXParamValueDisplay 11 
+RotaryB4 FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 FXParam 11 [ 0.0 1.0 ]
+/  
+DisplayUpperB5 FXParamNameDisplay 24 "Meter"
+DisplayLowerB5 FXParamValueDisplay 24 
+RotaryB5 FXParam 24 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 24 [ 0.0 1.0 ]
+/  
+DisplayUpperB6 FXParamNameDisplay 25 "MIP"
+DisplayLowerB6 FXParamValueDisplay 25 
+RotaryB6 FXParam 25 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB6 FXParam 25 [ 0.0 1.0 ]
+/  
+DisplayUpperB7 FXParamNameDisplay 26 "PKHold"
+DisplayLowerB7 FXParamValueDisplay 26 
+RotaryB7 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB7 FXParam 26 [ 0.0 1.0 ]
+/  
+DisplayUpperB8 NoAction 
+DisplayLowerB8 NoAction 
+RotaryB8 NoAction 
+RotaryPushB8 NoAction 
+/  
+DisplayUpperC1 FXParamNameDisplay 2 "InM/S"
+DisplayLowerC1 FXParamValueDisplay 2 
+RotaryC1 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 2 [ 0.0 1.0 ]
+/  
+DisplayUpperC2 FXParamNameDisplay 3 "OutM/S"
+DisplayLowerC2 FXParamValueDisplay 3 
+RotaryC2 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 3 [ 0.0 1.0 ]
+/  
+DisplayUpperC3 FXParamNameDisplay 4 "L<>R"
+DisplayLowerC3 FXParamValueDisplay 4 
+RotaryC3 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 FXParam 4 [ 0.0 1.0 ]
+/  
+DisplayUpperC4 FXParamNameDisplay 5 "PhaseL"
+DisplayLowerC4 FXParamValueDisplay 5 
+RotaryC4 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 FXParam 5 [ 0.0 1.0 ]
+/  
+DisplayUpperC5 FXParamNameDisplay 6 "PhaseR"
+DisplayLowerC5 FXParamValueDisplay 6 
+RotaryC5 FXParam 6 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 6 [ 0.0 1.0 ]
+/  
+DisplayUpperC6 FXParamNameDisplay 7 "SIP"
+DisplayLowerC6 FXParamValueDisplay 7 
+RotaryC6 FXParam 7 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 FXParam 7 [ 0.0 1.0 ]
+/  
+DisplayUpperC7 NoAction 
+DisplayLowerC7 NoAction 
+RotaryC7 NoAction 
+RotaryPushC7 NoAction 
+/  
+DisplayUpperC8 NoAction 
+DisplayLowerC8 NoAction 
+RotaryC8 NoAction 
+RotaryPushC8 NoAction 
+/  
+DisplayUpperD1 FXParamNameDisplay 23 "Input"
+DisplayLowerD1 FXParamValueDisplay 23 
+RotaryD1 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 22 [ 0.0 1.0 ]
+/  
+DisplayUpperD2 FXParamNameDisplay 13 "Balnce"
+DisplayLowerD2 FXParamValueDisplay 13 
+RotaryD2 FXParam 13 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 12 [ 0.0 1.0 ]
+/  
+DisplayUpperD3 FXParamNameDisplay 15 "PanM"
+DisplayLowerD3 FXParamValueDisplay 15 
+RotaryD3 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 FXParam 14 [ 0.0 1.0 ]
+/  
+DisplayUpperD4 FXParamNameDisplay 17 "PanS"
+DisplayLowerD4 FXParamValueDisplay 17 
+RotaryD4 FXParam 17 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 16 [ 0.0 1.0 ]
+/  
+DisplayUpperD5 FXParamNameDisplay 19 "Mmaker"
+DisplayLowerD5 FXParamValueDisplay 19 
+RotaryD5 FXParam 19 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 18 [ 0.0 1.0 ]
+/  
+DisplayUpperD6 FXParamNameDisplay 21 "Width"
+DisplayLowerD6 FXParamValueDisplay 21 
+RotaryD6 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 20 [ 0.0 1.0 ]
+/  
+DisplayUpperD7 NoAction 
+DisplayLowerD7 NoAction 
+RotaryD7 NoAction 
+RotaryPushD7 NoAction 
+/  
+DisplayUpperD8 NoAction 
+DisplayLowerD8 NoAction 
+RotaryD8 NoAction 
+RotaryPushD8 NoAction 
+/
+ZoneEnd
+/
+/"VST: bx_control V2 (Plugin Alliance)"
+/"Bypass"
+/"Setting"
+/"Input"
+/"Output"
+/"L <-> R"
+/"PhaseL"
+/"PhaseR"
+/"SolIP"
+/"M Solo"
+/"S Solo"
+/"L Solo"
+/"R Solo"
+/"BalancOn"
+/"Balance"
+/"Pan M On"
+/"Pan M"
+/"Pan S On"
+/"Pan S"
+/"MMkOn"
+/"MonoMkr"
+/"StWdOn"
+/"StWidth"
+/"IpGainOn"
+/"IpGain"
+/"MetersMS"
+/"MetersIP"
+/"PeakHold"
+/"Bypass"
+/"Wet"

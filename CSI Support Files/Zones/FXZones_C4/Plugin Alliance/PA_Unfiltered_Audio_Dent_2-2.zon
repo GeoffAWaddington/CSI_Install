@@ -1,0 +1,214 @@
+Zone "VST: Unfiltered Audio Dent 2 (Plugin Alliance)-2"
+/Sub
+/
+Shift GoSubZone "VST: Unfiltered Audio Dent 2 (Plugin Alliance)"
+Option GoSubZone "VST: Unfiltered Audio Dent 2 (Plugin Alliance)-2"
+/
+/
+DisplayUpperA1 NoAction  
+DisplayLowerA1 NoAction  
+RotaryA1 NoAction  
+RotaryPushA1 NoAction  
+/   
+DisplayUpperA2 NoAction  
+DisplayLowerA2 NoAction  
+RotaryA2 NoAction  
+RotaryPushA2 NoAction  
+/   
+DisplayUpperA3 NoAction  
+DisplayLowerA3 NoAction  
+RotaryA3 NoAction  
+RotaryPushA3 NoAction  
+/   
+DisplayUpperA4 NoAction  
+DisplayLowerA4 NoAction  
+RotaryA4 NoAction  
+RotaryPushA4 NoAction  
+/   
+DisplayUpperA5 NoAction  
+DisplayLowerA5 NoAction  
+RotaryA5 NoAction  
+RotaryPushA5 NoAction  
+/   
+DisplayUpperA6 NoAction  
+DisplayLowerA6 NoAction  
+RotaryA6 NoAction  
+RotaryPushA6 NoAction  
+/   
+DisplayUpperA7 NoAction  
+DisplayLowerA7 NoAction  
+RotaryA7 NoAction  
+RotaryPushA7 NoAction  
+/   
+DisplayUpperA8 NoAction  
+DisplayLowerA8 NoAction  
+RotaryA8 NoAction  
+RotaryPushA8 NoAction  
+/   
+DisplayUpperB1 NoAction  
+DisplayLowerB1 NoAction  
+RotaryB1 NoAction  
+RotaryPushB1 NoAction  
+/   
+DisplayUpperB2 NoAction  
+DisplayLowerB2 NoAction  
+RotaryB2 NoAction  
+RotaryPushB2 NoAction  
+/   
+DisplayUpperB3 NoAction  
+DisplayLowerB3 NoAction  
+RotaryB3 NoAction  
+RotaryPushB3 NoAction  
+/   
+DisplayUpperB4 NoAction  
+DisplayLowerB4 NoAction  
+RotaryB4 NoAction  
+RotaryPushB4 NoAction  
+/   
+DisplayUpperB5 NoAction  
+DisplayLowerB5 NoAction  
+RotaryB5 NoAction  
+RotaryPushB5 NoAction  
+/   
+DisplayUpperB6 NoAction  
+DisplayLowerB6 NoAction  
+RotaryB6 NoAction  
+RotaryPushB6 NoAction  
+/   
+DisplayUpperB7 NoAction  
+DisplayLowerB7 NoAction  
+RotaryB7 NoAction  
+RotaryPushB7 NoAction  
+/   
+DisplayUpperB8 NoAction  
+DisplayLowerB8 NoAction  
+RotaryB8 NoAction  
+RotaryPushB8 NoAction  
+/   
+DisplayUpperC1 FXParamNameDisplay 34 "Mod_9"
+DisplayLowerC1 FXParamValueDisplay 34  
+RotaryC1 FXParam 34 [ (4,4,3,2,1) 0.0 0.20 0.40 0.60 0.80 1.0 ]
+RotaryPushC1 NoAction  
+/   
+DisplayUpperC2 FXParamNameDisplay 35 "Mod_10"
+DisplayLowerC2 FXParamValueDisplay 35  
+RotaryC2 FXParam 35 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 NoAction  
+/   
+DisplayUpperC3 FXParamNameDisplay 36 "Mod_11"
+DisplayLowerC3 FXParamValueDisplay 36  
+RotaryC3 FXParam 36 [ (4,4,3,2,1) 0.0 0.34 0.67 1.0 ]
+RotaryPushC3 NoAction  
+/   
+DisplayUpperC4 FXParamNameDisplay 37 "Mod_12"
+DisplayLowerC4 FXParamValueDisplay 37  
+RotaryC4 FXParam 37 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 NoAction  
+/   
+DisplayUpperC5 FXParamNameDisplay 38 "Mod_13"
+DisplayLowerC5 FXParamValueDisplay 38  
+RotaryC5 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 NoAction  
+/   
+DisplayUpperC6 FXParamNameDisplay 39 "Mod_14"
+DisplayLowerC6 FXParamValueDisplay 39  
+RotaryC6 FXParam 39 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 NoAction  
+/   
+DisplayUpperC7 FXParamNameDisplay 40 "Mod_15"
+DisplayLowerC7 FXParamValueDisplay 40  
+RotaryC7 FXParam 40 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 NoAction  
+/   
+DisplayUpperC8 FXParamNameDisplay 41 "Mod_16"
+DisplayLowerC8 FXParamValueDisplay 41  
+RotaryC8 FXParam 41 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 NoAction  
+/   
+DisplayUpperD1 FXParamNameDisplay 26 "Mod_1"
+DisplayLowerD1 FXParamValueDisplay 26  
+RotaryD1 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 NoAction  
+/   
+DisplayUpperD2 FXParamNameDisplay 27 "Mod_2"
+DisplayLowerD2 FXParamValueDisplay 27  
+RotaryD2 FXParam 27 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 NoAction  
+/   
+DisplayUpperD3 FXParamNameDisplay 28 "Mod_3"
+DisplayLowerD3 FXParamValueDisplay 28  
+RotaryD3 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 NoAction  
+/   
+DisplayUpperD4 FXParamNameDisplay 29 "Mod_4"
+DisplayLowerD4 FXParamValueDisplay 29  
+RotaryD4 FXParam 29 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 NoAction  
+/   
+DisplayUpperD5 FXParamNameDisplay 30 "Mod_5"
+DisplayLowerD5 FXParamValueDisplay 30  
+RotaryD5 FXParam 30 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 NoAction  
+/   
+DisplayUpperD6 FXParamNameDisplay 31 "Mod_6"
+DisplayLowerD6 FXParamValueDisplay 31  
+RotaryD6 FXParam 31 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 NoAction  
+/   
+DisplayUpperD7 FXParamNameDisplay 32 "Mod_7"
+DisplayLowerD7 FXParamValueDisplay 32  
+RotaryD7 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 NoAction  
+/   
+DisplayUpperD8 FXParamNameDisplay 33 "Mod_8"
+DisplayLowerD8 FXParamValueDisplay 33  
+RotaryD8 FXParam 33 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 NoAction  
+/
+ZoneEnd
+/
+/"VST: Unfiltered Audio Dent 2 (Plugin Alliance)"
+/"DryWet"
+/"In Gain"
+/"Out Gain"
+/"Output Trim"
+/"Gain Compensation"
+/"Bias"
+/"Shape"
+/"Split"
+/"Upper Mult"
+/"Lower Mult"
+/"Sample Rate"
+/"Bits"
+/"Cutoff"
+/"Resonance"
+/"Probability"
+/"Seq. Size"
+/"Drop Mode"
+/"Seq Mode"
+/"Block DC"
+/"Filter Type"
+/"Filter Post"
+/"Bitcrush Mode"
+/"Complex Mode"
+/"Clip Mode"
+/"Clip Mode Mid"
+/"Clip Mode Out"
+/"Modulation Control 1"
+/"Modulation Control 2"
+/"Modulation Control 3"
+/"Modulation Control 4"
+/"Modulation Control 5"
+/"Modulation Control 6"
+/"Modulation Control 7"
+/"Modulation Control 8"
+/"Modulation Control 9"
+/"Modulation Control 10"
+/"Modulation Control 11"
+/"Modulation Control 12"
+/"Modulation Control 13"
+/"Modulation Control 14"
+/"Modulation Control 15"
+/"Modulation Control 16"
+/"Bypass"
+/"Wet"

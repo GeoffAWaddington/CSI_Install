@@ -1,0 +1,21 @@
+Zone "SelectedTrackSend"
+  ScribbleStripMode       Mode=0 // default mode -> 3 lines + valuebar
+  
+  ScribbleLine1_|         FixedTextDisplay "Send"
+  ScribbleLine2_|         TrackSendVolumeDisplay
+  ScribbleLine3_|         TrackSendNameDisplay  // only displays 4-6 characters
+  ScribbleLine4_|         NoAction
+  ValueBar|               TrackSendVolume  BarStyle=Fill
+  Fader|                  TrackSendVolume
+  Mute|                   TrackSendMute // only works with trim/read send mutes, not the automatable ones
+
+  Prev                    Bank SelectedTrackSend -8
+  Next                    Bank SelectedTrackSend 8
+
+  Decrease+RotaryBig      Bank SelectedTrackSend -1
+  Increase+RotaryBig      Bank SelectedTrackSend 1
+
+  Shift+ScribbleLine2_|   TrackSendPanDisplay
+  Shift+Fader|            TrackSendPan
+
+ZoneEnd

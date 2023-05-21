@@ -1,0 +1,228 @@
+Zone "VST: bx_XL V2 (Plugin Alliance)" "XL_V2"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 59 "XL_V2"
+DisplayLowerA1 FXParamValueDisplay 59 
+RotaryA1 FXParam 59 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 58 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 FXParamNameDisplay 2 "LGain"
+DisplayLowerA2 FXParamValueDisplay 2 
+RotaryA2 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 6 [ 0.0 1.0 ]
+/  
+DisplayUpperA3 FXParamNameDisplay 3 "RGain"
+DisplayLowerA3 FXParamValueDisplay 3 
+RotaryA3 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 NoAction 
+/  
+DisplayUpperA4 FXParamNameDisplay 8 "MPan"
+DisplayLowerA4 FXParamValueDisplay 8 
+RotaryA4 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 FXParam 12 [ 0.0 1.0 ]
+/  
+DisplayUpperA5 FXParamNameDisplay 9 "SPan"
+DisplayLowerA5 FXParamValueDisplay 9 
+RotaryA5 FXParam 9 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 FXParam 15 [ 0.0 1.0 ]
+/  
+DisplayUpperA6 FXParamNameDisplay 4 "MGain"
+DisplayLowerA6 FXParamValueDisplay 4 
+RotaryA6 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA6 FXParam 7 [ 0.0 1.0 ]
+/  
+DisplayUpperA7 FXParamNameDisplay 5 "SGain"
+DisplayLowerA7 FXParamValueDisplay 5 
+RotaryA7 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 NoAction 
+/  
+DisplayUpperA8 FXParamNameDisplay 50 "Output"
+DisplayLowerA8 FXParamValueDisplay 50 
+RotaryA8 FXParam 50 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA8 FXParam 18 [ 0.0 1.0 ]
+/  
+DisplayUpperB1 FXParamNameDisplay 41 "S-XL"
+DisplayLowerB1 FXParamValueDisplay 41 
+RotaryB1 FXParam 41 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB1 FXParam 43 [ 0.0 1.0 ]
+/  
+DisplayUpperB2 FXParamNameDisplay 37 "SGain"
+DisplayLowerB2 FXParamValueDisplay 37 
+RotaryB2 FXParam 37 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 FXParam 45 [ 0.0 1.0 ]
+/  
+DisplayUpperB3 FXParamNameDisplay 38 "SThr"
+DisplayLowerB3 FXParamValueDisplay 38 
+RotaryB3 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 FXParam 42 [ 0.0 1.0 ]
+/  
+DisplayUpperB4 FXParamNameDisplay 39 "SAtt"
+DisplayLowerB4 FXParamValueDisplay 39 
+RotaryB4 FXParam 39 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 NoAction 
+/  
+DisplayUpperB5 FXParamNameDisplay 40 "SRel"
+DisplayLowerB5 FXParamValueDisplay 40 
+RotaryB5 FXParam 40 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 44 [ 0.0 1.0 ]
+/  
+DisplayUpperB6 FXParamNameDisplay 53 "SC_Mix"
+DisplayLowerB6 FXParamValueDisplay 53 
+RotaryB6 FXParam 53 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB6 FXParam 16 [ 0.0 1.0 ]
+/  
+DisplayUpperB7 FXParamNameDisplay 52 "S_SC"
+DisplayLowerB7 FXParamValueDisplay 52 
+RotaryB7 FXParam 52 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB7 NoAction 
+/  
+DisplayUpperB8 FXParamNameDisplay 48 "MstXL"
+DisplayLowerB8 FXParamValueDisplay 48 
+RotaryB8 FXParam 48 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB8 FXParam 49 [ 0.0 1.0 ]
+/  
+DisplayUpperC1 FXParamNameDisplay 32 "MH-XL"
+DisplayLowerC1 FXParamValueDisplay 32 
+RotaryC1 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 34 [ 0.0 1.0 ]
+/  
+DisplayUpperC2 FXParamNameDisplay 28 "MHGain"
+DisplayLowerC2 FXParamValueDisplay 28 
+RotaryC2 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 36 [ 0.0 1.0 ]
+/  
+DisplayUpperC3 FXParamNameDisplay 29 "MHThr"
+DisplayLowerC3 FXParamValueDisplay 29 
+RotaryC3 FXParam 29 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 FXParam 33 [ 0.0 1.0 ]
+/  
+DisplayUpperC4 FXParamNameDisplay 30 "MHAtt"
+DisplayLowerC4 FXParamValueDisplay 30 
+RotaryC4 FXParam 30 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 FXParam 14 [ 0.0 1.0 ]
+/  
+DisplayUpperC5 FXParamNameDisplay 31 "MHRel"
+DisplayLowerC5 FXParamValueDisplay 31 
+RotaryC5 FXParam 31 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 35 [ 0.0 1.0 ]
+/  
+DisplayUpperC6 NoAction 
+DisplayLowerC6 NoAction 
+RotaryC6 NoAction 
+RotaryPushC6 NoAction 
+/  
+DisplayUpperC7 FXParamNameDisplay 51 "M_SC"
+DisplayLowerC7 FXParamValueDisplay 51 
+RotaryC7 FXParam 51 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 NoAction 
+/  
+DisplayUpperC8 FXParamNameDisplay 46 "MstGn"
+DisplayLowerC8 FXParamValueDisplay 46 
+RotaryC8 FXParam 46 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 NoAction 
+/  
+DisplayUpperD1 FXParamNameDisplay 23 "ML-XL"
+DisplayLowerD1 FXParamValueDisplay 23 
+RotaryD1 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 25 [ 0.0 1.0 ]
+/  
+DisplayUpperD2 FXParamNameDisplay 19 "MLGain"
+DisplayLowerD2 FXParamValueDisplay 19 
+RotaryD2 FXParam 19 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 27 [ 0.0 1.0 ]
+/  
+DisplayUpperD3 FXParamNameDisplay 20 "MLThr"
+DisplayLowerD3 FXParamValueDisplay 20 
+RotaryD3 FXParam 20 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 FXParam 24 [ 0.0 1.0 ]
+/  
+DisplayUpperD4 FXParamNameDisplay 21 "MLoAtt"
+DisplayLowerD4 FXParamValueDisplay 21 
+RotaryD4 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 13 [ 0.0 1.0 ]
+/  
+DisplayUpperD5 FXParamNameDisplay 22 "MLoRel"
+DisplayLowerD5 FXParamValueDisplay 22 
+RotaryD5 FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 26 [ 0.0 1.0 ]
+/  
+DisplayUpperD6 FXParamNameDisplay 54 "XOV/AS"
+DisplayLowerD6 FXParamValueDisplay 54 
+RotaryD6 FXParam 54 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 57 [ 0.0 1.0 ]
+/  
+DisplayUpperD7 FXParamNameDisplay 56 "MMake"
+DisplayLowerD7 FXParamValueDisplay 56 
+RotaryD7 FXParam 56 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 FXParam 55 [ 0.0 1.0 ]
+/  
+DisplayUpperD8 FXParamNameDisplay 47 "MstThr"
+DisplayLowerD8 FXParamValueDisplay 47 
+RotaryD8 FXParam 47 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 NoAction 
+/
+ZoneEnd
+/
+/"VST: bx_XL V2 (Plugin Alliance)"
+/"Bank"
+/"Bypass"
+/"Left Gai"
+/"Right Ga"
+/"Mid Gain"
+/"Side Gai"
+/"L/R Gain"
+/"M/S Gain"
+/"Pan Mid"
+/"Pan Side"
+/"Left Sol"
+/"Right So"
+/"Mid Solo"
+/"Mid Lo S"
+/"Mid Hi S"
+/"Side Sol"
+/"Sidechai"
+/"Auto Sol"
+/"Peak Sto"
+/"Mid Lo G"
+/"Mid Lo M"
+/"Mid Lo A"
+/"Mid Lo R"
+/"Mid Lo X"
+/"Mid Lo L"
+/"Mid Lo X"
+/"Mid Lo C"
+/"Mid Lo A"
+/"Mid Hi G"
+/"Mid Hi M"
+/"Mid Hi A"
+/"Mid Hi R"
+/"Mid Hi X"
+/"Mid Hi L"
+/"Mid Hi X"
+/"Mid Hi C"
+/"Mid Hi A"
+/"Side Gai"
+/"Side Max"
+/"Side Att"
+/"Side Rel"
+/"Side XL"
+/"Side Lin"
+/"Side XL "
+/"Side Cus"
+/"Side Act"
+/"Master G"
+/"Master M"
+/"Master X"
+/"Master X"
+/"Output G"
+/"SC Selec"
+/"SC Selec"
+/"Sidechai"
+/"Crossove"
+/"Mono Mak"
+/"Mono Mak"
+/"Frequenc"
+/"Bypass"
+/"Wet

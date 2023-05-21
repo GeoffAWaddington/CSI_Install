@@ -1,0 +1,32 @@
+Zone "VCA"
+    OnZoneActivation            SetXTouchDisplayColors Cyan
+    OnZoneDeactivation          RestoreXTouchDisplayColors
+						  
+    DisplayUpper|               TrackNameDisplay
+    Fader|Touch+DisplayLower|   TrackVolumeDisplay
+    DisplayLower|               TrackVCALeaderDisplay
+    Shift+DisplayLower|         TrackAutoModeDisplay
+    Toggle+DisplayLower|        TrackPanAutoLeftDisplay
+    Alt+DisplayLower|           TrackInputMonitorDisplay
+    VUMeter|                    TrackOutputMeterMaxPeakLR
+    Fader|                      TrackVolume 
+    Flip+Fader|                 TrackPan 
+    Rotary|                     NoAction
+    Toggle+Rotary|              TrackPanAutoLeft
+    RotaryPush|                 ToggleChannel
+    Shift+RotaryPush|           TrackPan [ 0.5 ]
+    Option+RotaryPush|          TrackPanWidth [ 1.0 ]
+    Alt+RotaryPush|             CycleTrackInputMonitor
+    RecordArm|                  TrackRecordArm
+    Shift+RecordArm|            CycleTrackAutoMode
+    Solo|                       TrackSolo
+    Mute|                       TrackMute
+    Select|                     TrackToggleVCASpill
+    Shift+Select|               TrackRangeSelect
+    Control+Select|             TrackSelect
+						  
+    BankLeft                    Bank VCA -8
+    BankRight                   Bank VCA 8
+    ChannelLeft                 Bank VCA -1
+    ChannelRight                Bank VCA 1
+ZoneEnd

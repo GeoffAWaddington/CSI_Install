@@ -1,0 +1,3 @@
+Zone "MasterTrack"
+    MasterFader     TrackVolume
+ZoneEnd

@@ -1,0 +1,57 @@
+Zone "Buttons"
+     OnPlayStart           SendMIDIMessage "B1 0F 2D"         // Makes B8 RGB green on Play start
+     OnPlayStart           SendMIDIMessage "B2 0F 04"         // Makes B8 RGB strobe on Play start
+     OnPlayStop            SendMIDIMessage "B1 0F 40"         // Makes B8 RGB yellow on Play stop
+     OnPlayStop            SendMIDIMessage "B2 0F 00"         // Makes B8 RGB stop strobing on Play stop
+     OnRecordStart         SendMIDIMessage "B1 0E 50"         // Makes B7 RGB red on Record start
+     OnRecordStart         SendMIDIMessage "B2 0E 04"         // Makes B7 RGB strobe on Record start
+     OnRecordStop          SendMIDIMessage "B1 0E 01"         // Makes B7 RGB dark blue on Record Stop
+     OnRecordStop          SendMIDIMessage "B2 0E 00"         // Makes B7 RGB stop strobing on Record stop
+
+// Side buttons used as modifiers, except for middle buttons which change from track, send, receive zones.
+     LeftSideButton1       Shift
+     LeftSideButton3       Alt	
+     RightSideButton1      Control
+     RightSideButton3      Option 
+ 
+     Decrease+RotaryB1     Reaper 40286 [ (0.001) ]           // Track: Go to previous track   
+     Increase+RotaryB1     Reaper 40285 [ (0.001) ]           // Track: Go to next track 
+     RotaryPushB1          Reaper 1157 { 255 50 0 90 255 0 }  // Toggle Snapping
+     ShiftRotaryB1         NoAction
+                           
+     Decrease+RotaryB2     Reaper 40172                       // Go to previous marker or project start
+     Increase+RotaryB2     Reaper 40173                       // Go to next marker or project end 
+     RotaryPushB2          Reaper 1155 { 0 0 0 255 115 0 }    // Cycle Ripple Edit Mode
+     ShiftRotaryB2         NoAction
+     
+     Decrease+RotaryB3     Reaper _XENAKIOS_TVPAGEUP          // Xenakios/SWS: Scroll track view up (page)
+     Increase+RotaryB3     Reaper _XENAKIOS_TVPAGEDOWN        // Xenakios-SWS: Scroll track view down 
+     RotaryPushB3          CycleTimeline { 0 0 0 242 255 0 }
+     ShiftRotaryB3         NoAction
+                           
+     Decrease+RotaryB4     Reaper _SWS_SCROLL_L10             // SWS: Scroll left 10%               
+     Increase+RotaryB4     Reaper _SWS_SCROLL_R10             // SWS: Scroll right 10%  
+     RotaryPushB4          Stop  { 0 90 255 0 0 0 }
+     ShiftRotaryB4         NoAction
+                           
+     Decrease+RotaryB5     Reaper 40112                       // Zoom out vertical
+     Increase+RotaryB5     Reaper 40111                       // Zoom in vertical   
+     RotaryPushB5          Rewind
+     ShiftRotaryB5         NoAction     
+                           
+     Decrease+RotaryB6     Reaper 1012                        // Zoom in horizontal                        
+     Increase+RotaryB6     Reaper 1011                        // Zoom out horizontal 
+     RotaryPushB6          FastForward
+     ShiftRotaryB6         NoAction     
+                           
+     Decrease+RotaryB7     Reaper 40840                       // Move edit cursor back one measure (no seek)  
+     Increase+RotaryB7     Reaper 40839                       // Move edit cursor forward one measure (no seek) 
+     RotaryPushB7          Record
+     ShiftRotaryB7         NoAction     
+                           
+     Decrease+RotaryB8     Reaper 41045                       // Move edit cursor back one beat 
+     Increase+RotaryB8     Reaper 41044                       // Move edit cursor forward one beat
+     RotaryPushB8          Play
+     ShiftRotaryB8         NoAction
+
+ZoneEnd

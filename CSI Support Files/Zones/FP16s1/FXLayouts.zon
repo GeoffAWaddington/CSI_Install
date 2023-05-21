@@ -1,0 +1,9 @@
+Zone FXLayouts
+	FaderportFXLayout 16                    // Change to 8 for Faderport8
+	FaderportFXLayout+Shift 16              // Change to 8 for Faderport8
+	FaderportFXLayout+Option 16             // Change to 8 for Faderport8
+	FaderportFXLayout+Alt 16                // Change to 8 for Faderport8
+	FaderportFXLayout+Shift+Option 16       // Change to 8 for Faderport8
+	FaderportFXLayout+Shift+Alt 16          // Change to 8 for Faderport8
+	FaderportFXLayout+Option+Alt 16         // Change to 8 for Faderport8
+ZoneEnd

@@ -1,0 +1,6 @@
+Zone Buttons
+        UserButton1             	ToggleAutoFXMapping
+        UserButton2             	ToggleEnableFocusedFXMapping
+        UserButton3             	NoAction
+        UserButton4             	NoAction
+ZoneEnd 

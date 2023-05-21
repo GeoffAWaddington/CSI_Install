@@ -1,0 +1,216 @@
+Zone "VST: bx_saturator V2 (Plugin Alliance)" "BX_SAT"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 47 "BX_SAT"
+DisplayLowerA1 FXParamValueDisplay 47 
+RotaryA1 FXParam 47 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 46 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 FXParamNameDisplay 9 "MstXL"
+DisplayLowerA2 FXParamValueDisplay 9 
+RotaryA2 FXParam 9 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 8 [ 0.0 1.0 ]
+/  
+DisplayUpperA3 FXParamNameDisplay 34 "MstDrv"
+DisplayLowerA3 FXParamValueDisplay 34 
+RotaryA3 FXParam 34 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 NoAction 
+/  
+DisplayUpperA4 FXParamNameDisplay 45 "Asolo"
+DisplayLowerA4 FXParamValueDisplay 45 
+RotaryA4 FXParam 45 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 FXParam 45 [ 0.0 1.0 ]
+/  
+DisplayUpperA5 FXParamNameDisplay 3 "OutM"
+DisplayLowerA5 FXParamValueDisplay 3 
+RotaryA5 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 FXParam 2 [ 0.0 1.0 ]
+/  
+DisplayUpperA6 FXParamNameDisplay 5 "OutS"
+DisplayLowerA6 FXParamValueDisplay 5 
+RotaryA6 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA6 FXParam 4 [ 0.0 1.0 ]
+/  
+DisplayUpperA7 FXParamNameDisplay 6 "LnkOut"
+DisplayLowerA7 FXParamValueDisplay 6 
+RotaryA7 FXParam 6 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 FXParam 6 [ 0.0 1.0 ]
+/  
+DisplayUpperA8 FXParamNameDisplay 43 "MMaker"
+DisplayLowerA8 FXParamValueDisplay 43 
+RotaryA8 FXParam 43 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA8 FXParam 44 [ 0.0 1.0 ]
+/  
+DisplayUpperB1 FXParamNameDisplay 14 "M-XOV"
+DisplayLowerB1 FXParamValueDisplay 14 
+RotaryB1 FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB1 FXParam 7 [ 0.0 1.0 ]
+/  
+DisplayUpperB2 FXParamNameDisplay 15 "M-Solo"
+DisplayLowerB2 FXParamValueDisplay 15 
+RotaryB2 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 FXParam 15 [ 0.0 1.0 ]
+/  
+DisplayUpperB3 NoAction 
+DisplayLowerB3 NoAction 
+RotaryB3 NoAction 
+RotaryPushB3 NoAction 
+/  
+DisplayUpperB4 FXParamNameDisplay 23 "S-Solo"
+DisplayLowerB4 FXParamValueDisplay 23 
+RotaryB4 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 FXParam 23 [ 0.0 1.0 ]
+/  
+DisplayUpperB5 FXParamNameDisplay 22 "S-XOV"
+DisplayLowerB5 FXParamValueDisplay 22 
+RotaryB5 FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 7 [ 0.0 1.0 ]
+/  
+DisplayUpperB6 NoAction 
+DisplayLowerB6 NoAction 
+RotaryB6 NoAction 
+RotaryPushB6 NoAction 
+/  
+DisplayUpperB7 NoAction 
+DisplayLowerB7 NoAction 
+RotaryB7 NoAction 
+RotaryPushB7 NoAction 
+/  
+DisplayUpperB8 NoAction 
+DisplayLowerB8 NoAction 
+RotaryB8 NoAction 
+RotaryPushB8 NoAction 
+/  
+DisplayUpperC1 FXParamNameDisplay 28 "MHGain"
+DisplayLowerC1 FXParamValueDisplay 28 
+RotaryC1 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 29 [ 0.0 1.0 ]
+/  
+DisplayUpperC2 FXParamNameDisplay 36 "MHDrv"
+DisplayLowerC2 FXParamValueDisplay 36 
+RotaryC2 FXParam 36 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 40 [ 0.0 0.50 1.0 ] 
+/  
+DisplayUpperC3 FXParamNameDisplay 17 "MHSolo"
+DisplayLowerC3 FXParamValueDisplay 17 
+RotaryC3 FXParam 17 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushC3 FXParam 17
+/  
+DisplayUpperC4 FXParamNameDisplay 13 "MH-XL"
+DisplayLowerC4 FXParamValueDisplay 13 
+RotaryC4 FXParam 13 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 FXParam 12 [ 0.0 1.0 ]
+/  
+DisplayUpperC5 FXParamNameDisplay 32 "SHGain"
+DisplayLowerC5 FXParamValueDisplay 32 
+RotaryC5 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 33 [ 0.0 1.0 ]
+/  
+DisplayUpperC6 FXParamNameDisplay 38 "SHDrv"
+DisplayLowerC6 FXParamValueDisplay 38 
+RotaryC6 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 FXParam 42 [ 0.0 0.50 1.0 ] 
+/  
+DisplayUpperC7 FXParamNameDisplay 25 "SHSolo"
+DisplayLowerC7 FXParamValueDisplay 25 
+RotaryC7 FXParam 25 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushC7 FXParam 25
+/  
+DisplayUpperC8 FXParamNameDisplay 21 "SH-XL"
+DisplayLowerC8 FXParamValueDisplay 21 
+RotaryC8 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 FXParam 20 [ 0.0 1.0 ]
+/  
+DisplayUpperD1 FXParamNameDisplay 26 "MLGain"
+DisplayLowerD1 FXParamValueDisplay 26 
+RotaryD1 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 27 [ 0.0 1.0 ]
+/  
+DisplayUpperD2 FXParamNameDisplay 35 "MLDrv"
+DisplayLowerD2 FXParamValueDisplay 35 
+RotaryD2 FXParam 35 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 39 [ 0.0 0.50 1.0 ] 
+/  
+DisplayUpperD3 FXParamNameDisplay 16 "MLSolo"
+DisplayLowerD3 FXParamValueDisplay 16 
+RotaryD3 FXParam 16 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushD3 FXParam 16 [ 0.0 1.0 ]
+/  
+DisplayUpperD4 FXParamNameDisplay 11 "ML-XL"
+DisplayLowerD4 FXParamValueDisplay 11 
+RotaryD4 FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 10 [ 0.0 1.0 ]
+/  
+DisplayUpperD5 FXParamNameDisplay 30 "SLGain"
+DisplayLowerD5 FXParamValueDisplay 30 
+RotaryD5 FXParam 30 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 31 [ 0.0 1.0 ]
+/  
+DisplayUpperD6 FXParamNameDisplay 37 "SLDrv"
+DisplayLowerD6 FXParamValueDisplay 37 
+RotaryD6 FXParam 37 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 41 [ 0.0 0.50 1.0 ] 
+/  
+DisplayUpperD7 FXParamNameDisplay 24 "SLSolo"
+DisplayLowerD7 FXParamValueDisplay 24 
+RotaryD7 FXParam 24 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushD7 FXParam 24
+/  
+DisplayUpperD8 FXParamNameDisplay 19 "SL-XL"
+DisplayLowerD8 FXParamValueDisplay 19 
+RotaryD8 FXParam 19 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 FXParam 18 [ 0.0 1.0 ]
+/
+ZoneEnd
+/
+/"VST: bx_saturator V2 (Plugin Alliance)"
+/"Bypass"
+/"Bank"
+/"OpGnMOn"
+/"OpGainM"
+/"OpGnSOn"
+/"OpGainS"
+/"LkOpG"
+/"LnkCross"
+/"MstrXLOn"
+/"MasterXL"
+/"MLoXLOn"
+/"MidLoXL"
+/"MHiXLOn"
+/"MidHiXL"
+/"MCrossov"
+/"Mid Solo"
+/"MLoSolo"
+/"MHiSolo"
+/"SLoXLOn"
+/"SideLoXL"
+/"SHiXLOn"
+/"SideHiXL"
+/"SCrossov"
+/"SideSolo"
+/"SLoSolo"
+/"SHiSolo"
+/"MLoGain"
+/"MLGnMd"
+/"MHiGain"
+/"MHGnMd"
+/"SLoGain"
+/"SLGnMd"
+/"SHiGain"
+/"MHGnMd"
+/"MstrDrv"
+/"MLoDrive"
+/"MHiDrive"
+/"SLoDrive"
+/"SHiDrive"
+/"MLoDrvCp"
+/"MHiDrvCp"
+/"SLoDrvCp"
+/"SHiDrvCp"
+/"MonoMkr"
+/"MMkOn"
+/"AutoSolo"
+/"Bypass"
+/"Wet"

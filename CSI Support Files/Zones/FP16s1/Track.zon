@@ -1,0 +1,25 @@
+Zone "Track"
+  ScribbleStripMode Mode=0 // default mode -> 3 lines + valuebar
+  
+  ScribbleLine1_|          TrackNameDisplay
+  ScribbleLine2_|          TrackVolumeDisplay
+  ScribbleLine3_|          NoAction
+  ScribbleLine4_|          TrackPanDisplay
+  ValueBar|                TrackPanAutoLeft   BarStyle=BiPolar
+  Alt+ValueBar|            TrackPanAutoRight  BarStyle=Fill
+  Toggle+ValueBar|         TrackPanAutoRight  BarStyle=Fill
+  
+  Solo|                    TrackSolo
+  Mute|                    TrackMute
+  
+  Fader|                   TrackVolume
+  Shift+Fader|             TrackPanAutoLeft
+  Alt+Fader|               TrackPanAutoRight
+
+  Select|                  TrackUniqueSelect   { Track }
+  Shift+Select|            TrackRangeSelect    { 12 48 48  30 127 30 }
+  Alt+Select|              TrackSelect         { 12 10 2  30 127 30 }
+
+//RotarySmall and RotarySmallPush are in the SelectedTrack zone
+
+ZoneEnd

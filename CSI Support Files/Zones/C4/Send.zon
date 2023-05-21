@@ -1,0 +1,11 @@
+Zone SelectedTrackSend
+        DisplayUpperB|                  TrackSendNameDisplay
+        DisplayLowerB|                  TrackSendVolumeDisplay
+        RotaryB|                        TrackSendVolume [ (0.0002,0.001,0.005,0.01,0.05) ]   
+        Control+DisplayLowerB|          TrackSendPrePostDisplay                                
+        Control+RotaryPushB|            TrackSendPrePost
+        Alt+DisplayLowerB|              TrackSendPanDisplay   
+        Alt+RotaryB|                    TrackSendPan
+        Alt+RotaryPushB|                TrackSendPan [ 0.5 ]
+        RotaryPushB|                    TrackSendMute
+ZoneEnd

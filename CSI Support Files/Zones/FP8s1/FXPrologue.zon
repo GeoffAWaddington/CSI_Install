@@ -1,0 +1,3 @@
+Zone FXPrologue
+  ScribbleStripMode Mode=0              // default mode -> 3 lines + valuebar
+ZoneEnd

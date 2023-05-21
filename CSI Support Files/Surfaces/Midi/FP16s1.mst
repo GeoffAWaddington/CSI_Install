@@ -1,0 +1,807 @@
+StepSize
+    RotaryWidgetClass   0.003
+    JogWheelWidgetClass 0.003
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass   Dec 41     42    43    44    45    46    47  
+    RotaryWidgetClass   Inc 01     02    03    04    05    06    07  
+    RotaryWidgetClass   Val 0.0006 0.001 0.002 0.003 0.008 0.04  0.08 
+
+    JogWheelWidgetClass Dec 41     42    43    44    45    46    47  
+    JogWheelWidgetClass Inc 01     02    03    04    05    06    07  
+    JogWheelWidgetClass Val 0.0006 0.001 0.002 0.003 0.008 0.04  0.08 
+AccelerationValuesEnd
+
+
+Widget Track
+        Press 90 28 7f
+  FB_TwoState 90 28 7f 90 28 00
+WidgetEnd
+Widget Plugin
+        Press 90 2b 7f
+  FB_TwoState 90 2b 7f 90 2b 00
+WidgetEnd
+Widget Send
+        Press 90 29 7f
+  FB_TwoState 90 29 7f 90 29 00
+WidgetEnd
+Widget Pan
+        Press 90 2a 7f
+  FB_TwoState 90 2a 7f 90 2a 00
+WidgetEnd
+
+Widget AudioBtn
+                Press 90 3e 7f
+      FB_FaderportRGB 90 3e 7f
+WidgetEnd
+Widget Instrument
+                Press 90 3f 7f
+      FB_FaderportRGB 90 3f 7f
+WidgetEnd
+Widget BusBtn
+                Press 90 40 7f
+      FB_FaderportRGB 90 40 7f
+WidgetEnd
+Widget VCABtn
+                Press 90 41 7f
+      FB_FaderportRGB 90 41 7f
+WidgetEnd
+Widget AllBtn
+                Press 90 42 7f
+      FB_FaderportRGB 90 42 7f
+WidgetEnd
+
+
+
+Widget ShiftRight 
+  Press 90 06 7f 90 06 00
+WidgetEnd
+
+
+
+Widget Arm
+        Press 90 00 7f
+  FB_TwoState 90 00 7f 90 00 00
+WidgetEnd
+Widget SoloClear
+  Press 90 01 7f
+WidgetEnd
+Widget MuteClear
+  Press 90 02 7f
+WidgetEnd
+
+
+
+
+Widget Bypass
+                Press 90 03 7f 90 03 00
+      FB_FaderportRGB 90 03 7f
+WidgetEnd
+Widget Macro
+                Press 90 04 7f 90 04 00
+      FB_FaderportRGB 90 04 7f
+WidgetEnd
+Widget Link
+                Press 90 05 7f 90 05 00
+      FB_FaderportRGB 90 05 7f
+WidgetEnd
+
+
+
+Widget ShiftLeft
+  Press 90 46 7f 90 46 00
+WidgetEnd
+
+
+
+Widget Read
+                Press 90 4a 7f
+      FB_FaderportRGB 90 4a 7f
+WidgetEnd
+Widget Write
+                Press 90 4b 7f
+      FB_FaderportRGB 90 4b 7f
+WidgetEnd
+Widget Trim
+                Press 90 4c 7f
+      FB_FaderportRGB 90 4c 7f
+WidgetEnd
+Widget Touch
+                Press 90 4d 7f
+      FB_FaderportRGB 90 4d 7f
+WidgetEnd
+Widget Latch
+                Press 90 4e 7f
+      FB_FaderportRGB 90 4e 7f
+WidgetEnd
+Widget Off
+                Press 90 4f 7f
+      FB_FaderportRGB 90 4f 7f
+WidgetEnd
+
+/Rotary knobs at the bottom
+
+Widget Prev
+  Press 90 2E 7f
+WidgetEnd
+Widget Next
+  Press 90 2F 7f
+WidgetEnd
+
+
+
+
+Widget Channel
+        Press 90 36 7f 90 36 00
+  FB_TwoState 90 36 7f 90 36 00
+WidgetEnd
+Widget Zoom
+        Press 90 37 7f 90 37 00
+  FB_TwoState 90 37 7f 90 37 00
+WidgetEnd
+Widget Scroll
+        Press 90 38 7f 90 38 00
+  FB_TwoState 90 38 7f 90 38 00
+WidgetEnd
+Widget Bank
+        Press 90 39 7f 90 39 00
+  FB_TwoState 90 39 7f 90 39 00
+WidgetEnd
+
+
+
+
+Widget Master
+        Press 90 3a 7f 90 3a 00
+  FB_TwoState 90 3a 7f 90 3a 00
+WidgetEnd
+Widget Click
+        Press 90 3b 7f
+  FB_TwoState 90 3b 7f 90 3b 00
+WidgetEnd
+Widget Section
+        Press 90 3c 7f
+  FB_TwoState 90 3c 7f 90 3c 00
+WidgetEnd
+Widget Marker
+        Press 90 3d 7f
+  FB_TwoState 90 3d 7f 90 3d 00
+WidgetEnd
+
+
+/ TRANSPORT
+Widget Cycle
+        Press 90 56 7f
+  FB_TwoState 90 56 7f 90 56 00
+WidgetEnd
+Widget Rewind
+        Press 90 5b 7f
+  FB_TwoState 90 5b 7f 90 5b 00
+WidgetEnd
+Widget FastForward
+        Press 90 5c 7f
+  FB_TwoState 90 5c 7f 90 5c 00
+WidgetEnd
+Widget Stop
+        Press 90 5d 7f
+  FB_TwoState 90 5d 7f 90 5d 00
+WidgetEnd
+Widget Play
+        Press 90 5e 7f
+  FB_TwoState 90 5e 7f 90 5e 00
+WidgetEnd
+Widget Record
+        Press 90 5f 7f
+  FB_TwoState 90 5f 7f 90 5f 00
+WidgetEnd
+
+
+
+
+Widget Fader1
+     Fader14Bit e0 7f 7f
+  FB_Fader14Bit e0 7f 7f
+          Touch 90 68 7f 90 68 00
+WidgetEnd
+Widget Fader2
+     Fader14Bit e1 7f 7f
+  FB_Fader14Bit e1 7f 7f
+          Touch 90 69 7f 90 69 00
+WidgetEnd
+Widget Fader3
+     Fader14Bit e2 7f 7f
+  FB_Fader14Bit e2 7f 7f
+          Touch 90 6a 7f 90 6a 00
+WidgetEnd
+Widget Fader4
+     Fader14Bit e3 7f 7f
+  FB_Fader14Bit e3 7f 7f
+          Touch 90 6b 7f 90 6b 00
+WidgetEnd
+Widget Fader5
+     Fader14Bit e4 7f 7f
+  FB_Fader14Bit e4 7f 7f
+          Touch 90 6c 7f 90 6c 00
+WidgetEnd
+Widget Fader6
+     Fader14Bit e5 7f 7f
+  FB_Fader14Bit e5 7f 7f
+          Touch 90 6d 7f 90 6d 00
+WidgetEnd
+Widget Fader7
+     Fader14Bit e6 7f 7f
+  FB_Fader14Bit e6 7f 7f
+          Touch 90 6e 7f 90 6e 00
+WidgetEnd
+Widget Fader8
+     Fader14Bit e7 7f 7f
+  FB_Fader14Bit e7 7f 7f
+          Touch 90 6f 7f 90 6f 00
+WidgetEnd
+Widget Fader9
+     Fader14Bit e8 7f 7f
+  FB_Fader14Bit e8 7f 7f
+          Touch 90 70 7f 90 70 00
+WidgetEnd
+Widget Fader10
+     Fader14Bit e9 7f 7f
+  FB_Fader14Bit e9 7f 7f
+          Touch 90 71 7f 90 71 00
+WidgetEnd
+Widget Fader11
+     Fader14Bit ea 7f 7f
+  FB_Fader14Bit ea 7f 7f
+          Touch 90 72 7f 90 72 00
+WidgetEnd
+Widget Fader12
+     Fader14Bit eb 7f 7f
+  FB_Fader14Bit eb 7f 7f
+          Touch 90 73 7f 90 73 00
+WidgetEnd
+Widget Fader13
+     Fader14Bit ec 7f 7f
+  FB_Fader14Bit ec 7f 7f
+          Touch 90 74 7f 90 74 00
+WidgetEnd
+Widget Fader14
+     Fader14Bit ed 7f 7f
+  FB_Fader14Bit ed 7f 7f
+          Touch 90 75 7f 90 75 00
+WidgetEnd
+Widget Fader15
+     Fader14Bit ee 7f 7f
+  FB_Fader14Bit ee 7f 7f
+          Touch 90 76 7f 90 76 00
+WidgetEnd
+Widget Fader16
+     Fader14Bit ef 7f 7f
+  FB_Fader14Bit ef 7f 7f
+          Touch 90 77 7f 90 77 00
+WidgetEnd
+
+
+
+
+
+Widget Solo1
+        Press 90 08 7f
+  FB_TwoState 90 08 7f 90 08 00
+WidgetEnd
+Widget Solo2
+        Press 90 09 7f
+  FB_TwoState 90 09 7f 90 09 00
+WidgetEnd
+Widget Solo3
+        Press 90 0a 7f
+  FB_TwoState 90 0a 7f 90 0a 00
+WidgetEnd
+Widget Solo4
+        Press 90 0b 7f
+  FB_TwoState 90 0b 7f 90 0b 00
+WidgetEnd
+Widget Solo5
+        Press 90 0c 7f
+  FB_TwoState 90 0c 7f 90 0c 00
+WidgetEnd
+Widget Solo6
+        Press 90 0d 7f
+  FB_TwoState 90 0d 7f 90 0d 00
+WidgetEnd
+Widget Solo7
+        Press 90 0e 7f
+  FB_TwoState 90 0e 7f 90 0e 00
+WidgetEnd
+Widget Solo8
+        Press 90 0f 7f
+  FB_TwoState 90 0f 7f 90 0f 00
+WidgetEnd
+Widget Solo9
+        Press 90 50 7f
+  FB_TwoState 90 50 7f 90 50 00
+WidgetEnd
+Widget Solo10
+        Press 90 51 7f
+  FB_TwoState 90 51 7f 90 51 00
+WidgetEnd
+Widget Solo11
+        Press 90 52 7f
+  FB_TwoState 90 52 7f 90 52 00
+WidgetEnd
+Widget Solo12
+        Press 90 58 7f
+  FB_TwoState 90 58 7f 90 58 00
+WidgetEnd
+Widget Solo13
+        Press 90 54 7f
+  FB_TwoState 90 54 7f 90 54 00
+WidgetEnd
+Widget Solo14
+        Press 90 55 7f
+  FB_TwoState 90 55 7f 90 55 00
+WidgetEnd
+Widget Solo15
+        Press 90 59 7f
+  FB_TwoState 90 59 7f 90 59 00
+WidgetEnd
+Widget Solo16
+        Press 90 57 7f
+  FB_TwoState 90 57 7f 90 57 00
+WidgetEnd
+
+
+
+
+Widget Mute1
+        Press 90 10 7f
+  FB_TwoState 90 10 7f 90 10 00
+WidgetEnd
+Widget Mute2
+        Press 90 11 7f
+  FB_TwoState 90 11 7f 90 11 00
+WidgetEnd
+Widget Mute3
+        Press 90 12 7f
+  FB_TwoState 90 12 7f 90 12 00
+WidgetEnd
+Widget Mute4
+        Press 90 13 7f
+  FB_TwoState 90 13 7f 90 13 00
+WidgetEnd
+Widget Mute5
+        Press 90 14 7f
+  FB_TwoState 90 14 7f 90 14 00
+WidgetEnd
+Widget Mute6
+        Press 90 15 7f
+  FB_TwoState 90 15 7f 90 15 00
+WidgetEnd
+Widget Mute7
+        Press 90 16 7f
+  FB_TwoState 90 16 7f 90 16 00
+WidgetEnd
+Widget Mute8
+        Press 90 17 7f
+  FB_TwoState 90 17 7f 90 17 00
+WidgetEnd
+Widget Mute9
+        Press 90 78 7f
+  FB_TwoState 90 78 7f 90 78 00
+WidgetEnd
+Widget Mute10
+        Press 90 79 7f
+  FB_TwoState 90 79 7f 90 79 00
+WidgetEnd
+Widget Mute11
+        Press 90 7a 7f
+  FB_TwoState 90 7a 7f 90 7a 00
+WidgetEnd
+Widget Mute12
+        Press 90 7b 7f
+  FB_TwoState 90 7b 7f 90 7b 00
+WidgetEnd
+Widget Mute13
+        Press 90 7c 7f
+  FB_TwoState 90 7c 7f 90 7c 00
+WidgetEnd
+Widget Mute14
+        Press 90 7d 7f
+  FB_TwoState 90 7d 7f 90 7d 00
+WidgetEnd
+Widget Mute15
+        Press 90 7e 7f
+  FB_TwoState 90 7e 7f 90 7e 00
+WidgetEnd
+Widget Mute16
+        Press 90 7f 7f
+  FB_TwoState 90 7f 7f 90 7f 00
+WidgetEnd
+
+
+
+Widget Select1
+                  Press 90 18 7f
+FB_FaderportTwoStateRGB 90 18 7f
+WidgetEnd
+Widget Select2
+                  Press 90 19 7f
+FB_FaderportTwoStateRGB 90 19 7f
+WidgetEnd
+Widget Select3
+                  Press 90 1a 7f
+FB_FaderportTwoStateRGB 90 1a 7f
+WidgetEnd
+Widget Select4
+                  Press 90 1b 7f
+FB_FaderportTwoStateRGB 90 1b 7f
+WidgetEnd
+Widget Select5
+                  Press 90 1c 7f
+FB_FaderportTwoStateRGB 90 1c 7f
+WidgetEnd
+Widget Select6
+                  Press 90 1d 7f
+FB_FaderportTwoStateRGB 90 1d 7f
+WidgetEnd
+Widget Select7
+                  Press 90 1e 7f
+FB_FaderportTwoStateRGB 90 1e 7f
+WidgetEnd
+Widget Select8
+                  Press 90 1f 7f
+FB_FaderportTwoStateRGB 90 1f 7f
+WidgetEnd
+Widget Select9
+                  Press 90 07 7f
+FB_FaderportTwoStateRGB 90 07 7f
+WidgetEnd
+Widget Select10
+                  Press 90 21 7f
+FB_FaderportTwoStateRGB 90 21 7f
+WidgetEnd
+Widget Select11
+                  Press 90 22 7f
+FB_FaderportTwoStateRGB 90 22 7f
+WidgetEnd
+Widget Select12
+                  Press 90 23 7f
+FB_FaderportTwoStateRGB 90 23 7f
+WidgetEnd
+Widget Select13
+                  Press 90 24 7f
+FB_FaderportTwoStateRGB 90 24 7f
+WidgetEnd
+Widget Select14
+                  Press 90 25 7f
+FB_FaderportTwoStateRGB 90 25 7f
+WidgetEnd
+Widget Select15
+                  Press 90 26 7f
+FB_FaderportTwoStateRGB 90 26 7f
+WidgetEnd
+Widget Select16
+                  Press 90 27 7f
+FB_FaderportTwoStateRGB 90 27 7f
+WidgetEnd
+
+
+
+Widget ValueBar1
+	FB_FaderportValueBar 0
+WidgetEnd
+Widget ValueBar2
+	FB_FaderportValueBar 1
+WidgetEnd
+Widget ValueBar3
+	FB_FaderportValueBar 2
+WidgetEnd
+Widget ValueBar4
+	FB_FaderportValueBar 3
+WidgetEnd
+Widget ValueBar5
+	FB_FaderportValueBar 4
+WidgetEnd
+Widget ValueBar6
+	FB_FaderportValueBar 5
+WidgetEnd
+Widget ValueBar7
+	FB_FaderportValueBar 6
+WidgetEnd
+Widget ValueBar8
+	FB_FaderportValueBar 7
+WidgetEnd
+Widget ValueBar9
+	FB_FaderportValueBar 8
+WidgetEnd
+Widget ValueBar10
+	FB_FaderportValueBar 9
+WidgetEnd
+Widget ValueBar11
+	FB_FaderportValueBar 10
+WidgetEnd
+Widget ValueBar12
+	FB_FaderportValueBar 11
+WidgetEnd
+Widget ValueBar13
+	FB_FaderportValueBar 12
+WidgetEnd
+Widget ValueBar14
+	FB_FaderportValueBar 13
+WidgetEnd
+Widget ValueBar15
+	FB_FaderportValueBar 14
+WidgetEnd
+Widget ValueBar16
+	FB_FaderportValueBar 15
+WidgetEnd
+
+
+Widget "ScribbleStripMode"
+     FB_FP16ScribbleStripMode
+WidgetEnd
+
+
+
+Widget ScribbleLine1_1
+  FB_FP16ScribbleLine1 "0"
+WidgetEnd
+Widget ScribbleLine1_2
+  FB_FP16ScribbleLine1 "1"
+WidgetEnd
+Widget ScribbleLine1_3
+  FB_FP16ScribbleLine1 "2"
+WidgetEnd
+Widget ScribbleLine1_4
+  FB_FP16ScribbleLine1 "3"
+WidgetEnd
+Widget ScribbleLine1_5
+  FB_FP16ScribbleLine1 "4"
+WidgetEnd
+Widget ScribbleLine1_6
+  FB_FP16ScribbleLine1 "5"
+WidgetEnd
+Widget ScribbleLine1_7
+  FB_FP16ScribbleLine1 "6"
+WidgetEnd
+Widget ScribbleLine1_8
+  FB_FP16ScribbleLine1 "7"
+WidgetEnd
+Widget ScribbleLine1_9
+  FB_FP16ScribbleLine1 "8"
+WidgetEnd
+Widget ScribbleLine1_10
+  FB_FP16ScribbleLine1 "9"
+WidgetEnd
+Widget ScribbleLine1_11
+  FB_FP16ScribbleLine1 "10"
+WidgetEnd
+Widget ScribbleLine1_12
+  FB_FP16ScribbleLine1 "11"
+WidgetEnd
+Widget ScribbleLine1_13
+  FB_FP16ScribbleLine1 "12"
+WidgetEnd
+Widget ScribbleLine1_14
+  FB_FP16ScribbleLine1 "13"
+WidgetEnd
+Widget ScribbleLine1_15
+  FB_FP16ScribbleLine1 "14"
+WidgetEnd
+Widget ScribbleLine1_16
+  FB_FP16ScribbleLine1 "15"
+WidgetEnd
+
+
+Widget ScribbleLine2_1
+  FB_FP16ScribbleLine2 "0"
+WidgetEnd
+Widget ScribbleLine2_2
+  FB_FP16ScribbleLine2 "1"
+WidgetEnd
+Widget ScribbleLine2_3
+  FB_FP16ScribbleLine2 "2"
+WidgetEnd
+Widget ScribbleLine2_4
+  FB_FP16ScribbleLine2 "3"
+WidgetEnd
+Widget ScribbleLine2_5
+  FB_FP16ScribbleLine2 "4"
+WidgetEnd
+Widget ScribbleLine2_6
+  FB_FP16ScribbleLine2 "5"
+WidgetEnd
+Widget ScribbleLine2_7
+  FB_FP16ScribbleLine2 "6"
+WidgetEnd
+Widget ScribbleLine2_8
+  FB_FP16ScribbleLine2 "7"
+WidgetEnd
+Widget ScribbleLine2_9
+  FB_FP16ScribbleLine2 "8"
+WidgetEnd
+Widget ScribbleLine2_10
+  FB_FP16ScribbleLine2 "9"
+WidgetEnd
+Widget ScribbleLine2_11
+  FB_FP16ScribbleLine2 "10"
+WidgetEnd
+Widget ScribbleLine2_12
+  FB_FP16ScribbleLine2 "11"
+WidgetEnd
+Widget ScribbleLine2_13
+  FB_FP16ScribbleLine2 "12"
+WidgetEnd
+Widget ScribbleLine2_14
+  FB_FP16ScribbleLine2 "13"
+WidgetEnd
+Widget ScribbleLine2_15
+  FB_FP16ScribbleLine2 "14"
+WidgetEnd
+Widget ScribbleLine2_16
+  FB_FP16ScribbleLine2 "15"
+WidgetEnd
+
+
+Widget ScribbleLine3_1
+  FB_FP16ScribbleLine3 "0"
+WidgetEnd
+Widget ScribbleLine3_2
+  FB_FP16ScribbleLine3 "1"
+WidgetEnd
+Widget ScribbleLine3_3
+  FB_FP16ScribbleLine3 "2"
+WidgetEnd
+Widget ScribbleLine3_4
+  FB_FP16ScribbleLine3 "3"
+WidgetEnd
+Widget ScribbleLine3_5
+  FB_FP16ScribbleLine3 "4"
+WidgetEnd
+Widget ScribbleLine3_6
+  FB_FP16ScribbleLine3 "5"
+WidgetEnd
+Widget ScribbleLine3_7
+  FB_FP16ScribbleLine3 "6"
+WidgetEnd
+Widget ScribbleLine3_8
+  FB_FP16ScribbleLine3 "7"
+WidgetEnd
+Widget ScribbleLine3_9
+  FB_FP16ScribbleLine3 "8"
+WidgetEnd
+Widget ScribbleLine3_10
+  FB_FP16ScribbleLine3 "9"
+WidgetEnd
+Widget ScribbleLine3_11
+  FB_FP16ScribbleLine3 "10"
+WidgetEnd
+Widget ScribbleLine3_12
+  FB_FP16ScribbleLine3 "11"
+WidgetEnd
+Widget ScribbleLine3_13
+  FB_FP16ScribbleLine3 "12"
+WidgetEnd
+Widget ScribbleLine3_14
+  FB_FP16ScribbleLine3 "13"
+WidgetEnd
+Widget ScribbleLine3_15
+  FB_FP16ScribbleLine3 "14"
+WidgetEnd
+Widget ScribbleLine3_16
+  FB_FP16ScribbleLine3 "15"
+WidgetEnd
+
+
+Widget ScribbleLine4_1
+  FB_FP16ScribbleLine4 "0"
+WidgetEnd
+Widget ScribbleLine4_2
+  FB_FP16ScribbleLine4 "1"
+WidgetEnd
+Widget ScribbleLine4_3
+  FB_FP16ScribbleLine4 "2"
+WidgetEnd
+Widget ScribbleLine4_4
+  FB_FP16ScribbleLine4 "3"
+WidgetEnd
+Widget ScribbleLine4_5
+  FB_FP16ScribbleLine4 "4"
+WidgetEnd
+Widget ScribbleLine4_6
+  FB_FP16ScribbleLine4 "5"
+WidgetEnd
+Widget ScribbleLine4_7
+  FB_FP16ScribbleLine4 "6"
+WidgetEnd
+Widget ScribbleLine4_8
+  FB_FP16ScribbleLine4 "7"
+WidgetEnd
+Widget ScribbleLine4_9
+  FB_FP16ScribbleLine4 "8"
+WidgetEnd
+Widget ScribbleLine4_10
+  FB_FP16ScribbleLine4 "9"
+WidgetEnd
+Widget ScribbleLine4_11
+  FB_FP16ScribbleLine4 "10"
+WidgetEnd
+Widget ScribbleLine4_12
+  FB_FP16ScribbleLine4 "11"
+WidgetEnd
+Widget ScribbleLine4_13
+  FB_FP16ScribbleLine4 "12"
+WidgetEnd
+Widget ScribbleLine4_14
+  FB_FP16ScribbleLine4 "13"
+WidgetEnd
+Widget ScribbleLine4_15
+  FB_FP16ScribbleLine4 "14"
+WidgetEnd
+Widget ScribbleLine4_16
+  FB_FP16ScribbleLine4 "15"
+WidgetEnd
+
+
+/ VU Meters only usable on scribble strip modes 4,5,7 and 8
+/ see manual Appendix 11.2 for details
+Widget VUMeter1
+ FB_FPVUMeter 0
+WidgetEnd
+Widget VUMeter2
+ FB_FPVUMeter 1
+WidgetEnd
+Widget VUMeter3
+ FB_FPVUMeter 2
+WidgetEnd
+Widget VUMeter4
+ FB_FPVUMeter 3
+WidgetEnd
+Widget VUMeter5
+ FB_FPVUMeter 4
+WidgetEnd
+Widget VUMeter6
+ FB_FPVUMeter 5
+WidgetEnd
+Widget VUMeter7
+ FB_FPVUMeter 6
+WidgetEnd
+Widget VUMeter8
+ FB_FPVUMeter 7
+WidgetEnd
+Widget VUMeter9
+ FB_FPVUMeter 8
+WidgetEnd
+Widget VUMeter10
+ FB_FPVUMeter 9
+WidgetEnd
+Widget VUMeter11
+ FB_FPVUMeter 10
+WidgetEnd
+Widget VUMeter12
+ FB_FPVUMeter 11
+WidgetEnd
+Widget VUMeter13
+ FB_FPVUMeter 12
+WidgetEnd
+Widget VUMeter14
+ FB_FPVUMeter 13
+WidgetEnd
+Widget VUMeter15
+ FB_FPVUMeter 14
+WidgetEnd
+Widget VUMeter16
+ FB_FPVUMeter 15
+WidgetEnd
+
+Widget RotarySmallPush
+       Press 90 20 7f
+WidgetEnd
+Widget RotarySmall
+	   Encoder b0 10 7f [ < 41-7f > 01-3f  ]
+WidgetEnd
+Widget RotaryBig
+       Encoder b0 3c 7f [ < 41-7f > 01-3f  ]
+WidgetEnd
+Widget RotaryBigPush
+       Press 90 53 7f
+WidgetEnd

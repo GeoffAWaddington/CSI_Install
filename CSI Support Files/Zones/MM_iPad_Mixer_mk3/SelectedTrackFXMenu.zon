@@ -1,0 +1,25 @@
+Zone SelectedTrackFXMenu
+        DisplayL|           FXMenuNameDisplay
+        Shift+ButtonL|      ToggleFXBypass   
+        Option+ButtonL|     ToggleFXOffline
+        FXBypassL|          ToggleFXBypass   { #808080FF #1D521EFF }
+        FXOfflineL|         ToggleFXOffline  { #AB120EFF #00000000 }
+        Alt+ButtonL|        Reaper _S&M_SELFX| 
+        Alt+ButtonL|        Reaper _S&M_TOGLFLOATFXEL
+        Alt+ButtonL|		GoFXSlot
+        ButtonL|			SendOSCMessage "/Pager 1"
+        ButtonL|            GoAssociatedZone SelectedTrackFXMenu 
+        ButtonL|            GoFXSlot	
+		Shift				Reaper 65535  { #000001FF }
+		DisplayShift		FixedTextDisplay SZ1		
+		Option				Reaper 65535  { #000001FF }
+		DisplayOption		FixedTextDisplay SZ2		
+		Control				Reaper 65535  { #000001FF }
+		DisplayControl		FixedTextDisplay SZ3		
+		Alt					Reaper 65535  { #000001FF }
+		DisplayAlt			FixedTextDisplay SZ4
+		ButtonM1            Bank SelectedTrackFXMenu 8
+    	DisplayM1           FixedTextDisplay SEND>
+    	ButtonM2            Bank SelectedTrackFXMenu -8
+    	DisplayM2           FixedTextDisplay <SEND		
+ZoneEnd

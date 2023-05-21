@@ -1,0 +1,29 @@
+Zone Folder
+        DisplayUpper|                       TrackNameDisplay
+        DisplayLower|                       TrackFolderParentDisplay
+        Fader|Touch+DisplayLower|           TrackVolumeDisplay
+        Alt+DisplayLower|                   TrackAutoModeDisplay
+        RotaryPush|                         ToggleChannel
+        Shift+RotaryPush|                   TrackPan [ 0.5 ]
+        Option+RotaryPush|                  TrackPanWidth [ 1.0 ]
+        Rotary|                             TrackPanAutoLeft
+        Toggle+Rotary|                      TrackPanAutoRight
+        Toggle+DisplayLower|                TrackPanWidthDisplay
+        Flip+Rotary|                        TrackVolume
+        Flip+Fader|                         TrackPan
+        RecordArm|                          TrackRecordArm
+        Shift+RecordArm|                    CycleTrackInputMonitor
+        Shift+DisplayLower|                 TrackInputMonitorDisplay
+        Solo|                               TrackSolo
+        Mute|                               TrackMute
+        Select|                             TrackUniqueSelect
+        Hold+Select|                        TrackToggleFolderSpill
+        Shift+Select|                       TrackRangeSelect    
+        Control+Select|                     TrackSelect
+        Fader|                              TrackVolume
+        VUMeter|                            TrackOutputMeter
+        BankLeft                            Bank Folder -8
+        BankRight                           Bank Folder 8 
+        ChannelLeft                         Bank Folder 1
+        ChannelRight                        Bank Folder -1 
+ZoneEnd

@@ -1,0 +1,25 @@
+Zone VCA
+        DisplayUpper|                       TrackNameDisplay
+        DisplayLower|                       TrackVCALeaderDisplay
+        Fader|Touch+DisplayLower|           TrackVolumeDisplay
+        Alt+DisplayLower|                   TrackAutoModeDisplay
+        RotaryPush|                         ToggleChannel
+        Shift+RotaryPush|                   TrackPan [ 0.5 ]
+        Option+RotaryPush|                  TrackPanWidth [ 1.0 ]
+        Rotary|                             TrackPan
+        Toggle+Rotary|                      TrackPanWidth
+        Toggle+DisplayLower|                TrackPanWidthDisplay
+        Flip+Rotary|                        TrackVolume
+        Flip+Fader|                         TrackPan
+        RecordArm|                          TrackRecordArm
+        Shift+RecordArm|                    CycleTrackInputMonitor
+        Shift+DisplayLower|                 TrackInputMonitorDisplay
+        Solo|                               TrackSolo
+        Mute|                               TrackMute
+        Select|                             TrackUniqueSelect
+        Hold+Select|                        TrackToggleVCASpill
+        Shift+Select|                       TrackRangeSelect    
+        Control+Select|                     TrackSelect
+        Fader|                              TrackVolume
+        VUMeter|                            TrackOutputMeter
+ZoneEnd

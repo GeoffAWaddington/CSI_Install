@@ -1,0 +1,17 @@
+Zone "SelectedTrackFXMenu"
+     OnZoneActivation    SetXTouchDisplayColors Yellow
+     OnZoneDeactivation  RestoreXTouchDisplayColors
+        
+     DisplayUpper|       FXMenuNameDisplay
+     DisplayLower|       FXBypassedDisplay
+     Rotary|             NoAction
+     RotaryPush|         GoFXSlot
+     Mute|               ToggleFXBypass
+     Left                Bank SelectedTrackFXMenu -1
+     Right               Bank SelectedTrackFXMenu 1
+
+     RecordArm|          NoAction
+     Solo|               NoAction
+     Select1             TrackInvertPolarity
+     Fader|              NoAction    
+ZoneEnd

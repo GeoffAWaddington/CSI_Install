@@ -1,0 +1,13 @@
+Zone SelectedTrackReceive
+        DisplayUpper|               TrackReceiveNameDisplay
+        DisplayLower|               TrackReceiveVolumeDisplay
+        Alt+DisplayLower|           TrackReceivePanDisplay
+        Shift+DisplayLower|         TrackReceivePrePostDisplay
+        Shift+RotaryPush|           TrackReceivePrePost
+        Mute|                       TrackReceiveMute
+        Rotary|                     TrackReceivePan
+        Alt+Rotary|                 TrackReceivePan
+        Fader|                      TrackReceiveVolume
+        BankLeft                    Bank SelectedTrackReceive -8
+        BankRight                   Bank SelectedTrackReceive 8
+ZoneEnd

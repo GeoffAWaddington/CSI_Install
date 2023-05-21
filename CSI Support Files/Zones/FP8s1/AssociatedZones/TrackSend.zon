@@ -1,0 +1,19 @@
+Zone "TrackSend"
+  ScribbleStripMode Mode=0 // default mode -> 3 lines + valuebar
+  
+  ScribbleLine1_|         TrackNameDisplay
+  ScribbleLine2_|         TrackSendVolumeDisplay
+  ScribbleLine3_|         TrackSendNameDisplay
+  ScribbleLine4_|         NoAction
+  ValueBar|               TrackSendVolume  BarStyle=Fill
+  Mute|                   TrackSendMute
+  Fader|                  TrackSendVolume
+
+  Shift+ScribbleLine2_|   TrackSendPanDisplay
+  Shift+Fader|            TrackSendPan
+
+  Prev                    Bank TrackSend -1
+  Next                    Bank TrackSend 1
+  Decrease+RotaryBig      Bank TrackSend -1
+  Increase+RotaryBig      Bank TrackSend 1
+ZoneEnd

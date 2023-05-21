@@ -1,0 +1,191 @@
+Zone "VST: TDR Kotelnikov (Tokyo Dawn Labs)" "Kotel"
+SelectedTrackNavigator
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 22 "Kotel"
+DisplayLowerA1 FXParamValueDisplay 22  
+RotaryA1 FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 21 [ 0.0 1.0 ]
+/   
+DisplayUpperA2 FXParamNameDisplay 18 "Mode"
+DisplayLowerA2 FXParamValueDisplay 18  
+RotaryA2 FXParam 18 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 17 [ 0.0 1.0 ]
+/   
+DisplayUpperA3 FXParamNameDisplay 19 "GRDisp"
+DisplayLowerA3 FXParamValueDisplay 19  
+RotaryA3 FXParam 19 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 FXParam 20 [ 0.0 1.0 ]
+/   
+DisplayUpperA4 NoAction  
+DisplayLowerA4 NoAction  
+RotaryA4 NoAction  
+RotaryPushA4 NoAction  
+/   
+DisplayUpperA5 NoAction  
+DisplayLowerA5 NoAction  
+RotaryA5 NoAction  
+RotaryPushA5 NoAction  
+/   
+DisplayUpperA6 NoAction  
+DisplayLowerA6 NoAction  
+RotaryA6 NoAction  
+RotaryPushA6 NoAction  
+/   
+DisplayUpperA7 NoAction  
+DisplayLowerA7 NoAction  
+RotaryA7 NoAction  
+RotaryPushA7 NoAction  
+/   
+DisplayUpperA8 NoAction  
+DisplayLowerA8 NoAction  
+RotaryA8 NoAction  
+RotaryPushA8 NoAction  
+/   
+DisplayUpperB1 NoAction  
+DisplayLowerB1 NoAction  
+RotaryB1 NoAction  
+RotaryPushB1 NoAction  
+/   
+DisplayUpperB2 NoAction  
+DisplayLowerB2 NoAction  
+RotaryB2 NoAction  
+RotaryPushB2 NoAction  
+/   
+DisplayUpperB3 NoAction  
+DisplayLowerB3 NoAction  
+RotaryB3 NoAction  
+RotaryPushB3 NoAction  
+/   
+DisplayUpperB4 NoAction  
+DisplayLowerB4 NoAction  
+RotaryB4 NoAction  
+RotaryPushB4 NoAction  
+/   
+DisplayUpperB5 NoAction  
+DisplayLowerB5 NoAction  
+RotaryB5 NoAction  
+RotaryPushB5 NoAction  
+/   
+DisplayUpperB6 NoAction  
+DisplayLowerB6 NoAction  
+RotaryB6 NoAction  
+RotaryPushB6 NoAction  
+/   
+DisplayUpperB7 NoAction  
+DisplayLowerB7 NoAction  
+RotaryB7 NoAction  
+RotaryPushB7 NoAction  
+/   
+DisplayUpperB8 NoAction  
+DisplayLowerB8 NoAction  
+RotaryB8 NoAction  
+RotaryPushB8 NoAction  
+/   
+DisplayUpperC1 FXParamNameDisplay 12 "SC_HPF"
+DisplayLowerC1 FXParamValueDisplay 12  
+RotaryC1 FXParam 12 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 NoAction  
+/   
+DisplayUpperC2 FXParamNameDisplay 13 "Slope"
+DisplayLowerC2 FXParamValueDisplay 13  
+RotaryC2 FXParam 13 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 13 [ 0.0 0.33 0.67 1.0 ]
+/   
+DisplayUpperC3 FXParamNameDisplay 2 "Knee"
+DisplayLowerC3 FXParamValueDisplay 2  
+RotaryC3 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 NoAction  
+/   
+DisplayUpperC4 FXParamNameDisplay 1 "Crest"
+DisplayLowerC4 FXParamValueDisplay 1  
+RotaryC4 FXParam 1 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC4 NoAction  
+/   
+DisplayUpperC5 NoAction  
+DisplayLowerC5 NoAction  
+RotaryC5 NoAction  
+RotaryPushC5 NoAction  
+/   
+DisplayUpperC6 FXParamNameDisplay 14 "Stereo"
+DisplayLowerC6 FXParamValueDisplay 14  
+RotaryC6 FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 NoAction  
+/   
+DisplayUpperC7 NoAction  
+DisplayLowerC7 NoAction  
+RotaryC7 NoAction  
+RotaryPushC7 NoAction  
+/   
+DisplayUpperC8 FXParamNameDisplay 11 "Output"
+DisplayLowerC8 FXParamValueDisplay 11  
+RotaryC8 FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 NoAction  
+/   
+DisplayUpperD1 FXParamNameDisplay 0 "Thresh"
+DisplayLowerD1 FXParamValueDisplay 0  
+RotaryD1 FXParam 0 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 NoAction  
+/   
+DisplayUpperD2 FXParamNameDisplay 3 "Ratio"
+DisplayLowerD2 FXParamValueDisplay 3  
+RotaryD2 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 NoAction  
+/   
+DisplayUpperD3 FXParamNameDisplay 4 "Att"
+DisplayLowerD3 FXParamValueDisplay 4  
+RotaryD3 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 NoAction  
+/   
+DisplayUpperD4 FXParamNameDisplay 5 "RelPk"
+DisplayLowerD4 FXParamValueDisplay 5  
+RotaryD4 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 NoAction  
+/   
+DisplayUpperD5 FXParamNameDisplay 6 "RelRMS"
+DisplayLowerD5 FXParamValueDisplay 6  
+RotaryD5 FXParam 6 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 NoAction  
+/   
+DisplayUpperD6 FXParamNameDisplay 8 "Dry"
+DisplayLowerD6 FXParamValueDisplay 8  
+RotaryD6 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 10 [ 0.0 1.0 ]
+/   
+DisplayUpperD7 FXParamNameDisplay 9 "Mix"
+DisplayLowerD7 FXParamValueDisplay 9  
+RotaryD7 FXParam 9 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 NoAction  
+/   
+DisplayUpperD8 FXParamNameDisplay 7 "MakeUp"
+DisplayLowerD8 FXParamValueDisplay 7  
+RotaryD8 FXParam 7 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 NoAction  
+/
+ZoneEnd
+/
+/"VST: TDR Kotelnikov (Tokyo Dawn Labs)"
+/"Threshold"
+/"Peak Crest"
+/"Soft Knee"
+/"Ratio"
+/"Attack"
+/"Release Peak"
+/"Release RMS"
+/"Makeup"
+/"Dry Mix"
+/"Dry Wet"
+/"Dry Mix Mode"
+/"Out Gain"
+/"SC HP Freq"
+/"SC HP Slope"
+/"SC Stereo Diff"
+/"Delta"
+/"Bypass"
+/"Quality"
+/"Mode"
+/"GR Disp Scale"
+/"GR Disp Mode"
+/"Bypass"
+/"Wet"

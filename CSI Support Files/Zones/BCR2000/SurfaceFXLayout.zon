@@ -1,0 +1,5 @@
+Zone SurfaceFXLayout C4FXLayout
+    Rotary FXParam
+    DisplayUpper FXParamNameDisplay
+    DisplayLower FXParamValueDisplay    
+ZoneEnd

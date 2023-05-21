@@ -1,0 +1,22 @@
+Zone Home
+    /OnInitialization ToggleEnableFocusedFX
+    IncludedZones
+          Buttons
+          Track
+          MasterTrack
+    IncludedZonesEnd
+    AssociatedZones
+          SelectedTracks
+          SelectedTrackSend
+          SelectedTrackReceive
+          SelectedTrackFXMenu
+          MasterTrackFXMenu
+          TrackSend
+          TrackReceive
+          TrackFXMenu
+          VCA
+          Folder
+          SelectedTrackTCPFX
+          SelectedTrackTCPFXTemplate
+    AssociatedZonesEnd
+ZoneEnd

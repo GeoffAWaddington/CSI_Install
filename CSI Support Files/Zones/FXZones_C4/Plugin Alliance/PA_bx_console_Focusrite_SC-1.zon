@@ -1,0 +1,242 @@
+Zone "VST: bx_console Focusrite SC (Plugin Alliance)" "Focus"
+/Primary
+/
+SubZones
+"VST: bx_console Focusrite SC (Plugin Alliance)-2"
+SubZonesEnd
+/
+Shift GoSubZone "VST: bx_console Focusrite SC (Plugin Alliance)"
+Option GoSubZone "VST: bx_console Focusrite SC (Plugin Alliance)-2"
+/
+/
+DisplayUpperA1 FXParamNameDisplay 26 "CThr"
+DisplayLowerA1 FXParamValueDisplay 26  
+RotaryA1 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 25 [ 0.0 1.0 ]
+/   
+DisplayUpperA2 FXParamNameDisplay 27 "CRatio"
+DisplayLowerA2 FXParamValueDisplay 27  
+RotaryA2 FXParam 27 [ (4,4,3,2,1) 0.0 0.20 0.40 0.60 0.80 1.0 ]
+RotaryPushA2 FXParam 27 [ 0.0 0.20 0.40 0.60 0.80 1.0 ]
+/   
+DisplayUpperA3 FXParamNameDisplay 29 "CAtt"
+DisplayLowerA3 FXParamValueDisplay 29  
+RotaryA3 FXParam 29 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 FXParam 31 [ 0.0 1.0 ]
+/   
+DisplayUpperA4 FXParamNameDisplay 28 "CRel"
+DisplayLowerA4 FXParamValueDisplay 28  
+RotaryA4 FXParam 28 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 NoAction  
+/   
+DisplayUpperA5 FXParamNameDisplay 30 "CMkUp"
+DisplayLowerA5 FXParamValueDisplay 30  
+RotaryA5 FXParam 30 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 NoAction  
+/   
+DisplayUpperA6 FXParamNameDisplay 32 "CMix"
+DisplayLowerA6 FXParamValueDisplay 32  
+RotaryA6 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA6 NoAction  
+/   
+DisplayUpperA7 FXParamNameDisplay 35 "DS_Sen"
+DisplayLowerA7 FXParamValueDisplay 35  
+RotaryA7 FXParam 35 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 FXParam 33 [ 0.0 1.0 ]
+/   
+DisplayUpperA8 FXParamNameDisplay 34 "DS_Frq"
+DisplayLowerA8 FXParamValueDisplay 34  
+RotaryA8 FXParam 34 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA8 FXParam 36 [ 0.0 1.0 ]
+/   
+DisplayUpperB1 FXParamNameDisplay 64 "EQPost"
+DisplayLowerB1 FXParamValueDisplay 64  
+RotaryB1 FXParam 64 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB1 FXParam 64 [ 0.0 1.0 ]
+/   
+DisplayUpperB2 FXParamNameDisplay 54 "Q"
+DisplayLowerB2 FXParamValueDisplay 54  
+RotaryB2 FXParam 54 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB2 NoAction  
+/   
+DisplayUpperB3 FXParamNameDisplay 58 "Q"
+DisplayLowerB3 FXParamValueDisplay 58  
+RotaryB3 FXParam 58 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 NoAction  
+/   
+DisplayUpperB4 FXParamNameDisplay 37 "GThrsh"
+DisplayLowerB4 FXParamValueDisplay 37  
+RotaryB4 FXParam 37 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB4 FXParam 44 [ 0.0 1.0 ]
+/   
+DisplayUpperB5 FXParamNameDisplay 38 "GRange"
+DisplayLowerB5 FXParamValueDisplay 38  
+RotaryB5 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 46 [ 0.0 1.0 ]
+/   
+DisplayUpperB6 FXParamNameDisplay 39 "GHold"
+DisplayLowerB6 FXParamValueDisplay 39  
+RotaryB6 FXParam 39 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB6 FXParam 45 [ 0.0 1.0 ]
+/   
+DisplayUpperB7 FXParamNameDisplay 40 "GRel"
+DisplayLowerB7 FXParamValueDisplay 40  
+RotaryB7 FXParam 40 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB7 FXParam 41 [ 0.0 1.0 ]
+/   
+DisplayUpperB8 FXParamNameDisplay 42 "GKey/L"
+DisplayLowerB8 FXParamValueDisplay 42  
+RotaryB8 FXParam 42 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushB8 FXParam 43 [ 0.0 1.0 ]
+/   
+DisplayUpperC1 FXParamNameDisplay 48 "LF"
+DisplayLowerC1 FXParamValueDisplay 48  
+RotaryC1 FXParam 48 [ (4,4,3,2,1) 0.0 0.20 0.40 0.60 0.80 1.0 ]
+RotaryPushC1 FXParam 47 [ 0.0 1.0 ]
+/   
+DisplayUpperC2 FXParamNameDisplay 55 "LMF"
+DisplayLowerC2 FXParamValueDisplay 55  
+RotaryC2 FXParam 55 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 56 [ 0.0 1.0 ]
+/   
+DisplayUpperC3 FXParamNameDisplay 59 "HMF"
+DisplayLowerC3 FXParamValueDisplay 59  
+RotaryC3 FXParam 59 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC3 FXParam 60 [ 0.0 1.0 ]
+/   
+DisplayUpperC4 FXParamNameDisplay 50 "HF"
+DisplayLowerC4 FXParamValueDisplay 50  
+RotaryC4 FXParam 50 [ (4,4,3,2,1) 0.0 0.20 0.40 0.60 0.80 1.0 ]
+RotaryPushC4 NoAction  
+/   
+DisplayUpperC5 FXParamNameDisplay 15 "LPF"
+DisplayLowerC5 FXParamValueDisplay 15  
+RotaryC5 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 FXParam 12 [ 0.0 1.0 ]
+/   
+DisplayUpperC6 FXParamNameDisplay 16 "LPFX3"
+DisplayLowerC6 FXParamValueDisplay 16  
+RotaryC6 FXParam 16 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 FXParam 16 [ 0.0 1.0 ]
+/   
+DisplayUpperC7 FXParamNameDisplay 23 "DPkFrq"
+DisplayLowerC7 FXParamValueDisplay 23  
+RotaryC7 FXParam 23 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 FXParam 24 [ 0.0 1.0 ]
+/   
+DisplayUpperC8 FXParamNameDisplay 20 "D_LPF"
+DisplayLowerC8 FXParamValueDisplay 20  
+RotaryC8 FXParam 20 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 FXParam 19 [ 0.0 0.25 0.50 0.75 1.0 ]
+/   
+DisplayUpperD1 FXParamNameDisplay 49 "Gain"
+DisplayLowerD1 FXParamValueDisplay 49  
+RotaryD1 FXParam 49 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 53 [ 0.0 1.0 ]
+/   
+DisplayUpperD2 FXParamNameDisplay 57 "Gain"
+DisplayLowerD2 FXParamValueDisplay 57  
+RotaryD2 FXParam 57 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 63 [ 0.0 1.0 ]
+/   
+DisplayUpperD3 FXParamNameDisplay 61 "Gain"
+DisplayLowerD3 FXParamValueDisplay 61  
+RotaryD3 FXParam 61 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 FXParam 62 [ 0.0 1.0 ]
+/   
+DisplayUpperD4 FXParamNameDisplay 51 "Gain"
+DisplayLowerD4 FXParamValueDisplay 51  
+RotaryD4 FXParam 51 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 52 [ 0.0 1.0 ]
+/   
+DisplayUpperD5 FXParamNameDisplay 13 "HPF"
+DisplayLowerD5 FXParamValueDisplay 13  
+RotaryD5 FXParam 13 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 11 [ 0.0 1.0 ]
+/   
+DisplayUpperD6 FXParamNameDisplay 14 "HPFX3"
+DisplayLowerD6 FXParamValueDisplay 14  
+RotaryD6 FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 14 [ 0.0 1.0 ]
+/   
+DisplayUpperD7 FXParamNameDisplay 22 "DPkGn"
+DisplayLowerD7 FXParamValueDisplay 22  
+RotaryD7 FXParam 22 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 FXParam 18 [ 0.0 0.25 0.50 0.75 1.0 ]
+/   
+DisplayUpperD8 FXParamNameDisplay 21 "D_HPF"
+DisplayLowerD8 FXParamValueDisplay 21  
+RotaryD8 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 FXParam 17 [ 0.0 0.25 0.50 0.75 1.0 ]
+/
+ZoneEnd
+/
+/"VST: bx_console Focusrite SC (Plugin Alliance)"
+/"Power"
+/"Mute"
+/"Setting"
+/"In Gain"
+/"VirtGain"
+/"THD"
+/"Phase"
+/"Out Gain"
+/"Monitor"
+/"Channel"
+/"St Mode"
+/"HPF On"
+/"LPF On"
+/"HPF Freq"
+/"HPF x3"
+/"LPF Freq"
+/"LPF 3"
+/"Dyn HP P"
+/"Dyn Peak"
+/"Dyn LP P"
+/"Dyn LP F"
+/"Dyn HP F"
+/"DynPeakG"
+/"DynPeakF"
+/"DynPeakx"
+/"Comp On"
+/"CompThr"
+/"Comp Rat"
+/"Comp Rel"
+/"Comp Att"
+/"CompMkup"
+/"CompLink"
+/"Comp Mix"
+/"DS On"
+/"DS BP F"
+/"DSSens"
+/"DeEssLis"
+/"GateThr"
+/"Gate Rng"
+/"Gate Hld"
+/"Gate Rel"
+/"Gate Att"
+/"Gate Key"
+/"GateKeyL"
+/"Gate On"
+/"GateLink"
+/"Gate Exp"
+/"All EQ O"
+/"EQ LF F"
+/"EQ LF G"
+/"EQ HF F"
+/"EQ HF G"
+/"EQ HF On"
+/"EQ LF On"
+/"EQ LMF Q"
+/"EQ LMF F"
+/"EQ LMFx3"
+/"EQ LMF G"
+/"EQ HMF Q"
+/"EQ HMF F"
+/"EQ HMFx3"
+/"EQ HMF G"
+/"EQ HMFOn"
+/"EQ LMFOn"
+/"EQ Pos"
+/"MeterPos"
+/"Bypass"
+/"Wet"

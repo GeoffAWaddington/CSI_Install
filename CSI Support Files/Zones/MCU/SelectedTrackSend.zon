@@ -1,0 +1,16 @@
+Zone SelectedTrackSend
+        DisplayUpper|               TrackSendNameDisplay
+        DisplayLower|               TrackSendPanDisplay
+        Touch+DisplayLower|         TrackSendVolumeDisplay
+        Control+DisplayLower|       TrackSendPrePostDisplay
+        Control+RotaryPush|         TrackSendPrePost
+        Alt+DisplayLower|           TrackSendStereoMonoDisplay
+        Alt+RotaryPush|             TrackSendStereoMonoToggle
+        Option+RotaryPush|          TrackSendInvertPolarity
+        Touch+DisplayLower|         TrackSendVolumeDisplay
+        Mute|                       TrackSendMute
+        Rotary|                     TrackSendPan       
+        Fader|                      TrackSendVolume
+        BankLeft                    Bank SelectedTrackSend -8
+        BankRight                   Bank SelectedTrackSend 8
+ZoneEnd

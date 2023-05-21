@@ -1,0 +1,18 @@
+Zone "Home"
+  IncludedZones
+    "Buttons"
+    "Track"
+    "SelectedTrack"
+  IncludedZonesEnd
+  AssociatedZones
+    "FocusedFXParam"
+    "Folder"
+    "VCA"
+    "SelectedTrackFXMenu"
+    "TrackFXMenu"
+    "SelectedTrackSend"
+    "SelectedTrackReceive"
+    "TrackSend"
+    "TrackReceive"
+  AssociatedZonesEnd
+ZoneEnd

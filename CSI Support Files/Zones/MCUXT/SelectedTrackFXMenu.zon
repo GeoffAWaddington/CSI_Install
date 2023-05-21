@@ -1,0 +1,9 @@
+Zone SelectedTrackFXMenu
+        DisplayUpper|               FXMenuNameDisplay
+        DisplayLower|               NoAction
+        Rotary|                     NoAction
+        RotaryPush|                 Reaper _S&M_TOGLFLOATFX|        //Float the FX window
+        Shift+RotaryPush|           Reaper _S&M_FXBYP|              //Bypass FX Slot
+        Option+RotaryPush|          Reaper _S&M_FXOFF|              //Offline FX slot
+        RotaryPush|                 GoFXSlot
+ZoneEnd

@@ -1,0 +1,11 @@
+Zone "SelectedTrackSend"
+     DisplayUpper1                      TrackNameDisplay
+     DisplayLower1                      TrackSendNameDisplay
+     Fader1Touch+DisplayLower1          TrackSendVolumeDisplay
+     Fader1                             TrackSendVolume
+     Mute1                              TrackSendMute
+     Rotary1                            TrackSendPan RingStyle=Dot
+     Left                               Bank SelectedTrackSend -1
+     Right                              Bank SelectedTrackSend 1
+ZoneEnd
+

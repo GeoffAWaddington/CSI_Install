@@ -1,0 +1,25 @@
+Zone Home
+    OnInitialization 	ToggleEnableFocusedFXMapping
+    OnInitialization 	ToggleAutoFocusedFXMapping
+    OnInitialization 	ToggleAutoFXMapping
+    OnTrackSelection 	Reaper _S&M_WNCLS3
+        IncludedZones
+            FocusedFXParam
+            Buttons
+            Track           
+            MasterTrack
+            SelectedTrack
+            SelectedTrackFXMenu
+        IncludedZonesEnd
+     
+        AssociatedZones
+            MasterTrackFXMenu
+            SelectedTrackSend
+            SelectedTrackReceive
+            TrackSend
+            TrackReceive
+            VCA
+            Folder
+            SelectedTrackTCPFX
+        AssociatedZonesEnd      
+ZoneEnd

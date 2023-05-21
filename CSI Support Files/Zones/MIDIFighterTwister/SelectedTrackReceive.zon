@@ -1,0 +1,8 @@
+Zone "SelectedTrackReceive"
+	RotaryG|            TrackReceiveVolume
+	RotaryPushG|        TrackReceivePrePost
+     ShiftRotaryG|       NoAction
+	RotaryH|            TrackReceivePan  
+     RotaryPushH|        TrackReceiveMute { 90 255 0 242 255 0 }
+	ShiftRotaryH|       NoAction
+ZoneEnd

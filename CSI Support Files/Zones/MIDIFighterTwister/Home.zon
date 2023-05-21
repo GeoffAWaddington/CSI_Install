@@ -1,0 +1,31 @@
+Zone "Home"
+/    OnInitialization ToggleEnableFocusedFX
+/    OnInitialization ToggleEnableFocusedFXMapping
+     IncludedZones
+          "SelectedTrack"
+          "Buttons"
+		"SelectedTrackTCPFX"
+		"SelectedTrackSend"
+		"SelectedTrackReceve"
+     IncludedZonesEnd
+ZoneEnd
+
+////////////////////////////////////////     Notes      ////////////////////////////////////////
+// These files require the MF Twister to be setup with Encoder MIDI Type set to ENC3FH/41H,   //
+// the Sensitivity set to "Velocity Sensitive", and Switch Action Type set to "Shift Encoder  //
+// Hold". You can set this up manually or use the included MFTwisterSettings.mfs file to set  //
+// that up. 
+//
+// Additionally, the default mapping provided here uses a "Selected Track" workflow where you //
+// control the volume, pan, etc. of one track at a time. This is the easiest way to work with //
+// the Twister as a control surface in Reaper due to the lack of displays, which make working //
+// with an 8-channel setup difficult. You can, however, modify this as needed or use an OSC   //
+// surface to add displays.
+//
+// By default, FocusedFXMapping is enabled. I've included many FX mappings to get you started.//
+// If you do not want this behavior, uncomment out the ToggleEnableFocusedFXMapping line in   //
+// row 2 of this file.                                                                        //
+//                                                                                            //
+// The second page/bank on the MFTwister is used for controlling TCP FX params in Reaper.     //
+// The third page/bank is used for Selected Track Sends, and the fourth used for Receives.    //
+//////////////////////////////////////////////////////////////////////////////////////////////// 

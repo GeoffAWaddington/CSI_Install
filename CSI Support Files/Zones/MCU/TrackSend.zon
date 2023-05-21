@@ -1,0 +1,12 @@
+Zone TrackSend
+        DisplayUpper|               TrackNameDisplay
+        DisplayLower|               TrackSendNameDisplay
+        FaderTouch+DisplayLower|    TrackSendVolumeDisplay
+        Shift+DisplayLower|         TrackSendPrePostDisplay
+        Shift+RotaryPush|           TrackSendPrePost
+        Mute|                       TrackSendMute
+        Rotary|                     TrackSendPan
+        Fader|                      TrackSendVolume
+        BankLeft                    Bank TrackSend -1
+        BankRight                   Bank TrackSend 1
+ZoneEnd

@@ -1,0 +1,13 @@
+Zone "FocusedFXParam"
+/ ## Right-most fader controls the last touched parameter
+
+  ScribbleStripMode Mode=0 // default mode -> 3 lines + valuebar
+  
+  Fader8             FocusedFXParam
+  ScribbleLine1_8    FocusedFXParamValueDisplay
+  ScribbleLine2_8    FocusedFXParamNameDisplay
+  ScribbleLine3_8    FixedTextDisplay "FX"
+  ScribbleLine4_8    NoAction
+  ValueBar|          FocusedFXParam BarStyle=Fill
+
+ZoneEnd

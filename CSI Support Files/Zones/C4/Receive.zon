@@ -1,0 +1,6 @@
+Zone SelectedTrackReceive
+        DisplayUpperA|          TrackReceiveNameDisplay
+        DisplayLowerA|          TrackReceiveVolumeDisplay
+        RotaryA|                TrackReceiveVolume [ (0.001,0.02,0.04,0.06,0.1) ]
+        RotaryPushA|            TrackReceiveMute
+ZoneEnd

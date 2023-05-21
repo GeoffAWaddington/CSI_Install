@@ -1,0 +1,240 @@
+Zone "VST: Lindell ChannelX (Plugin Alliance)" "Chan_X"
+/Primary
+/
+SubZones
+"VST: Lindell ChannelX (Plugin Alliance)-2"
+"VST: Lindell ChannelX (Plugin Alliance)-3"
+SubZonesEnd
+/
+Shift GoSubZone "VST: Lindell ChannelX (Plugin Alliance)"
+Option GoSubZone "VST: Lindell ChannelX (Plugin Alliance)-2"
+Control GoSubZone "VST: Lindell ChannelX (Plugin Alliance)-3"
+/
+/
+DisplayUpperA1 FXParamNameDisplay 63 "Chan_X"
+DisplayLowerA1 FXParamValueDisplay 63  
+RotaryA1 FXParam 63 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 62 [ 0.0 1.0 ]
+/   
+DisplayUpperA2 FXParamNameDisplay 8 "Pol"
+DisplayLowerA2 FXParamValueDisplay 8  
+RotaryA2 FXParam 8 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA2 FXParam 8 [ 0.0 1.0 ]
+/   
+DisplayUpperA3 FXParamNameDisplay 0 "Input"
+DisplayLowerA3 FXParamValueDisplay 0  
+RotaryA3 FXParam 0 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 FXParam 2 [ 0.0 1.0 ]
+/   
+DisplayUpperA4 FXParamNameDisplay 1 "Output"
+DisplayLowerA4 FXParamValueDisplay 1  
+RotaryA4 FXParam 1 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 FXParam 7 [ 0.0 1.0 ]
+/   
+DisplayUpperA5 FXParamNameDisplay 5 "LF"
+DisplayLowerA5 FXParamValueDisplay 5  
+RotaryA5 FXParam 5 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 FXParam 6 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperA6 FXParamNameDisplay 3 "HF"
+DisplayLowerA6 FXParamValueDisplay 3  
+RotaryA6 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA6 FXParam 4 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperA7 FXParamNameDisplay 9 "Analog"
+DisplayLowerA7 FXParamValueDisplay 9  
+RotaryA7 FXParam 9 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA7 FXParam 9 [ 0.0 1.0 ]
+/   
+DisplayUpperA8 FXParamNameDisplay 16 "Bypass"
+DisplayLowerA8 FXParamValueDisplay 16  
+RotaryA8 FXParam 16 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA8 FXParam 16 [ 0.0 1.0 ]
+/   
+DisplayUpperB1 FXParamNameDisplay 58 "Normal"
+DisplayLowerB1 FXParamValueDisplay 58  
+RotaryB1 FXParam 58 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushB1 FXParam 58 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperB2 FXParamNameDisplay 61 "Order"
+DisplayLowerB2 FXParamValueDisplay 61  
+RotaryB2 FXParam 61 [ (4,4,3,2,1) 0.0 0.11 0.31 0.51 0.71 0.91 ]
+RotaryPushB2 FXParam 61 [ 0.0 0.11 0.31 0.51 0.71 0.91 ]
+/   
+DisplayUpperB3 FXParamNameDisplay 35 "HF_Q"
+DisplayLowerB3 FXParamValueDisplay 35  
+RotaryB3 FXParam 35 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB3 NoAction  
+/   
+DisplayUpperB4 NoAction  
+DisplayLowerB4 NoAction  
+RotaryB4 NoAction  
+RotaryPushB4 NoAction  
+/   
+DisplayUpperB5 FXParamNameDisplay 26 "CmpSt"
+DisplayLowerB5 FXParamValueDisplay 26  
+RotaryB5 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 FXParam 29 [ 0.0 1.0 ]
+/   
+DisplayUpperB6 FXParamNameDisplay 23 "SC_HPF"
+DisplayLowerB6 FXParamValueDisplay 23  
+RotaryB6 FXParam 23 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushB6 FXParam 23 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperB7 FXParamNameDisplay 19 "Att"
+DisplayLowerB7 FXParamValueDisplay 19  
+RotaryB7 FXParam 19 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushB7 FXParam 19 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperB8 FXParamNameDisplay 20 "Rel"
+DisplayLowerB8 FXParamValueDisplay 20  
+RotaryB8 FXParam 20 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushB8 FXParam 20 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperC1 FXParamNameDisplay 38 "LF_AT"
+DisplayLowerC1 FXParamValueDisplay 38  
+RotaryC1 FXParam 38 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC1 FXParam 37 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperC2 FXParamNameDisplay 32 "HF_AT"
+DisplayLowerC2 FXParamValueDisplay 32  
+RotaryC2 FXParam 32 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC2 FXParam 31 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperC3 FXParamNameDisplay 34 "HF"
+DisplayLowerC3 FXParamValueDisplay 34  
+RotaryC3 FXParam 34 [ (4,4,3,2,1) 0.0 0.17 0.33 0.50 0.67 0.83 1.0 ]
+RotaryPushC3 FXParam 34 [ 0.0 0.17 0.33 0.50 0.67 0.83 1.0 ]
+/   
+DisplayUpperC4 FXParamNameDisplay 14 "Slope"
+DisplayLowerC4 FXParamValueDisplay 14  
+RotaryC4 FXParam 14 [ (4,4,3,2,1) 0.0 0.25 0.50 0.75 1.0 ]
+RotaryPushC4 FXParam 14 [ 0.0 0.25 0.50 0.75 1.0 ]
+/   
+DisplayUpperC5 FXParamNameDisplay 11 "Slope"
+DisplayLowerC5 FXParamValueDisplay 11  
+RotaryC5 FXParam 11 [ (4,4,3,2,1) 0.0 0.25 0.50 0.75 1.0 ]
+RotaryPushC5 FXParam 11 [ 0.0 0.25 0.50 0.75 1.0 ]
+/   
+DisplayUpperC6 FXParamNameDisplay 17 "CmpInp"
+DisplayLowerC6 FXParamValueDisplay 17  
+RotaryC6 FXParam 17 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 FXParam 27 [ 0.0 1.0 ]
+/   
+DisplayUpperC7 FXParamNameDisplay 18 "CmpOut"
+DisplayLowerC7 FXParamValueDisplay 18  
+RotaryC7 FXParam 18 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 NoAction  
+/   
+DisplayUpperC8 FXParamNameDisplay 21 "C_Mix"
+DisplayLowerC8 FXParamValueDisplay 21  
+RotaryC8 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC8 FXParam 30 [ 0.0 1.0 ]
+/   
+DisplayUpperD1 FXParamNameDisplay 36 "LF_BS"
+DisplayLowerD1 FXParamValueDisplay 36  
+RotaryD1 FXParam 36 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 37 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperD2 FXParamNameDisplay 39 "Pad"
+DisplayLowerD2 FXParamValueDisplay 39  
+RotaryD2 FXParam 39 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 FXParam 60 [ 0.0 1.0 ]
+/   
+DisplayUpperD3 FXParamNameDisplay 33 "HF_BS"
+DisplayLowerD3 FXParamValueDisplay 33  
+RotaryD3 FXParam 33 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 FXParam 59 [ 0.0 1.0 ]
+/   
+DisplayUpperD4 FXParamNameDisplay 13 "HPF"
+DisplayLowerD4 FXParamValueDisplay 13  
+RotaryD4 FXParam 13 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 FXParam 15 [ 0.0 1.0 ]
+/   
+DisplayUpperD5 FXParamNameDisplay 10 "LPF"
+DisplayLowerD5 FXParamValueDisplay 10  
+RotaryD5 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 12 [ 0.0 1.0 ]
+/   
+DisplayUpperD6 FXParamNameDisplay 22 "Ratio"
+DisplayLowerD6 FXParamValueDisplay 22  
+RotaryD6 FXParam 22 [ (4,4,3,2,1) 0.0 0.50 1.0 ]
+RotaryPushD6 FXParam 22 [ 0.0 0.50 1.0 ]
+/   
+DisplayUpperD7 FXParamNameDisplay 24 "Att"
+DisplayLowerD7 FXParamValueDisplay 24  
+RotaryD7 FXParam 24 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 FXParam 28 [ 0.0 1.0 ]
+/   
+DisplayUpperD8 FXParamNameDisplay 25 "Rel"
+DisplayLowerD8 FXParamValueDisplay 25  
+RotaryD8 FXParam 25 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 FXParam 28 [ 0.0 1.0 ]
+/
+ZoneEnd
+/
+/"VST: Lindell ChannelX (Plugin Alliance)"
+/"Pre. Input gain"
+/"Pre. Output lev"
+/"Pre. Link"
+/"Pre. Hi boost"
+/"Pre. Hi frequen"
+/"Pre. Low boost"
+/"Pre. Low freque"
+/"Pre. EQ on"
+/"Pre. Polarity"
+/"Pre. Analog"
+/"Pre. Lowpass fr"
+/"Pre. Lowpass sl"
+/"Pre. Low filter"
+/"Pre. Highpass f"
+/"Pre. Highpass s"
+/"Pre. High filte"
+/"Pre. Bypass"
+/"Comp. Input"
+/"Comp. Output"
+/"Comp. Attack"
+/"Comp. Release"
+/"Comp. Mix"
+/"Comp. Ratio"
+/"Comp. SC High P"
+/"Comp. Continuou"
+/"Comp. Continuou"
+/"Comp. Stereo Li"
+/"Comp. Bypass"
+/"Comp. Continuou"
+/"Comp. Link ON"
+/"Comp. Analog ON"
+/"EQ Hi atten. fr"
+/"EQ Hi attenuati"
+/"EQ Hi boost"
+/"EQ Hi frequency"
+/"EQ Hi bandwidth"
+/"EQ Low boost"
+/"EQ Low frequenc"
+/"EQ Low attenuat"
+/"EQ Pad"
+/"EQ Hi atten. fr"
+/"EQ Hi attenuati"
+/"EQ Hi boost mid"
+/"EQ Hi frequency"
+/"EQ Hi bandwidth"
+/"EQ Low boost mi"
+/"EQ Low frequenc"
+/"EQ Low attenuat"
+/"EQ Pad mid"
+/"EQ Hi atten. fr"
+/"EQ Hi attenuati"
+/"EQ Hi boost sid"
+/"EQ Hi frequency"
+/"EQ Hi bandwidth"
+/"EQ Low boost si"
+/"EQ Low frequenc"
+/"EQ Low attenuat"
+/"EQ Pad side"
+/"EQ Mid  Side"
+/"EQ Analog"
+/"EQ EQ In"
+/"Order"
+/"Bypass"
+/"Wet"

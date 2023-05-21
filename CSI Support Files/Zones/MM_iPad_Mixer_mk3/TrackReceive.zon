@@ -1,0 +1,14 @@
+Zone TrackReceive
+    	DisplayC|				TrackReceivePanDisplay
+    	DisplayE|	            TrackReceiveNameDisplay
+    	DisplayF|		        TrackReceiveVolumeDisplay
+    	DisplayD|				TrackReceivePrePostDisplay
+    	ButtonD|				TrackReceivePrePost
+    	Pan|					TrackReceivePan
+    	ButtonF|                TrackReceiveMute
+    	Fader|                  TrackReceiveVolume
+    	ButtonM1     			TrackReceiveBank -1	{ #444444 #C8C8C8 } 
+    	DisplayM1      			FixedTextDisplay <TRECV
+    	ButtonM2       			TrackReceiveBank 1	{ #444444 #C8C8C8 } 
+    	DisplayM2      			FixedTextDisplay TRECV>
+ZoneEnd

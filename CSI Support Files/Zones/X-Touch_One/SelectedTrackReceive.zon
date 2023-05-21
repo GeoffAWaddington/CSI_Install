@@ -1,0 +1,10 @@
+Zone "SelectedTrackReceive"
+     DisplayUpper1                      TrackNameDisplay
+     DisplayLower1                      TrackReceiveNameDisplay
+     Fader1Touch+DisplayLower1          TrackReceiveVolumeDisplay
+     Fader1                             TrackReceiveVolume
+     Mute1                              TrackReceiveMute
+     Rotary1                            TrackReceivePan RingStyle=Dot
+     Left                               Bank SelectedTrackReceive -1
+     Right                              Bank SelectedTrackReceive 1
+ZoneEnd

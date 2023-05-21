@@ -1,0 +1,6 @@
+Zone PanWidth
+	ButtonA72           GoAssociatedZone Track
+    DisplayA72          FixedTextDisplay Pan
+	DisplayC|           TrackPanWidthDisplay
+	Pan|             	TrackPanWidth
+ZoneEnd

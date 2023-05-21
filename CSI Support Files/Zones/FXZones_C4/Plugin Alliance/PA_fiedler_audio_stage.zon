@@ -1,0 +1,195 @@
+Zone "VST3: fiedler audio stage (Plugin Alliance)" "Stage"
+/Primary
+/
+/
+/
+DisplayUpperA1 FXParamNameDisplay 26 "Stage"
+DisplayLowerA1 FXParamValueDisplay 26 
+RotaryA1 FXParam 26 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA1 FXParam 25 [ 0.0 1.0 ]
+/  
+DisplayUpperA2 NoAction 
+DisplayLowerA2 NoAction 
+RotaryA2 NoAction 
+RotaryPushA2 NoAction 
+/  
+DisplayUpperA3 FXParamNameDisplay 0 "Gain"
+DisplayLowerA3 FXParamValueDisplay 0 
+RotaryA3 FXParam 0 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA3 NoAction 
+/  
+DisplayUpperA4 FXParamNameDisplay 1 "Tilt"
+DisplayLowerA4 FXParamValueDisplay 1 
+RotaryA4 FXParam 1 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA4 NoAction 
+/  
+DisplayUpperA5 FXParamNameDisplay 2 "MS"
+DisplayLowerA5 FXParamValueDisplay 2 
+RotaryA5 FXParam 2 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushA5 NoAction 
+/  
+DisplayUpperA6 NoAction 
+DisplayLowerA6 NoAction 
+RotaryA6 NoAction 
+RotaryPushA6 NoAction 
+/  
+DisplayUpperA7 NoAction 
+DisplayLowerA7 NoAction 
+RotaryA7 NoAction 
+RotaryPushA7 NoAction 
+/  
+DisplayUpperA8 NoAction 
+DisplayLowerA8 NoAction 
+RotaryA8 NoAction 
+RotaryPushA8 NoAction 
+/  
+DisplayUpperB1 NoAction 
+DisplayLowerB1 NoAction 
+RotaryB1 NoAction 
+RotaryPushB1 NoAction
+/  
+DisplayUpperB2 NoAction 
+DisplayLowerB2 NoAction 
+RotaryB2 NoAction 
+RotaryPushB2 NoAction  
+/  
+DisplayUpperB3 NoAction 
+DisplayLowerB3 NoAction 
+RotaryB3 NoAction 
+RotaryPushB3 NoAction 
+/  
+DisplayUpperB4 NoAction 
+DisplayLowerB4 NoAction 
+RotaryB4 NoAction 
+RotaryPushB4 NoAction 
+/  
+DisplayUpperB5 FXParamNameDisplay 10 "LFORte"
+DisplayLowerB5 FXParamValueDisplay 10 
+RotaryB5 FXParam 10 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushB5 NoAction 
+/  
+DisplayUpperB6 NoAction 
+DisplayLowerB6 NoAction 
+RotaryB6 NoAction 
+RotaryPushB6 NoAction 
+/  
+DisplayUpperB7 NoAction 
+DisplayLowerB7 NoAction 
+RotaryB7 NoAction 
+RotaryPushB7 NoAction 
+/  
+DisplayUpperB8 NoAction 
+DisplayLowerB8 NoAction 
+RotaryB8 NoAction 
+RotaryPushB8 NoAction 
+/  
+DisplayUpperC1 FXParamNameDisplay 5 "PanDly"
+DisplayLowerC1 FXParamValueDisplay 5 
+RotaryC1 FXParam 5 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushC1 FXParam 5 [ 0.0 1.0 ]
+/
+DisplayUpperC2 FXParamNameDisplay 23 "PanInv"
+DisplayLowerC2 FXParamValueDisplay 23 
+RotaryC2 FXParam 23 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushC2 FXParam 23
+/  
+DisplayUpperC3 FXParamNameDisplay 8 "PhaseL"
+DisplayLowerC3 FXParamValueDisplay 8 
+RotaryC3 FXParam 8 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushC3 FXParam 8 [ 0.0 1.0 ]
+/  
+DisplayUpperC4 FXParamNameDisplay 9 "PhaseR"
+DisplayLowerC4 FXParamValueDisplay 9 
+RotaryC4 FXParam 9 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushC4 FXParam 9 [ 0.0 1.0 ]
+/  
+DisplayUpperC5 FXParamNameDisplay 11 "LFOAmt"
+DisplayLowerC5 FXParamValueDisplay 11 
+RotaryC5 FXParam 11 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC5 NoAction 
+/  
+DisplayUpperC6 FXParamNameDisplay 15 "Body"
+DisplayLowerC6 FXParamValueDisplay 15 
+RotaryC6 FXParam 15 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC6 NoAction 
+/  
+DisplayUpperC7 FXParamNameDisplay 16 "Pres"
+DisplayLowerC7 FXParamValueDisplay 16 
+RotaryC7 FXParam 16 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushC7 NoAction 
+/  
+DisplayUpperC8 FXParamNameDisplay 19 "DryByp"
+DisplayLowerC8 FXParamValueDisplay 19 
+RotaryC8 FXParam 19 [ (4,4,3,2,1) 0.0 1.0 ]
+RotaryPushC8 FXParam 19 [ 0.0 1.0 ]
+/  
+DisplayUpperD1 FXParamNameDisplay 3 "Pan"
+DisplayLowerD1 FXParamValueDisplay 3 
+RotaryD1 FXParam 3 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD1 FXParam 22
+/  
+DisplayUpperD2 FXParamNameDisplay 4 "Width"
+DisplayLowerD2 FXParamValueDisplay 4 
+RotaryD2 FXParam 4 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD2 NoAction 
+/  
+DisplayUpperD3 FXParamNameDisplay 6 "Size"
+DisplayLowerD3 FXParamValueDisplay 6 
+RotaryD3 FXParam 6 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD3 NoAction 
+/  
+DisplayUpperD4 FXParamNameDisplay 7 "FBack"
+DisplayLowerD4 FXParamValueDisplay 7 
+RotaryD4 FXParam 7 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD4 NoAction 
+/  
+DisplayUpperD5 FXParamNameDisplay 12 "LFOPh"
+DisplayLowerD5 FXParamValueDisplay 12 
+RotaryD5 FXParam 12 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD5 FXParam 13 [ 0.0 1.0 ]
+/  
+DisplayUpperD6 FXParamNameDisplay 14 "Bass"
+DisplayLowerD6 FXParamValueDisplay 14 
+RotaryD6 FXParam 14 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD6 FXParam 18 [ 0.0 1.0 ]
+/  
+DisplayUpperD7 FXParamNameDisplay 17 "Brill"
+DisplayLowerD7 FXParamValueDisplay 17 
+RotaryD7 FXParam 17 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD7 FXParam 18 [ 0.0 1.0 ]
+/  
+DisplayUpperD8 FXParamNameDisplay 21 "Wet"
+DisplayLowerD8 FXParamValueDisplay 21 
+RotaryD8 FXParam 21 [ (0.001,0.005,0.025,0.05,0.1) ]
+RotaryPushD8 FXParam 20 [ 0.0 1.0 ]
+/
+ZoneEnd
+/
+/"VST3: fiedler audio stage (Plugin Alliance)"
+/"gain"
+/"tilt"
+/"MS"
+/"pan"
+/"width"
+/"pan_delay"
+/"size"
+/"feedback"
+/"phase_left"
+/"phase_right"
+/"LFO_frequency"
+/"LFO_amount"
+/"LFO_phase_spread"
+/"LFO_on_off"
+/"bass"
+/"body"
+/"presence"
+/"brilliance"
+/"Colour_on_off"
+/"dry_on_off"
+/"wet_on_off"
+/"wet_gain"
+/"pan_dry_bypass"
+/"pan_wet_invert"
+/"Bypass"
+/"Bypass"
+/"Wet"

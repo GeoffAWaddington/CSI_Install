@@ -1,0 +1,8 @@
+Zone "SelectedTrackSend"
+     RotaryE|            TrackSendVolume
+     RotaryPushE|        TrackSendPrePost
+     ShiftRotaryE|       NoAction
+     RotaryF|            TrackSendPan
+     RotaryPushF|        TrackSendMute { 90 255 0 242 255 0 }
+     ShiftRotaryF|       NoAction
+ZoneEnd
