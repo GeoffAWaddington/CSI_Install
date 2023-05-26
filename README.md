@@ -9,3 +9,6 @@ To download:
 4. Place the CSI folder in the Reaper Resource path
 
 See the Wiki for additional install/setup instructions: https://github.com/GeoffAWaddington/CSI30Wiki/wiki/Installation-and-Setup 
+
+See the Change Log for info on the latest changes https://github.com/GeoffAWaddington/CSI_Install/wiki/Change-Log
+
