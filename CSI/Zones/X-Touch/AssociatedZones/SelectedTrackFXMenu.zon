@@ -12,6 +12,6 @@ Zone "SelectedTrackFXMenu"
 
      RecordArm|          NoAction
      Solo|               NoAction
-     Select1             TrackInvertPolarity
+     Select|             NoAction
      Fader|              NoAction    
 ZoneEnd
