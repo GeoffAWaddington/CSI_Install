@@ -1,6 +1,6 @@
 # CSI_Install
  CSI installation
-Version 3.0
+Version 3.0.1
 
 To download:
 1. Press the green "Code" button above and select the "Download Zip" option.
