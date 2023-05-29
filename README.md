@@ -2,7 +2,7 @@
  CSI installation
 Version 3.0.1
 
-See the Change Log for info on the latest changes https://github.com/GeoffAWaddington/CSI_Install/wiki/Change-Log
+See the Change Log for info on the latest changes https://github.com/GeoffAWaddington/CSI_Install/wiki
 
 To download:
 1. Press the green "Code" button above and select the "Download Zip" option.
