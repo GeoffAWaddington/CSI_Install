@@ -1,4 +1,5 @@
 Zone FXPrologue
 	OnZoneActivation	SetXTouchDisplayColors Cyan
 	OnZoneDeactivation	RestoreXTouchDisplayColors
+	Plugin      		ClearFXSlot
 ZoneEnd
