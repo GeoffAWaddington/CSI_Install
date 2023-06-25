@@ -1,0 +1,3 @@
+Zone "SelectedTrackFX"
+	OnZoneActivation	SetXTouchDisplayColors Magenta
+ZoneEnd

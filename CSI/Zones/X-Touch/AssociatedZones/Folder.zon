@@ -1,26 +1,26 @@
 Zone "Folder"
-    OnZoneActivation            SetXTouchDisplayColors Yellow
-    OnZoneDeactivation          RestoreXTouchDisplayColors
-    DisplayUpper|               TrackNameDisplay
-    Fader|Touch+DisplayLower|   TrackVolumeDisplay
-    DisplayLower|               TrackFolderParentDisplay
-    Shift+DisplayLower|         TrackAutoModeDisplay
-    Toggle+DisplayLower|        TrackPanAutoLeftDisplay
-    Alt+DisplayLower|           TrackInputMonitorDisplay
-    VUMeter|                    TrackOutputMeterMaxPeakLR
-    Fader|                      TrackVolume 
-    Flip+Fader|                 TrackPan 
+    OnZoneActivation		SetXTouchDisplayColors Yellow
+    OnZoneDeactivation		RestoreXTouchDisplayColors
+    DisplayUpper|            	TrackNameDisplay
+    Fader|Touch+DisplayLower| 	TrackVolumeDisplay
+    DisplayLower|      		TrackFolderParentDisplay
+    Shift+DisplayLower| 	TrackAutoModeDisplay
+    Toggle+DisplayLower|   	TrackPanAutoLeftDisplay
+    Alt+DisplayLower|   	TrackInputMonitorDisplay
+    VUMeter|			TrackOutputMeterMaxPeakLR
+    Fader|                   	TrackVolume 
+    Flip+Fader|                	TrackPan 
     Rotary|                     NoAction
     Toggle+Rotary|              TrackPanAutoLeft
     RotaryPush|                 ToggleChannel
-    Shift+RotaryPush|           TrackPan [ 0.5 ]
-    Option+RotaryPush|          TrackPanWidth [ 1.0 ]
-    Alt+RotaryPush|             CycleTrackInputMonitor
+    Shift+RotaryPush|    	TrackPan [ 0.5 ]
+    Option+RotaryPush|        	TrackPanWidth [ 1.0 ]
+    Alt+RotaryPush|        	CycleTrackInputMonitor
     RecordArm|                  TrackRecordArm
-    Shift+RecordArm|            CycleTrackAutoMode
+    Shift+RecordArm|    	CycleTrackAutoMode
     Solo|                       TrackSolo
     Mute|                       TrackMute
-    Select|                     TrackToggleFolderSpill
+    Select|                	TrackToggleFolderSpill
     Shift+Select|               TrackRangeSelect
     Control+Select|             TrackSelect
     BankLeft                    Bank Folder -8

@@ -8,99 +8,203 @@ AccelerationValues
     RotaryWidgetClass   Val 0.0006 0.001 0.002 0.003 0.008 0.04  0.08 
 AccelerationValuesEnd
 
-Widget DisplayA1
+Widget LeftDisplay
+	FB_SCE24EncoderText 90 7a 7f
+WidgetEnd
+
+Widget RightDisplay
+	FB_SCE24EncoderText 90 7b 7f
+WidgetEnd
+
+Widget DisplayRow1A1
 	FB_SCE24EncoderText 90 20 7f
 WidgetEnd
 
-Widget DisplayA2
+Widget DisplayRow1A2
 	FB_SCE24EncoderText 90 21 7f
 WidgetEnd
 
-Widget DisplayA3
+Widget DisplayRow1A3
 	FB_SCE24EncoderText 90 22 7f
 WidgetEnd
 
-Widget DisplayA4
+Widget DisplayRow1A4
 	FB_SCE24EncoderText 90 23 7f
 WidgetEnd
 
-Widget DisplayA5
+Widget DisplayRow1A5
 	FB_SCE24EncoderText 90 24 7f
 WidgetEnd
 
-Widget DisplayA6
+Widget DisplayRow1A6
 	FB_SCE24EncoderText 90 25 7f
 WidgetEnd
 
-Widget DisplayA7
+Widget DisplayRow1A7
 	FB_SCE24EncoderText 90 26 7f
 WidgetEnd
 
-Widget DisplayA8
+Widget DisplayRow1A8
 	FB_SCE24EncoderText 90 27 7f
 WidgetEnd
 
-Widget DisplayB1
+Widget DisplayRow1B1
 	FB_SCE24EncoderText 90 28 7f
 WidgetEnd
 
-Widget DisplayB2
+Widget DisplayRow1B2
 	FB_SCE24EncoderText 90 29 7f
 WidgetEnd
 
-Widget DisplayB3
+Widget DisplayRow1B3
 	FB_SCE24EncoderText 90 2a 7f
 WidgetEnd
 
-Widget DisplayB4
+Widget DisplayRow1B4
 	FB_SCE24EncoderText 90 2b 7f
 WidgetEnd
 
-Widget DisplayB5
+Widget DisplayRow1B5
 	FB_SCE24EncoderText 90 2c 7f
 WidgetEnd
 
-Widget DisplayB6
+Widget DisplayRow1B6
 	FB_SCE24EncoderText 90 2d 7f
 WidgetEnd
 
-Widget DisplayB7
+Widget DisplayRow1B7
 	FB_SCE24EncoderText 90 2e 7f
 WidgetEnd
 
-Widget DisplayB8
+Widget DisplayRow1B8
 	FB_SCE24EncoderText 90 2f 7f
 WidgetEnd
 
-Widget DisplayC1
+idget DisplayRow1C1
 	FB_SCE24EncoderText 90 30 7f
 WidgetEnd
 
-Widget DisplayC2
+Widget DisplayRow1C2
 	FB_SCE24EncoderText 90 31 7f
 WidgetEnd
 
-Widget DisplayC3
+Widget DisplayRow1C3
 	FB_SCE24EncoderText 90 32 7f
 WidgetEnd
 
-Widget DisplayC4
+Widget DisplayRow1C4
 	FB_SCE24EncoderText 90 33 7f
 WidgetEnd
 
-Widget DisplayC5
+Widget DisplayRow1C5
 	FB_SCE24EncoderText 90 34 7f
 WidgetEnd
 
-Widget DisplayC6
+Widget DisplayRow1C6
 	FB_SCE24EncoderText 90 35 7f
 WidgetEnd
 
-Widget DisplayC7
+Widget DisplayRow1C7
 	FB_SCE24EncoderText 90 36 7f
 WidgetEnd
 
-Widget DisplayC8
+Widget DisplayRow1C8
+	FB_SCE24EncoderText 90 37 7f
+WidgetEnd
+
+Widget DisplayRow2A1
+	FB_SCE24EncoderText 90 20 7f
+WidgetEnd
+
+Widget DisplayRow2A2
+	FB_SCE24EncoderText 90 21 7f
+WidgetEnd
+
+Widget DisplayRow2A3
+	FB_SCE24EncoderText 90 22 7f
+WidgetEnd
+
+Widget DisplayRow2A4
+	FB_SCE24EncoderText 90 23 7f
+WidgetEnd
+
+Widget DisplayRow2A5
+	FB_SCE24EncoderText 90 24 7f
+WidgetEnd
+
+Widget DisplayRow2A6
+	FB_SCE24EncoderText 90 25 7f
+WidgetEnd
+
+Widget DisplayRow2A7
+	FB_SCE24EncoderText 90 26 7f
+WidgetEnd
+
+Widget DisplayRow2A8
+	FB_SCE24EncoderText 90 27 7f
+WidgetEnd
+
+Widget DisplayRow2B1
+	FB_SCE24EncoderText 90 28 7f
+WidgetEnd
+
+Widget DisplayRow2B2
+	FB_SCE24EncoderText 90 29 7f
+WidgetEnd
+
+Widget DisplayRow2B3
+	FB_SCE24EncoderText 90 2a 7f
+WidgetEnd
+
+Widget DisplayRow2B4
+	FB_SCE24EncoderText 90 2b 7f
+WidgetEnd
+
+Widget DisplayRow2B5
+	FB_SCE24EncoderText 90 2c 7f
+WidgetEnd
+
+Widget DisplayRow2B6
+	FB_SCE24EncoderText 90 2d 7f
+WidgetEnd
+
+Widget DisplayRow2B7
+	FB_SCE24EncoderText 90 2e 7f
+WidgetEnd
+
+Widget DisplayRow2B8
+	FB_SCE24EncoderText 90 2f 7f
+WidgetEnd
+
+idget DisplayRow2C1
+	FB_SCE24EncoderText 90 30 7f
+WidgetEnd
+
+Widget DisplayRow2C2
+	FB_SCE24EncoderText 90 31 7f
+WidgetEnd
+
+Widget DisplayRow2C3
+	FB_SCE24EncoderText 90 32 7f
+WidgetEnd
+
+Widget DisplayRow2C4
+	FB_SCE24EncoderText 90 33 7f
+WidgetEnd
+
+Widget DisplayRow2C5
+	FB_SCE24EncoderText 90 34 7f
+WidgetEnd
+
+Widget DisplayRow2C6
+	FB_SCE24EncoderText 90 35 7f
+WidgetEnd
+
+Widget DisplayRow2C7
+	FB_SCE24EncoderText 90 36 7f
+WidgetEnd
+
+Widget DisplayRow2C8
 	FB_SCE24EncoderText 90 37 7f
 WidgetEnd
 
@@ -346,80 +450,80 @@ WidgetEnd
 
 Widget LEDButton1
 	Press 90 05 7F 90 05 00
-	FB_SCE24LEDButton Press 90 05 7F
+	FB_SCE24LEDButton 90 05 7F
 WidgetEnd
 
 Widget LEDButton2
 	Press 90 06 7F 90 06 00
-	FB_SCE24LEDButton Press 90 06 7F
+	FB_SCE24LEDButton 90 06 7F
 WidgetEnd
 
 Widget LEDButton3
 	Press 90 07 7F 90 07 00
-	FB_SCE24LEDButton Press 90 07 7F
+	FB_SCE24LEDButton 90 07 7F
 WidgetEnd
 
 Widget LEDButton4
 	Press 90 08 7F 90 08 00
-	FB_SCE24LEDButton Press 90 08 7F
+	FB_SCE24LEDButton 90 08 7F
 WidgetEnd
 
 Widget LEDButton5
 	Press 90 09 7F 90 09 00
-	FB_SCE24LEDButton Press 90 09 7F
+	FB_SCE24LEDButton 90 09 7F
 WidgetEnd
 
 Widget LEDButton6
 	Press 90 0a 7F 90 0a 00
-	FB_SCE24LEDButton Press 90 0a 7F
+	FB_SCE24LEDButton 90 0a 7F
 WidgetEnd
 
 Widget LEDButton7
 	Press 90 0b 7F 90 0b 00
-	FB_SCE24LEDButton Press 90 0b 7F
+	FB_SCE24LEDButton 90 0b 7F
 WidgetEnd
 
 Widget LEDButton8
 	Press 90 0c 7F 90 0c 00
-	FB_SCE24LEDButton Press 90 0c 7F
+	FB_SCE24LEDButton 90 0c 7F
 WidgetEnd
 
 Widget OLEDButton1
 	Press 90 0d 7F 90 0d 00
-	FB_SCE24OLEDButton Press 90 0d 7F
+	FB_SCE24OLEDButton 90 0d 7F
 WidgetEnd
 
 Widget OLEDButton2
 	Press 90 0e 7F 90 0e 00
-	FB_SCE24OLEDButton Press 90 0e 7F
+	FB_SCE24OLEDButton 90 0e 7F
 WidgetEnd
 
 Widget OLEDButton3
 	Press 90 0f 7F 90 0f 00
-	FB_SCE24OLEDButton Press 90 0f 7F
+	FB_SCE24OLEDButton 90 0f 7F
 WidgetEnd
 
 Widget OLEDButton4
 	Press 90 10 7F 90 10 00
-	FB_SCE24OLEDButton Press 90 10 7F
+	FB_SCE24OLEDButton 90 10 7F
 WidgetEnd
 
 Widget OLEDButton5
 	Press 90 11 7F 90 11 00
-	FB_SCE24OLEDButton Press 11 09 7F
+	FB_SCE24OLEDButton 11 09 7F
 WidgetEnd
 
 Widget OLEDButton6
 	Press 90 12 7F 90 12 00
-	FB_SCE24OLEDButton Press 90 12 7F
+	FB_SCE24OLEDButton 90 12 7F
 WidgetEnd
 
 Widget OLEDButton7
 	Press 90 13 7F 90 13 00
-	FB_SCE24OLEDButton Press 90 13 7F
+	FB_SCE24OLEDButton 90 13 7F
 WidgetEnd
 
 Widget OLEDButton8
 	Press 90 14 7F 90 14 00
-	FB_SCE24OLEDButton Press 90 14 7F
+	FB_SCE24OLEDButton 90 14 7F
 WidgetEnd

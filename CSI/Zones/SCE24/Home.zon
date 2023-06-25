@@ -1,0 +1,7 @@
+Zone Home
+    OnInitialization  	SendMIDIMessage "C9 01"
+    OnInitialization	ToggleRestrictTextLength 12
+    IncludedZones
+        Buttons
+    IncludedZonesEnd
+ZoneEnd   

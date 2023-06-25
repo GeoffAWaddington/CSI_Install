@@ -34,7 +34,7 @@ Zone "Buttons"
     Aux                         NoAction
     Busses                      NoAction
     Outputs                     NoAction
-    User                        NoAction
+    User                        ClearModifiers
            
 // Function Buttons
 
@@ -42,10 +42,10 @@ Zone "Buttons"
     F2                          ToggleEnableFocusedFXMapping
     F3                          ToggleScrollLink
     F4                          NoAction
-    F5                          NoAction
+    F5                          RemapAutoZone
     F6                          NoAction
-    F7                          NoAction
-    F8                          NoAction
+    F7                          ClearSelectedTrackFX
+    F8                          GoSelectedTrackFX
     
 //  Modifiers
 
@@ -129,24 +129,13 @@ Zone "Buttons"
     Nudge+Left                  Reaper 41279                // Item edit: Nudge left by saved nudge dialog settings 1
     Nudge+Right                 Reaper 41275                // Item edit: Nudge right by saved nudge dialog settings 1
 
-    Scrub                       Scrub
-
 //  JogWheel
 
     Decrease+JogWheel           Reaper 40840                // Move edit cursor back one measure (no seek)  
     Increase+JogWheel           Reaper 40839                // Move edit cursor forward one measure (no seek)                                          
     Shift+Decrease+JogWheel     Reaper 40286                // Track: Go to previous track       
     Shift+Increase+JogWheel     Reaper 40285                // Track: Go to next track                     
-    
-    Zoom++Decrease+JogWheel     Reaper 40112                // Zoom out vertical 
-    Zoom++Decrease+JogWheel     Reaper 1011                 // Zoom out horizontal  
-    Zoom++Increase+JogWheel     Reaper 40111                // Zoom in vertical          
-    Zoom++Increase+JogWheel     Reaper 1012                 // Zoom in horizontal   
-
-    Marker+Decrease+JogWheel    Reaper 40172                // Go to previous marker or project start
-    Marker+Increase+JogWheel    Reaper 40173                // Go to next marker or project end      
-    
-    Scrub+Decrease+Jogwheel     Reaper 40084                // Transport: Rewind a little bit
-    Scrub+Increase+Jogwheel     Reaper 40085                // Transport: Fast forward a little bit
+    Option+Decrease+JogWheel    Reaper 40172                // Go to previous marker or project start
+    Option+Increase+JogWheel    Reaper 40173                // Go to next marker or project end      
     
 ZoneEnd

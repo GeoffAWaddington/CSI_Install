@@ -1,0 +1,4 @@
+Zone FXPrologue
+	LeftDisplay	FXNameDisplay Font=4
+	RightDisplay 	TrackNameDisplay Font=3
+ZoneEnd

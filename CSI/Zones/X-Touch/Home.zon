@@ -1,22 +1,24 @@
 Zone Home
-    /OnInitialization ToggleEnableFocusedFX
+    OnInitialization	ToggleRestrictTextLength 7
+    //OnInitialization 	ToggleAutoFocusedFXMapping
+
     IncludedZones
-          Buttons
-          Track
-          MasterTrack
+        Buttons
+        Track
+       	MasterTrack
     IncludedZonesEnd
     AssociatedZones
-          SelectedTracks
-          SelectedTrackSend
-          SelectedTrackReceive
-          SelectedTrackFXMenu
-          MasterTrackFXMenu
-          TrackSend
-          TrackReceive
-          TrackFXMenu
-          VCA
-          Folder
-          SelectedTrackTCPFX
-          SelectedTrackTCPFXTemplate
+       	SelectedTracks
+       	SelectedTrackSend
+       	SelectedTrackReceive
+       	SelectedTrackFXMenu
+       	MasterTrackFXMenu
+       	TrackSend
+       	TrackReceive
+       	TrackFXMenu
+       	VCA
+       	Folder
+       	SelectedTrackTCPFX
+       	SelectedTrackTCPFXTemplate
     AssociatedZonesEnd
 ZoneEnd

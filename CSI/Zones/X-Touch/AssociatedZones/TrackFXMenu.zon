@@ -1,19 +1,18 @@
 Zone "TrackFXMenu"
-     OnZoneActivation    SetXTouchDisplayColors Blue
-     OnZoneDeactivation  RestoreXTouchDisplayColors
-     
-     DisplayUpper|       FixedTextDisplay "FXMenu"
-     DisplayLower|       FXMenuNameDisplay
-     Rotary|             NoAction
-     RotaryPush|         GoFXSlot
-     Mute|               ToggleFXBypass
-     Left                SelectedTrackFXMenuBank -1
-     Right               SelectedTrackFXMenuBank 1
-     Up                  Bank TrackFXMenu -1
-     Down                Bank TrackFXMenu 1
+	OnZoneActivation	SetXTouchDisplayColors Blue
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	DisplayUpper| 		FixedTextDisplay "FXMenu"
+        DisplayLower|       	FXMenuNameDisplay
+        Rotary|             	NoAction
+        RotaryPush|         	GoFXSlot
+	Mute| 			ToggleFXBypass
+        Left            	SelectedTrackFXMenuBank -1
+        Right           	SelectedTrackFXMenuBank 1
+        Up	            	Bank TrackFXMenu -1
+        Down	           	Bank TrackFXMenu 1
 
-     RecordArm|          NoAction
-     Solo|               NoAction
-     Select|             NoAction
-     Fader|              NoAction   
+        RecordArm|              NoAction
+        Solo|                   NoAction
+        Select|                 NoAction
+	Fader|			NoAction   
 ZoneEnd

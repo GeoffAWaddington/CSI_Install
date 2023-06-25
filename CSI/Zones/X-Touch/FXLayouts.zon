@@ -4,4 +4,8 @@ Zone FXLayouts
 	MCUFXLayout+Option 8
 	MCUFXLayout+Control 8
 	MCUFXLayout+Alt 8
+	MCUFXLayout+Shift+Control 8
+	MCUFXLayout+Option+Control 8
+	MCUFXLayout+Control+Alt 8
+	MCUFXLayout+Alt+Control 8
 ZoneEnd

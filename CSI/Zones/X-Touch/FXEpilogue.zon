@@ -1,4 +1,0 @@
-Zone FXEpilogue
-	OnZoneActivation	SetXTouchDisplayColors Cyan
-	OnZoneDeactivation	RestoreXTouchDisplayColors
-ZoneEnd

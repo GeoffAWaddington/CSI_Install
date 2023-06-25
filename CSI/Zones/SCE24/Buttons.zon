@@ -1,0 +1,12 @@
+Zone "Buttons"
+    LEDButton1		Shift OnColor=#2f0f0000 OffColor=#00000000
+    LEDButton2          Option OnColor=#2f0f0000 OffColor=#00000000
+    LEDButton3         	Control OnColor=#2f0f0000 OffColor=#00000000
+    LEDButton4          Alt OnColor=#2f0f0000 OffColor=#00000000
+
+    OLEDButton1 	Stop DisplayText=Stop TopMargin=0 BottomMargin=64 Font=6 ForegroundOn=#0000ff00 BackgroundOn=#ffff0000 ForegroundOff=#ffffffff BackgroundOff=#000000ff
+
+    OLEDButton2 	Play DisplayText=Play TopMargin=0 BottomMargin=64 Font=6 ForegroundOn=#ffffffff BackgroundOn=#00ff00ff ForegroundOff=#ffffffff BackgroundOff=#000000ff
+
+    LEDButton8  	RemapAutoZone
+ZoneEnd

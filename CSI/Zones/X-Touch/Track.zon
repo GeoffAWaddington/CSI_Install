@@ -1,5 +1,6 @@
 Zone "Track"
-    DisplayUpper|            TrackNameDisplay { Track }
+    /OnZoneActivation	     SetXTouchDisplayColors "Cyan Red Red Blue Green Magenta Yellow White"
+    DisplayUpper|            TrackNameDisplay
 
     Touch+DisplayLower|      TrackVolumeDisplay
     DisplayLower|            TrackPanAutoLeftDisplay

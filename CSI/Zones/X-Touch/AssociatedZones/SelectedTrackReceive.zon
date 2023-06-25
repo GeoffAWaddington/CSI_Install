@@ -1,16 +1,15 @@
 Zone "SelectedTrackReceive"
-    OnZoneActivation		  SetXTouchDisplayColors Magenta
-    OnZoneDeactivation		  RestoreXTouchDisplayColors
-    
+    OnZoneActivation		SetXTouchDisplayColors Magenta
+    OnZoneDeactivation		RestoreXTouchDisplayColors
     DisplayUpper|               TrackReceiveNameDisplay
-    DisplayLower| 		       TrackReceivePrePostDisplay
+    DisplayLower| 		TrackReceivePrePostDisplay
     Fader|Touch+DisplayLower|   TrackReceiveVolumeDisplay
-    RotaryPush|			  TrackReceivePrePost
-    Mute|			            TrackReceiveMute
+    RotaryPush|			TrackReceivePrePost
+    Mute|			TrackReceiveMute
     Rotary|                     TrackReceivePan
     Fader|                      TrackReceiveVolume
-    Left			            Bank SelectedTrackReceive -1
-    Right   			       Bank SelectedTrackReceive 1
+    Left			Bank SelectedTrackReceive -1
+    Right   			Bank SelectedTrackReceive 1
 
     RecordArm|                  NoAction
     Solo|                       NoAction

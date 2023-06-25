@@ -1,18 +1,17 @@
 Zone "SelectedTrackSend"
-     OnZoneActivation           SetXTouchDisplayColors Cyan
-     OnZoneDeactivation         RestoreXTouchDisplayColors
-     
-     DisplayUpper|              TrackSendNameDisplay
-     DisplayLower|              TrackSendPrePostDisplay
-     Fader|Touch+DisplayLower|  TrackSendVolumeDisplay
-     RotaryPush|                TrackSendPrePost
-     Mute|                      TrackSendMute
-     Rotary|                    TrackSendPan
-     Fader|                     TrackSendVolume
-     Left                       Bank SelectedTrackSend -1
-     Right                      Bank SelectedTrackSend 1
+	OnZoneActivation	    SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	    RestoreXTouchDisplayColors
+    	DisplayUpper|               TrackSendNameDisplay
+	DisplayLower| 		    TrackSendPrePostDisplay
+    	Fader|Touch+DisplayLower|   TrackSendVolumeDisplay
+	RotaryPush|		    TrackSendPrePost
+    	Mute|                       TrackSendMute
+    	Rotary|                     TrackSendPan
+    	Fader|                      TrackSendVolume
+    	Left                        Bank SelectedTrackSend -1
+    	Right                       Bank SelectedTrackSend 1
 
-     RecordArm|                 NoAction
-     Solo|                      NoAction
-     Select|                    NoAction
+        RecordArm|                  NoAction
+        Solo|                       NoAction
+        Select|                     NoAction
 ZoneEnd

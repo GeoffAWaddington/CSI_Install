@@ -1,5 +1,5 @@
 Zone SurfaceFXLayout MCUFXLayout
-	Rotary FXParam
+	Rotary FXParam RingStyle=Dot
 	DisplayUpper FixedTextDisplay
 	DisplayLower FXParamValueDisplay
 ZoneEnd

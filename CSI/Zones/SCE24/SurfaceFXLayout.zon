@@ -1,0 +1,5 @@
+Zone SurfaceFXLayout SCE24FXLayoutUpper
+	Rotary FXParam RingStyle=Dot LEDRingColor=#0000ffff PushColor=#003f00ff
+	DisplayRow1 FixedTextDisplay TopMargin=0 BottomMargin=24 Font=3 Foreground=#ffff00ff Background=#000000ff
+	DisplayRow2 FXParamValueDisplay TopMargin=32 BottomMargin=64 Font=5 Foreground=#ffff00ff Background=#000000ff
+ZoneEnd

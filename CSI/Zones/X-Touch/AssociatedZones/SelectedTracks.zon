@@ -29,14 +29,14 @@ Zone "SelectedTracks"
     Solo|                    TrackSolo
     Mute|                    TrackMute
 
-    /Select|                 TrackUniqueSelect
-    /Shift+Select|           TrackRangeSelect
-    /Control+Select|         TrackSelect    
+    /Select|                  TrackUniqueSelect
+    /Shift+Select|            TrackRangeSelect
+    /Control+Select|          TrackSelect    
     Option+Select|           TrackInvertPolarity    
 
-    BankLeft                 Bank SelectedTracks -8
-    BankRight                Bank SelectedTracks 8
-    ChannelLeft              Bank SelectedTracks -1
-    ChannelRight             Bank SelectedTracks 1
+    BankLeft                    Bank SelectedTracks -8
+    BankRight                   Bank SelectedTracks 8
+    ChannelLeft                 Bank SelectedTracks -1
+    ChannelRight                Bank SelectedTracks 1
 
 ZoneEnd
