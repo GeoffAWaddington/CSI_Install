@@ -80,7 +80,7 @@ Widget DisplayRow1B8
 	FB_SCE24EncoderText 90 2f 7f
 WidgetEnd
 
-idget DisplayRow1C1
+Widget DisplayRow1C1
 	FB_SCE24EncoderText 90 30 7f
 WidgetEnd
 
@@ -176,7 +176,7 @@ Widget DisplayRow2B8
 	FB_SCE24EncoderText 90 2f 7f
 WidgetEnd
 
-idget DisplayRow2C1
+Widget DisplayRow2C1
 	FB_SCE24EncoderText 90 30 7f
 WidgetEnd
 
@@ -205,6 +205,198 @@ Widget DisplayRow2C7
 WidgetEnd
 
 Widget DisplayRow2C8
+	FB_SCE24EncoderText 90 37 7f
+WidgetEnd
+
+Widget DisplayRow3A1
+	FB_SCE24EncoderText 90 20 7f
+WidgetEnd
+
+Widget DisplayRow3A2
+	FB_SCE24EncoderText 90 21 7f
+WidgetEnd
+
+Widget DisplayRow3A3
+	FB_SCE24EncoderText 90 22 7f
+WidgetEnd
+
+Widget DisplayRow3A4
+	FB_SCE24EncoderText 90 23 7f
+WidgetEnd
+
+Widget DisplayRow3A5
+	FB_SCE24EncoderText 90 24 7f
+WidgetEnd
+
+Widget DisplayRow3A6
+	FB_SCE24EncoderText 90 25 7f
+WidgetEnd
+
+Widget DisplayRow3A7
+	FB_SCE24EncoderText 90 26 7f
+WidgetEnd
+
+Widget DisplayRow3A8
+	FB_SCE24EncoderText 90 27 7f
+WidgetEnd
+
+Widget DisplayRow3B1
+	FB_SCE24EncoderText 90 28 7f
+WidgetEnd
+
+Widget DisplayRow3B2
+	FB_SCE24EncoderText 90 29 7f
+WidgetEnd
+
+Widget DisplayRow3B3
+	FB_SCE24EncoderText 90 2a 7f
+WidgetEnd
+
+Widget DisplayRow3B4
+	FB_SCE24EncoderText 90 2b 7f
+WidgetEnd
+
+Widget DisplayRow3B5
+	FB_SCE24EncoderText 90 2c 7f
+WidgetEnd
+
+Widget DisplayRow3B6
+	FB_SCE24EncoderText 90 2d 7f
+WidgetEnd
+
+Widget DisplayRow3B7
+	FB_SCE24EncoderText 90 2e 7f
+WidgetEnd
+
+Widget DisplayRow3B8
+	FB_SCE24EncoderText 90 2f 7f
+WidgetEnd
+
+Widget DisplayRow3C1
+	FB_SCE24EncoderText 90 30 7f
+WidgetEnd
+
+Widget DisplayRow3C2
+	FB_SCE24EncoderText 90 31 7f
+WidgetEnd
+
+Widget DisplayRow3C3
+	FB_SCE24EncoderText 90 32 7f
+WidgetEnd
+
+Widget DisplayRow3C4
+	FB_SCE24EncoderText 90 33 7f
+WidgetEnd
+
+Widget DisplayRow3C5
+	FB_SCE24EncoderText 90 34 7f
+WidgetEnd
+
+Widget DisplayRow3C6
+	FB_SCE24EncoderText 90 35 7f
+WidgetEnd
+
+Widget DisplayRow3C7
+	FB_SCE24EncoderText 90 36 7f
+WidgetEnd
+
+Widget DisplayRow3C8
+	FB_SCE24EncoderText 90 37 7f
+WidgetEnd
+
+Widget DisplayRow4A1
+	FB_SCE24EncoderText 90 20 7f
+WidgetEnd
+
+Widget DisplayRow4A2
+	FB_SCE24EncoderText 90 21 7f
+WidgetEnd
+
+Widget DisplayRow4A3
+	FB_SCE24EncoderText 90 22 7f
+WidgetEnd
+
+Widget DisplayRow4A4
+	FB_SCE24EncoderText 90 23 7f
+WidgetEnd
+
+Widget DisplayRow4A5
+	FB_SCE24EncoderText 90 24 7f
+WidgetEnd
+
+Widget DisplayRow4A6
+	FB_SCE24EncoderText 90 25 7f
+WidgetEnd
+
+Widget DisplayRow4A7
+	FB_SCE24EncoderText 90 26 7f
+WidgetEnd
+
+Widget DisplayRow4A8
+	FB_SCE24EncoderText 90 27 7f
+WidgetEnd
+
+Widget DisplayRow4B1
+	FB_SCE24EncoderText 90 28 7f
+WidgetEnd
+
+Widget DisplayRow4B2
+	FB_SCE24EncoderText 90 29 7f
+WidgetEnd
+
+Widget DisplayRow4B3
+	FB_SCE24EncoderText 90 2a 7f
+WidgetEnd
+
+Widget DisplayRow4B4
+	FB_SCE24EncoderText 90 2b 7f
+WidgetEnd
+
+Widget DisplayRow4B5
+	FB_SCE24EncoderText 90 2c 7f
+WidgetEnd
+
+Widget DisplayRow4B6
+	FB_SCE24EncoderText 90 2d 7f
+WidgetEnd
+
+Widget DisplayRow4B7
+	FB_SCE24EncoderText 90 2e 7f
+WidgetEnd
+
+Widget DisplayRow4B8
+	FB_SCE24EncoderText 90 2f 7f
+WidgetEnd
+
+Widget DisplayRow4C1
+	FB_SCE24EncoderText 90 30 7f
+WidgetEnd
+
+Widget DisplayRow4C2
+	FB_SCE24EncoderText 90 31 7f
+WidgetEnd
+
+Widget DisplayRow4C3
+	FB_SCE24EncoderText 90 32 7f
+WidgetEnd
+
+Widget DisplayRow4C4
+	FB_SCE24EncoderText 90 33 7f
+WidgetEnd
+
+Widget DisplayRow4C5
+	FB_SCE24EncoderText 90 34 7f
+WidgetEnd
+
+Widget DisplayRow4C6
+	FB_SCE24EncoderText 90 35 7f
+WidgetEnd
+
+Widget DisplayRow4C7
+	FB_SCE24EncoderText 90 36 7f
+WidgetEnd
+
+Widget DisplayRow4C8
 	FB_SCE24EncoderText 90 37 7f
 WidgetEnd
 
