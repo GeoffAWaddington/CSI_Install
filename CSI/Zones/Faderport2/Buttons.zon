@@ -1,0 +1,71 @@
+Zone "Buttons"
+	SubZones
+	   "LinkLock"       // FocusedFXParam
+	   "Marker"
+        "Pan"
+	   "Scroll"
+	   "Section"
+	   "Zoom"
+	SubZonesEnd
+
+  Shift				Shift
+
+// 2nd Row Automation buttons
+  Bypass			     Reaper 8			                              // Track: Toggle FX bypass for selected tracks
+  Shift+Bypass	          Reaper 40344		                              // Toggle Bypass All/All FX
+				     
+  Touch			     TrackAutoMode 2		{ 9 9 1 255 255 0 }		// Touch
+  Shift+Touch		     TrackAutoMode 4		{ 9 9 1 255 0 255 }		// Latch
+  Write			     TrackAutoMode 3		{ 9 1 1 255 0 0 }		// Write
+  Shift+Write		     TrackAutoMode 5		{ 9 1 1 0 0 255 }		// LatchPreview
+  Read			     TrackAutoMode 1		{ 1 9 1 0 255 0 }		// Read
+  Shift+Read		     TrackAutoMode 0		{ 1 9 1 150 150 150 }	// Trim/Read
+
+// Center Buttons
+  Prev				Reaper 40286		          // Track: Go to previous track
+  Next				Reaper 40285		          // Track: Go to next track	
+									          
+  Shift+Prev		     Reaper 40029		          // Undo = S1
+  Shift+Next		     Reaper 40030		          // Redo = S1
+									          
+// Joghweel Actions                                    
+  Increase+Rotary	     Reaper 40285		          // Track: Go to next track
+  Decrease+Rotary	     Reaper 40286		          // Track: Go to previous track
+
+  RotaryPush		     Reaper 40913			     // Track: Vertical scroll selected tracks into view
+  Shift+RotaryPush	     Reaper _SWS_HSCROLLPLAY50	// SWS: Horizontal scroll to put play cursor at 50%
+
+
+// 3rd Row Mode buttons
+  Link			     GoAssociatedZone FocusedFXParam			{ 7 10 10 200 200 0 }
+  Shift+Link		     GoSubZone LinkLock						{ 7 10 10 255 0 120 }
+  Pan			     GoSubZone Pan							{ 0 1 8 10 10 255 }
+  Shift+Pan		     Flip									{ 0 1 8 255 255 255 }
+  Channel			     GoAssociatedZone SelectedTrackSend		     { 0 1 8 255 0 0 }
+  Shift+Channel	     GoAssociatedZone SelectedTrackReceive	     { 0 1 8 0 255 255 }
+  Scroll			     GoSubZone Scroll						{ 0 1 8 10 10 255 }
+  Shift+Scroll		     GoSubZone Zoom							{ 0 1 8 10 10 255 }
+
+
+// 4th Row buttons
+  Master			     GoAssociatedZone MasterTrack
+  Click				Reaper 40364					// Toggle metronome
+  Section			     GoSubZone Section
+  Marker			     GoSubZone Marker
+
+  Shift+Click		     Reaper _SWS_AWCOUNTRECTOG		// Toggle count-in before recording
+  Hold+Click		     Reaper 40363					// Show metronome settings
+
+
+//Transport Buttons
+  Loop				CycleTimeline
+  Rewind				Rewind
+  Shift+Rewind			Reaper 40042		// Go to start of project
+  FastForward			FastForward
+  Shift+FastForward	     Reaper 40043		// Go to end of project
+  Stop			     Stop
+  Hold+Stop		     Reaper 40042		// Go to start of project
+  Play			     Play
+  Record				Record
+
+ZoneEnd

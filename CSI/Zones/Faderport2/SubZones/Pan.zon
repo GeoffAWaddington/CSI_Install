@@ -1,0 +1,16 @@
+Zone "Pan"
+  Pan				     FixedRGBColorDisplay	{ 0 0 255 }
+
+  Rotary					TrackPan
+  RotaryPush				TrackPan [ 0.5 ]
+
+  Shift+Rotary				TrackPanWidth
+  Shift+RotaryPush			TrackPanWidth [ 1.0 ]
+
+  Flip+Rotary				TrackVolume
+
+  Fader				     TrackVolume
+					     
+  Pan				     LeaveSubZone
+
+ZoneEnd

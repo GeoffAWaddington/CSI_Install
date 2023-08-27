@@ -1,0 +1,16 @@
+Zone "SelectedTrackReceive"
+
+     Channel             FixedRGBColorDisplay { 255 0 0 }
+
+     Fader               TrackReceiveVolume
+     Mute                TrackReceiveMute
+     Rotary              TrackReceivePan
+
+     RotaryPush          TrackReceivePan     [ 0.5 ]
+     Shift+RotaryPush    TrackReceiveVolume  [ 0.716 ]
+
+     Prev                Bank SelectedTrackReceive -1
+     Next                Bank SelectedTrackReceive 1
+
+     Channel              GoHome
+ZoneEnd

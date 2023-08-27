@@ -1,0 +1,12 @@
+Zone "Home"
+  IncludedZones
+	"Buttons"
+	"SelectedTrack"
+  IncludedZonesEnd
+  AssociatedZones
+	"FocusedFXParam"
+	"MasterTrack"
+	"SelectedTrackReceive"
+	"SelectedTrackSend"
+  AssociatedZonesEnd
+ZoneEnd

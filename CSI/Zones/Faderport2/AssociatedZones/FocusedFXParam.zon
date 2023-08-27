@@ -1,0 +1,11 @@
+Zone "FocusedFXParam"
+
+  Link			FixedRGBColorDisplay	{ 0 0 255 }
+
+  Prev			FXParam -1
+  Next			FXParam 1
+
+  Fader			FocusedFXParam
+
+  Link			GoHome
+ZoneEnd

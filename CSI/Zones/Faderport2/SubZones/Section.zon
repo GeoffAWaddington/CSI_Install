@@ -1,0 +1,13 @@
+Zone "Section"
+
+  Increase+Rotary		     Reaper 41249	   // Item edit: Nudge right by last nudge dialog settings
+  Decrease+Rotary		     Reaper 41250	   // Item edit: Nudge left by last nudge dialog settings
+
+  Next					Reaper 41249	   // Item edit: Nudge right by last nudge dialog settings
+  Prev					Reaper 41250	   // Item edit: Nudge left by last nudge dialog settings
+
+  RotaryPush			     Reaper 41228	   // Item edit: Toggle open/close nudge/set dialog
+
+  Section				     LeaveSubZone
+
+ZoneEnd

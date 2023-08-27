@@ -1,0 +1,17 @@
+Zone "SelectedTrack"
+
+  Fader                      TrackVolume
+  Flip+Fader                 TrackPan
+
+  Solo                       TrackSolo
+  Shift+Solo                 ClearAllSolo
+  Mute                       TrackMute
+  Shift+Mute                 Reaper 40339            // Unmute ALL tracks
+  Arm                        TrackRecordArm
+  Shift+Arm                  Reaper 40490            // Arm ALL tracks
+  Hold+Arm                   Reaper 40491            // Disarms ALL tracks
+
+  Increase+Rotary            Reaper  40285           // Track: Go to next track
+  Decrease+Rotary            Reaper  40286           // Track: Go to previous track
+
+ZoneEnd

@@ -1,0 +1,19 @@
+Zone "MasterTrack"
+  OnZoneActivation 		SendMIDIMessage	"90 3A 7f"
+  OnZoneDeactivation 	SendMIDIMessage	"90 3A 00"
+
+  Mute					Reaper 14		// Track: Toggle mute for master track
+  Solo					Reaper 15		// Track: Toggle solo for master track
+  Arm					NoAction
+
+  Shift+Fader			TrackPan
+  Shift+Rotary			TrackVolume
+  Shift+RotaryPush		Reaper _XENAKIOS_SETMASTVOLTO0	// Xenakios/SWS: Set master volume to 0 dB
+
+  Fader					TrackVolume
+  Rotary				TrackPan
+  RotaryPush			TrackPan [ 0.5 ]
+
+  Master				GoHome
+
+ZoneEnd
