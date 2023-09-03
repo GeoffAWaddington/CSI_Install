@@ -1,0 +1,14 @@
+Zone "Marker"
+  OnZoneActivation 		SendMIDIMessage	"90 3D 7f"	//	 3D Marker
+  OnZoneDeactivation 	SendMIDIMessage	"90 3D 00"
+
+  Decrease+Rotary        Reaper 40172		// Go to previous marker or project start
+  Increase+Rotary        Reaper 40173		// Go to next marker or project end
+
+  Next				Reaper 40173	     // Markers: Go to next marker/project end
+  Prev				Reaper 40172	     // Markers: Go to previous marker/project start
+								     
+  RotaryPush		     Reaper 40171	     // Markers: Insert and/or edit marker at current position
+
+  Marker			     LeaveSubZone
+ZoneEnd

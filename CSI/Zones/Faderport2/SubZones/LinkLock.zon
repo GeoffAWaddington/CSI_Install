@@ -1,0 +1,12 @@
+Zone "LinkLock"
+
+  Link				FixedRGBColorDisplay { 255 0 0 }
+
+  Rotary			     TrackPan
+  RotaryPush		     TrackPan [ 0.5 ]
+
+  Fader				FocusedFXParam
+
+  Link				LeaveSubZone
+
+ZoneEnd

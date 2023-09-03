@@ -1,0 +1,14 @@
+Zone "Scroll"
+
+  Scroll			     FixedRGBColorDisplay { 0 0 255 }
+				     
+  Shift+Scroll		     GoSubZone Zoom
+
+  Prev				Reaper 40141		// View: Scroll view right
+  Next				Reaper 40140		// View: Scroll view left
+
+  Increase+Rotary		Reaper 40141		// View: Scroll view right
+  Decrease+Rotary		Reaper 40140		// View: Scroll view left
+
+  Scroll			     LeaveSubZone
+ZoneEnd

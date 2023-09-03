@@ -1,0 +1,17 @@
+Zone "SelectedTrackSend"
+
+	Channel		FixedRGBColorDisplay { 0 0 255 }
+
+	Fader		TrackSendVolume
+	Rotary		TrackSendPan
+
+	RotaryPush			TrackSendPan	[ 0.5 ]
+	Shift+RotaryPush	TrackSendVolume	[ 0.716 ]
+
+	Mute		TrackSendMute
+
+	Prev		Bank SelectedTrackSend -1
+	Next		Bank SelectedTrackSend 1
+
+	Channel		GoHome
+ZoneEnd

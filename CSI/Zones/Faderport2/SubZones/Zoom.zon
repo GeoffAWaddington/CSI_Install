@@ -1,0 +1,21 @@
+Zone "Zoom"
+
+  Scroll			          FixedRGBColorDisplay { 255 255 255 }
+
+  Increase+Rotary			Reaper 1012			// Zoom in horizontal
+  Decrease+Rotary			Reaper 1011			// Zoom out horizontal
+
+  Shift+Increase+Rotary		Reaper 40111		     // Zoom in vertical
+  Shift+Decrease+Rotary		Reaper 40112		     // Zoom out vertical
+
+  Touch				     Reaper 40113			{ 255 0 255 }	// View: Toggle track zoom to maximum height
+  Write				     Reaper 40110			{ 255 0 255 }	// View: Toggle track zoom to minimum height
+  Read				     Reaper 40295			{ 255 0 255 }	// View: Zoom out project
+
+  Shift+Touch		          Reaper 40031			{ 255 0 0 }	// View: Zoom time selection
+  Shift+Write		          Reaper _SWS_VZOOMIITEMS	{ 255 0 0 }	// SWS: Vertical zoom to selected items
+  Shift+Read		          Reaper _SWS_HZOOMITEMS	{ 255 0 0 }	// SWS: Horizontal zoom to selected items
+
+ Scroll LeaveSubZone
+
+ZoneEnd
