@@ -2,23 +2,22 @@ Zone "Buttons"
     
 //  Encoder Assign Buttons
 
-    Track                       GoHome
-    Track                       Reaper _S&M_WNCLS4          // Closes all(!) FX chain windows
-    Track                       Reaper _S&M_WNCLS3          // Closes all(!) floating FX windows  
-    Pan                         GoAssociatedZone VCA
-    EQ                          GoAssociatedZone SelectedTracks 
-    Global+EQ                   GoAssociatedZone Folder
-    Send                        GoAssociatedZone SelectedTrackSend
-    Global+Send                 GoAssociatedZone TrackSend
-    Plugin                      GoAssociatedZone SelectedTrackFXMenu
-    Global+Plugin               GoAssociatedZone TrackFXMenu
-    Instrument                  GoAssociatedZone SelectedTrackReceive
-    Global+Instrument           GoAssociatedZone TrackReceive
-
+    Track         	GoAssociatedZone SelectedTracks 
+    Global+Track  	GoHome // aka Tracks
+    Pan           	GoAssociatedZone VCA
+    Global+Pan    	GoAssociatedZone Folder
+    EQ            	GoAssociatedZone SelectedTrackReceive
+    Global+EQ    	GoAssociatedZone TrackReceive
+    Send          	GoAssociatedZone SelectedTrackSend
+    Global+Send   	GoAssociatedZone TrackSend
+    Plugin        	GoAssociatedZone SelectedTrackFXMenu
+    Global+Plugin 	GoAssociatedZone TrackFXMenu
+    Instrument   	GoAssociatedZone LearnFXParams
+    Shift+Instrument	AutoMapFX
 
 //  Display Section
 
-    nameValue                   NoAction
+    nameValue                   DumpHex
     AssignmentDisplay           GlobalModeDisplay 
     TimeDisplay                 MCUTimeDisplay
     smpteBeats                  CycleTimeDisplayModes
@@ -26,15 +25,16 @@ Zone "Buttons"
  
 //  View Buttons
  
-    GlobalView                  Global
-    MidiTracks                  GoAssociatedZone SelectedTrackTCPFX
-    Inputs                      GoAssociatedZone MasterTrackFXMenu
-    AudioTracks                 NoAction
-    AudioInstrument             NoAction
-    Aux                         NoAction
-    Busses                      NoAction
-    Outputs                     NoAction
-    User                        ClearModifiers
+    GlobalView     Global
+    MidiTracks     GoHome
+    MidiTracks     Reaper _S&M_WNCLS4          // Closes all(!) FX chain windows
+    MidiTracks     Reaper _S&M_WNCLS3          // Closes all(!) floating FX windows  
+    Inputs         GoAssociatedZone SelectedTrackTCPFX
+    AudioTracks    GoAssociatedZone MasterTrackFXMenu
+    Aux            NoAction
+    Busses         NoAction
+    Outputs	   NoAction
+    User           RemapAutoZone
            
 // Function Buttons
 
@@ -42,10 +42,10 @@ Zone "Buttons"
     F2                          ToggleEnableFocusedFXMapping
     F3                          ToggleScrollLink
     F4                          NoAction
-    F5                          RemapAutoZone
-    F6                          NoAction
-    F7                          ClearSelectedTrackFX
-    F8                          GoSelectedTrackFX
+    F5                          GoSelectedTrackFX
+    F6                          ClearSelectedTrackFX
+    F7                          NoAction
+    F8                          ClearModifiers
     
 //  Modifiers
 

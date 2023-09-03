@@ -1,5 +1,5 @@
 Zone FXLayouts
-	SCE24FXLayoutUpper A 8
-	SCE24FXLayoutUpper B 8
-	SCE24FXLayoutUpper C 8
+	SCE24FXLayout A 8
+	SCE24FXLayout B 8
+	SCE24FXLayout C 8
 ZoneEnd

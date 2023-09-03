@@ -5,7 +5,7 @@ StepSizeEnd
 AccelerationValues
     RotaryWidgetClass   Dec 41     44    48    4c    4f  
     RotaryWidgetClass   Inc 01     04    08    0C    0f  
-    RotaryWidgetClass   Val 0.0006 0.001 0.002 0.003 0.008 0.04  0.08 
+    RotaryWidgetClass   Val 0.005  0.01  0.02  0.04  0.05
 AccelerationValuesEnd
 
 Widget LeftDisplay
@@ -702,7 +702,7 @@ WidgetEnd
 
 Widget OLEDButton5
 	Press 90 11 7F 90 11 00
-	FB_SCE24OLEDButton 11 09 7F
+	FB_SCE24OLEDButton 90 11 7F
 WidgetEnd
 
 Widget OLEDButton6

@@ -1,6 +1,6 @@
 StepSize
-    RotaryWidgetClass   0.003
-    JogWheelWidgetClass 0.003
+    RotaryWidgetClass   0.05
+    JogWheelWidgetClass 0.05
 StepSizeEnd
 
 AccelerationValues
@@ -40,7 +40,7 @@ WidgetEnd
 
 Widget Instrument
 	Press 90 2d 7f 90 2d 00
-	FB_TwoState 90 2d 7f 90 2d 00
+	FB_TwoState 90 2d 01 90 2d 00
 WidgetEnd
 
 Widget BankLeft

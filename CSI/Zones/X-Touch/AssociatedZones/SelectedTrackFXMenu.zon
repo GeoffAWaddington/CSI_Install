@@ -11,7 +11,6 @@ Zone "SelectedTrackFXMenu"
 
         RecordArm|              NoAction
         Solo|                   NoAction
-     	Mute|                   NoAction
      	Select|                 NoAction
 	Fader|			NoAction    
 ZoneEnd

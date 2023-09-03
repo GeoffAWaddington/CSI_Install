@@ -1,6 +1,7 @@
 Zone Home
     OnInitialization	ToggleRestrictTextLength 7
-    //OnInitialization 	ToggleAutoFocusedFXMapping
+    OnInitialization 	ToggleEnableFocusedFXMapping
+    OnInitialization    ToggleUseLocalModifiers
 
     IncludedZones
         Buttons
@@ -20,5 +21,6 @@ Zone Home
        	Folder
        	SelectedTrackTCPFX
        	SelectedTrackTCPFXTemplate
+	LearnFXParams
     AssociatedZonesEnd
 ZoneEnd
