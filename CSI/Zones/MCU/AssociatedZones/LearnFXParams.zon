@@ -1,0 +1,6 @@
+Zone "LearnFXParams"
+
+    Outputs             SaveLearnedFXParams
+    User                EraseLastTouchedControl
+    
+ZoneEnd
