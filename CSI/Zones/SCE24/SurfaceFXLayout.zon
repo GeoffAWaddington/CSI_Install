@@ -1,5 +1,10 @@
-Zone SurfaceFXLayout SCE24FXLayout
+Zone SurfaceFXLayout
 	Rotary FXParam RingStyle=Dot LEDRingColor=#0000ffff PushColor=#003f00ff
-	DisplayRow1 FixedTextDisplay TopMargin=0 BottomMargin=24 Font=3 Foreground=#ffff00ff Background=#000000ff
-	DisplayRow2 FXParamValueDisplay TopMargin=32 BottomMargin=64 Font=5 Foreground=#ffff00ff Background=#000000ff
+	Display FixedTextDisplay Row=1 Font=3 TextColor=#ffff00ff BackgroundColor=#000000ff
+	Display FXParamValueDisplay Row=2 Font=5 TextColor=#ffff00ff BackgroundColor=#000000ff
 ZoneEnd
+
+#WidgetTypes Rotary RotaryPush
+#RingStyles Dot Fill BoostCut Spread
+#DisplayRows Row=1 Row=2 Row=3 Row=4
+#DisplayFonts 0 1 2 3 4 5 6 7 8 9
