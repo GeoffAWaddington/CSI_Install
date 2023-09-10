@@ -1,7 +1,14 @@
 Zone Home
-    OnInitialization  	SendMIDIMessage "C9 01"
-    OnInitialization	ToggleRestrictTextLength 12
+    OnInitialization     ToggleRestrictTextLength 11
+    OnInitialization     ToggleEnableFocusedFXMapping
     IncludedZones
         Buttons
+        Track
+        SelectedTrack
+        SelectedTrackSend
+        SelectedTrackFXMenu
     IncludedZonesEnd
+    AssociatedZones
+        LearnFXParams
+    AssociatedZonesEnd
 ZoneEnd   
