@@ -1,4 +1,12 @@
 Zone FXPrologue
-	LeftDisplay	FXNameDisplay Font=4
-	RightDisplay 	TrackNameDisplay Font=3
+     OnZoneActivation        ToggleUseLocalModifiers
+     OnZoneDeactivation      ToggleUseLocalModifiers
+     OnZoneDeactivation      HideFXSlot
+
+     LeftDisplay             FXNameDisplay Row=1 Font=4
+     RightDisplay            TrackNameDisplay Row=1 Font=3
+    
+     OLEDButton8             GoHome
+     OLEDButtonDisplay8      NoAction DisplayText=HOME Row=1 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#0000ffff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+
 ZoneEnd
