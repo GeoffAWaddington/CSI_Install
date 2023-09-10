@@ -1,0 +1,4 @@
+Zone "SelectedTrack"
+    LeftDisplay     TrackNameDisplay Row=1 Font=3
+    RightDisplay    TrackVolumeDisplay Row=1 Font=3
+ZoneEnd
