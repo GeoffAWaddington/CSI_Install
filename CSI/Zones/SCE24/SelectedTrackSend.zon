@@ -1,0 +1,16 @@
+Zone "SelectedTrackSend"
+    DisplayB|              TrackSendNameDisplay Row=1 Font=2 TextColor=#ffffffff BackgroundColor=#000000ff
+    DisplayB|              TrackSendPanDisplay Row=2 Font=1 TextColor=#ffffffff BackgroundColor=#000000ff
+    DisplayB|              TrackSendPrePostDisplay Row=3 Font=1 TextColor=#ffffffff BackgroundColor=#000000ff
+    DisplayB|              TrackSendVolumeDisplay Row=4 Font=1 TextColor=#ffffffff BackgroundColor=#000000ff
+
+    RotaryB|               TrackSendVolume RingStyle=Fill LEDRingColor=#00ffffff PushColor=#003f00ff
+    RotaryPushB|           TrackSendVolume [ 0.716 ]
+ 
+    Shift+RotaryB|         TrackSendPan RingStyle=Dot
+    Shift+RotaryPushB|     TrackSendPan [ 0.5 ]
+    Option+RotaryPushB|    TrackSendPrePost
+
+    Shift+DisplayB|        TrackSendVolumeDisplay Row=3 Font=1 TextColor=#ffffffff BackgroundColor=#000000ff
+    Shift+DisplayB|        TrackSendPanDisplay    Row=4 Font=1 TextColor=#ffffffff BackgroundColor=#000000ff
+ZoneEnd
