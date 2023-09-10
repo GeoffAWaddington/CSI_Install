@@ -3,8 +3,7 @@ Zone Home
             Buttons
             Track
             MasterTrack
-        IncludedZonesEnd
-        
+        IncludedZonesEnd       
         AssociatedZones
             SelectedTrackSend
             SelectedTrackFXMenu
@@ -15,5 +14,6 @@ Zone Home
             VCA
             Folder
             SelectedTrackTCPFX
+            LearnFXParams
         AssociatedZonesEnd
 ZoneEnd
