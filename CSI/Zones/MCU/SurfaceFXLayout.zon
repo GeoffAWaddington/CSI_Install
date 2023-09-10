@@ -1,5 +1,9 @@
-Zone SurfaceFXLayout MCUFXLayout
-	Rotary FXParam
+Zone SurfaceFXLayout
+	Rotary FXParam RingStyle=Dot
 	DisplayUpper FixedTextDisplay
 	DisplayLower FXParamValueDisplay
 ZoneEnd
+
+#WidgetTypes Rotary RotaryPush Fader
+#RingStyles Dot Fill BoostCut Spread
+#DisplayRows DisplayUpper DisplayLower
