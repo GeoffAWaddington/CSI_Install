@@ -1,0 +1,21 @@
+Zone "Track"
+
+    DisplayA|              TrackNameDisplay Row=1 Font=2 TextColor=#ffffffff BackgroundColor=#000000ff
+    DisplayA|              TrackPanAutoLeftDisplay Row=2 Font=2 TextColor=#ffffffff BackgroundColor=#000000ff
+    DisplayA|              TrackVolumeDisplay Row=3 Font=4 TextColor=#ffffffff BackgroundColor=#000000ff
+
+    RotaryA|               TrackVolumeWithMeterAverageLR RingStyle=Fill LEDRingColors="3-7-#00ffffff+8-12-#ffff00ff+13-18-#ff0000ff"
+    RotaryPushA|           TrackVolume [ 0.716 ]
+
+    Shift+RotaryA|         TrackPanAutoLeft RingStyle=Dot LEDRingColor=#00ffffff
+    Shift+RotaryPushA|     TrackPanAutoLeft [ 0.5 ]
+    Option+RotaryA|        TrackPanAutoRight  RingStyle=BoostCut
+    Option+RotaryPushA|    TrackPanAutoRight [ 1.0 ]
+
+
+    Shift+DisplayA|        TrackVolumeDisplay Row=2 Font=1 TextColor=#00ffffff BackgroundColor=#000000ff
+    Shift+DisplayA|        TrackPanAutoLeftDisplay Row=3 Font=4 TextColor=#00ffffff BackgroundColor=#000000ff
+    Option+DisplayA|       TrackVolumeDisplay Row=2 Font=1 TextColor=#0ffffff BackgroundColor=#000000ff
+    Option+DisplayA|       TrackPanAutoRightDisplay Row=3 Font=4 TextColor=#00ffffff BackgroundColor=#000000ff
+
+ZoneEnd
