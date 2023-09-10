@@ -1,22 +1,66 @@
 Zone Buttons 
              
-    Send                        GoAssociatedZone SelectedTrackSend
-    Global+Send                 GoAssociatedZone TrackSend
-    Plugin                      GoAssociatedZone SelectedTrackFXMenu  
-    Global+Plugin               GoAssociatedZone TrackFXMenu
-    Instrument                  GoAssociatedZone SelectedTrackReceive
-    Global+Instrument           GoAssociatedZone TrackReceive
-    Track                       GoHome
+//  VPot Assign
+
     Track                       Reaper _S&M_WNCLS4          // Close FX chain windows
     Track                       Reaper _S&M_WNCLS3          // Close floating FX windows                         
-    Pan                         GoAssociatedZone VCA
-    EQ                          GoAssociatedZone Folder
+    Track                       GoHome
+    Global+Track                GoAssociatedZone SelectedTracks			                 
+    Pan                         GoAssociatedZone Folder
+    Global+Pan                  GoAssociatedZone VCA	                 
+    EQ                          GoAssociatedZone SelectedTrackReceive
+    Global+EQ                   GoAssociatedZone TrackReceive
+    Send                        GoAssociatedZone SelectedTrackSend
+    Global+Send                 GoAssociatedZone TrackSend	
+    Plugin                      GoAssociatedZone SelectedTrackFXMenu
+    Global+Plugin               GoAssociatedZone TrackFXMenu			                 
+    Instrument                  GoAssociatedZone LearnFXParams
+
+// Fader Banks and Display
 
     BankLeft                    Bank Track -8
     BankRight                   Bank Track 8
     ChannelLeft                 Bank Track -1                                        
     ChannelRight                Bank Track 1 
     
+    Flip                        Flip
+    GlobalView                  Global             
+    nameValue                   NoAction
+    AssignmentDisplay           GlobalModeDisplay          
+    smpteBeats                  CycleTimeDisplayModes    
+    TimeDisplay                 MCUTimeDisplay         
+
+// Function Select
+    
+    F1                          ToggleEnableFocusedFXParamMapping
+    F2                          ToggleEnableFocusedFXMapping
+    F3                          ToggleScrollLink
+    F4                          NoAction
+    F5                          GoSelectedTrackFX
+    F6                          ClearSelectedTrackFX
+    F7                          NoAction
+    F8                          ClearModifiers
+    
+//  Global View Buttons
+ 			                 
+    MidiTracks                  AllSurfacesGoHome 
+    Inputs                      GoAssociatedZone SelectedTrackTCPFX
+    AudioTracks                 GoAssociatedZone MasterTrackFXMenu
+    AudioInstrument             ToggleEnableFocusedFXMapping
+    Aux                         AutoMapFX
+    Busses                      RemapAutoZone
+    Outputs                     NoAction    // used in the LearnFXParams zone
+    User                        NoAction    // used in the LearnFXParams zone
+
+// Modifiers Section
+
+    Shift                       Shift   
+    Option                      Option  
+    Control                     Control 
+    Alt                         Alt     
+
+// Automation Section 
+
     Read                        TrackAutoMode 1
     Write                       TrackAutoMode 3
     Trim                        TrackAutoMode 0
@@ -28,37 +72,9 @@ Zone Buttons
     Global+Trim                 GlobalAutoMode 0
     Global+Touch                GlobalAutoMode 2
     Global+Latch                GlobalAutoMode 4  
-    Global+Group                GlobalAutoMode 5                //Set all tracks automation mode to latch preview                                       
+    Global+Group                GlobalAutoMode 5                //Set all tracks automation mode to latch preview                              
 
-    Flip                        Flip
-    GlobalView                  Global             
-    nameValue                   NoAction
-    AssignmentDisplay           GlobalModeDisplay          
-    smpteBeats                  CycleTimeDisplayModes    
-    TimeDisplay                 MCUTimeDisplay
-    
-    F1                          ToggleEnableFocusedFXParamMapping
-    F2                          ToggleEnableFocusedFXMapping
-    F3                          ToggleScrollLink
-    F4                          NoAction
-    F5                          NoAction
-    F6                          NoAction
-    F7                          NoAction
-    F8                          NoAction
-    
-    MidiTracks                  GoAssociatedZone SelectedTrackTCPFX
-    Inputs                      GoAssociatedZone MasterTrackFXMenu
-    AudioTracks                 NoAction
-    AudioInstrument             NoAction
-    Aux                         NoAction
-    Busses                      NoAction
-    Outputs                     NoAction
-    User                        NoAction
-
-    Shift                       Shift   
-    Option                      Option  
-    Control                     Control 
-    Alt                         Alt     
+// Utilities Section
     
     Save                        SaveProject 
     Undo                        Undo
@@ -67,6 +83,7 @@ Zone Buttons
     Cancel                      NoAction
     Enter                       NoAction
     Enter                       NoAction
+
     Marker                      Marker
     Nudge                       Nudge                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ]
     Cycle                       CycleTimeline
@@ -77,7 +94,9 @@ Zone Buttons
     Hold+Click                  Reaper 40363                // Show metronome settings
     Solo                        ClearAllSolo
     Option+Solo                 Reaper 40745                // Solo in front (dim solo)
-        
+ 
+// Transport Buttons
+ 
     Rewind                      Rewind                                          
     FastForward                 FastForward                                     
     Shift+Rewind                Reaper 40630                //Go to start of time selection
@@ -86,6 +105,8 @@ Zone Buttons
     Hold+Stop                   Reaper 40042       
     Play                        Play        
     Record                      Record 
+
+// Jogwheel and Navigation
          
     Decrease+JogWheel           Reaper 40840                // Move edit cursor back one measure (no seek)  
     Increase+JogWheel           Reaper 40839                // Move edit cursor forward one measure (no seek)                                          
