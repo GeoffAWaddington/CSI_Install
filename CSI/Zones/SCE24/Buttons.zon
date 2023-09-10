@@ -1,12 +1,39 @@
 Zone "Buttons"
-    LEDButton1		Shift OnColor=#2f0f0000 OffColor=#00000000
-    LEDButton2          Option OnColor=#2f0f0000 OffColor=#00000000
-    LEDButton3         	Control OnColor=#2f0f0000 OffColor=#00000000
-    LEDButton4          Alt OnColor=#2f0f0000 OffColor=#00000000
+    LEDButton1           Shift         OnColor=#2f0f0000 OffColor=#00000000
+    LEDButton2           Option        OnColor=#2f0f0000 OffColor=#00000000
+    LEDButton3           Control       OnColor=#2f0f0000 OffColor=#00000000
+    LEDButton4           Alt           OnColor=#2f0f0000 OffColor=#00000000
+    LEDButton5           Bank Track -1
+    LEDButton5           Bank SelectedTrack -1    
+    Shift+LEDButton5     Bank Track -8
+    LEDButton6           Bank Track 1
+    LEDButton6           Bank SelectedTrack 1
+    Shift+LEDButton6     Bank Track 8
+    LEDButton7           ClearModifiers  
+    LEDButton8           RemapAutoZone
+                        
+    OLEDButton1          Stop
+    OLEDButtonDisplay1   Stop           DisplayText=STOP Row=1 Font=6 TextColorOn=#0000ff00 BackgroundColorOn=#ffff0000 TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    Hold+OLEDButton1     Reaper 40042   // Return to start of project
 
-    OLEDButton1 	Stop DisplayText=Stop TopMargin=0 BottomMargin=64 Font=6 ForegroundOn=#0000ff00 BackgroundOn=#ffff0000 ForegroundOff=#ffffffff BackgroundOff=#000000ff
+    OLEDButton2          Play
+    OLEDButtonDisplay2   Play           DisplayText=PLAY Row=1 Font=6 TextColorOn=#000000ff BackgroundColorOn=#21ff06ff TextColorOff=#21ff06ff BackgroundColorOff=#000000ff
+ 
+    OLEDButton3          Rewind        
+    OLEDButtonDisplay3   Rewind         DisplayText=REW  Row=1 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#00ff00ff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    
+    OLEDButton4          FastForward
+    OLEDButtonDisplay4   FastForward   DisplayText=FF  Row=1 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#0000ffff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+     
+    OLEDButton5          Record
+    OLEDButtonDisplay5   Record         DisplayText=REC  Row=1 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#ff0000ff TextColorOff=#ff0000ff BackgroundColorOff=#000000ff
+    
+    OLEDButton6          CycleTimeline
+    OLEDButtonDisplay6   CycleTimeline  DisplayText=LOOP Row=1 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#00ff00ff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    
+    OLEDButton7          Reaper 1157
+    OLEDButtonDisplay7   Reaper 1157    DisplayText=SNAP Row=1 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#0000ffff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
 
-    OLEDButton2 	Play DisplayText=Play TopMargin=0 BottomMargin=64 Font=6 ForegroundOn=#ffffffff BackgroundOn=#00ff00ff ForegroundOff=#ffffffff BackgroundOff=#000000ff
-
-    LEDButton8  	RemapAutoZone
+    OLEDButton8          Reaper 1155
+    OLEDButtonDisplay8   Reaper 1155    DisplayText=RPLE Row=1 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#0000ffff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
 ZoneEnd
