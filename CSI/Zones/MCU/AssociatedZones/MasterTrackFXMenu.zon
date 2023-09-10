@@ -1,0 +1,16 @@
+Zone "MasterTrackFXMenu"
+
+  DisplayUpper|       	FXMenuNameDisplay
+	DisplayLower|       	FXBypassedDisplay
+  Rotary|             	NoAction
+  RotaryPush|         	GoFXSlot
+	Mute| 			          ToggleFXBypass
+  Left            	    Bank MasterTrackFXMenu -1
+  Right           	    Bank MasterTrackFXMenu 1
+
+	RecordArm| 		        NoAction        
+	Solo|                 NoAction
+  Select|               NoAction
+	Fader|			          NoAction
+
+ZoneEnd
