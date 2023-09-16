@@ -1,6 +1,21 @@
 Zone Buttons
-        UserButton1             	ToggleAutoFXMapping
-        UserButton2             	ToggleEnableFocusedFXMapping
-        UserButton3             	NoAction
-        UserButton4             	NoAction
+    Footswitch1                 NoAction
+    Footswitch2                 NoAction
+
+    EncoderGroup1               GoAssociatedZone MasterTrackFXMenu  
+    EncoderGroup2               GoAssociatedZone SelectedTrackTCPFX     
+    EncoderGroup3               GoAssociatedZone SelectedTrackSend   
+    EncoderGroup4               GoAssociatedZone SelectedTrackReceive
+
+    Store                       Shift                                                                                            
+    Learn                       Option                                                                                    
+    Edit                        Control                                                          
+    Exit                        Alt                                  
+
+    User1                       GoHome
+    User1						Reaper _S&M_WNCLS3
+    User1						Reaper _S&M_WNCLS4             
+    User2                       NoAction	                  
+    User3                       NoAction
+    User4                       NoAction
 ZoneEnd 

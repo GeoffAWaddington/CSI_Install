@@ -1,0 +1,11 @@
+Zone SelectedTrackReceive
+        RotaryA|                        TrackReceiveVolume
+        DisplayUpperA|                  TrackReceiveNameDisplay
+        DisplayLowerA|                  TrackReceiveVolumeDisplay
+        Shift+RotaryA|                  TrackReceivePan
+        Shift+DisplayLowerA|            TrackReceivePanDisplay
+        RotaryPushP|                    TrackReceiveMute
+        DisplayUpperP|                  FixedTextDisplay MUTE
+        Option+RotaryPushP|             TrackReceivePrePost
+        Option+DisplayUpperP|           TrackReceivePrePostDisplay
+ZoneEnd
