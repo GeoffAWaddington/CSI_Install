@@ -1,0 +1,52 @@
+Zone "Buttons" 
+           
+    Shift                       Shift                           
+    Bank                        Alt
+    Off                         Option                          //This button also KILLS the fader while enabled!!!!!!
+          
+    ChannelLeft                 Bank SelectedTrack -1                                     
+    ChannelRight                Bank SelectedTrack 1
+
+    Alt+ChannelLeft             Bank SelectedTrack -8           //Bank back in blocks of 8
+    Alt+ChannelRight            Bank SelectedTrack 8            //Bank forward in blocks of 8
+     
+    Output                      GoAssociatedZone MasterTrack    //Enables MasterTrack control
+        
+    Read                        TrackAutoMode 1
+    Write                       TrackAutoMode 3                                                               
+    Touch                       TrackAutoMode 2
+
+    Shift+Read                  GlobalAutoMode 1
+    Shift+Write                 GlobalAutoMode 3
+    Shift+Touch                 GlobalAutoMode 2
+          
+    Option+Read                 TrackAutoMode 0                 //Return to trim mode
+    Hold+Read                   TrackAutoMode 0                 //Return to trim mode
+												    
+    Mix                         Reaper 40078                    //Toggle Mixer
+    Shift+Mix                   Reaper 40279                    //Toggle Docker
+												    
+    Proj                        NoAction                        
+												    
+    Punch                       NoAction                        
+    User                        NoAction                        
+												    
+    Shift+Punch                 Reaper 40172                    //As labeled on Faderport - Previous Marker
+    Shift+User                  Reaper 40173                    //As labeled on Faderport - Next Marker
+                                                                
+    Undo                        Undo                            
+    Shift+Undo                  Redo                            
+												    
+    Loop                        CycleTimeline                   
+    Shift+Loop                  Reaper 40171                    //As labeled on Faderport - Add/Edit Marker
+          
+    Rewind                      Rewind                                 
+    FastForward                 FastForward                            
+    Stop                        Stop        
+    Play                        Play        
+    Record                      Record
+    
+    Shift+Rewind                Reaper 40042                    //As labeled on Faderport - Goto Start
+    Shift+FastForward           Reaper 40043                    //As labeled on Faderport - Goto End
+          
+ZoneEnd

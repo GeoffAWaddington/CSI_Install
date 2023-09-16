@@ -1,0 +1,10 @@
+Zone "Home"
+    OnInitialization ToggleEnableFocusedFXMapping
+        IncludedZones
+            "Buttons"
+            "Track"
+        IncludedZonesEnd       
+        AssociatedZones                      
+            "MasterTrack"
+        AssociatedZonesEnd
+ZoneEnd

@@ -1,0 +1,8 @@
+Zone "Track"
+        Rotary1                TrackPan [ (0.005,0.5) ]
+        RecordArm              TrackRecordArm
+        Shift+RecordArm        CycleTrackInputMonitor
+        Solo                   TrackSolo
+        Mute                   TrackMute                                                                 
+        Fader1                 TrackVolume 
+ZoneEnd

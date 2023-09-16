@@ -1,0 +1,6 @@
+Zone "MasterTrack"
+    Fader1               TrackVolume
+    Rotary1              TackPan [ (0.005,0.5) ]
+    Mute                 TackMute
+    Solo                 Raper 40917                   //Toggle Stereo/Mono
+ZoneEnd
