@@ -1,0 +1,161 @@
+///////////////////// Notes /////////////////////
+// Uses "Native Mode" on the FaderPort Classic //
+// Files provided by Freex                     //
+/////////////////////////////////////////////////
+
+
+StepSize
+    RotaryWidgetClass   0.003
+    JogWheelWidgetClass 0.003
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass   	Dec 	41     	42    	43    	44    	45    	46    	47		48		49		4a		4b		4c		4d		4e		4f				  
+    RotaryWidgetClass   	Inc 	01     	02    	03    	04    	05    	06    	07		08		09		0a		0b		0c  	0d		0e		0f
+    RotaryWidgetClass   	Val 	0.0025	0.003	0.004	0.006	0.008	0.01	0.015	0.02	0.025	0.03	0.06	0.08	0.1		0.2		0.6
+	
+    JogWheelWidgetClass 	Dec 	41     	42    	43    	44    	45    	46    	47		48		49		4a		4b		4c		4d		4e		4f	
+    JogWheelWidgetClass 	Inc 	01     	02    	03    	04    	05    	06    	07		08		09		0a		0b		0c  	0d		0e		0f
+    JogWheelWidgetClass 	Val 	0.0025	0.003	0.004	0.006	0.008	0.01	0.015	0.02	0.025	0.03	0.06	0.08	0.1		0.2		0.6
+AccelerationValuesEnd
+
+StepSize
+    RotaryWidgetClass   0.003
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass   	Dec 	7e     	7f    
+    RotaryWidgetClass   	Inc 	01     	02    
+    RotaryWidgetClass   	Val 	0.0025	0.003	
+AccelerationValuesEnd
+
+Widget Mute 				
+	Press a0 12 01 	A0 12 00
+	FB_TwoState a0 15 01 a0 15 00
+WidgetEnd
+
+Widget Solo				
+	Press a0 11 01 A0 11 00
+	FB_TwoState a0 16 01 a0 16 00
+WidgetEnd
+
+Widget RecordArm 				
+	Press a0 10 01 A0 10 00
+	FB_TwoState a0 17 01 a0 17 00
+WidgetEnd
+
+Widget ChannelLeft 				
+	Press a0 13 01 A0 13 00
+	FB_TwoState a0 14 01 a0 14 00
+WidgetEnd
+
+Widget Bank			                ///Is defined on surface as Bank
+	Press a0 14 01 a0 14 00
+	FB_TwoState a0 13 01 a0 13 00						
+WidgetEnd						
+
+Widget ChannelRight 			
+	Press a0 15 01 A0 15 00
+	FB_TwoState a0 12 01 a0 12 00
+WidgetEnd
+										
+Widget Output 			
+	Press a0 16 01 a0 16 00 
+	FB_TwoState a0 11 01 a0 11 00
+WidgetEnd
+										
+Widget Read				
+	Press a0 0a 01 A0 0A 00
+	FB_TwoState a0 0d 01 a0 0d 00						
+WidgetEnd
+						
+Widget Write				
+	Press a0 09 01 a0 09 00
+	FB_TwoState a0 0e 01 a0 0e 00
+WidgetEnd
+						
+Widget Touch				
+	Press a0 08 01 a0 08 00
+	FB_TwoState a0 0f 01 a0 0f 00
+WidgetEnd			
+
+Widget Off									///This Kills the Fader
+	Press a0 17 01 a0 17 00
+	FB_TwoState a0 10 01 a0 10 00
+WidgetEnd			
+
+Widget Mix					
+	Press a0 0b 01 a0 0b 00
+	FB_TwoState a0 0c 01 a0 0c 00
+WidgetEnd
+			
+Widget Proj			
+	Press a0 0c 01 a0 0c 00
+	FB_TwoState a0 0b 01 a0 0b 00 	
+WidgetEnd
+			
+Widget Trns				
+	Press a0 0d 01 a0 0d 00 	
+	FB_TwoState a0 0a 01 a0 0a 00
+WidgetEnd
+	
+Widget Undo 				
+	Press a0 0e 01 a0 0e 00
+	FB_TwoState a0 09 01 a0 09 00 	
+WidgetEnd						
+						
+Widget Shift 
+	Press a0 02 01 a0 02 00
+	FB_TwoState a0 05 01 a0 05 00 	
+WidgetEnd
+											
+Widget Punch				
+	Press a0 01 01 a0 01 00
+	FB_TwoState a0 06 01 a0 06 00 	
+WidgetEnd
+
+Widget User				
+	Press a0 00 01 a0 00 00
+	FB_TwoState a0 07 01 a0 07 00 	
+WidgetEnd
+
+Widget Loop				
+	Press a0 0f 01 a0 0f 00
+	FB_TwoState a0 08 01 a0 08 00 	
+WidgetEnd
+																									
+Widget Rewind			
+	Press a0 03 01 a0 03 00
+	FB_TwoState a0 04 01 a0 04 00 	
+WidgetEnd
+						
+Widget FastForward			
+	Press a0 04 01 a0 04 00
+	FB_TwoState a0 03 01 a0 03 00						
+WidgetEnd
+								
+Widget Stop				
+	Press a0 05 01 a0 05 00
+	FB_TwoState a0 02 01 a0 02 00 	
+WidgetEnd
+						
+Widget Play				
+	Press a0 06 01 a0 06 00
+	FB_TwoState a0 01 01 a0 01 00					
+WidgetEnd
+											
+Widget Record			
+	Press a0 07 01 a0 07 00
+	FB_TwoState a0 00 01 a0 00 00
+WidgetEnd					
+						
+Widget Rotary1 RotaryWidgetClass
+	Encoder e0 00 7f [ > 01 < 7e ]
+	FB_Encoder e0 00 7f
+WidgetEnd
+
+Widget Fader1
+    FaderportClassicFader14Bit b0 00 7f b0 20 7f 
+    FB_FaderportClassicFader14Bit b0 00 7f b0 20 7f
+    Touch a0 7f 01 a0 7f 00
+WidgetEnd
