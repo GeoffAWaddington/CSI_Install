@@ -1,0 +1,129 @@
+Zone SelectedTrackTCPFX
+RotaryD1        TCPFXParam 0
+DisplayUpperD1  TCPFXParamNameDisplay 0
+DisplayLowerD1  TCPFXParamValueDisplay 0
+
+RotaryD2        TCPFXParam 1
+DisplayUpperD2  TCPFXParamNameDisplay 1
+DisplayLowerD2  TCPFXParamValueDisplay 1
+
+RotaryD3        TCPFXParam 2
+DisplayUpperD3  TCPFXParamNameDisplay 2
+DisplayLowerD3  TCPFXParamValueDisplay 2
+
+RotaryD4        TCPFXParam 3
+DisplayUpperD4  TCPFXParamNameDisplay 3
+DisplayLowerD4  TCPFXParamValueDisplay 3
+
+RotaryD5        TCPFXParam 4
+DisplayUpperD5  TCPFXParamNameDisplay 4
+DisplayLowerD5  TCPFXParamValueDisplay 4
+
+RotaryD6        TCPFXParam 5
+DisplayUpperD6  TCPFXParamNameDisplay 5
+DisplayLowerD6  TCPFXParamValueDisplay 5
+
+RotaryD7        TCPFXParam 6
+DisplayUpperD7  TCPFXParamNameDisplay 6
+DisplayLowerD7  TCPFXParamValueDisplay 6
+
+RotaryD8        TCPFXParam 7
+DisplayUpperD8  TCPFXParamNameDisplay 7
+DisplayLowerD8  TCPFXParamValueDisplay 7
+
+RotaryC1        TCPFXParam 8
+DisplayUpperC1  TCPFXParamNameDisplay 8
+DisplayLowerC1  TCPFXParamValueDisplay 8
+
+RotaryC2        TCPFXParam 9
+DisplayUpperC2  TCPFXParamNameDisplay 9
+DisplayLowerC2  TCPFXParamValueDisplay 9
+
+RotaryC3        TCPFXParam 10
+DisplayUpperC3  TCPFXParamNameDisplay 10
+DisplayLowerC3  TCPFXParamValueDisplay 10
+
+RotaryC4        TCPFXParam 11
+DisplayUpperC4  TCPFXParamNameDisplay 11
+DisplayLowerC4  TCPFXParamValueDisplay 11
+
+RotaryC5        TCPFXParam 12
+DisplayUpperC5  TCPFXParamNameDisplay 12
+DisplayLowerC5  TCPFXParamValueDisplay 12
+
+RotaryC6        TCPFXParam 13
+DisplayUpperC6  TCPFXParamNameDisplay 13
+DisplayLowerC6  TCPFXParamValueDisplay 13
+
+RotaryC7        TCPFXParam 14
+DisplayUpperC7  TCPFXParamNameDisplay 14
+DisplayLowerC7  TCPFXParamValueDisplay 14
+
+RotaryC8        TCPFXParam 15
+DisplayUpperC8  TCPFXParamNameDisplay 15
+DisplayLowerC8  TCPFXParamValueDisplay 15
+
+RotaryB1        TCPFXParam 16
+DisplayUpperB1  TCPFXParamNameDisplay 16
+DisplayLowerB1  TCPFXParamValueDisplay 16
+
+RotaryB2        TCPFXParam 17
+DisplayUpperB2  TCPFXParamNameDisplay 17
+DisplayLowerB2  TCPFXParamValueDisplay 17
+
+RotaryB3        TCPFXParam 18
+DisplayUpperB3  TCPFXParamNameDisplay 18
+DisplayLowerB3  TCPFXParamValueDisplay 18
+
+RotaryB4        TCPFXParam 19
+DisplayUpperB4  TCPFXParamNameDisplay 19
+DisplayLowerB4  TCPFXParamValueDisplay 19
+
+RotaryB5        TCPFXParam 20
+DisplayUpperB5  TCPFXParamNameDisplay 20
+DisplayLowerB5  TCPFXParamValueDisplay 20
+
+RotaryB6        TCPFXParam 21
+DisplayUpperB6  TCPFXParamNameDisplay 21
+DisplayLowerB6  TCPFXParamValueDisplay 21
+
+RotaryB7        TCPFXParam 22
+DisplayUpperB7  TCPFXParamNameDisplay 22
+DisplayLowerB7  TCPFXParamValueDisplay 22
+
+RotaryB8        TCPFXParam 23
+DisplayUpperB8  TCPFXParamNameDisplay 23
+DisplayLowerB8  TCPFXParamValueDisplay 23
+
+RotaryA1        TCPFXParam 24
+DisplayUpperA1  TCPFXParamNameDisplay 24
+DisplayLowerA1  TCPFXParamValueDisplay 24
+
+RotaryA2        TCPFXParam 25
+DisplayUpperA2  TCPFXParamNameDisplay 25
+DisplayLowerA2  TCPFXParamValueDisplay 25
+
+RotaryA3        TCPFXParam 26
+DisplayUpperA3  TCPFXParamNameDisplay 26
+DisplayLowerA3  TCPFXParamValueDisplay 26
+
+RotaryA4        TCPFXParam 27
+DisplayUpperA4  TCPFXParamNameDisplay 27
+DisplayLowerA4  TCPFXParamValueDisplay 27
+
+RotaryA5        TCPFXParam 28
+DisplayUpperA5  TCPFXParamNameDisplay 28
+DisplayLowerA5  TCPFXParamValueDisplay 28
+
+RotaryA6        TCPFXParam 29
+DisplayUpperA6  TCPFXParamNameDisplay 29
+DisplayLowerA6  TCPFXParamValueDisplay 29
+
+RotaryA7        TCPFXParam 30
+DisplayUpperA7  TCPFXParamNameDisplay 30
+DisplayLowerA7  TCPFXParamValueDisplay 30
+
+RotaryA8        TCPFXParam 31
+DisplayUpperA8  TCPFXParamNameDisplay 31
+DisplayLowerA8  TCPFXParamValueDisplay 31
+ZoneEnd 

@@ -1,0 +1,37 @@
+Zone LearnFXParams
+    RotaryA|            	LearnFXParam
+    DisplayUpperA|      	LearnFXParamNameDisplay
+    DisplayLowerA|      	LearnFXParamValueDisplay
+	
+    RotaryB|            	LearnFXParam
+    DisplayUpperB|      	LearnFXParamNameDisplay
+    DisplayLowerB|      	LearnFXParamValueDisplay
+	
+    RotaryC|            	LearnFXParam
+    DisplayUpperC|      	LearnFXParamNameDisplay
+    DisplayLowerC|      	LearnFXParamValueDisplay
+    	
+    RotaryD|            	LearnFXParam
+    DisplayUpperD|      	LearnFXParamNameDisplay
+    DisplayLowerD|      	LearnFXParamValueDisplay
+
+    RotaryPushP|        	LearnFXParam
+    DisplayUpperP|      	LearnFXParamNameDisplay
+    DisplayLowerP|      	LearnFXParamValueDisplay
+	
+    RotaryPushQ|        	LearnFXParam
+    DisplayUpperQ|      	LearnFXParamNameDisplay
+    DisplayLowerQ|      	LearnFXParamValueDisplay
+    	
+    RotaryPushR|        	LearnFXParam
+    DisplayUpperR|      	LearnFXParamNameDisplay
+    DisplayLowerR|      	LearnFXParamValueDisplay
+    
+    User3                   SaveLearnedFXParams		{ #4C1111 #E03131 }
+    User3DisplayUpper       FixedTextDisplay SAVE
+    User3DisplayLower       NoAction
+        
+    User4                   EraseLastTouchedControl		
+    User4DisplayUpper       FixedTextDisplay ERASE
+    User4DisplayLower       NoAction           
+ZoneEnd

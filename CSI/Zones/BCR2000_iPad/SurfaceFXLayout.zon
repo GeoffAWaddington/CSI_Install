@@ -1,0 +1,8 @@
+Zone SurfaceFXLayout
+    Rotary				FXParam
+    DisplayUpper 		FixedTextDisplay
+    DisplayLower 		FXParamValueDisplay        
+ZoneEnd
+
+#WidgetTypes Rotary RotaryPush
+#DisplayRows DisplayUpper DisplayLower

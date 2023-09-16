@@ -1,0 +1,57 @@
+Zone Buttons
+    Footswitch1                 NoAction
+    Footswitch1DisplayUpper		FixedTextDisplay DISP1
+    
+    Footswitch2                 NoAction
+    Footswitch2DisplayUpper		FixedTextDisplay DISP2
+
+    EncoderGroup1               GoAssociatedZone MasterTrackFXMenu  { #643701 #FA9501 } 
+    EncoderGroup1DisplayUpper   FixedTextDisplay MSTFX                  
+    EncoderGroup1DisplayLower   NoAction
+    
+    EncoderGroup2               GoAssociatedZone SelectedTrackTCPFX { #643701 #FA9501 }     
+    EncoderGroup2DisplayUpper   FixedTextDisplay TCPFX              
+    EncoderGroup2DisplayLower   NoAction
+    
+    EncoderGroup3               GoAssociatedZone SelectedTrackSend  { #643701 #FA9501 }  
+    EncoderGroup3DisplayUpper   FixedTextDisplay SEND                                   
+    EncoderGroup3DisplayLower   NoAction
+    
+    EncoderGroup4               GoAssociatedZone SelectedTrackReceive { #643701 #FA9501 }    
+    EncoderGroup4DisplayUpper   FixedTextDisplay RECV                                        
+    EncoderGroup4DisplayLower   NoAction 
+
+    Store                       Shift  { #4C1111 #E03131 }                                      
+    StoreDisplayUpper           FixedTextDisplay SHIFT 
+    StoreDisplayLower           NoAction           
+                                                            
+    Learn                       Option  { #4C1111 #E03131 }                                     
+    LearnDisplayUpper           FixedTextDisplay OPTN
+    LearnDisplayLower           NoAction             
+                                                        
+    Edit                        Control { #4C1111 #E03131 }                                     
+    EditDisplayUpper            FixedTextDisplay CNTRL
+    EditDisplayLower            NoAction                                                                                    
+                                
+    Exit                        Alt  { #4C1111 #E03131 }                                        
+    ExitDisplayUpper            FixedTextDisplay ALT
+    ExitDisplayLower            NoAction
+        
+    User1                       GoHome { #643701 #FA9501 }
+    User1						Reaper _S&M_WNCLS3
+    User1						Reaper _S&M_WNCLS4
+    User1DisplayUpper           FixedTextDisplay HOME
+    User1DisplayLower           NoAction           
+                                    
+    User2                       GoAssociatedZone LearnFXParams { #643701 #FA9501 }	
+    User2DisplayUpper           FixedTextDisplay LEARN								
+    User2DisplayLower           NoAction											
+                                
+    User3                       Reaper 65535  { #20202000 }
+    User3DisplayUpper           NoAction
+    User3DisplayLower           NoAction
+        
+    User4                       RemapAutoZone  { #00285F #00285F } 
+    User4DisplayUpper           FixedTextDisplay REMAP 
+    User4DisplayLower           NoAction           
+ZoneEnd 

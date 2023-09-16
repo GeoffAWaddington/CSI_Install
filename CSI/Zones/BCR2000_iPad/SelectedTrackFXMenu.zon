@@ -1,0 +1,13 @@
+Zone SelectedTrackFXMenu
+        DisplayL|           FXMenuNameDisplay
+        Shift+ButtonL|      ToggleFXBypass   
+        Option+ButtonL|     ToggleFXOffline
+        FXBypassL|          ToggleFXBypass   { #808080FF #1D521EFF }
+        FXOfflineL|         ToggleFXOffline  { #000000FF #00000000 }
+        Alt+ButtonL|        GoFXSlot
+        ButtonL|            GoHome
+        ButtonL|			ShowFXSlot
+        ButtonL|            GoFXSlot
+        RotaryPushR|		ShowFXSlot
+		RotaryPushR|		GoFXSlot
+ZoneEnd
