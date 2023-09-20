@@ -1,6 +1,6 @@
 # CSI_Install
  CSI installation
-Version 3.2.1
+Version 3.2.2
 
 See the Change Log for info on the latest changes https://github.com/GeoffAWaddington/CSI_Install/wiki
 
