@@ -1,0 +1,10 @@
+Zone "NoMap"
+    RotaryPushA1 AutoMapSlotFX
+    DisplayA1 FixedTextDisplay "AutoMap" Row=1 Font=6 ForegroundColor=#0000ff00 BackgroundColor=#ffff0000
+
+    RotaryPushA2 GoAssociatedZone "LearnFXParams" 
+    DisplayA2 FixedTextDisplay "Learn" Row=1 Font=6 ForegroundColor=#0000ff00 BackgroundColor=#ffff0000
+
+    RotaryPushA3 GoHome
+    DisplayA3 FixedTextDisplay "Cancel" Row=1 Font=6 ForegroundColor=#0000ff00 BackgroundColor=#ffff0000
+ZoneEnd

@@ -1,14 +1,20 @@
 Zone Home
-    OnInitialization     ToggleRestrictTextLength 11
-    OnInitialization     ToggleEnableFocusedFXMapping
+    OnInitialization	ToggleRestrictTextLength 12
+    OnInitialization 	ToggleEnableFocusedFXMapping
+    OnInitialization    SetLatchTime 200
+
+
+    LeftDisplay 	CSINameDisplay Row=1 Font=4
+    RightDisplay 	CSIVersionDisplay Row=1 Font=4
+
     IncludedZones
-        Buttons
-        Track
-        SelectedTrack
-        SelectedTrackSend
-        SelectedTrackFXMenu
+       	Buttons
+	/Track
+	/SelectedTrack
+       	/SelectedTrackSend
+	/SelectedTrackFXMenu
     IncludedZonesEnd
     AssociatedZones
-        LearnFXParams
+	LearnFXParams
     AssociatedZonesEnd
 ZoneEnd   

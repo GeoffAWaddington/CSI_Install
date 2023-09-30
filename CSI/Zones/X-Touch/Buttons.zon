@@ -13,7 +13,7 @@ Zone "Buttons"
     Plugin        	GoAssociatedZone SelectedTrackFXMenu
     Global+Plugin 	GoAssociatedZone TrackFXMenu
     Instrument   	GoAssociatedZone LearnFXParams
-    Shift+Instrument	AutoMapFX
+    Shift+Instrument	AutoMapFocusedFX
 
 //  Display Section
 

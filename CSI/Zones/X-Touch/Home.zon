@@ -2,6 +2,7 @@ Zone Home
     OnInitialization	ToggleRestrictTextLength 7
     OnInitialization 	ToggleEnableFocusedFXMapping
     OnInitialization    ToggleUseLocalModifiers
+    OnInitialization    SetLatchTime 100
 
     IncludedZones
         Buttons
