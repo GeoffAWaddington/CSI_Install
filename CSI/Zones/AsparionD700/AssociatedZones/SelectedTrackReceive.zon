@@ -1,0 +1,16 @@
+Zone "SelectedTrackReceive"
+    AsparionDisplayEncoder|             FixedTextDisplay "Receive"
+    DisplayUpper|               TrackReceiveNameDisplay
+    DisplayLower| 		TrackReceivePrePostDisplay
+    Fader|Touch+DisplayLower|   TrackReceiveVolumeDisplay
+    RotaryPush|			TrackReceivePrePost
+    Mute|			TrackReceiveMute
+    Rotary|                     TrackReceivePan
+    Fader|                      TrackReceiveVolume
+    Left			Bank SelectedTrackReceive -1
+    Right   			Bank SelectedTrackReceive 1
+
+    RecordArm|                  NoAction
+    Solo|                       NoAction
+    Select|                     NoAction
+ZoneEnd

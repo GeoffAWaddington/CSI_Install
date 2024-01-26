@@ -1,0 +1,141 @@
+Zone "Buttons"
+    
+//  Encoder Assign Buttons
+
+    Track         	GoAssociatedZone SelectedTracks 
+    Global+Track  	GoHome // aka Tracks
+    Pan           	GoAssociatedZone VCA
+    Global+Pan    	GoAssociatedZone Folder
+    EQ            	GoAssociatedZone SelectedTrackReceive
+    Global+EQ    	GoAssociatedZone TrackReceive
+    Send          	GoAssociatedZone SelectedTrackSend
+    Global+Send   	GoAssociatedZone TrackSend
+    Plugin        	GoAssociatedZone SelectedTrackFXMenu
+    Global+Plugin 	GoAssociatedZone TrackFXMenu
+    Instrument   	GoAssociatedZone LearnFXParams
+    Shift+Instrument	AutoMapFocusedFX
+
+//  Display Section
+
+    nameValue                   DumpHex
+    AssignmentDisplay           GlobalModeDisplay 
+    TimeDisplay                 MCUTimeDisplay
+    smpteBeats                  CycleTimeDisplayModes
+
+ 
+//  View Buttons
+ 
+    GlobalView     Global
+    MidiTracks     GoHome
+    MidiTracks     Reaper _S&M_WNCLS4          // Closes all(!) FX chain windows
+    MidiTracks     Reaper _S&M_WNCLS3          // Closes all(!) floating FX windows  
+    Inputs         GoAssociatedZone SelectedTrackTCPFX
+    AudioTracks    GoAssociatedZone MasterTrackFXMenu
+    Aux            NoAction
+    Busses         NoAction
+    Outputs	   NoAction
+    User           RemapAutoZone
+           
+// Function Buttons
+
+    F1                          ToggleEnableFocusedFXParamMapping
+    F2                          ToggleEnableFocusedFXMapping
+    F3                          ToggleScrollLink
+    F4                          NoAction
+    F5                          GoSelectedTrackFX
+    F6                          ClearSelectedTrackFX
+    F7                          NoAction
+    F8                          ClearModifiers
+    
+//  Modifiers
+
+    Flip                        Flip
+    Shift                       Shift
+    Option                      Option
+    Control                     Control
+    Alt                         Alt     
+
+// Automation Buttons
+
+    Read                        TrackAutoMode 1
+    Write                       TrackAutoMode 3
+    Trim                        TrackAutoMode 0
+    Touch                       TrackAutoMode 2
+    Latch                       TrackAutoMode 4
+    Group                       TrackAutoMode 5
+    Global+Read                 GlobalAutoMode 1
+    Global+Write                GlobalAutoMode 3
+    Global+Trim                 GlobalAutoMode 0
+    Global+Touch                GlobalAutoMode 2
+    Global+Latch                GlobalAutoMode 4  
+    Global+Group                GlobalAutoMode 5   
+
+//  Utility Buttons
+
+    Save                        SaveProject
+    Undo                        Undo
+    Hold+Undo                   Reaper 40072                // View: Show undo history window
+    Shift+Undo                  Redo
+    Cancel                      NoAction
+    Enter                       NoAction
+    
+//  Transport Section
+
+    Marker                      Marker
+    Nudge                       Nudge
+    Cycle                       CycleTimeline
+    Drop                        Reaper 1157                 // Toggle snapping
+    Replace                     Reaper 1155                 // Cycle ripple editing mode
+    Click                       Reaper 40364                // Toggle metronome
+    Shift+Click                 Reaper _SWS_AWCOUNTRECTOG   // Toggle count-in before recording
+    Hold+Click                  Reaper 40363                // Show metronome settings
+    Rewind                      Rewind   
+    FastForward                 FastForward
+    Stop                        Stop
+    Hold+Stop                   Reaper 40042                // Go to start of project
+    Play                        Play
+    Record                      Record    
+    Solo                        ClearAllSolo
+    Option+Solo                 Reaper 40745                // Solo in front (dim solo)  
+
+//  Banking 
+
+    BankLeft                    Bank Track -8
+    BankRight                   Bank Track 8
+    ChannelLeft                 Bank Track -1
+    ChannelRight                Bank Track 1
+
+//  Navigation and Zoom
+    
+    Zoom                        Zoom
+    
+    Up                          Reaper _XENAKIOS_TVPAGEUP   // Xenakios/SWS: Scroll track view up (page)
+    Down                        Reaper _XENAKIOS_TVPAGEDOWN	// Xenakios-SWS: Scroll track view down 
+    Left                        Reaper _SWS_SCROLL_L10      // SWS: Scroll left 10%
+    Right                       Reaper _SWS_SCROLL_R10      // SWS: Scroll right 10%
+    
+    Zoom+Up                     Reaper 40111                // Zoom in vertical                                            
+    Zoom+Down                   Reaper 40112                // Zoom out vertical                                                       
+    Zoom+Right                  Reaper 1012                 // Zoom in horizontal                                      
+    Zoom+Left                   Reaper 1011                 // Zoom out horizontal                                     
+
+    Marker+Up                   Reaper 40613                // Delete marker near cursor                                    
+    Marker+Down                 Reaper 40157                // Insert marker at current or edit position                                      
+    Marker+Right                Reaper 40173                // Go to next marker or project end                                      
+    Marker+Left                 Reaper 40172                // Go to previous marker or project start           
+
+    Nudge+Up                    Reaper 41925                // Item: Nudge items volume +1dB
+    Nudge+Down                  Reaper 41924                // Item: Nudge items volume -1dB
+    Nudge+Left                  Reaper 41279                // Item edit: Nudge left by saved nudge dialog settings 1
+    Nudge+Right                 Reaper 41275                // Item edit: Nudge right by saved nudge dialog settings 1
+
+//  JogWheel
+
+    Decrease+JogWheel           Reaper 40840                // Move edit cursor back one measure (no seek)  
+    Increase+JogWheel           Reaper 40839                // Move edit cursor forward one measure (no seek)                                          
+    Shift+Decrease+JogWheel     Reaper 40286                // Track: Go to previous track       
+    Shift+Increase+JogWheel     Reaper 40285                // Track: Go to next track                     
+    Option+Decrease+JogWheel    Reaper 40172                // Go to previous marker or project start
+    Option+Increase+JogWheel    Reaper 40173                // Go to next marker or project end      
+    
+ZoneEnd

@@ -1,0 +1,27 @@
+Zone Home
+    OnInitialization	ToggleRestrictTextLength 12
+    OnInitialization 	ToggleEnableFocusedFXMapping
+    OnInitialization    ToggleUseLocalModifiers
+    OnInitialization    SetLatchTime 100
+
+    IncludedZones
+        Buttons
+        Track
+       	MasterTrack
+    IncludedZonesEnd
+    AssociatedZones
+       	SelectedTracks
+       	SelectedTrackSend
+       	SelectedTrackReceive
+       	SelectedTrackFXMenu
+       	MasterTrackFXMenu
+       	TrackSend
+       	TrackReceive
+       	TrackFXMenu
+       	VCA
+       	Folder
+       	SelectedTrackTCPFX
+       	SelectedTrackTCPFXTemplate
+	LearnFXParams
+    AssociatedZonesEnd
+ZoneEnd

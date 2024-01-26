@@ -1,0 +1,5 @@
+Zone FXPrologue
+	OnZoneActivation 	ToggleUseLocalModifiers
+	OnZoneDeactivation 	ToggleUseLocalModifiers
+	Plugin      		ClearFXSlot
+ZoneEnd

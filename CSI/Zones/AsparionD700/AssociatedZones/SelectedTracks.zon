@@ -1,0 +1,42 @@
+Zone "SelectedTracks"
+    DisplayUpper|            TrackNameDisplay { Track }
+
+    Touch+DisplayLower|      TrackVolumeDisplay
+    DisplayLower|            TrackPanAutoLeftDisplay
+    Shift+DisplayLower|      TrackAutoModeDisplay
+    Toggle+DisplayLower|     TrackPanAutoRightDisplay
+    Alt+DisplayLower|        TrackInputMonitorDisplay
+
+    Control+DisplayLower|    TrackRecordInputDisplay
+
+    VUMeter|                 TrackOutputMeterMaxPeakLR
+
+    Fader|                   TrackVolume 
+    Flip+Fader|              TrackPan 
+
+    Rotary|                  TrackPanAutoLeft RingStyle=Dot
+    Toggle+Rotary|           TrackPanAutoRight RingStyle=Dot
+
+    RotaryPush|              ToggleChannel
+    Shift+RotaryPush|        TrackPan [ 0.5 ]
+    Option+RotaryPush|       TrackPanWidth [ 1.0 ]
+    Alt+RotaryPush|          CycleTrackInputMonitor
+
+
+    RecordArm|               TrackRecordArm
+    Shift+RecordArm|         CycleTrackAutoMode
+
+    Solo|                    TrackSolo
+    Mute|                    TrackMute
+
+    /Select|                  TrackUniqueSelect
+    /Shift+Select|            TrackRangeSelect
+    /Control+Select|          TrackSelect    
+    Option+Select|           TrackInvertPolarity    
+
+    BankLeft                    Bank SelectedTracks -8
+    BankRight                   Bank SelectedTracks 8
+    ChannelLeft                 Bank SelectedTracks -1
+    ChannelRight                Bank SelectedTracks 1
+
+ZoneEnd

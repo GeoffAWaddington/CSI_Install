@@ -1,0 +1,10 @@
+Zone "NoMap"
+    RotaryPush1 AutoMapSlotFX
+    DisplayUpper1 FixedTextDisplay "AutoMap"
+
+    RotaryPush2 GoAssociatedZone "LearnFXParams"
+    DisplayUpper2 FixedTextDisplay "Learn"
+
+    RotaryPush3 GoHome
+    DisplayUpper3 FixedTextDisplay "Cancel"
+ZoneEnd

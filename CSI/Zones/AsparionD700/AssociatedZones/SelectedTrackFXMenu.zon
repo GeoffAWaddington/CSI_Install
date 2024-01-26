@@ -1,0 +1,15 @@
+Zone "SelectedTrackFXMenu"
+	AsparionDisplayEncoder| FixedTextDisplay "FX"
+        DisplayUpper|       	FXMenuNameDisplay
+	DisplayLower|       	FXBypassedDisplay
+        Rotary|             	NoAction
+        RotaryPush|         	GoFXSlot
+	Mute| 			ToggleFXBypass
+        Left            	Bank SelectedTrackFXMenu -1
+        Right           	Bank SelectedTrackFXMenu 1
+
+        RecordArm|              NoAction
+        Solo|                   NoAction
+     	Select|                 NoAction
+	Fader|			NoAction    
+ZoneEnd
