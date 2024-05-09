@@ -17,7 +17,7 @@ Zone "Buttons"
 
 //  Display Section
 
-    nameValue                   DumpHex
+    nameValue                   NoAction
     AssignmentDisplay           GlobalModeDisplay 
     TimeDisplay                 MCUTimeDisplay
     smpteBeats                  CycleTimeDisplayModes
