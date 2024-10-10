@@ -15,40 +15,40 @@ AccelerationValuesEnd
 
 
 Widget Track
-        Press 90 28 7f
+        Press 90 28 7f 90 28 00
   FB_TwoState 90 28 7f 90 28 00
 WidgetEnd
 Widget Plugin
-        Press 90 2b 7f
+        Press 90 2b 7f 90 2b 00
   FB_TwoState 90 2b 7f 90 2b 00
 WidgetEnd
 Widget Send
-        Press 90 29 7f
+        Press 90 29 7f 90 29 00
   FB_TwoState 90 29 7f 90 29 00
 WidgetEnd
 Widget Pan
-        Press 90 2a 7f
+        Press 90 2a 7f 90 2a 00
   FB_TwoState 90 2a 7f 90 2a 00
 WidgetEnd
 
 Widget AudioBtn
-                Press 90 3e 7f
+                Press 90 3e 7f 90 3e 00
       FB_FaderportRGB 90 3e 7f
 WidgetEnd
 Widget Instrument
-                Press 90 3f 7f
+                Press 90 3f 7f 90 3f 00
       FB_FaderportRGB 90 3f 7f
 WidgetEnd
 Widget BusBtn
-                Press 90 40 7f
+                Press 90 40 7f 90 40 00
       FB_FaderportRGB 90 40 7f
 WidgetEnd
 Widget VCABtn
-                Press 90 41 7f
+                Press 90 41 7f 90 41 00
       FB_FaderportRGB 90 41 7f
 WidgetEnd
 Widget AllBtn
-                Press 90 42 7f
+                Press 90 42 7f 90 42 00
       FB_FaderportRGB 90 42 7f
 WidgetEnd
 
@@ -61,14 +61,14 @@ WidgetEnd
 
 
 Widget Arm
-        Press 90 00 7f
+        Press 90 00 7f 90 00 00
   FB_TwoState 90 00 7f 90 00 00
 WidgetEnd
 Widget SoloClear
-  Press 90 01 7f
+  Press 90 01 7f 90 01 00
 WidgetEnd
 Widget MuteClear
-  Press 90 02 7f
+  Press 90 02 7f 90 02 00
 WidgetEnd
 
 
@@ -96,37 +96,37 @@ WidgetEnd
 
 
 Widget Read
-                Press 90 4a 7f
+                Press 90 4a 7f 90 4a 00
       FB_FaderportRGB 90 4a 7f
 WidgetEnd
 Widget Write
-                Press 90 4b 7f
+                Press 90 4b 7f 90 4b 00
       FB_FaderportRGB 90 4b 7f
 WidgetEnd
 Widget Trim
-                Press 90 4c 7f
+                Press 90 4c 7f 90 4c 00
       FB_FaderportRGB 90 4c 7f
 WidgetEnd
 Widget Touch
-                Press 90 4d 7f
+                Press 90 4d 7f 90 4d 00
       FB_FaderportRGB 90 4d 7f
 WidgetEnd
 Widget Latch
-                Press 90 4e 7f
+                Press 90 4e 7f 90 4e 00
       FB_FaderportRGB 90 4e 7f
 WidgetEnd
 Widget Off
-                Press 90 4f 7f
+                Press 90 4f 7f 90 4f 00
       FB_FaderportRGB 90 4f 7f
 WidgetEnd
 
 /Rotary knobs at the bottom
 
 Widget Prev
-  Press 90 2E 7f
+  Press 90 2E 7f 90 2E 00
 WidgetEnd
 Widget Next
-  Press 90 2F 7f
+  Press 90 2F 7f 90 2F 00
 WidgetEnd
 
 
@@ -157,42 +157,42 @@ Widget Master
   FB_TwoState 90 3a 7f 90 3a 00
 WidgetEnd
 Widget Click
-        Press 90 3b 7f
+        Press 90 3b 7f 90 3b 00
   FB_TwoState 90 3b 7f 90 3b 00
 WidgetEnd
 Widget Section
-        Press 90 3c 7f
+        Press 90 3c 7f 90 3c 00
   FB_TwoState 90 3c 7f 90 3c 00
 WidgetEnd
 Widget Marker
-        Press 90 3d 7f
+        Press 90 3d 7f 90 3d 00
   FB_TwoState 90 3d 7f 90 3d 00
 WidgetEnd
 
 
 / TRANSPORT
 Widget Cycle
-        Press 90 56 7f
+        Press 90 56 7f 90 56 00
   FB_TwoState 90 56 7f 90 56 00
 WidgetEnd
 Widget Rewind
-        Press 90 5b 7f
+        Press 90 5b 7f 90 5b 00
   FB_TwoState 90 5b 7f 90 5b 00
 WidgetEnd
 Widget FastForward
-        Press 90 5c 7f
+        Press 90 5c 7f 90 5c 00
   FB_TwoState 90 5c 7f 90 5c 00
 WidgetEnd
 Widget Stop
-        Press 90 5d 7f
+        Press 90 5d 7f 90 5d 00
   FB_TwoState 90 5d 7f 90 5d 00
 WidgetEnd
 Widget Play
-        Press 90 5e 7f
+        Press 90 5e 7f 90 5e 00
   FB_TwoState 90 5e 7f 90 5e 00
 WidgetEnd
 Widget Record
-        Press 90 5f 7f
+        Press 90 5f 7f 90 5f 00
   FB_TwoState 90 5f 7f 90 5f 00
 WidgetEnd
 
@@ -285,67 +285,67 @@ WidgetEnd
 
 
 Widget Solo1
-        Press 90 08 7f
+        Press 90 08 7f 90 08 00
   FB_TwoState 90 08 7f 90 08 00
 WidgetEnd
 Widget Solo2
-        Press 90 09 7f
+        Press 90 09 7f 90 09 00
   FB_TwoState 90 09 7f 90 09 00
 WidgetEnd
 Widget Solo3
-        Press 90 0a 7f
+        Press 90 0a 7f 90 0a 00
   FB_TwoState 90 0a 7f 90 0a 00
 WidgetEnd
 Widget Solo4
-        Press 90 0b 7f
+        Press 90 0b 7f 90 0b 00
   FB_TwoState 90 0b 7f 90 0b 00
 WidgetEnd
 Widget Solo5
-        Press 90 0c 7f
+        Press 90 0c 7f 90 0c 00
   FB_TwoState 90 0c 7f 90 0c 00
 WidgetEnd
 Widget Solo6
-        Press 90 0d 7f
+        Press 90 0d 7f 90 0d 00
   FB_TwoState 90 0d 7f 90 0d 00
 WidgetEnd
 Widget Solo7
-        Press 90 0e 7f
+        Press 90 0e 7f 90 0e 00
   FB_TwoState 90 0e 7f 90 0e 00
 WidgetEnd
 Widget Solo8
-        Press 90 0f 7f
+        Press 90 0f 7f 90 0f 00
   FB_TwoState 90 0f 7f 90 0f 00
 WidgetEnd
 Widget Solo9
-        Press 90 50 7f
+        Press 90 50 7f 90 50 00
   FB_TwoState 90 50 7f 90 50 00
 WidgetEnd
 Widget Solo10
-        Press 90 51 7f
+        Press 90 51 7f 90 51 00
   FB_TwoState 90 51 7f 90 51 00
 WidgetEnd
 Widget Solo11
-        Press 90 52 7f
+        Press 90 52 7f 90 52 00
   FB_TwoState 90 52 7f 90 52 00
 WidgetEnd
 Widget Solo12
-        Press 90 58 7f
+        Press 90 58 7f 90 58 00
   FB_TwoState 90 58 7f 90 58 00
 WidgetEnd
 Widget Solo13
-        Press 90 54 7f
+        Press 90 54 7f 90 54 00
   FB_TwoState 90 54 7f 90 54 00
 WidgetEnd
 Widget Solo14
-        Press 90 55 7f
+        Press 90 55 7f 90 55 00
   FB_TwoState 90 55 7f 90 55 00
 WidgetEnd
 Widget Solo15
-        Press 90 59 7f
+        Press 90 59 7f 90 59 00
   FB_TwoState 90 59 7f 90 59 00
 WidgetEnd
 Widget Solo16
-        Press 90 57 7f
+        Press 90 57 7f 90 57 00
   FB_TwoState 90 57 7f 90 57 00
 WidgetEnd
 
@@ -353,134 +353,134 @@ WidgetEnd
 
 
 Widget Mute1
-        Press 90 10 7f
+        Press 90 10 7f 90 10 00
   FB_TwoState 90 10 7f 90 10 00
 WidgetEnd
 Widget Mute2
-        Press 90 11 7f
+        Press 90 11 7f 90 11 00
   FB_TwoState 90 11 7f 90 11 00
 WidgetEnd
 Widget Mute3
-        Press 90 12 7f
+        Press 90 12 7f 90 12 00
   FB_TwoState 90 12 7f 90 12 00
 WidgetEnd
 Widget Mute4
-        Press 90 13 7f
+        Press 90 13 7f 90 13 00
   FB_TwoState 90 13 7f 90 13 00
 WidgetEnd
 Widget Mute5
-        Press 90 14 7f
+        Press 90 14 7f 90 14 00
   FB_TwoState 90 14 7f 90 14 00
 WidgetEnd
 Widget Mute6
-        Press 90 15 7f
+        Press 90 15 7f 90 15 00
   FB_TwoState 90 15 7f 90 15 00
 WidgetEnd
 Widget Mute7
-        Press 90 16 7f
+        Press 90 16 7f 90 16 00
   FB_TwoState 90 16 7f 90 16 00
 WidgetEnd
 Widget Mute8
-        Press 90 17 7f
+        Press 90 17 7f 90 17 00
   FB_TwoState 90 17 7f 90 17 00
 WidgetEnd
 Widget Mute9
-        Press 90 78 7f
+        Press 90 78 7f 90 78 00
   FB_TwoState 90 78 7f 90 78 00
 WidgetEnd
 Widget Mute10
-        Press 90 79 7f
+        Press 90 79 7f 90 79 00
   FB_TwoState 90 79 7f 90 79 00
 WidgetEnd
 Widget Mute11
-        Press 90 7a 7f
+        Press 90 7a 7f 90 7a 00
   FB_TwoState 90 7a 7f 90 7a 00
 WidgetEnd
 Widget Mute12
-        Press 90 7b 7f
+        Press 90 7b 7f 90 7b 00
   FB_TwoState 90 7b 7f 90 7b 00
 WidgetEnd
 Widget Mute13
-        Press 90 7c 7f
+        Press 90 7c 7f 90 7c 00
   FB_TwoState 90 7c 7f 90 7c 00
 WidgetEnd
 Widget Mute14
-        Press 90 7d 7f
+        Press 90 7d 7f 90 7d 00
   FB_TwoState 90 7d 7f 90 7d 00
 WidgetEnd
 Widget Mute15
-        Press 90 7e 7f
+        Press 90 7e 7f 90 7e 00
   FB_TwoState 90 7e 7f 90 7e 00
 WidgetEnd
 Widget Mute16
-        Press 90 7f 7f
+        Press 90 7f 7f 90 7f 00
   FB_TwoState 90 7f 7f 90 7f 00
 WidgetEnd
 
 
 
 Widget Select1
-                  Press 90 18 7f
+                  Press 90 18 7f 90 18 00
 FB_FaderportTwoStateRGB 90 18 7f
 WidgetEnd
 Widget Select2
-                  Press 90 19 7f
+                  Press 90 19 7f 90 19 00
 FB_FaderportTwoStateRGB 90 19 7f
 WidgetEnd
 Widget Select3
-                  Press 90 1a 7f
+                  Press 90 1a 7f 90 1a 00
 FB_FaderportTwoStateRGB 90 1a 7f
 WidgetEnd
 Widget Select4
-                  Press 90 1b 7f
+                  Press 90 1b 7f 90 1b 00
 FB_FaderportTwoStateRGB 90 1b 7f
 WidgetEnd
 Widget Select5
-                  Press 90 1c 7f
+                  Press 90 1c 7f 90 1c 00
 FB_FaderportTwoStateRGB 90 1c 7f
 WidgetEnd
 Widget Select6
-                  Press 90 1d 7f
+                  Press 90 1d 7f 90 1d 00
 FB_FaderportTwoStateRGB 90 1d 7f
 WidgetEnd
 Widget Select7
-                  Press 90 1e 7f
+                  Press 90 1e 7f 90 1e 00
 FB_FaderportTwoStateRGB 90 1e 7f
 WidgetEnd
 Widget Select8
-                  Press 90 1f 7f
+                  Press 90 1f 7f 90 1f 00
 FB_FaderportTwoStateRGB 90 1f 7f
 WidgetEnd
 Widget Select9
-                  Press 90 07 7f
+                  Press 90 07 7f 90 07 00
 FB_FaderportTwoStateRGB 90 07 7f
 WidgetEnd
 Widget Select10
-                  Press 90 21 7f
+                  Press 90 21 7f 90 21 00
 FB_FaderportTwoStateRGB 90 21 7f
 WidgetEnd
 Widget Select11
-                  Press 90 22 7f
+                  Press 90 22 7f 90 22 00
 FB_FaderportTwoStateRGB 90 22 7f
 WidgetEnd
 Widget Select12
-                  Press 90 23 7f
+                  Press 90 23 7f 90 23 00
 FB_FaderportTwoStateRGB 90 23 7f
 WidgetEnd
 Widget Select13
-                  Press 90 24 7f
+                  Press 90 24 7f 90 24 00
 FB_FaderportTwoStateRGB 90 24 7f
 WidgetEnd
 Widget Select14
-                  Press 90 25 7f
+                  Press 90 25 7f 90 25 00
 FB_FaderportTwoStateRGB 90 25 7f
 WidgetEnd
 Widget Select15
-                  Press 90 26 7f
+                  Press 90 26 7f 90 26 00
 FB_FaderportTwoStateRGB 90 26 7f
 WidgetEnd
 Widget Select16
-                  Press 90 27 7f
+                  Press 90 27 7f 90 27 00
 FB_FaderportTwoStateRGB 90 27 7f
 WidgetEnd
 
